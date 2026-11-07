@@ -107,4 +107,9 @@ Each theme shows 6 sample slides (two rows of three). Full decks live in each th
 
 ## License
 
+Original project code and documentation are licensed under the [MIT License](LICENSE). Copyright © 2026 昼星AI说. Retain the copyright and license notices when redistributing the code or substantial portions of it.
+
+Author: **昼星AI说** · [Website](https://zhouxingai.com)  
+When sharing this project, a mention and a link to the repository are appreciated.
+
 Per-theme font, SVG, and dependency licenses remain under each `assets/styles/<id>/` tree (`fonts/`, `graphics/`, `source/`). Follow those files for use and redistribution.
