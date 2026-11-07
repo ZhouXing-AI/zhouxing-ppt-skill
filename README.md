@@ -1,6 +1,6 @@
 <div align="center">
 
-# 中文 &nbsp;|&nbsp; [English](README.en.md)
+# 简体中文 &nbsp;|&nbsp; [English](README.en.md)
 
 </div>
 
