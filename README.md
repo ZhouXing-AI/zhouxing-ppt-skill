@@ -43,49 +43,49 @@ python3 scripts/build_deck.py --project /absolute/path/to/new-deck
 
 <img src="assets/styles/focus/previews-zh/slide-01.png" alt="FOCUS p01" width="32%" /> <img src="assets/styles/focus/previews-zh/slide-07.png" alt="FOCUS p07" width="32%" /> <img src="assets/styles/focus/previews-zh/slide-10.png" alt="FOCUS p10" width="32%" />
 
-<img src="assets/styles/focus/previews-zh/slide-11.png" alt="FOCUS p11" width="32%" /> <img src="assets/styles/focus/previews-zh/slide-23.png" alt="FOCUS p23" width="32%" /> <img src="assets/styles/focus/preview-zh.png" alt="FOCUS p30" width="32%" />
+<img src="assets/styles/focus/previews-zh/slide-11.png" alt="FOCUS p11" width="32%" /> <img src="assets/styles/focus/previews-zh/slide-23.png" alt="FOCUS p23" width="32%" /> <img src="assets/styles/focus/gallery-zh/slide-30.webp" alt="FOCUS p30" width="32%" />
 
 ### [EDIT · 精选](assets/styles/edit/)
 
 <img src="assets/styles/edit/previews-zh/slide-03.png" alt="EDIT p03" width="32%" /> <img src="assets/styles/edit/previews-zh/slide-02.png" alt="EDIT p02" width="32%" /> <img src="assets/styles/edit/previews-zh/slide-08.png" alt="EDIT p08" width="32%" />
 
-<img src="assets/styles/edit/previews-zh/slide-10.png" alt="EDIT p10" width="32%" /> <img src="assets/styles/edit/previews-zh/slide-12.png" alt="EDIT p12" width="32%" /> <img src="assets/styles/edit/preview-zh.png" alt="EDIT p30" width="32%" />
+<img src="assets/styles/edit/previews-zh/slide-10.png" alt="EDIT p10" width="32%" /> <img src="assets/styles/edit/previews-zh/slide-12.png" alt="EDIT p12" width="32%" /> <img src="assets/styles/edit/gallery-zh/slide-30.webp" alt="EDIT p30" width="32%" />
 
 ### [FORM · 成形](assets/styles/form/)
 
-<img src="assets/styles/form/preview-zh.png" alt="FORM p01" width="32%" /> <img src="assets/styles/form/preview-zh.png" alt="FORM p02" width="32%" /> <img src="assets/styles/form/preview-zh.png" alt="FORM p07" width="32%" />
+<img src="assets/styles/form/gallery-zh/slide-01.webp" alt="FORM p01" width="32%" /> <img src="assets/styles/form/gallery-zh/slide-02.webp" alt="FORM p02" width="32%" /> <img src="assets/styles/form/gallery-zh/slide-07.webp" alt="FORM p07" width="32%" />
 
-<img src="assets/styles/form/preview-zh.png" alt="FORM p12" width="32%" /> <img src="assets/styles/form/preview-zh.png" alt="FORM p13" width="32%" /> <img src="assets/styles/form/preview-zh.png" alt="FORM p18" width="32%" />
+<img src="assets/styles/form/gallery-zh/slide-12.webp" alt="FORM p12" width="32%" /> <img src="assets/styles/form/gallery-zh/slide-13.webp" alt="FORM p13" width="32%" /> <img src="assets/styles/form/gallery-zh/slide-18.webp" alt="FORM p18" width="32%" />
 
 ### [INDEX · 索引](assets/styles/index/)
 
-<img src="assets/styles/index/preview-zh.png" alt="INDEX p01" width="32%" /> <img src="assets/styles/index/preview-zh.png" alt="INDEX p02" width="32%" /> <img src="assets/styles/index/preview-zh.png" alt="INDEX p03" width="32%" />
+<img src="assets/styles/index/gallery-zh/slide-01.webp" alt="INDEX p01" width="32%" /> <img src="assets/styles/index/gallery-zh/slide-02.webp" alt="INDEX p02" width="32%" /> <img src="assets/styles/index/gallery-zh/slide-03.webp" alt="INDEX p03" width="32%" />
 
-<img src="assets/styles/index/preview-zh.png" alt="INDEX p13" width="32%" /> <img src="assets/styles/index/preview-zh.png" alt="INDEX p16" width="32%" /> <img src="assets/styles/index/preview-zh.png" alt="INDEX p23" width="32%" />
+<img src="assets/styles/index/gallery-zh/slide-13.webp" alt="INDEX p13" width="32%" /> <img src="assets/styles/index/gallery-zh/slide-16.webp" alt="INDEX p16" width="32%" /> <img src="assets/styles/index/gallery-zh/slide-23.webp" alt="INDEX p23" width="32%" />
 
 ### [AXIS · 轴线](assets/styles/axis/)
 
-<img src="assets/styles/axis/preview-zh.png" alt="AXIS p01" width="32%" /> <img src="assets/styles/axis/preview-zh.png" alt="AXIS p02" width="32%" /> <img src="assets/styles/axis/preview-zh.png" alt="AXIS p03" width="32%" />
+<img src="assets/styles/axis/gallery-zh/slide-01.webp" alt="AXIS p01" width="32%" /> <img src="assets/styles/axis/gallery-zh/slide-02.webp" alt="AXIS p02" width="32%" /> <img src="assets/styles/axis/gallery-zh/slide-03.webp" alt="AXIS p03" width="32%" />
 
-<img src="assets/styles/axis/preview-zh.png" alt="AXIS p04" width="32%" /> <img src="assets/styles/axis/preview-zh.png" alt="AXIS p19" width="32%" /> <img src="assets/styles/axis/preview-zh.png" alt="AXIS p30" width="32%" />
+<img src="assets/styles/axis/gallery-zh/slide-04.webp" alt="AXIS p04" width="32%" /> <img src="assets/styles/axis/gallery-zh/slide-19.webp" alt="AXIS p19" width="32%" /> <img src="assets/styles/axis/gallery-zh/slide-30.webp" alt="AXIS p30" width="32%" />
 
 ### [SKETCH · 构想](assets/styles/sketch/)
 
 <img src="assets/styles/sketch/previews-zh/slide-01.png" alt="SKETCH p01" width="32%" /> <img src="assets/styles/sketch/previews-zh/slide-02.png" alt="SKETCH p02" width="32%" /> <img src="assets/styles/sketch/previews-zh/slide-04.png" alt="SKETCH p04" width="32%" />
 
-<img src="assets/styles/sketch/previews-zh/slide-05.png" alt="SKETCH p05" width="32%" /> <img src="assets/styles/sketch/preview-zh.png" alt="SKETCH p11" width="32%" /> <img src="assets/styles/sketch/preview-zh.png" alt="SKETCH p18" width="32%" />
+<img src="assets/styles/sketch/previews-zh/slide-05.png" alt="SKETCH p05" width="32%" /> <img src="assets/styles/sketch/gallery-zh/slide-11.webp" alt="SKETCH p11" width="32%" /> <img src="assets/styles/sketch/gallery-zh/slide-18.webp" alt="SKETCH p18" width="32%" />
 
 ### [GLOW · 晴光](assets/styles/glow/)
 
 <img src="assets/styles/glow/previews-zh/slide-01.png" alt="GLOW p01" width="32%" /> <img src="assets/styles/glow/previews-zh/slide-02.png" alt="GLOW p02" width="32%" /> <img src="assets/styles/glow/previews-zh/slide-03.png" alt="GLOW p03" width="32%" />
 
-<img src="assets/styles/glow/previews-zh/slide-04.png" alt="GLOW p04" width="32%" /> <img src="assets/styles/glow/preview-zh.png" alt="GLOW p13" width="32%" /> <img src="assets/styles/glow/preview-zh.png" alt="GLOW p23" width="32%" />
+<img src="assets/styles/glow/previews-zh/slide-04.png" alt="GLOW p04" width="32%" /> <img src="assets/styles/glow/gallery-zh/slide-13.webp" alt="GLOW p13" width="32%" /> <img src="assets/styles/glow/gallery-zh/slide-23.webp" alt="GLOW p23" width="32%" />
 
 ### [ECHO · 回响](assets/styles/echo/)
 
 <img src="assets/styles/echo/previews-zh/slide-01.png" alt="ECHO p01" width="32%" /> <img src="assets/styles/echo/previews-zh/slide-05.png" alt="ECHO p05" width="32%" /> <img src="assets/styles/echo/previews-zh/slide-04.png" alt="ECHO p04" width="32%" />
 
-<img src="assets/styles/echo/preview-zh.png" alt="ECHO p13" width="32%" /> <img src="assets/styles/echo/preview-zh.png" alt="ECHO p20" width="32%" /> <img src="assets/styles/echo/preview-zh.png" alt="ECHO p30" width="32%" />
+<img src="assets/styles/echo/gallery-zh/slide-13.webp" alt="ECHO p13" width="32%" /> <img src="assets/styles/echo/gallery-zh/slide-20.webp" alt="ECHO p20" width="32%" /> <img src="assets/styles/echo/gallery-zh/slide-30.webp" alt="ECHO p30" width="32%" />
 
 ### [SPARK · 燃点](assets/styles/spark/)
 
@@ -103,7 +103,7 @@ python3 scripts/build_deck.py --project /absolute/path/to/new-deck
 
 <img src="assets/styles/grove/previews-zh/slide-01.png" alt="GROVE p01" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-04.png" alt="GROVE p04" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-05.png" alt="GROVE p05" width="32%" />
 
-<img src="assets/styles/grove/preview-zh.png" alt="GROVE p13" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-08.png" alt="GROVE p08" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-09.png" alt="GROVE p09" width="32%" />
+<img src="assets/styles/grove/gallery-zh/slide-13.webp" alt="GROVE p13" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-08.png" alt="GROVE p08" width="32%" /> <img src="assets/styles/grove/previews-zh/slide-09.png" alt="GROVE p09" width="32%" />
 
 ## 许可
 
