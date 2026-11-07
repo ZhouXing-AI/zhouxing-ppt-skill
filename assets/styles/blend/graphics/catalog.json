@@ -1,0 +1,562 @@
+{
+  "theme": {
+    "en": "BLEND",
+    "zh": "融合"
+  },
+  "version": "1.0.0",
+  "license": "Original SVG illustrations by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "soft-loop",
+      "name_en": "Soft Loop",
+      "name_zh": "柔环",
+      "category": "collect",
+      "file": "soft-loop.svg",
+      "keywords": [
+        "soft loop",
+        "柔环",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Hold a first idea without closing off its possibilities.",
+      "description_zh": "容纳最初的想法，也留下继续变化的空间。",
+      "description": {
+        "en": "Hold a first idea without closing off its possibilities.",
+        "zh": "容纳最初的想法，也留下继续变化的空间。"
+      }
+    },
+    {
+      "id": "split-prism",
+      "name_en": "Split Prism",
+      "name_zh": "分光棱片",
+      "category": "collect",
+      "file": "split-prism.svg",
+      "keywords": [
+        "split prism",
+        "分光棱片",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Gather different perspectives into one refracted view.",
+      "description_zh": "收集不同视角，让同一问题显出更多层次。",
+      "description": {
+        "en": "Gather different perspectives into one refracted view.",
+        "zh": "收集不同视角，让同一问题显出更多层次。"
+      }
+    },
+    {
+      "id": "catching-cup",
+      "name_en": "Catching Cup",
+      "name_zh": "灵感承接",
+      "category": "collect",
+      "file": "catching-cup.svg",
+      "keywords": [
+        "catching cup",
+        "灵感承接",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Catch a promising fragment before it disappears.",
+      "description_zh": "在灵感消失之前，轻轻把它接住。",
+      "description": {
+        "en": "Catch a promising fragment before it disappears.",
+        "zh": "在灵感消失之前，轻轻把它接住。"
+      }
+    },
+    {
+      "id": "idea-pebble",
+      "name_en": "Idea Pebble",
+      "name_zh": "想法卵石",
+      "category": "collect",
+      "file": "idea-pebble.svg",
+      "keywords": [
+        "idea pebble",
+        "想法卵石",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Keep small observations with their own texture and shape.",
+      "description_zh": "保留细小观察各自的质感和轮廓。",
+      "description": {
+        "en": "Keep small observations with their own texture and shape.",
+        "zh": "保留细小观察各自的质感和轮廓。"
+      }
+    },
+    {
+      "id": "ripple-pocket",
+      "name_en": "Ripple Pocket",
+      "name_zh": "涟漪口袋",
+      "category": "collect",
+      "file": "ripple-pocket.svg",
+      "keywords": [
+        "ripple pocket",
+        "涟漪口袋",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Make room for a reference that changes the surrounding ideas.",
+      "description_zh": "为一条能够影响周围想法的参考留出位置。",
+      "description": {
+        "en": "Make room for a reference that changes the surrounding ideas.",
+        "zh": "为一条能够影响周围想法的参考留出位置。"
+      }
+    },
+    {
+      "id": "memory-stack",
+      "name_en": "Memory Stack",
+      "name_zh": "记忆叠片",
+      "category": "collect",
+      "file": "memory-stack.svg",
+      "keywords": [
+        "memory stack",
+        "记忆叠片",
+        "collect",
+        "收集",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Keep a small layered collection that can be revisited.",
+      "description_zh": "保存一组有层次、可以反复回看的收藏。",
+      "description": {
+        "en": "Keep a small layered collection that can be revisited.",
+        "zh": "保存一组有层次、可以反复回看的收藏。"
+      }
+    },
+    {
+      "id": "linked-petals",
+      "name_en": "Linked Petals",
+      "name_zh": "联结花瓣",
+      "category": "combine",
+      "file": "linked-petals.svg",
+      "keywords": [
+        "linked petals",
+        "联结花瓣",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Let separate contributions meet around a shared center.",
+      "description_zh": "让各自的贡献围绕共同中心相遇。",
+      "description": {
+        "en": "Let separate contributions meet around a shared center.",
+        "zh": "让各自的贡献围绕共同中心相遇。"
+      }
+    },
+    {
+      "id": "paired-arcs",
+      "name_en": "Paired Arcs",
+      "name_zh": "相遇弧线",
+      "category": "combine",
+      "file": "paired-arcs.svg",
+      "keywords": [
+        "paired arcs",
+        "相遇弧线",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Let complementary directions make a shared space.",
+      "description_zh": "让互补的方向共同围出一片空间。",
+      "description": {
+        "en": "Let complementary directions make a shared space.",
+        "zh": "让互补的方向共同围出一片空间。"
+      }
+    },
+    {
+      "id": "bridge-knot",
+      "name_en": "Bridge Knot",
+      "name_zh": "桥结",
+      "category": "combine",
+      "file": "bridge-knot.svg",
+      "keywords": [
+        "bridge knot",
+        "桥结",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Connect separate contributions without flattening their differences.",
+      "description_zh": "连接彼此的贡献，同时保留各自的差异。",
+      "description": {
+        "en": "Connect separate contributions without flattening their differences.",
+        "zh": "连接彼此的贡献，同时保留各自的差异。"
+      }
+    },
+    {
+      "id": "woven-path",
+      "name_en": "Woven Path",
+      "name_zh": "交织路径",
+      "category": "combine",
+      "file": "woven-path.svg",
+      "keywords": [
+        "woven path",
+        "交织路径",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Interweave several routes into a continuous process.",
+      "description_zh": "把几条路径交织成持续推进的过程。",
+      "description": {
+        "en": "Interweave several routes into a continuous process.",
+        "zh": "把几条路径交织成持续推进的过程。"
+      }
+    },
+    {
+      "id": "fusion-drop",
+      "name_en": "Fusion Drop",
+      "name_zh": "交融水滴",
+      "category": "combine",
+      "file": "fusion-drop.svg",
+      "keywords": [
+        "fusion drop",
+        "交融水滴",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Allow two inputs to overlap and create a third reading.",
+      "description_zh": "让两种输入交叠，产生第三种理解。",
+      "description": {
+        "en": "Allow two inputs to overlap and create a third reading.",
+        "zh": "让两种输入交叠，产生第三种理解。"
+      }
+    },
+    {
+      "id": "shared-orbit",
+      "name_en": "Shared Orbit",
+      "name_zh": "共同轨道",
+      "category": "combine",
+      "file": "shared-orbit.svg",
+      "keywords": [
+        "shared orbit",
+        "共同轨道",
+        "combine",
+        "组合",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Bring independent ideas into a common rhythm.",
+      "description_zh": "让独立的想法进入共同的节奏。",
+      "description": {
+        "en": "Bring independent ideas into a common rhythm.",
+        "zh": "让独立的想法进入共同的节奏。"
+      }
+    },
+    {
+      "id": "ribbon-fold",
+      "name_en": "Ribbon Fold",
+      "name_zh": "折叠缎带",
+      "category": "shape",
+      "file": "ribbon-fold.svg",
+      "keywords": [
+        "ribbon fold",
+        "折叠缎带",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Turn a continuous thought through a useful change of direction.",
+      "description_zh": "让连续的思路经过一次有用的转折。",
+      "description": {
+        "en": "Turn a continuous thought through a useful change of direction.",
+        "zh": "让连续的思路经过一次有用的转折。"
+      }
+    },
+    {
+      "id": "soft-wedge",
+      "name_en": "Soft Wedge",
+      "name_zh": "柔性楔面",
+      "category": "shape",
+      "file": "soft-wedge.svg",
+      "keywords": [
+        "soft wedge",
+        "柔性楔面",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Give a loose direction a supportive first structure.",
+      "description_zh": "为松散的方向建立第一层有用结构。",
+      "description": {
+        "en": "Give a loose direction a supportive first structure.",
+        "zh": "为松散的方向建立第一层有用结构。"
+      }
+    },
+    {
+      "id": "contour-shell",
+      "name_en": "Contour Shell",
+      "name_zh": "层叠轮廓",
+      "category": "shape",
+      "file": "contour-shell.svg",
+      "keywords": [
+        "contour shell",
+        "层叠轮廓",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Refine a form through visible layers rather than one final leap.",
+      "description_zh": "通过清晰可见的层次，逐步修整一个形态。",
+      "description": {
+        "en": "Refine a form through visible layers rather than one final leap.",
+        "zh": "通过清晰可见的层次，逐步修整一个形态。"
+      }
+    },
+    {
+      "id": "stretch-frame",
+      "name_en": "Stretch Frame",
+      "name_zh": "弹性框架",
+      "category": "shape",
+      "file": "stretch-frame.svg",
+      "keywords": [
+        "stretch frame",
+        "弹性框架",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Use a boundary that can adapt as the idea grows.",
+      "description_zh": "让边界随想法的成长保有调整余地。",
+      "description": {
+        "en": "Use a boundary that can adapt as the idea grows.",
+        "zh": "让边界随想法的成长保有调整余地。"
+      }
+    },
+    {
+      "id": "flow-column",
+      "name_en": "Flow Column",
+      "name_zh": "流动立柱",
+      "category": "shape",
+      "file": "flow-column.svg",
+      "keywords": [
+        "flow column",
+        "流动立柱",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Keep a changing idea coherent from one stage to the next.",
+      "description_zh": "让不断变化的想法在不同阶段保持连贯。",
+      "description": {
+        "en": "Keep a changing idea coherent from one stage to the next.",
+        "zh": "让不断变化的想法在不同阶段保持连贯。"
+      }
+    },
+    {
+      "id": "folded-wing",
+      "name_en": "Folded Wing",
+      "name_zh": "折叠翼面",
+      "category": "shape",
+      "file": "folded-wing.svg",
+      "keywords": [
+        "folded wing",
+        "折叠翼面",
+        "shape",
+        "塑形",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Turn a flat possibility into a form with direction.",
+      "description_zh": "把平面的可能性折成带有方向的形态。",
+      "description": {
+        "en": "Turn a flat possibility into a form with direction.",
+        "zh": "把平面的可能性折成带有方向的形态。"
+      }
+    },
+    {
+      "id": "feedback-dial",
+      "name_en": "Feedback Dial",
+      "name_zh": "反馈旋钮",
+      "category": "release",
+      "file": "feedback-dial.svg",
+      "keywords": [
+        "feedback dial",
+        "反馈旋钮",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Adjust the next version with a measured response.",
+      "description_zh": "借助反馈，为下一版本做适度调整。",
+      "description": {
+        "en": "Adjust the next version with a measured response.",
+        "zh": "借助反馈，为下一版本做适度调整。"
+      }
+    },
+    {
+      "id": "open-spark",
+      "name_en": "Open Spark",
+      "name_zh": "开放火花",
+      "category": "release",
+      "file": "open-spark.svg",
+      "keywords": [
+        "open spark",
+        "开放火花",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Send a shared idea outward in more than one direction.",
+      "description_zh": "把共同形成的想法送向不同方向。",
+      "description": {
+        "en": "Send a shared idea outward in more than one direction.",
+        "zh": "把共同形成的想法送向不同方向。"
+      }
+    },
+    {
+      "id": "lifted-arrow",
+      "name_en": "Lifted Arrow",
+      "name_zh": "上扬箭线",
+      "category": "release",
+      "file": "lifted-arrow.svg",
+      "keywords": [
+        "lifted arrow",
+        "上扬箭线",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Give the next version a clear and open path forward.",
+      "description_zh": "给下一版本留出清楚、开放的前进路径。",
+      "description": {
+        "en": "Give the next version a clear and open path forward.",
+        "zh": "给下一版本留出清楚、开放的前进路径。"
+      }
+    },
+    {
+      "id": "signal-bloom",
+      "name_en": "Signal Bloom",
+      "name_zh": "信号绽放",
+      "category": "release",
+      "file": "signal-bloom.svg",
+      "keywords": [
+        "signal bloom",
+        "信号绽放",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Let a compact contribution open into several useful responses.",
+      "description_zh": "让一份小小的贡献展开为多种有用回应。",
+      "description": {
+        "en": "Let a compact contribution open into several useful responses.",
+        "zh": "让一份小小的贡献展开为多种有用回应。"
+      }
+    },
+    {
+      "id": "outward-ripple",
+      "name_en": "Outward Ripple",
+      "name_zh": "向外涟漪",
+      "category": "release",
+      "file": "outward-ripple.svg",
+      "keywords": [
+        "outward ripple",
+        "向外涟漪",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Show how a shared result reaches beyond the original group.",
+      "description_zh": "让共同成果的影响逐渐走出最初的小组。",
+      "description": {
+        "en": "Show how a shared result reaches beyond the original group.",
+        "zh": "让共同成果的影响逐渐走出最初的小组。"
+      }
+    },
+    {
+      "id": "launch-fold",
+      "name_en": "Launch Fold",
+      "name_zh": "启程折片",
+      "category": "release",
+      "file": "launch-fold.svg",
+      "keywords": [
+        "launch fold",
+        "启程折片",
+        "release",
+        "发布",
+        "soft acrylic",
+        "柔软亚克力",
+        "creative collaboration",
+        "共创"
+      ],
+      "description_en": "Send a first version out while leaving room for the next one.",
+      "description_zh": "送出第一版，同时为下一版留下空间。",
+      "description": {
+        "en": "Send a first version out while leaving room for the next one.",
+        "zh": "送出第一版，同时为下一版留下空间。"
+      }
+    }
+  ]
+}

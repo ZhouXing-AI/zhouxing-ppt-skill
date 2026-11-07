@@ -1,0 +1,36 @@
+{
+  "title": "Ideas Take Shape",
+  "subtitle": "FORM",
+  "download_name": "FORM-English.html",
+  "style": "form",
+  "style_version": "1.0.0",
+  "lang": "en",
+  "fonts": [
+    {
+      "family": "FormDisplay",
+      "file": "fonts/Marcellus-Regular.ttf",
+      "weight": "400"
+    },
+    {
+      "family": "ShiftSans",
+      "file": "fonts/ShiftSans.woff2",
+      "weight": "400 700"
+    },
+    {
+      "family": "FormCJK",
+      "file": "fonts/ZhuqueFangsong-Regular.ttf",
+      "weight": "400",
+      "coverage_file": "fonts/FormCJK-coverage.json",
+      "unicode_range": "U+2E80-9FFF, U+F900-FAFF, U+FE10-FE1F, U+FE30-FE4F, U+FF00-FFEF, U+20000-3FFFF"
+    }
+  ],
+  "theme_name_en": "FORM",
+  "theme_name_zh": "成形",
+  "data_provenance": {
+    "kind": "illustrative",
+    "source": "Locally authored examples for information-layout demonstration; not external research or actual organizational performance.",
+    "scope": "Slides 10–29",
+    "notes": "Replace figures, units, narrative and source attribution together for a real presentation."
+  },
+  "sample_slide_count": 30
+}

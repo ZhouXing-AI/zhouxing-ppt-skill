@@ -1,0 +1,45 @@
+html[lang^="zh"] body{font-family:BlendSans,BlendCJK,Arial,sans-serif}
+html[lang^="zh"] h1,html[lang^="zh"] h2,html[lang^="zh"] h3{font-family:BlendCJK,BlendSans,sans-serif;font-weight:500;letter-spacing:-.025em}
+html[lang^="zh"] p,html[lang^="zh"] .forms-words,html[lang^="zh"] .label,html[lang^="zh"] .cover-kicker{font-family:BlendCJK,BlendSans,sans-serif;font-weight:400;letter-spacing:.005em}
+html[lang^="zh"] .cover h1{font-size:145px;line-height:1.16;top:280px}
+html[lang^="zh"] .cover-copy{top:846px;line-height:1.65}
+html[lang^="zh"] .manifesto h2{font-size:145px;line-height:1.2;top:285px}
+html[lang^="zh"] .ingredients>h2{font-size:114px;line-height:1.18;top:123px}
+html[lang^="zh"] .ingredient-list h3{font-size:45px}
+html[lang^="zh"] .ingredient-list p{font-size:26px}
+html[lang^="zh"] .toolkit>h2{font-size:120px;line-height:1.18;top:120px}
+html[lang^="zh"] .toolkit-grid h3{font-size:48px;letter-spacing:0}
+html[lang^="zh"] .toolkit-grid p{font-size:25px;line-height:1.65}
+html[lang^="zh"] .time h2{font-size:100px;line-height:1.2;letter-spacing:-3px;top:180px}
+html[lang^="zh"] .tick,html[lang^="zh"] .row-label{font-family:BlendSans,BlendCJK,sans-serif}
+html[lang^="zh"] .forms h2{font-size:133px;line-height:1.2;top:160px}
+html[lang^="zh"] .forms-words{gap:23px}
+html[lang^="zh"] .testing h2{font-size:111px;line-height:1.2;top:179px}
+html[lang^="zh"] .trend-callout h3{font-size:35px;line-height:1.45;letter-spacing:0}
+html[lang^="zh"] .trend-callout p{font-size:25px;line-height:1.65}
+html[lang^="zh"] .feedback h2{font-size:126px;line-height:1.17;top:119px}
+html[lang^="zh"] .feedback-list h3{font-size:42px;letter-spacing:0}
+html[lang^="zh"] .feedback-list p{font-size:26px;line-height:1.6}
+html[lang^="zh"] .practice h2{font-size:129px;line-height:1.2;top:128px}
+html[lang^="zh"] .practice-copy{font-size:27px;line-height:1.7;left:1230px}
+html[lang^="zh"] .practice-track h3{font-size:47px;letter-spacing:0}
+html[lang^="zh"] .practice-track p{font-size:25px;line-height:1.6}
+html[lang^="zh"] .closing h2{font-size:135px;line-height:1.2;top:255px}
+html[lang^="zh"] .closing-copy{font-size:28px}
+html[lang^="zh"] .restart{font-family:BlendCJK,BlendSans,sans-serif;font-weight:400}
+
+/* EXPANSION30 START — measured content layouts, theme-owned typography. */
+.slide.expansion30{background:#F4F3F0;color:#17171A}.slide.expansion30.x30-dark{background:#17171A;color:#F4F3F0} 
+.slide.expansion30 .x30-head{position:absolute;left:120px;right:120px;top:80px;margin:0;z-index:2}
+.slide.expansion30 .x30-head h2{position:static;margin:0;font-family:BlendSans,BlendCJK,sans-serif;font-size:78px;font-weight:500;font-style:normal;line-height:1.12;letter-spacing:-2px;white-space:nowrap;font-synthesis:none;color:inherit}
+.slide.expansion30 .x30-sub{position:absolute;left:0;right:0;top:120px;margin:0;font:400 27px/1.5 BlendSans,BlendCJK,sans-serif;letter-spacing:0;color:inherit;opacity:.78}
+.slide.expansion30 .x30-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.expansion30 .x30-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal;font-synthesis:none;letter-spacing:-.7px}
+.slide.expansion30 .x30-chart :is(path,line,rect,circle){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.expansion30 .x30-head h2{font-family:BlendCJK,BlendSans,sans-serif;font-size:75px;font-weight:500;font-style:normal;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.expansion30 .x30-sub{font-family:BlendCJK,BlendSans,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400}
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal}
+/* EXPANSION30 END */

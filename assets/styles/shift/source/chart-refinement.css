@@ -1,0 +1,26 @@
+/* SHIFT chart refinement: keep measurements clear, use dot sculptures as accents. */
+.slide.data-slide .mini-chart-art{position:absolute;left:1558px;top:49px;width:260px;height:230px;margin:0;z-index:2;pointer-events:none}
+.slide.data-slide .mini-chart-art .artwork-slot{width:100%;height:100%}
+.slide.data-slide .mini-chart-art img{display:block;width:100%;height:100%;object-fit:contain}
+.slide.data-slide.has-chart-art .data-heading{right:430px}
+.slide.data-slide.has-chart-art .data-subtitle{max-width:1390px}
+.slide.data-slide.chart-slide.has-chart-art .data-subtitle{right:430px}
+.slide.data-slide.bar-ranking .mini-chart-art{top:56px;height:215px}
+.slide.data-slide.chart-area .mini-chart-art{top:55px;height:208px}
+.slide.data-slide.chart-scatter .mini-chart-art{top:48px;height:225px}
+.slide.data-slide.four-tracks .data-heading{top:98px;left:100px;right:100px}
+.slide.data-slide.four-tracks .data-heading h2{font-size:94px;line-height:1.12;letter-spacing:-3.5px}
+html:lang(zh) .slide.data-slide.four-tracks .data-heading h2{font-size:86px;letter-spacing:0}
+.slide.data-slide.four-tracks .track-grid{top:335px;gap:26px}
+.slide.data-slide.four-tracks .track-grid article{height:596px;border-top-width:2px;box-shadow:inset 0 -3px #1a130218}
+.slide.data-slide.four-tracks .track-grid article:nth-child(1){background:#c6c7bf}
+.slide.data-slide.four-tracks .track-grid article:nth-child(2){background:#dcded4;border-top-color:#1a1302}
+.slide.data-slide.four-tracks .track-grid article:nth-child(2) .track-number{color:#1a1302}
+.slide.data-slide.four-tracks .track-number{font-size:85px;line-height:1}
+.slide.data-slide.four-tracks .track-grid h3{margin-top:36px}
+.slide.data-slide.four-tracks .track-output{padding-top:25px;border-top-color:#1a130255}
+.slide.data-slide.four-tracks .track-grid article:last-child .track-output{border-top-color:#e3e3d955}
+.slide.data-slide.target-progress .target-value{font-family:ShiftDots,monospace;font-size:102px;font-weight:900;letter-spacing:-2px}
+.slide.data-slide.target-progress .target-hit{fill:#ff661a}
+.slide.data-slide.target-progress .target-note{fill:#c8c9bf}
+.slide.data-slide.chart-scatter{background:#c2c3ba}

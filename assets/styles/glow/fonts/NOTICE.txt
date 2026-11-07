@@ -1,0 +1,62 @@
+GLOW · 晴光 — COMPLETE FONT BUNDLE
+
+English display: DM Serif Display Regular 400 and true Italic 400.
+CSS aliases: GlowDisplay (normal), GlowItalic (italic).
+English body/UI: Poppins Regular 400 and Medium 500. CSS alias: GlowSans.
+Chinese display: Noto Serif SC, genuine variable weight 900.
+CSS alias: GlowCJKDisplay.
+Chinese body/UI: Noto Sans SC, genuine variable weight 400.
+CSS alias: GlowCJK.
+
+All four font families are licensed under SIL Open Font License 1.1.
+Commercial use, document/software embedding and redistribution alongside
+open-source software are allowed subject to the supplied licenses. Keep
+the copyright and OFL notices. Fonts retain OFL; they are not relicensed
+under the Skill's MIT license. Font software may not be sold by itself.
+No font author or reference-site endorsement is implied.
+
+Copyright and licenses:
+- DM Serif Display: Copyright 2014–2018 Adobe, Reserved Font Name 'Source';
+  Copyright 2019 Google LLC. See DMSerifDisplay-OFL.txt. The unchanged font
+  metadata also carries the original 2014–2017 Adobe notice.
+- Poppins: Copyright 2020 The Poppins Project Authors. See Poppins-OFL.txt.
+- Noto Serif SC: the official OFL file states Copyright 2012 Google Inc.;
+  unchanged font metadata also states (c) 2017–2024 Adobe. Both retained.
+  See NotoSerifSC-OFL.txt.
+- Noto Sans SC: Copyright 2014–2021 Adobe, Reserved Font Name 'Source'.
+  See NotoSansSC-OFL.txt.
+
+Official distribution repository: https://github.com/google/fonts
+DM Serif Display and Noto source pin:
+24ddc1f324cac5d9f5aedca126d298f56e3f1640
+Poppins source pin:
+8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5
+
+The manifest records each fixed official URL, source and delivered SHA256,
+byte length, true weights/axes, complete Unicode coverage, embedded license
+metadata and license hash. The original source TTF files can be restored
+from these URLs; source cache paths are not runtime dependencies.
+
+DM Serif Display retains unmodified official TTF bytes. Poppins reuses the
+complete, previously verified WOFF2 files from SKETCH (compression only).
+Noto reuses the complete, previously verified FOCUS/INDEX WOFF2 bytes,
+with no repeat conversion. The latter used lossless TTF-to-WOFF2
+compression with all preprocessing transforms disabled. Internal names,
+outlines, metrics, variable axes, hints, copyrights and licenses remain.
+Only local filenames and CSS aliases differ. No font is subset to slide
+copy. Full SC-source coverage does not mean all Unicode/pan-CJK coverage.
+
+Coverage verified against complete official source files:
+- DM Serif Display Regular: 333 Unicode codepoints.
+- DM Serif Display Italic: 336 Unicode codepoints.
+- Poppins Regular/Medium: 471 Unicode codepoints each.
+- Noto Serif SC: 30,928 Unicode codepoints, real weight axis 200–900.
+- Noto Sans SC: 30,890 Unicode codepoints, real weight axis 100–900.
+
+Use font-synthesis:none. DM Serif Display is a true 400-only family; do
+not request synthetic 600/700. Italic emphasis uses the real italic file.
+Chinese display uses 900 and body/UI uses 400. Do not artificially skew
+or horizontally distort Chinese glyphs.
+
+Advercase Demo, ITC Avant Garde Gothic, the Sunfreaks logo, photos and
+other commercial reference-site assets are not part of this font bundle.

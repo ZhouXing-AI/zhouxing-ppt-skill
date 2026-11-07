@@ -1,0 +1,49 @@
+{
+  "title": "让想法产生共鸣",
+  "subtitle": "ECHO · 回响",
+  "download_name": "ECHO-Chinese.html",
+  "style": "echo",
+  "style_version": "1.0.0",
+  "lang": "zh-CN",
+  "theme_name_en": "ECHO",
+  "theme_name_zh": "回响",
+  "fonts": [
+    {
+      "family": "EchoDisplay",
+      "file": "fonts/CormorantGaramond-Variable.ttf",
+      "weight": "500",
+      "style": "normal",
+      "coverage_file": "fonts/CormorantGaramond-Variable-coverage.json"
+    },
+    {
+      "family": "EchoSans",
+      "file": "fonts/InstrumentSans-Variable.ttf",
+      "weight": "400 500",
+      "style": "normal",
+      "coverage_file": "fonts/InstrumentSans-Variable-coverage.json"
+    },
+    {
+      "family": "EchoCJKDisplay",
+      "file": "fonts/EchoCJKDisplay.woff2",
+      "weight": "300",
+      "style": "normal",
+      "coverage_file": "fonts/EchoCJKDisplay-coverage.json"
+    },
+    {
+      "family": "EchoCJK",
+      "file": "fonts/EchoCJK.woff2",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/EchoCJK-coverage.json"
+    }
+  ],
+  "sample_pages": 30,
+  "data_provenance": {
+    "type": "original illustrative data",
+    "source": "Locally authored concept examples for ECHO. Not survey results or external facts.",
+    "scope": "Pages 10–29; original first nine and closing retained.",
+    "reuse": "Replace values, units and conclusions with user-provided or verified data. Recalculate SVG geometry with source/expansion30.py, not by editing labels only.",
+    "units": "Each chart states the relevant count, hours, minutes, percentage or score.",
+    "validation": "source/expansion30.py --validate"
+  }
+}

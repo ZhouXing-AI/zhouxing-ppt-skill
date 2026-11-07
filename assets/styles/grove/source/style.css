@@ -1,0 +1,100 @@
+:root{--ink:#253A31;--paper:#F2EFDF;--green:#4CA785;--lilac:#B6A2D3;--leaf:#B8D7B8;--blue:#6385D4;--stage-bg:#DDDCCF;--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:GroveSans,Arial,sans-serif;color:var(--ink);font-synthesis:none;-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:GroveSans,Arial,sans-serif;font-weight:400;font-style:normal;font-synthesis:none}h2{font-size:120px;line-height:1.08;letter-spacing:-4.5px}h3{font-size:46px;line-height:1.15;letter-spacing:-1px}p{font-size:29px;line-height:1.55}.label{font:400 18px/1.5 GroveMono,monospace;letter-spacing:.03em}.slide{background:var(--paper);color:var(--ink);isolation:isolate}.slide.dark{background:var(--ink);color:var(--paper)}.slide.lilac{background:var(--lilac)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}.small-index{font:400 18px/1.4 GroveMono,monospace;color:#66786B}
+/* 01 — the seed sits opposite a quiet, open invitation. */
+.cover-mark{position:absolute;left:810px;top:138px;display:flex;gap:18px;align-items:center;font-size:36px;font-weight:500;letter-spacing:1px}.mark-leaf{display:inline-block;width:27px;height:18px;border:2px solid var(--ink);background:var(--green);border-radius:0 80% 0 80%;transform:rotate(-12deg)}.cover-label{position:absolute;left:130px;top:150px;max-width:450px;font-size:17px;line-height:1.6;color:#6F7B6D}.cover-art{position:absolute;left:48px;top:264px;width:730px;height:700px}.cover h1{position:absolute;left:798px;top:320px;font-size:141px;line-height:1.12;letter-spacing:-6px}.cover h1 span{position:relative}.cover h1 span:after{content:'';position:absolute;left:3%;right:-1%;bottom:-9px;height:13px;background:var(--lilac);border-radius:80% 30% 80% 30%;transform:rotate(-2deg);z-index:-1}.cover-copy{position:absolute;left:810px;top:759px;font-size:31px;line-height:1.55;color:#5F7062}
+/* 02 — an oversized statement with three protected conditions. */
+.principle-label{position:absolute;left:120px;right:120px;top:165px;text-align:center;color:#6F7B6D}.principle h2{position:absolute;left:95px;right:95px;top:270px;text-align:center;font-size:146px;line-height:1.15;letter-spacing:-5.5px}.principle h2 span{color:#317F62}.principle-chips{position:absolute;left:120px;right:120px;top:707px;display:flex;gap:28px;justify-content:center}.principle-chips span{min-width:210px;padding:18px 44px;text-align:center;border:1.5px solid #253A3166;border-radius:48% 44% 46% 42%/42% 48% 43% 47%;font-size:30px;background:var(--leaf)}.principle-chips span:nth-child(2){background:var(--lilac)}.principle-chips span:nth-child(3){background:#F7F5EB}.principle-copy{position:absolute;left:120px;right:120px;top:881px;text-align:center;color:#6F7B6D;font-size:28px}
+/* 03 — a branching connection alongside a single reading column. */
+.roots-art{position:absolute;left:38px;top:218px;width:840px;height:730px}.roots h2{position:absolute;left:930px;top:137px;font-size:98px;line-height:1.16;letter-spacing:-3px}.roots-list{position:absolute;left:990px;right:120px;top:462px}.roots-list article{position:relative;padding-left:62px;margin-bottom:41px}.roots-list .small-index{position:absolute;left:0;top:11px}.roots-list h3{font-size:42px}.roots-list p{font-size:26px;margin-top:16px;color:#677465;max-width:690px}
+/* 04 — four equal areas of care, with room for the text to breathe. */
+.conditions h2{position:absolute;left:116px;top:125px;font-size:121px;line-height:1.11}.conditions-art{position:absolute;right:142px;top:40px;width:560px;height:495px}.conditions-grid{position:absolute;left:120px;right:120px;top:600px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.conditions-grid article{height:342px;border:1.5px solid #253A3166;border-radius:42px 42px 9px 9px;padding:32px 30px;background:var(--leaf)}.conditions-grid article:nth-child(2){background:#F7F5EB}.conditions-grid article:nth-child(3){background:var(--lilac)}.conditions-grid article:nth-child(4){background:var(--green)}.conditions-grid h3{font-size:44px;letter-spacing:-1px;margin-top:58px}.conditions-grid p{font-size:24px;line-height:1.5;margin-top:22px;max-width:315px}
+/* 05 — a horizontal scale remains flat and exact. */
+.data-label{position:absolute;left:120px;top:103px;color:#6F7B6D}.allocation h2{position:absolute;left:115px;top:205px;font-size:135px;line-height:1.11;letter-spacing:-5px}.allocation-callout{position:absolute;left:124px;top:646px}.allocation-callout b{font-weight:400;font-size:158px;line-height:1;letter-spacing:-6px;color:#317F62}.allocation-callout b span{font-size:74px;letter-spacing:-3px;margin-left:4px}.allocation-callout p{font-size:28px;color:#677465;margin-top:25px;line-height:1.5}.allocation-chart{position:absolute;left:1000px;top:179px;width:800px;height:740px}.allocation-chart svg{width:100%;height:100%}.bar-label{font:400 31px GroveSans,sans-serif;fill:var(--ink)}.bar-value{font:400 32px GroveSans,sans-serif;fill:var(--ink)}.tick{font:400 24px GroveSans,sans-serif;fill:#677465}.chart-note{font:400 21px GroveSans,sans-serif;fill:#677465}
+/* 06 — the split page pairs a branching route with a repeatable learning loop. */
+.direction{background:linear-gradient(to right,var(--paper) 0 61.5%,var(--lilac) 61.5% 100%)}.direction h2{position:absolute;left:116px;top:126px;font-size:112px;line-height:1.13;letter-spacing:-4px}.direction-art{position:absolute;left:160px;top:418px;width:790px;height:550px}.direction-list{position:absolute;left:1270px;right:120px;top:210px}.direction-list article{border-bottom:1.5px solid #253A314D;padding-bottom:31px;margin-bottom:37px}.direction-list .small-index{color:#536153;display:block;margin-bottom:17px}.direction-list h3{font-size:52px}.direction-list p{font-size:26px;line-height:1.5;margin-top:17px}
+/* 07 — a six-week series; every column shares a zero baseline and one unit. */
+.contributions h2{position:absolute;left:115px;top:167px;font-size:108px;line-height:1.1;letter-spacing:-3.5px}.contributions h2 span{color:#317F62}.contributions-note{position:absolute;right:160px;top:250px;text-align:right}.contributions-note b{font-size:65px;line-height:1;font-weight:400;letter-spacing:-2px;color:#317F62}.contributions-note p{font-size:26px;margin-top:22px;color:#677465}.contributions-chart{position:absolute;left:130px;top:440px;width:1660px;height:570px}.contributions-chart svg{width:100%;height:100%}.grid-line{stroke:#CDD2C2;stroke-width:1.25}.column-value{font:400 30px GroveSans,sans-serif;fill:var(--ink)}
+/* 08 — three generous questions, offset like notes laid on a table. */
+.listening h2{position:absolute;left:115px;top:115px;font-size:116px;line-height:1.12;letter-spacing:-4px}.listening-art{position:absolute;left:60px;top:389px;width:780px;height:580px}.question-list{position:absolute;left:995px;top:260px;width:775px}.question-list article{display:flex;align-items:center;gap:27px;min-height:159px;margin-bottom:45px;padding:34px 32px;border:1.5px solid var(--ink);border-radius:18px 48px 28px 44px;background:#F8F5EA;transform:rotate(-1deg)}.question-list article:nth-child(2){margin-left:-70px;margin-right:70px;background:var(--leaf);transform:rotate(1deg)}.question-list article:nth-child(3){background:var(--lilac);transform:rotate(-.6deg)}.question-list article>span{font:400 19px GroveMono;color:#596E5E;flex:none}.question-list p{font-size:38px;line-height:1.28;letter-spacing:-.8px}
+/* 09 — a simple three-part commitment, with clear open columns. */
+.commitment h2{position:absolute;left:115px;top:162px;font-size:130px;line-height:1.13;letter-spacing:-5px}.commitment-grid{position:absolute;left:120px;right:120px;top:653px;display:grid;grid-template-columns:repeat(3,1fr);gap:62px}.commitment-grid article{border-top:1px solid #B8D7B866;padding-top:30px}.commitment-grid article>span{font:400 22px GroveMono;color:var(--leaf)}.commitment-grid h3{font-size:39px;line-height:1.25;letter-spacing:-.8px;margin-top:28px}.commitment-grid p{font-size:25px;line-height:1.5;margin-top:20px;color:#BFCCB9}
+/* 10 — a shared canopy balances a quiet, concise ending. */
+.closing h2{position:absolute;left:116px;top:172px;font-size:165px;line-height:1.1;letter-spacing:-5px}.closing h2 span{color:#315D49}.closing-art{position:absolute;right:30px;top:185px;width:960px;height:760px}.closing-copy{position:absolute;left:125px;top:699px;font-size:28px;line-height:1.6;max-width:790px}.restart{position:absolute;left:125px;top:893px;background:none;border:0;border-bottom:1px solid #253A3180;padding:0 0 10px;color:var(--ink);font:400 19px GroveSans;display:flex;gap:24px;align-items:center}.restart svg{width:22px;height:22px}
+
+/* GROVE chrome: cream paper labels, fine forest-green rules and quiet botanical details. */
+:root{--ui-ink:#253A31;--ui-accent:#253A31;--ui-paper:#F2EFDF;--ui-soft:#B8D7B8;--ui-line:#253A311c}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1px solid #253A3133;border-radius:16px;background:#F2EFDFf5;color:var(--ui-ink);backdrop-filter:blur(10px);box-shadow:0 4px 0 #253A310a,0 8px 24px #253A3112;font-family:GroveSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:10px;background:transparent;color:var(--ui-ink);font:400 12px/1.2 GroveSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:#B8D7B866;border-color:#253A3122}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-accent);border-color:var(--ui-accent);color:#F2EFDF;font:400 12px/1.2 GroveMono,monospace;font-variant-numeric:tabular-nums}
+.controls .count:hover{background:#365346;color:#F2EFDF}
+.controls .divider{display:block;height:20px;margin:auto 3px;border-left:1px solid var(--ui-line)}
+.controls #full{border-color:#253A3133;color:var(--ui-accent)}
+.controls #full:hover{background:var(--ui-accent);color:#F2EFDF}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#F2EFDFf5;color:var(--ui-ink);backdrop-filter:blur(16px);font-family:GroveSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:500 32px/1.15 GroveSans,Arial,sans-serif}
+.overview header button{flex:none;padding:12px 20px;border:1px solid var(--ui-line);border-radius:10px;background:#F2EFDF;color:var(--ui-ink);font:400 13px/1.2 GroveSans,Arial,sans-serif;cursor:pointer}
+.overview header button:hover{background:var(--ui-accent);color:#F2EFDF}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1px solid var(--ui-line);border-radius:14px;background:#F2EFDF;color:var(--ui-ink);text-align:left;font:400 20px/1.35 GroveSans,Arial,sans-serif;cursor:pointer;transition:background .15s,border-color .15s}
+.overview-grid button:hover{background:#B8D7B877;border-color:#253A3166}
+.overview-grid b{font:400 28px/1 GroveMono,monospace;font-variant-numeric:tabular-nums;color:var(--ui-accent)}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1px solid #253A3133;border-radius:14px;background:#F2EFDFf5;color:var(--ui-ink);backdrop-filter:blur(12px);box-shadow:0 8px 30px #253A3122;font:400 13px/1.5 GroveSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-accent);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit],body.editing [data-nav-tone=green] [data-edit]{outline-color:var(--ui-soft)}
+/* Elliptical seeds remain inside the canvas. The current seed opens into a solid leaf. */
+#stage{--nav-ink:#253A31;--nav-accent:#253A31}
+#stage[data-nav-tone=dark]{--nav-ink:#B8D7B8;--nav-accent:#B8D7B8}
+#stage:is([data-nav-tone=green],[data-nav-tone=brand]){--nav-ink:#F2EFDF;--nav-accent:#F2EFDF}
+/* Explicit active-slide intent wins when the shared player classifies green as dark. */
+#stage:has(.slide.active:is([data-nav-tone=green],[data-nav-tone=brand])){--nav-ink:#F2EFDF;--nav-accent:#F2EFDF}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:6px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button::before{content:'';display:block;width:5px;height:7px;transform:rotate(-18deg);border:0;border-radius:50%;background:var(--nav-ink);opacity:.3;transition:width .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.6}
+.slide-dots button[aria-current=step]{width:38px}
+.slide-dots button[aria-current=step]::before{width:21px;height:10px;border-radius:85% 12% 85% 12%;transform:rotate(-8deg);background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button::before{background:#253A31;box-shadow:0 0 0 1px #F2EFDF;opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button[aria-current=step]::before{background:#253A31;box-shadow:0 0 0 1px #F2EFDF}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 11px;border:1px solid var(--ui-line);border-radius:8px;background:#F2EFDFf5;color:var(--ui-ink);box-shadow:0 5px 18px #253A3118;font:400 11px/1.35 GroveSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:GroveCJK,GroveSans,sans-serif;font-weight:400;font-style:normal}
+html:lang(zh) .overview header{font-family:GroveCJK,GroveSans,sans-serif;font-weight:400;font-style:normal}
+html:lang(zh) .overview-grid b,html:lang(zh) .controls .count{font-family:GroveMono,GroveCJK,sans-serif;font-weight:400;font-style:normal}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:26px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — measured content layouts, theme-owned typography. */
+.slide.expansion30{background:#F2EFDF;color:#253A31}.slide.expansion30.x30-dark{background:#253A31;color:#F2EFDF} 
+.slide.expansion30 .x30-head{position:absolute;left:120px;right:120px;top:80px;margin:0;z-index:2}
+.slide.expansion30 .x30-head h2{position:static;margin:0;font-family:GroveSans,GroveCJK,sans-serif;font-size:78px;font-weight:400;font-style:normal;line-height:1.12;letter-spacing:-2px;white-space:nowrap;font-synthesis:none;color:inherit}
+.slide.expansion30 .x30-sub{position:absolute;left:0;right:0;top:120px;margin:0;font:400 27px/1.5 GroveSans,GroveCJK,sans-serif;letter-spacing:0;color:inherit;opacity:.78}
+.slide.expansion30 .x30-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.expansion30 .x30-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.expansion30 .x30-chart text{font-family:GroveSans,GroveCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.expansion30 .x30-chart text.x30-display{font-family:GroveSans,GroveCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:-.7px}
+.slide.expansion30 .x30-chart :is(path,line,rect,circle){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.expansion30 .x30-head h2{font-family:GroveCJK,GroveSans,sans-serif;font-size:75px;font-weight:400;font-style:normal;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.expansion30 .x30-sub{font-family:GroveCJK,GroveSans,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .slide.expansion30 .x30-chart text{font-family:GroveSans,GroveCJK,sans-serif;font-weight:400}
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:GroveSans,GroveCJK,sans-serif;font-weight:400;font-style:normal}
+/* EXPANSION30 END */

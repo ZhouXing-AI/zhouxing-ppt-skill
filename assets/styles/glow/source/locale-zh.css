@@ -1,0 +1,41 @@
+/* Chinese is composed independently with real Noto Serif 900 and Sans 400. */
+html:lang(zh) body{font-family:GlowSans,GlowCJK,sans-serif;font-weight:400;font-synthesis:none;line-break:strict}
+html:lang(zh) .slide :is(h1,h2,h3){font-family:GlowCJKDisplay,GlowDisplay,serif;font-weight:900;letter-spacing:0;line-height:1.2;font-synthesis:none}
+html:lang(zh) .slide em{font-family:GlowCJKDisplay,serif;font-style:normal;font-weight:900}
+html:lang(zh) .label{font-family:GlowSans,GlowCJK,sans-serif;font-weight:400;font-size:23px;letter-spacing:.06em}
+html:lang(zh) .cover-brand{font-family:GlowDisplay,serif;font-weight:400}
+html:lang(zh) .cover h1{top:235px;font-size:157px;line-height:1.12;letter-spacing:-.02em}
+html:lang(zh) .cover-copy{top:824px;font-size:30px;line-height:1.65}
+html:lang(zh) .entry-stamp{font-family:GlowCJK,sans-serif;font-weight:400;font-size:27px;line-height:1.5;letter-spacing:.05em}
+html:lang(zh) .presence>h2{top:270px;font-size:137px;line-height:1.33;letter-spacing:-.015em}
+html:lang(zh) .presence-copy{font-size:31px;top:700px}
+html:lang(zh) .feelings{font-family:GlowCJKDisplay,serif;font-weight:900;font-size:48px;gap:100px}
+html:lang(zh) .welcome>h2{top:125px;font-size:110px;line-height:1.2}
+html:lang(zh) .welcome-copy{top:430px;font-size:29px;line-height:1.65}
+html:lang(zh) .welcome-steps h3{font-size:53px;line-height:1.3}
+html:lang(zh) .welcome-steps p{font-size:27px;line-height:1.65}
+html:lang(zh) .rhythm>h2{top:115px;font-size:111px;line-height:1.2}
+html:lang(zh) .rhythm-tag{font-family:GlowCJK,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .rhythm-phases h3{font-size:81px;line-height:1.2;margin:26px 0}
+html:lang(zh) .rhythm-phases p{font-size:28px;line-height:1.7}
+html:lang(zh) .table-text h2{font-size:101px;line-height:1.25;letter-spacing:-.025em}
+html:lang(zh) .table-text>p{font-size:29px;line-height:1.7;margin-top:45px}
+html:lang(zh) .table-text li{font-size:27px;line-height:1.55}
+html:lang(zh) .play>h2{top:105px;font-size:108px;line-height:1.2}
+html:lang(zh) .play-label{font-size:24px;line-height:1.7}
+html:lang(zh) .play-grid h3{font-size:46px;line-height:1.2;margin-top:38px}
+html:lang(zh) .play-note{font-size:26px}
+html:lang(zh) .surprise>h2{top:265px;font-size:139px;line-height:1.2;letter-spacing:-.02em}
+html:lang(zh) .surprise-notes p{font-size:32px;line-height:1.55}
+html:lang(zh) .exchange>h2{top:103px;font-size:106px;line-height:1.2}
+html:lang(zh) .exchange-panels h3{font-size:94px;line-height:1.2}
+html:lang(zh) .exchange-panels p{font-size:29px;line-height:1.7;margin-top:38px}
+html:lang(zh) .memory>h2{top:120px;font-size:111px;line-height:1.2}
+html:lang(zh) .memory-list h3{font-size:62px;line-height:1.2}
+html:lang(zh) .memory-list p{font-size:27px;line-height:1.6}
+html:lang(zh) .closing>h2{top:240px;font-size:135px;line-height:1.18;letter-spacing:-.02em}
+html:lang(zh) .closing-strip p{font-size:28px}
+html:lang(zh) .restart{font-family:GlowSans,GlowCJK,sans-serif;font-size:21px;font-weight:400}
+html:lang(zh) :is(.controls,.controls button,.overview,.overview button,.toast,.nav-tip),html:lang(zh) .artwork-dialog,html:lang(zh) .artwork-dialog :is(button,select,input,p,label,.artwork-card-name,.artwork-card-new,.artwork-preview-note){font-family:GlowSans,GlowCJK,sans-serif;font-weight:400;font-synthesis:none}
+html:lang(zh) .overview header,html:lang(zh) .artwork-dialog :is(h2,h3){font-family:GlowCJKDisplay,GlowDisplay,serif;font-weight:900;letter-spacing:0;font-synthesis:none}
+html:lang(zh) .controls #replace-artwork,html:lang(zh) .artwork-header h2 .artwork-total{font-family:GlowSans,GlowCJK,sans-serif;font-weight:400}

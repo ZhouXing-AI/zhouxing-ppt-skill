@@ -1,0 +1,338 @@
+{
+  "theme": {
+    "en": "AXIS",
+    "zh": "轴线"
+  },
+  "version": "1.0.0",
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "linear-core",
+      "name_en": "Linear Core",
+      "name_zh": "线性核心",
+      "category": "structure",
+      "keywords": [
+        "alignment",
+        "direction",
+        "core",
+        "线性核心"
+      ],
+      "file": "linear-core.svg"
+    },
+    {
+      "id": "split-plane",
+      "name_en": "Split Plane",
+      "name_zh": "分离平面",
+      "category": "structure",
+      "keywords": [
+        "separation",
+        "connection",
+        "interface",
+        "分离平面"
+      ],
+      "file": "split-plane.svg"
+    },
+    {
+      "id": "folded-path",
+      "name_en": "Folded Path",
+      "name_zh": "折返路径",
+      "category": "direction",
+      "keywords": [
+        "route",
+        "turn",
+        "progress",
+        "折返路径"
+      ],
+      "file": "folded-path.svg"
+    },
+    {
+      "id": "arrow-stack",
+      "name_en": "Advancing Plates",
+      "name_zh": "推进翼片",
+      "category": "direction",
+      "keywords": [
+        "advance",
+        "layers",
+        "direction",
+        "推进翼片"
+      ],
+      "file": "arrow-stack.svg"
+    },
+    {
+      "id": "feedback-rail",
+      "name_en": "Return Circuit",
+      "name_zh": "反馈回路",
+      "category": "feedback",
+      "keywords": [
+        "feedback",
+        "return",
+        "loop",
+        "反馈回路"
+      ],
+      "file": "feedback-rail.svg"
+    },
+    {
+      "id": "alignment-frame",
+      "name_en": "Register Frames",
+      "name_zh": "校准框架",
+      "category": "feedback",
+      "keywords": [
+        "register",
+        "calibration",
+        "alignment",
+        "校准框架"
+      ],
+      "file": "alignment-frame.svg"
+    },
+    {
+      "id": "ribbed-bridge",
+      "name_en": "Ribbed Bridge",
+      "name_zh": "肋式桥架",
+      "category": "capacity",
+      "keywords": [
+        "structure",
+        "capacity",
+        "support",
+        "肋式桥架"
+      ],
+      "file": "ribbed-bridge.svg"
+    },
+    {
+      "id": "calibrator-bars",
+      "name_en": "Calibration Bars",
+      "name_zh": "标定阶柱",
+      "category": "capacity",
+      "keywords": [
+        "measure",
+        "scale",
+        "capacity",
+        "标定阶柱"
+      ],
+      "file": "calibrator-bars.svg"
+    },
+    {
+      "id": "offset-joint",
+      "name_en": "Offset Joint",
+      "name_zh": "错位接头",
+      "category": "structure",
+      "keywords": [
+        "joint",
+        "connection",
+        "support",
+        "错位接头"
+      ],
+      "file": "offset-joint.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "cantilever-truss",
+      "name_en": "Cantilever Truss",
+      "name_zh": "悬臂桁架",
+      "category": "structure",
+      "keywords": [
+        "truss",
+        "brace",
+        "structure",
+        "悬臂桁架"
+      ],
+      "file": "cantilever-truss.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "nested-channel",
+      "name_en": "Nested Channels",
+      "name_zh": "嵌套槽架",
+      "category": "structure",
+      "keywords": [
+        "nest",
+        "channel",
+        "interface",
+        "嵌套槽架"
+      ],
+      "file": "nested-channel.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "tension-mast",
+      "name_en": "Tension Mast",
+      "name_zh": "张力立柱",
+      "category": "structure",
+      "keywords": [
+        "balance",
+        "support",
+        "tension",
+        "张力立柱"
+      ],
+      "file": "tension-mast.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "stepped-switch",
+      "name_en": "Branch Switch",
+      "name_zh": "分流转辙",
+      "category": "direction",
+      "keywords": [
+        "choice",
+        "branch",
+        "route",
+        "分流转辙"
+      ],
+      "file": "stepped-switch.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "rising-flight",
+      "name_en": "Rising Flight",
+      "name_zh": "递升梯列",
+      "category": "direction",
+      "keywords": [
+        "steps",
+        "advance",
+        "progress",
+        "递升梯列"
+      ],
+      "file": "rising-flight.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "pivot-guide",
+      "name_en": "Pivot Guide",
+      "name_zh": "转向导轨",
+      "category": "direction",
+      "keywords": [
+        "pivot",
+        "change",
+        "orient",
+        "转向导轨"
+      ],
+      "file": "pivot-guide.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "converging-rails",
+      "name_en": "Converging Rails",
+      "name_zh": "汇聚导轨",
+      "category": "direction",
+      "keywords": [
+        "focus",
+        "converge",
+        "direction",
+        "汇聚导轨"
+      ],
+      "file": "converging-rails.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "echo-gates",
+      "name_en": "Echo Gates",
+      "name_zh": "回声门架",
+      "category": "feedback",
+      "keywords": [
+        "signal",
+        "sequence",
+        "check",
+        "回声门架"
+      ],
+      "file": "echo-gates.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "relay-stations",
+      "name_en": "Relay Stations",
+      "name_zh": "接力节点",
+      "category": "feedback",
+      "keywords": [
+        "network",
+        "relay",
+        "loop",
+        "接力节点"
+      ],
+      "file": "relay-stations.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "return-ribbon",
+      "name_en": "Return Ribbons",
+      "name_zh": "回返带轨",
+      "category": "feedback",
+      "keywords": [
+        "return",
+        "flow",
+        "response",
+        "回返带轨"
+      ],
+      "file": "return-ribbon.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "paired-registers",
+      "name_en": "Paired Registers",
+      "name_zh": "双列校尺",
+      "category": "feedback",
+      "keywords": [
+        "compare",
+        "precision",
+        "feedback",
+        "双列校尺"
+      ],
+      "file": "paired-registers.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "reserve-stack",
+      "name_en": "Reserve Stack",
+      "name_zh": "储备层板",
+      "category": "capacity",
+      "keywords": [
+        "reserve",
+        "buffer",
+        "layers",
+        "储备层板"
+      ],
+      "file": "reserve-stack.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "branching-array",
+      "name_en": "Branching Array",
+      "name_zh": "分支阵列",
+      "category": "capacity",
+      "keywords": [
+        "distribution",
+        "capacity",
+        "parallel",
+        "分支阵列"
+      ],
+      "file": "branching-array.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "folded-lattice",
+      "name_en": "Cell Lattice",
+      "name_zh": "格室构架",
+      "category": "capacity",
+      "keywords": [
+        "cells",
+        "scale",
+        "system",
+        "格室构架"
+      ],
+      "file": "folded-lattice.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "expansion-bed",
+      "name_en": "Expansion Bed",
+      "name_zh": "伸展基座",
+      "category": "capacity",
+      "keywords": [
+        "expand",
+        "capacity",
+        "stages",
+        "伸展基座"
+      ],
+      "file": "expansion-bed.svg",
+      "added_version": "1.0.0"
+    }
+  ]
+}

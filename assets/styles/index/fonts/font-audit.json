@@ -1,0 +1,281 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "repository_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+  "audit_version": 1,
+  "audited_at_utc": "2026-11-05T19:51:41.221976+00:00",
+  "project": "INDEX · 索引",
+  "source_policy": "Official Google Fonts distribution only. No commercial reference-site font files are included.",
+  "license_spdx": "OFL-1.1",
+  "font_binary_modifications": "None. Original TTF bytes are preserved. Only local filenames and CSS aliases differ. Internal family, copyright, and license names remain intact.",
+  "offline_ready": true,
+  "css_synthesis_recommendation": "font-synthesis: none;",
+  "reference_substitutions": {
+    "Founders Grotesk compressed bold": "Anton Regular",
+    "Signifier": "Newsreader Regular / Italic",
+    "IBM Plex Mono": "IBM Plex Mono Regular / Medium"
+  },
+  "files": [
+    {
+      "filename": "IndexDisplay.ttf",
+      "source_path": "ofl/anton/Anton-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/anton/Anton-Regular.ttf",
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+      "bytes": 170812,
+      "git_blob_sha1": "4d65707db9d8663ccfa99cd28cd3a4e0025be178",
+      "family": "Anton",
+      "css_family": "IndexDisplay",
+      "css_style": "normal",
+      "css_weight": "400",
+      "recommended_use_weight": 400,
+      "role": "Compressed display headings",
+      "license_file": "Anton-OFL.txt",
+      "reserved_font_names": [],
+      "type": "font",
+      "license_spdx": "OFL-1.1",
+      "internal_family_name": "Anton",
+      "internal_subfamily_name": "Regular",
+      "postscript_name": "Anton-Regular",
+      "version": "Version 2.116; ttfautohint (v1.8.3)",
+      "copyright": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "os2_weight_class": 400,
+      "os2_embedding_fstype": 0,
+      "italic_angle": 0.0,
+      "variable_axes": [],
+      "glyph_count": 1373,
+      "verification": {
+        "sfnt_table_checksums": "passed",
+        "ascii_32_126": "complete",
+        "missing_sample_punctuation": [],
+        "original_binary_retained": true
+      }
+    },
+    {
+      "filename": "IndexSerif.ttf",
+      "source_path": "ofl/newsreader/Newsreader[opsz,wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "bytes": 451664,
+      "git_blob_sha1": "ad4a9a8c44ec328c80b61c773f1ba02f6b5ed292",
+      "family": "Newsreader",
+      "css_family": "IndexSerif",
+      "css_style": "normal",
+      "css_weight": "200 800",
+      "recommended_use_weight": 400,
+      "role": "Serif tab labels",
+      "license_file": "Newsreader-OFL.txt",
+      "reserved_font_names": [],
+      "type": "font",
+      "license_spdx": "OFL-1.1",
+      "internal_family_name": "Newsreader",
+      "internal_subfamily_name": "Regular",
+      "postscript_name": "Newsreader16pt-Regular",
+      "version": "Version 1.003",
+      "copyright": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "os2_weight_class": 400,
+      "os2_embedding_fstype": 0,
+      "italic_angle": 0.0,
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 400.0,
+          "max": 800.0
+        },
+        {
+          "tag": "opsz",
+          "min": 6.0,
+          "default": 18.0,
+          "max": 72.0
+        }
+      ],
+      "glyph_count": 658,
+      "verification": {
+        "sfnt_table_checksums": "passed",
+        "ascii_32_126": "complete",
+        "missing_sample_punctuation": [
+          "→"
+        ],
+        "original_binary_retained": true
+      }
+    },
+    {
+      "filename": "IndexSerif-Italic.ttf",
+      "source_path": "ofl/newsreader/Newsreader-Italic[opsz,wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+      "bytes": 495684,
+      "git_blob_sha1": "d25879656a601d44c49836f9e773d100190c62e1",
+      "family": "Newsreader",
+      "css_family": "IndexSerif",
+      "css_style": "italic",
+      "css_weight": "200 800",
+      "recommended_use_weight": 400,
+      "role": "Italic serif tab labels",
+      "license_file": "Newsreader-OFL.txt",
+      "reserved_font_names": [],
+      "type": "font",
+      "license_spdx": "OFL-1.1",
+      "internal_family_name": "Newsreader",
+      "internal_subfamily_name": "Italic",
+      "postscript_name": "Newsreader16pt-Italic",
+      "version": "Version 1.003",
+      "copyright": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "os2_weight_class": 400,
+      "os2_embedding_fstype": 0,
+      "italic_angle": -17.0,
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 400.0,
+          "max": 800.0
+        },
+        {
+          "tag": "opsz",
+          "min": 6.0,
+          "default": 18.0,
+          "max": 72.0
+        }
+      ],
+      "glyph_count": 658,
+      "verification": {
+        "sfnt_table_checksums": "passed",
+        "ascii_32_126": "complete",
+        "missing_sample_punctuation": [
+          "→"
+        ],
+        "original_binary_retained": true
+      }
+    },
+    {
+      "filename": "IndexMono.ttf",
+      "source_path": "ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "bytes": 135580,
+      "git_blob_sha1": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "family": "IBM Plex Mono",
+      "css_family": "IndexMono",
+      "css_style": "normal",
+      "css_weight": "400",
+      "recommended_use_weight": 400,
+      "role": "Body copy and metadata",
+      "license_file": "IBMPlexMono-OFL.txt",
+      "reserved_font_names": [
+        "Plex"
+      ],
+      "type": "font",
+      "license_spdx": "OFL-1.1",
+      "internal_family_name": "IBM Plex Mono",
+      "internal_subfamily_name": "Regular",
+      "postscript_name": "IBMPlexMono-Regular",
+      "version": "Version 2.3",
+      "copyright": "Copyright 2017 IBM Corp. All rights reserved.",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "os2_weight_class": 400,
+      "os2_embedding_fstype": 0,
+      "italic_angle": 0.0,
+      "variable_axes": [],
+      "glyph_count": 1033,
+      "verification": {
+        "sfnt_table_checksums": "passed",
+        "ascii_32_126": "complete",
+        "missing_sample_punctuation": [],
+        "original_binary_retained": true
+      }
+    },
+    {
+      "filename": "IndexMono-Medium.ttf",
+      "source_path": "ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "bytes": 136704,
+      "git_blob_sha1": "33c546f68b6007a45a3f10e845523abb2db25399",
+      "family": "IBM Plex Mono",
+      "css_family": "IndexMono",
+      "css_style": "normal",
+      "css_weight": "500",
+      "recommended_use_weight": 500,
+      "role": "Emphasized metadata and short labels",
+      "license_file": "IBMPlexMono-OFL.txt",
+      "reserved_font_names": [
+        "Plex"
+      ],
+      "type": "font",
+      "license_spdx": "OFL-1.1",
+      "internal_family_name": "IBM Plex Mono",
+      "internal_subfamily_name": "Medium",
+      "postscript_name": "IBMPlexMono-Medium",
+      "version": "Version 2.3",
+      "copyright": "Copyright 2017 IBM Corp. All rights reserved.",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "os2_weight_class": 500,
+      "os2_embedding_fstype": 0,
+      "italic_angle": 0.0,
+      "variable_axes": [],
+      "glyph_count": 1033,
+      "verification": {
+        "sfnt_table_checksums": "passed",
+        "ascii_32_126": "complete",
+        "missing_sample_punctuation": [],
+        "original_binary_retained": true
+      }
+    },
+    {
+      "filename": "Anton-OFL.txt",
+      "source_path": "ofl/anton/OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/anton/OFL.txt",
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "bytes": 4484,
+      "git_blob_sha1": "93feddee37145696e123ea65a6772cab09663f9e",
+      "type": "license",
+      "license_spdx": "OFL-1.1",
+      "copyright_notice": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+      "complete_text_retained": true
+    },
+    {
+      "filename": "Newsreader-OFL.txt",
+      "source_path": "ofl/newsreader/OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/OFL.txt",
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "bytes": 4394,
+      "git_blob_sha1": "d2d4f407109e9c74b8ab502fc79b912408ab8e41",
+      "type": "license",
+      "license_spdx": "OFL-1.1",
+      "copyright_notice": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)",
+      "complete_text_retained": true
+    },
+    {
+      "filename": "IBMPlexMono-OFL.txt",
+      "source_path": "ofl/ibmplexmono/OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "bytes": 4456,
+      "git_blob_sha1": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "type": "license",
+      "license_spdx": "OFL-1.1",
+      "copyright_notice": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+      "complete_text_retained": true
+    }
+  ],
+  "css_font_face_examples": "@font-face { font-family: \"IndexDisplay\"; src: url(\"fonts/IndexDisplay.ttf\") format(\"truetype\"); font-style: normal; font-weight: 400; font-display: swap; }\n@font-face { font-family: \"IndexSerif\"; src: url(\"fonts/IndexSerif.ttf\") format(\"truetype\"); font-style: normal; font-weight: 200 800; font-display: swap; }\n@font-face { font-family: \"IndexSerif\"; src: url(\"fonts/IndexSerif-Italic.ttf\") format(\"truetype\"); font-style: italic; font-weight: 200 800; font-display: swap; }\n@font-face { font-family: \"IndexMono\"; src: url(\"fonts/IndexMono.ttf\") format(\"truetype\"); font-style: normal; font-weight: 400; font-display: swap; }\n@font-face { font-family: \"IndexMono\"; src: url(\"fonts/IndexMono-Medium.ttf\") format(\"truetype\"); font-style: normal; font-weight: 500; font-display: swap; }",
+  "css_usage_examples": {
+    "heading": "font-family: \"IndexDisplay\", sans-serif; font-weight: 400; font-synthesis: none;",
+    "tab": "font-family: \"IndexSerif\", serif; font-weight: 400; font-optical-sizing: auto; font-synthesis: none;",
+    "body": "font-family: \"IndexMono\", monospace; font-weight: 400; font-synthesis: none;",
+    "body_emphasis": "font-family: \"IndexMono\", monospace; font-weight: 500; font-synthesis: none;"
+  },
+  "license_scope": {
+    "commercial_document_use": "permitted",
+    "embedding_and_bundled_redistribution": "permitted under the included OFL-1.1 terms",
+    "required_preservation": "Keep each copyright notice and full OFL with the distributed font files.",
+    "standalone_font_sale": "not permitted",
+    "license_changes_to_font_software": "not permitted",
+    "modified_font_reserved_name_rule": "IBM reserves Plex; no font binaries are modified in this bundle."
+  },
+  "notice_file": "NOTICE.txt",
+  "notice_sha256": "c2105d4835d0a0f638ceb002e1df5705ef4ed1cee027254acf165779d3ea3f25"
+}

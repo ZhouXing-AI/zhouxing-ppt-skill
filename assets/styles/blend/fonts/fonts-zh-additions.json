@@ -1,0 +1,9 @@
+[
+  {
+    "family": "BlendCJK",
+    "file": "fonts/BlendCJK.woff2",
+    "weight": "400 500",
+    "style": "normal",
+    "coverage_file": "fonts/BlendCJK-coverage.json"
+  }
+]

@@ -1,0 +1,48 @@
+/* FOCUS · 明晰 — the serif voice becomes the visual focus, without losing captions. */
+.slide.text-led :is(h1,h2,h3,p,figcaption){overflow-wrap:break-word;white-space:normal}
+.slide.text-led :is(.cover-sculpture,.compass,.direction-sculpture,.progress-sculpture),
+.slide.text-led :is(.focus-study,.space-sculpture)>.artwork-tilt{display:none}
+.slide.text-led.cover .cover-title{left:130px;right:130px;top:230px;text-align:center;font-size:255px;line-height:.93}
+.slide.text-led.cover .cover-title>span+span{font-size:225px;margin-top:20px}
+.slide.text-led.cover .cover-caption{left:135px;bottom:140px;font-size:42px;line-height:1.3;max-width:700px}
+.slide.text-led.cover .cover-process{left:1020px;right:140px;bottom:150px}
+.slide.text-led.position .position-copy{left:125px;right:125px;top:220px;width:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:150px;align-items:start}
+.slide.text-led.position .position-copy>h2{font-size:170px;line-height:1.03;min-width:0}
+.slide.text-led.position .prompts{width:auto;margin:0;min-width:0}
+.slide.text-led.position .prompts article{padding:25px 0;gap:38px}
+.slide.text-led.position .prompts article>div{min-width:0}
+.slide.text-led.position .prompts h3{font-size:62px}
+.slide.text-led.position .prompts p{font-size:31px;line-height:1.45;margin-top:15px}
+.slide.text-led.position .focus-study{left:125px;right:125px;top:auto;bottom:140px;width:auto;height:auto;border-top:1px solid #16272040;padding-top:32px}
+.slide.text-led.position .focus-study figcaption{position:static;text-align:left;font-size:35px;line-height:1.35}
+.slide.text-led.interlude h2{left:130px;right:130px;top:140px;font-size:300px;line-height:.95;text-align:center}
+.slide.text-led.interlude h2 .outline{font-size:230px}
+.slide.text-led.interlude .interlude-bottom{left:140px;right:140px;bottom:135px;text-align:center}
+.slide.text-led.interlude .thin-rule{width:100%}
+.slide.text-led.interlude .interlude-bottom p{font-size:73px;line-height:1.25;margin-top:40px}
+.slide.text-led.optionality h2{left:150px;right:150px;top:205px;font-size:222px;line-height:1.02;text-align:center}
+.slide.text-led.optionality>p{left:150px;right:auto;bottom:155px;width:750px;font-size:40px;line-height:1.35}
+.slide.text-led.optionality .space-sculpture{left:1040px;right:150px;top:auto;bottom:155px;width:auto;height:auto;border-top:1px solid #ededeb66;padding-top:30px}
+.slide.text-led.optionality .space-sculpture figcaption{position:static;text-align:left;font-size:38px;line-height:1.35}
+.slide.text-led.finale h2{left:130px;right:130px;top:300px;text-align:center;font-size:245px;line-height:.98}
+/* The learning loop, horizon timelines, commitment table and question matrix are retained. */
+html:lang(zh) .slide.text-led.cover .cover-title{top:255px;font-size:195px;line-height:1.15}
+html:lang(zh) .slide.text-led.cover .cover-title>span+span{font-size:195px;margin-top:20px}
+html:lang(zh) .slide.text-led.cover .cover-caption{font-size:34px;line-height:1.65}
+html:lang(zh) .slide.text-led.position .position-copy{top:205px;grid-template-columns:minmax(0,.95fr) minmax(0,1fr);gap:125px}
+html:lang(zh) .slide.text-led.position .position-copy>h2{font-size:150px;line-height:1.4}
+html:lang(zh) .slide.text-led.position .prompts{margin:0}
+html:lang(zh) .slide.text-led.position .prompts article{padding:25px 0}
+html:lang(zh) .slide.text-led.position .prompts h3{font-size:49px;line-height:1.3}
+html:lang(zh) .slide.text-led.position .prompts p{font-size:29px;line-height:1.65}
+html:lang(zh) .slide.text-led.position .focus-study figcaption{font-size:30px;line-height:1.6}
+html:lang(zh) .slide.text-led.interlude h2{top:170px;font-size:235px;line-height:1.15}
+html:lang(zh) .slide.text-led.interlude h2 .outline{font-size:165px;margin-top:45px}
+html:lang(zh) .slide.text-led.interlude .interlude-bottom p{font-size:50px;line-height:1.5}
+html:lang(zh) .slide.text-led.optionality h2{left:150px;top:215px;font-size:178px;line-height:1.35}
+html:lang(zh) .slide.text-led.optionality>p{font-size:31px;line-height:1.65}
+html:lang(zh) .slide.text-led.optionality .space-sculpture figcaption{font-size:31px;line-height:1.65}
+html:lang(zh) .slide.text-led.finale h2{top:295px;font-size:190px;line-height:1.2}
+
+/* Author-selected per-slide text layout; charts and controls are unaffected. */
+.slide.text-led [data-decoration]{display:none!important}

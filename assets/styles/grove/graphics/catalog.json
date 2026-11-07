@@ -1,0 +1,562 @@
+{
+  "theme": {
+    "en": "GROVE",
+    "zh": "共生"
+  },
+  "version": "1.0.0",
+  "license": "Original SVG illustrations by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "seed-cradle",
+      "name_en": "Seed Cradle",
+      "name_zh": "种子摇篮",
+      "category": "seed",
+      "file": "seed-cradle.svg",
+      "keywords": [
+        "seed cradle",
+        "种子摇篮",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Give a small possibility a place to begin.",
+      "description_zh": "给一个小小的可能性，留出开始的位置。",
+      "description": {
+        "en": "Give a small possibility a place to begin.",
+        "zh": "给一个小小的可能性，留出开始的位置。"
+      }
+    },
+    {
+      "id": "paired-seeds",
+      "name_en": "Paired Seeds",
+      "name_zh": "并生种子",
+      "category": "seed",
+      "file": "paired-seeds.svg",
+      "keywords": [
+        "paired seeds",
+        "并生种子",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Two beginnings can keep their own shape and still grow together.",
+      "description_zh": "两个起点各有形态，也可以一同生长。",
+      "description": {
+        "en": "Two beginnings can keep their own shape and still grow together.",
+        "zh": "两个起点各有形态，也可以一同生长。"
+      }
+    },
+    {
+      "id": "unfolding-bud",
+      "name_en": "Unfolding Bud",
+      "name_zh": "舒展新芽",
+      "category": "seed",
+      "file": "unfolding-bud.svg",
+      "keywords": [
+        "unfolding bud",
+        "舒展新芽",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Let the first possibility unfold at its own pace.",
+      "description_zh": "让最初的可能，按自己的节奏舒展。",
+      "description": {
+        "en": "Let the first possibility unfold at its own pace.",
+        "zh": "让最初的可能，按自己的节奏舒展。"
+      }
+    },
+    {
+      "id": "quiet-grain",
+      "name_en": "Quiet Grain",
+      "name_zh": "安静穗粒",
+      "category": "seed",
+      "file": "quiet-grain.svg",
+      "keywords": [
+        "quiet grain",
+        "安静穗粒",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Notice the small units that make a future harvest.",
+      "description_zh": "看见那些组成未来收获的小小单元。",
+      "description": {
+        "en": "Notice the small units that make a future harvest.",
+        "zh": "看见那些组成未来收获的小小单元。"
+      }
+    },
+    {
+      "id": "first-ring",
+      "name_en": "First Ring",
+      "name_zh": "初生年轮",
+      "category": "seed",
+      "file": "first-ring.svg",
+      "keywords": [
+        "first ring",
+        "初生年轮",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Mark a beginning that can make room for another season.",
+      "description_zh": "记录一个开始，也为下个季节留出余地。",
+      "description": {
+        "en": "Mark a beginning that can make room for another season.",
+        "zh": "记录一个开始，也为下个季节留出余地。"
+      }
+    },
+    {
+      "id": "pocket-meadow",
+      "name_en": "Pocket Meadow",
+      "name_zh": "口袋草地",
+      "category": "seed",
+      "file": "pocket-meadow.svg",
+      "keywords": [
+        "pocket meadow",
+        "口袋草地",
+        "seed",
+        "播种",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Start a varied living patch from a small shared space.",
+      "description_zh": "在一小块共同空间里，让多样生命开始生长。",
+      "description": {
+        "en": "Start a varied living patch from a small shared space.",
+        "zh": "在一小块共同空间里，让多样生命开始生长。"
+      }
+    },
+    {
+      "id": "root-bridge",
+      "name_en": "Root Bridge",
+      "name_zh": "根系桥",
+      "category": "connect",
+      "file": "root-bridge.svg",
+      "keywords": [
+        "root bridge",
+        "根系桥",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Let separate roots find a living connection.",
+      "description_zh": "让各自生长的根，找到鲜活的连接。",
+      "description": {
+        "en": "Let separate roots find a living connection.",
+        "zh": "让各自生长的根，找到鲜活的连接。"
+      }
+    },
+    {
+      "id": "branch-compass",
+      "name_en": "Branch Compass",
+      "name_zh": "枝间罗盘",
+      "category": "connect",
+      "file": "branch-compass.svg",
+      "keywords": [
+        "branch compass",
+        "枝间罗盘",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Find a direction without losing the surrounding connections.",
+      "description_zh": "找到自己的方向，也保留与周围的连接。",
+      "description": {
+        "en": "Find a direction without losing the surrounding connections.",
+        "zh": "找到自己的方向，也保留与周围的连接。"
+      }
+    },
+    {
+      "id": "woven-stems",
+      "name_en": "Woven Stems",
+      "name_zh": "交织茎脉",
+      "category": "connect",
+      "file": "woven-stems.svg",
+      "keywords": [
+        "woven stems",
+        "交织茎脉",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Create support through paths that cross and continue.",
+      "description_zh": "让彼此交错又继续延伸的路径，形成支持。",
+      "description": {
+        "en": "Create support through paths that cross and continue.",
+        "zh": "让彼此交错又继续延伸的路径，形成支持。"
+      }
+    },
+    {
+      "id": "mycelium-map",
+      "name_en": "Mycelium Map",
+      "name_zh": "菌丝网络",
+      "category": "connect",
+      "file": "mycelium-map.svg",
+      "keywords": [
+        "mycelium map",
+        "菌丝网络",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Reveal the quiet connections beneath visible growth.",
+      "description_zh": "看见显著生长之下，那些安静的连接。",
+      "description": {
+        "en": "Reveal the quiet connections beneath visible growth.",
+        "zh": "看见显著生长之下，那些安静的连接。"
+      }
+    },
+    {
+      "id": "meeting-leaves",
+      "name_en": "Meeting Leaves",
+      "name_zh": "相遇之叶",
+      "category": "connect",
+      "file": "meeting-leaves.svg",
+      "keywords": [
+        "meeting leaves",
+        "相遇之叶",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Let two perspectives meet without erasing either one.",
+      "description_zh": "让两种视角相遇，同时保留各自的完整。",
+      "description": {
+        "en": "Let two perspectives meet without erasing either one.",
+        "zh": "让两种视角相遇，同时保留各自的完整。"
+      }
+    },
+    {
+      "id": "vine-knot",
+      "name_en": "Vine Knot",
+      "name_zh": "藤结",
+      "category": "connect",
+      "file": "vine-knot.svg",
+      "keywords": [
+        "vine knot",
+        "藤结",
+        "connect",
+        "联结",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Make a connection flexible enough to keep growing.",
+      "description_zh": "让连接保持柔韧，能够继续生长。",
+      "description": {
+        "en": "Make a connection flexible enough to keep growing.",
+        "zh": "让连接保持柔韧，能够继续生长。"
+      }
+    },
+    {
+      "id": "leaf-window",
+      "name_en": "Leaf Window",
+      "name_zh": "叶之窗",
+      "category": "nurture",
+      "file": "leaf-window.svg",
+      "keywords": [
+        "leaf window",
+        "叶之窗",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Create an open frame for attention and care.",
+      "description_zh": "为专注与照料，留出开放的空间。",
+      "description": {
+        "en": "Create an open frame for attention and care.",
+        "zh": "为专注与照料，留出开放的空间。"
+      }
+    },
+    {
+      "id": "listening-bloom",
+      "name_en": "Listening Bloom",
+      "name_zh": "倾听花",
+      "category": "nurture",
+      "file": "listening-bloom.svg",
+      "keywords": [
+        "listening bloom",
+        "倾听花",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Stay open to a response before growing the next step.",
+      "description_zh": "先向回应敞开，再长出下一步。",
+      "description": {
+        "en": "Stay open to a response before growing the next step.",
+        "zh": "先向回应敞开，再长出下一步。"
+      }
+    },
+    {
+      "id": "rain-catcher",
+      "name_en": "Rain Catcher",
+      "name_zh": "接雨叶",
+      "category": "nurture",
+      "file": "rain-catcher.svg",
+      "keywords": [
+        "rain catcher",
+        "接雨叶",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Gather small useful inputs and direct them toward growth.",
+      "description_zh": "接住细小而有用的输入，把它们引向生长。",
+      "description": {
+        "en": "Gather small useful inputs and direct them toward growth.",
+        "zh": "接住细小而有用的输入，把它们引向生长。"
+      }
+    },
+    {
+      "id": "shelter-arch",
+      "name_en": "Shelter Arch",
+      "name_zh": "庇护之拱",
+      "category": "nurture",
+      "file": "shelter-arch.svg",
+      "keywords": [
+        "shelter arch",
+        "庇护之拱",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Offer room and cover while a younger idea takes root.",
+      "description_zh": "在新想法扎根时，提供空间与庇护。",
+      "description": {
+        "en": "Offer room and cover while a younger idea takes root.",
+        "zh": "在新想法扎根时，提供空间与庇护。"
+      }
+    },
+    {
+      "id": "breathing-frond",
+      "name_en": "Breathing Frond",
+      "name_zh": "呼吸蕨叶",
+      "category": "nurture",
+      "file": "breathing-frond.svg",
+      "keywords": [
+        "breathing frond",
+        "呼吸蕨叶",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Build a rhythm with pauses between each unfolding step.",
+      "description_zh": "在每次展开之间留出停顿，形成自己的节奏。",
+      "description": {
+        "en": "Build a rhythm with pauses between each unfolding step.",
+        "zh": "在每次展开之间留出停顿，形成自己的节奏。"
+      }
+    },
+    {
+      "id": "gentle-trellis",
+      "name_en": "Gentle Trellis",
+      "name_zh": "轻柔支架",
+      "category": "nurture",
+      "file": "gentle-trellis.svg",
+      "keywords": [
+        "gentle trellis",
+        "轻柔支架",
+        "nurture",
+        "培育",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Use a light structure to support independent growth.",
+      "description_zh": "用轻盈的结构，支持自主生长。",
+      "description": {
+        "en": "Use a light structure to support independent growth.",
+        "zh": "用轻盈的结构，支持自主生长。"
+      }
+    },
+    {
+      "id": "shared-canopy",
+      "name_en": "Shared Canopy",
+      "name_zh": "共生树冠",
+      "category": "flourish",
+      "file": "shared-canopy.svg",
+      "keywords": [
+        "shared canopy",
+        "共生树冠",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Grow distinct roots into a shared place of shelter.",
+      "description_zh": "让不同的根，长成共同的庇护。",
+      "description": {
+        "en": "Grow distinct roots into a shared place of shelter.",
+        "zh": "让不同的根，长成共同的庇护。"
+      }
+    },
+    {
+      "id": "meadow-chorus",
+      "name_en": "Meadow Chorus",
+      "name_zh": "草地合唱",
+      "category": "flourish",
+      "file": "meadow-chorus.svg",
+      "keywords": [
+        "meadow chorus",
+        "草地合唱",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Let different voices share one living field.",
+      "description_zh": "让不同的声音，共同组成一片生机。",
+      "description": {
+        "en": "Let different voices share one living field.",
+        "zh": "让不同的声音，共同组成一片生机。"
+      }
+    },
+    {
+      "id": "open-branch",
+      "name_en": "Open Branch",
+      "name_zh": "舒枝",
+      "category": "flourish",
+      "file": "open-branch.svg",
+      "keywords": [
+        "open branch",
+        "舒枝",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Grow toward several possibilities from a shared stem.",
+      "description_zh": "从共同的枝干，伸向几种可能。",
+      "description": {
+        "en": "Grow toward several possibilities from a shared stem.",
+        "zh": "从共同的枝干，伸向几种可能。"
+      }
+    },
+    {
+      "id": "ripple-garden",
+      "name_en": "Ripple Garden",
+      "name_zh": "涟漪花园",
+      "category": "flourish",
+      "file": "ripple-garden.svg",
+      "keywords": [
+        "ripple garden",
+        "涟漪花园",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "See how one cared-for place changes its surroundings.",
+      "description_zh": "看见一处被照料的地方，如何影响周围。",
+      "description": {
+        "en": "See how one cared-for place changes its surroundings.",
+        "zh": "看见一处被照料的地方，如何影响周围。"
+      }
+    },
+    {
+      "id": "seed-flight",
+      "name_en": "Seed Flight",
+      "name_zh": "种子的飞行",
+      "category": "flourish",
+      "file": "seed-flight.svg",
+      "keywords": [
+        "seed flight",
+        "种子的飞行",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Let a useful beginning travel beyond its first home.",
+      "description_zh": "让有用的起点，飞向最初家园之外。",
+      "description": {
+        "en": "Let a useful beginning travel beyond its first home.",
+        "zh": "让有用的起点，飞向最初家园之外。"
+      }
+    },
+    {
+      "id": "living-wreath",
+      "name_en": "Living Wreath",
+      "name_zh": "生长花环",
+      "category": "flourish",
+      "file": "living-wreath.svg",
+      "keywords": [
+        "living wreath",
+        "生长花环",
+        "flourish",
+        "共生",
+        "botanical",
+        "植物",
+        "shared growth",
+        "共同成长"
+      ],
+      "description_en": "Celebrate a cycle that stays open to new life.",
+      "description_zh": "庆祝一个循环，也向新的生命保持开放。",
+      "description": {
+        "en": "Celebrate a cycle that stays open to new life.",
+        "zh": "庆祝一个循环，也向新的生命保持开放。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+/* FOCUS data pages: editorial hierarchy, precise sans-serif numbers, silver and jade. */
+.focus-data .fd-heading{position:absolute;left:120px;right:120px;top:140px;z-index:2}
+
+.focus-data .fd-heading h2{position:static;margin:0;font-family:MoveSerif,FocusCJK,serif;font-size:100px;font-weight:400;line-height:1.08;letter-spacing:-.015em}
+.focus-data .fd-subtitle{font-family:MoveSerif,FocusCJK,serif;font-size:31px;line-height:1.35;margin-top:19px;color:#53615a;letter-spacing:0}
+.focus-data .fd-chart{position:absolute;left:120px;top:360px;width:1680px;height:610px}
+.focus-data .fd-chart>svg{width:100%;height:100%;overflow:visible}
+.focus-data svg text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;letter-spacing:0;font-synthesis:none}
+.focus-data svg .fd-serif{font-family:MoveSerif,FocusCJK,serif;font-weight:400}
+.focus-data svg .fd-italic{font-family:MoveItalic,FocusCJK,serif;font-weight:400}
+.focus-data .fd-chart [data-information-visual]{pointer-events:none}
+.focus-data.dark-page .fd-subtitle{color:#bfd8ca}
+html:lang(zh) .focus-data .fd-heading h2{font-family:MoveSerif,FocusCJK,serif;font-size:82px;line-height:1.25;letter-spacing:0;font-weight:400}
+
+html:lang(zh) .focus-data .fd-subtitle{font-size:27px;line-height:1.6;font-weight:400}
+/* Four card-like editorial columns, with deliberately aligned output baselines. */
+.focus-data .fd-card-grid{position:absolute;left:120px;right:120px;top:365px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.fd-card-grid article{height:568px;padding:35px 29px;background:#e3e7e1;border:1px solid #16272038;position:relative}
+.fd-card-grid article:nth-child(2){background:#bfcac3}
+.fd-card-grid article:nth-child(3){background:#00856c;color:#ededeb;border-color:#00856c}
+.fd-card-grid article:nth-child(4){background:#073d32;color:#e5eee4;border-color:#073d32}
+.focus-data .fd-card-number{font:400 66px/1 MoveItalic,serif;display:block}
+.focus-data .fd-card-grid h3{font:400 65px/1.05 MoveSerif,FocusCJK,serif;letter-spacing:-.02em;margin-top:51px}
+.focus-data .fd-card-grid p{font:400 29px/1.35 MoveSerif,FocusCJK,serif;margin-top:28px;letter-spacing:0}
+.fd-card-output{position:absolute;left:29px;right:29px;bottom:35px;padding-top:24px;border-top:1px solid currentColor;font:400 20px/1.4 ShiftSans,FocusCJKSans,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fd-card-output>span{font-size:29px}
+html:lang(zh) .focus-data .fd-card-grid h3{font-family:FocusCJK,serif;font-size:53px;line-height:1.25;letter-spacing:0}
+html:lang(zh) .focus-data .fd-card-grid p{font-family:FocusCJK,serif;font-size:27px;line-height:1.65}
+html:lang(zh) .focus-data .fd-card-output{font-size:22px}
+/* Bullet-style target comparison: marker and measure use one percentage scale. */
+.focus-data .fd-target-legend{position:absolute;right:140px;top:280px;display:flex;gap:15px;align-items:center;font:400 24px ShiftSans,FocusCJKSans,sans-serif;color:#e5eee4}
+.fd-actual-key{display:inline-block;width:32px;height:13px;background:#a0d4b6}.fd-target-key{display:inline-block;width:3px;height:25px;background:#ededeb;margin-left:23px}
+
+/* FOCUS data charts: serif editorial headlines, quiet rules, sans-serif measures. */
+.focus-data.fd-bars{background:#ededeb;color:#162720;font-synthesis:none}
+.focus-data.fd-bars.dark-page{background:#073d32;color:#ededeb}
+.focus-data.fd-bars .fd-heading{position:absolute;left:120px;right:120px;top:140px}
+
+.focus-data.fd-bars .fd-heading h2{font-family:MoveSerif,FocusCJK,Georgia,serif;font-weight:400;font-size:100px;line-height:1.08;letter-spacing:-.02em;margin:0;white-space:nowrap}
+.focus-data.fd-bars .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-size:28px;font-weight:400;line-height:1.45;letter-spacing:0;margin:18px 0 0;opacity:.8}
+.focus-data.fd-bars .fd-chart{position:absolute;left:120px;top:360px;width:1680px;height:610px}
+.focus-data.fd-bars .fd-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.focus-data.fd-bars .fd-chart text{font-family:ShiftSans,FocusCJKSans,Arial,sans-serif;font-weight:400;font-synthesis:none;letter-spacing:0}
+.focus-data.fd-bars .fd-chart .fd-bar-number{font-family:ShiftSans,FocusCJKSans,Arial,sans-serif;font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:-.015em}
+html:lang(zh) .focus-data.fd-bars .fd-heading h2{font-family:FocusCJK,MoveSerif,serif;font-weight:400;font-size:82px;line-height:1.22;letter-spacing:0;margin-top:0}
+html:lang(zh) .focus-data.fd-bars .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;line-height:1.45;letter-spacing:0}
+html:lang(zh) .focus-data.fd-bars .fd-chart text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400}
+
+/* FOCUS information charts: editorial serif headings, precise sans-serif data. */
+.focus-data.fd-line,.focus-data.fd-radar,.focus-data.fd-scatter,.focus-data.fd-heatmap{background:#ededeb;color:#162720}
+.focus-data.fd-area,.focus-data.fd-sankey{background:#073d32;color:#ededeb}
+.focus-data .fd-chart{position:absolute;left:120px;top:360px;width:1680px;height:610px}
+.focus-data .fd-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.focus-data .fd-chart text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.focus-data .fd-chart :is(path,line,circle,rect){vector-effect:non-scaling-stroke}
+.focus-data .fd-heading h2{font-family:MoveSerif,FocusCJK,serif;font-weight:400;font-synthesis:none}
+.focus-data .fd-heading .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-style:normal;font-synthesis:none}
+html:lang(zh) .focus-data .fd-heading h2{font-family:FocusCJK,MoveSerif,serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .focus-data .fd-heading .fd-subtitle,html:lang(zh) .focus-data .fd-chart text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-style:normal;letter-spacing:0}
+
+/* FOCUS / the data chapter uses the original paper, serif, jade and fine-rule grammar. */
+.slide.focus-data .fd-heading,
+html:lang(zh) .slide.focus-data .fd-heading{top:82px;left:120px;right:120px}
+.slide.focus-data .fd-heading h2,
+html:lang(zh) .slide.focus-data .fd-heading h2{margin:0;line-height:1.12;font-weight:400}
+.slide.focus-data .fd-heading em,.slide.focus-data .fd-heading .fd-accent{color:#00856c}
+.slide.focus-data.dark-page .fd-heading em,.slide.focus-data.dark-page .fd-heading .fd-accent{color:#a0d4b6}
+.slide.focus-data .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-size:28px;line-height:1.45;margin:23px 0 0;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.focus-data .fd-subtitle{font-family:FocusCJKSans,ShiftSans,sans-serif;font-size:27px;line-height:1.5;font-style:normal;letter-spacing:0}
+.slide.focus-data .fd-chart{top:340px;left:120px;width:1680px;height:610px}
+.slide.focus-data [data-chart-motion]{transform-box:view-box}
+/* Four generous paper slips, with the last action carrying the jade emphasis. */
+.slide.focus-data .fd-card-grid{top:350px;gap:24px}
+.slide.focus-data .fd-card-grid article{height:590px;padding:34px 32px;background:#f6f6f1;color:#162720;border:1px solid #16272028;box-shadow:0 12px 22px #16272007}
+.slide.focus-data .fd-card-grid article:before{content:'';position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(90deg,#a0aaa1,#f5f6ec 40%,#b7c2b7 70%,#e0e5db)}
+.slide.focus-data .fd-card-grid article:nth-child(2){background:#e4e9e2}
+.slide.focus-data .fd-card-grid article:nth-child(4){background:#00856c;color:#f1f2ec;border-color:#00856c}
+.slide.focus-data .fd-card-number{font-family:MoveItalic,serif;font-size:90px;line-height:1;font-weight:400;color:#00856c}
+.slide.focus-data .fd-card-grid article:nth-child(4) .fd-card-number{color:#c9e3d4}
+.slide.focus-data .fd-card-grid h3{font:400 72px/1.08 MoveSerif,FocusCJK,serif;letter-spacing:-.015em;margin:33px 0 0}
+.slide.focus-data .fd-card-grid p{font:400 30px/1.45 MoveSerif,FocusCJK,serif;letter-spacing:0;margin:29px 0 0;max-width:310px}
+.slide.focus-data .fd-card-output{left:32px;right:32px;bottom:32px;padding-top:22px;font:400 23px/1.4 ShiftSans,FocusCJKSans,sans-serif;border-color:#16272045}
+.slide.focus-data .fd-card-grid article:nth-child(4) .fd-card-output{border-color:#d5e5d780}
+html:lang(zh) .slide.focus-data .fd-card-grid h3{font-family:FocusCJK,serif;font-size:57px;line-height:1.2;letter-spacing:0}
+html:lang(zh) .slide.focus-data .fd-card-grid p{font-family:FocusCJK,serif;font-size:28px;line-height:1.65;max-width:300px}
+html:lang(zh) .slide.focus-data .fd-card-output{font-family:FocusCJKSans,sans-serif;font-size:23px}
+/* Three commitments: generous serif figures and a common 0–100 scale below each. */
+.slide.focus-data.fd-target .fd-chart{top:350px}
+.slide.focus-data.fd-target .fd-target-big{font-family:MoveSerif,serif;font-size:208px;font-weight:400;letter-spacing:-6px}
+.slide.focus-data.fd-target .fd-target-percent{font-family:MoveSerif,serif;font-size:102px;letter-spacing:0}
+
+/* FOCUS: editorial scale, thin rules, evidence folios, and restrained silver-green. */
+.slide.focus-data.fd-bars{background:#ededeb;color:#162720}
+.slide.focus-data.fd-bars.dark-page{background:#073d32;color:#e5eee4}
+.slide.focus-data.fd-bars:before{content:none}
+.slide.focus-data.fd-bars .fd-heading{position:absolute;left:120px;right:120px;top:82px}
+.slide.focus-data.fd-bars .fd-heading h2{position:static;margin:0;font:400 104px/1.06 MoveSerif,FocusCJK,Georgia,serif;letter-spacing:-.02em;white-space:nowrap;font-synthesis:none}
+.slide.focus-data.fd-bars .fd-heading h2 em{font-family:MoveItalic,FocusCJK,Georgia,serif;font-weight:400;font-style:normal;color:#00856c}
+.slide.focus-data.fd-bars.dark-page .fd-heading h2 em{color:#a0d4b6}
+.slide.focus-data.fd-bars .fd-heading .fd-subtitle{font:400 28px/1.4 ShiftSans,FocusCJKSans,sans-serif;letter-spacing:0;margin:22px 0 0;color:#53615a;opacity:1}
+.slide.focus-data.fd-bars.dark-page .fd-heading .fd-subtitle{color:#bfd8ca}
+.slide.focus-data.fd-bars .fd-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px;overflow:visible}
+.slide.focus-data.fd-bars .fd-chart>svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.focus-data.fd-bars .fd-chart text{font-family:ShiftSans,FocusCJKSans,Arial,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.focus-data.fd-bars .fd-chart .fd-bar-number{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:-.015em}
+.slide.focus-data.fd-bars .fd-chart .fd-bar-serif{font-family:MoveSerif,FocusCJK,Georgia,serif;font-weight:400;letter-spacing:-.02em}
+.slide.focus-data.fd-bars [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.focus-data.fd-bars .fd-heading{top:82px}
+html:lang(zh) .slide.focus-data.fd-bars .fd-heading h2{font-family:FocusCJK,MoveSerif,serif;font-weight:400;font-size:84px;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.focus-data.fd-bars .fd-heading h2 em{font-family:FocusCJK,MoveSerif,serif;font-style:normal;font-weight:400}
+html:lang(zh) .slide.focus-data.fd-bars .fd-heading .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-size:27px;line-height:1.45;letter-spacing:0;margin:22px 0 0}
+html:lang(zh) .slide.focus-data.fd-bars .fd-chart text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.focus-data.fd-bars .fd-chart .fd-bar-serif{font-family:MoveSerif,FocusCJK,serif;font-weight:400;letter-spacing:0}
+
+/* FOCUS analytical pages: editorial serif rhythm, green emphasis, precise quiet measures. */
+.slide.focus-data.focus-analysis{background:#ededeb;color:#162720}
+.slide.focus-data.focus-analysis.dark-page{background:#073d32;color:#ededeb}
+.slide.focus-data.focus-analysis .fd-heading{position:absolute;left:120px;right:120px;top:82px;z-index:2}
+.slide.focus-data.focus-analysis .fd-heading h2{position:static;margin:0;font:400 106px/1.04 MoveSerif,FocusCJK,serif;letter-spacing:-.02em;white-space:nowrap}
+.slide.focus-data.focus-analysis .fd-heading h2 em{display:inline;color:#00856c;font-family:MoveItalic,FocusCJK,serif;font-weight:400;font-style:normal;font-synthesis:none}
+.slide.focus-data.focus-analysis.dark-page .fd-heading h2 em{color:#a0d4b6}
+.slide.focus-data.focus-analysis .fd-subtitle{position:absolute;left:0;right:0;top:118px;margin:0;font:400 28px/1.4 ShiftSans,FocusCJKSans,sans-serif;letter-spacing:0;color:#162720;opacity:.8}
+.slide.focus-data.focus-analysis.dark-page .fd-subtitle{color:#ededeb}
+.slide.focus-data.focus-analysis .fd-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.focus-data.focus-analysis .fd-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.focus-data.focus-analysis .fd-chart text{font-family:ShiftSans,FocusCJKSans,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.focus-data.focus-analysis .fd-chart .fd-editorial{font-family:MoveSerif,FocusCJK,serif;font-weight:400;letter-spacing:-.015em}
+.slide.focus-data.focus-analysis .fd-chart .fd-editorial-italic{font-family:MoveItalic,FocusCJK,serif;font-weight:400;font-style:normal;letter-spacing:-.01em}
+.slide.focus-data.focus-analysis .fd-chart :is(path,line,circle,rect){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.focus-data.focus-analysis .fd-heading{top:82px}
+html:lang(zh) .slide.focus-data.focus-analysis .fd-heading h2{font-family:FocusCJK,MoveSerif,serif;font-size:84px;line-height:1.2;font-weight:400;letter-spacing:0;margin:0}
+html:lang(zh) .slide.focus-data.focus-analysis .fd-heading h2 em{font-family:FocusCJK,MoveSerif,serif;font-style:normal;letter-spacing:0}
+html:lang(zh) .slide.focus-data.focus-analysis .fd-subtitle{font-family:ShiftSans,FocusCJKSans,sans-serif;font-size:27px;line-height:1.45;letter-spacing:0;margin:0}
+html:lang(zh) .slide.focus-data.focus-analysis .fd-chart .fd-editorial-italic{font-family:FocusCJK,MoveSerif,serif;font-style:normal;letter-spacing:0}

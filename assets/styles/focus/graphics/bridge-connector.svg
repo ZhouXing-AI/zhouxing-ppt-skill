@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="bridge-connector-title"><title id="bridge-connector-title">Two open chrome structural frames coupled by an emerald sleeve</title><defs><linearGradient id="bridge-connector-silver" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#1c2520"/><stop offset=".08" stop-color="#6a756c"/><stop offset=".22" stop-color="#e7ede5"/><stop offset=".28" stop-color="#fcfff8"/><stop offset=".33" stop-color="#9ca79d"/><stop offset=".46" stop-color="#27332a"/><stop offset=".58" stop-color="#080e0a"/><stop offset=".68" stop-color="#818d80"/><stop offset=".77" stop-color="#e5ecdf"/><stop offset=".83" stop-color="#a5b19f"/><stop offset="1" stop-color="#273629"/></linearGradient><linearGradient id="bridge-connector-top" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#e8eee5"/><stop offset=".22" stop-color="#9ca89b"/><stop offset=".39" stop-color="#f8fcf3"/><stop offset=".49" stop-color="#7a8778"/><stop offset=".72" stop-color="#26372b"/><stop offset="1" stop-color="#b6c2b1"/></linearGradient><linearGradient id="bridge-connector-edge" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#fbfff7"/><stop offset=".23" stop-color="#b2bdb0"/><stop offset=".42" stop-color="#4c5b4b"/><stop offset=".57" stop-color="#f3f9ec"/><stop offset=".73" stop-color="#647361"/><stop offset="1" stop-color="#14241a"/></linearGradient><linearGradient id="bridge-connector-side" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0" stop-color="#222b24"/><stop offset=".18" stop-color="#3e4a3f"/><stop offset=".34" stop-color="#080e0b"/><stop offset=".47" stop-color="#0a100b"/><stop offset=".63" stop-color="#87937f"/><stop offset=".69" stop-color="#c8d0bf"/><stop offset=".79" stop-color="#3d4d3a"/><stop offset="1" stop-color="#141f15"/></linearGradient><linearGradient id="bridge-connector-riser" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0" stop-color="#344535"/><stop offset=".14" stop-color="#a8b4a2"/><stop offset=".30" stop-color="#eaf1e0"/><stop offset=".46" stop-color="#bdc8b5"/><stop offset=".62" stop-color="#6f806a"/><stop offset=".84" stop-color="#172b1c"/><stop offset="1" stop-color="#40583f"/></linearGradient><linearGradient id="bridge-connector-black" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#070e09"/><stop offset=".25" stop-color="#354334"/><stop offset=".49" stop-color="#0c150f"/><stop offset=".69" stop-color="#485744"/><stop offset="1" stop-color="#0a150e"/></linearGradient><linearGradient id="bridge-connector-jade" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#63cba2"/><stop offset=".2" stop-color="#009b72"/><stop offset=".44" stop-color="#008064"/><stop offset=".7" stop-color="#005440"/><stop offset="1" stop-color="#042d23"/></linearGradient><linearGradient id="bridge-connector-glass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#1bb990"/><stop offset=".17" stop-color="#73d6b0"/><stop offset=".24" stop-color="#149976"/><stop offset=".55" stop-color="#00634b"/><stop offset=".73" stop-color="#004835"/><stop offset="1" stop-color="#062c23"/></linearGradient><radialGradient id="bridge-connector-shadow"><stop stop-color="#132b1e" stop-opacity=".25"/><stop offset=".42" stop-color="#132b1e" stop-opacity=".10"/><stop offset="1" stop-color="#132b1e" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="500" cy="800" rx="350" ry="38" fill="url(#bridge-connector-shadow)"/>
+<path d="M126.00,466.00 426.00,571.00 426.00,609.00 126.00,504.00Z" fill="url(#bridge-connector-side)" stroke="#62735e" stroke-width="1"/>
+<path d="M426.00,571.00 576.00,456.00 576.00,494.00 426.00,609.00Z" fill="url(#bridge-connector-black)" stroke="#40553c" stroke-width="1"/>
+<path d="M126,466 426,571 576,456 276,351Z M292,394 501,473 412,541 201,462Z" fill="url(#bridge-connector-silver)" stroke="#d5e4c9" stroke-width="1.1"/>
+<path d="M201.00,462.00 412.00,541.00 412.00,566.00 201.00,487.00Z" fill="url(#bridge-connector-side)"/>
+<path d="M127 469 L426 573 L575 458" fill="none" stroke="#f4ffed" stroke-width="1.5" opacity="0.8"/>
+<path d="M132.0 472.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M138.0 474.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M144.0 476.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M150.0 478.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M156.0 480.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M162.0 482.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M168.0 484.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M174.0 486.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M180.0 488.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M186.0 491.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M192.0 493.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M198.0 495.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M204.0 497.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M210.0 499.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M216.0 501.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M222.0 503.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M228.0 505.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M234.0 507.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M240.0 509.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M246.0 512.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M252.0 514.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M258.0 516.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M264.0 518.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M270.0 520.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M276.0 522.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M282.0 524.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M288.0 526.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M294.0 528.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M300.0 530.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M306.0 533.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M312.0 535.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M318.0 537.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M324.0 539.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M330.0 541.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M336.0 543.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M342.0 545.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M348.0 547.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M354.0 549.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M360.0 551.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M366.0 554.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M372.0 556.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M378.0 558.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M384.0 560.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M390.0 562.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M396.0 564.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M402.0 566.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M408.0 568.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M414.0 570.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M420.0 572.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M426.00,550.00 726.00,655.00 726.00,693.00 426.00,588.00Z" fill="url(#bridge-connector-side)" stroke="#62735e" stroke-width="1"/>
+<path d="M726.00,655.00 876.00,540.00 876.00,578.00 726.00,693.00Z" fill="url(#bridge-connector-black)" stroke="#40553c" stroke-width="1"/>
+<path d="M426,550 726,655 876,540 576,435Z M592,478 801,557 712,625 501,546Z" fill="url(#bridge-connector-silver)" stroke="#d5e4c9" stroke-width="1.1"/>
+<path d="M501.00,546.00 712.00,625.00 712.00,650.00 501.00,571.00Z" fill="url(#bridge-connector-side)"/>
+<path d="M427 553 L726 657 L875 542" fill="none" stroke="#f4ffed" stroke-width="1.5" opacity="0.8"/>
+<path d="M432.0 556.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M438.0 558.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M444.0 560.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M450.0 562.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M456.0 564.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M462.0 566.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M468.0 568.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M474.0 570.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M480.0 572.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M486.0 575.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M492.0 577.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M498.0 579.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M504.0 581.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M510.0 583.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M516.0 585.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M522.0 587.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M528.0 589.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M534.0 591.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M540.0 593.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M546.0 596.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M552.0 598.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M558.0 600.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M564.0 602.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M570.0 604.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M576.0 606.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M582.0 608.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M588.0 610.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M594.0 612.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M600.0 614.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M606.0 617.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M612.0 619.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M618.0 621.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M624.0 623.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M630.0 625.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M636.0 627.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M642.0 629.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M648.0 631.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M654.0 633.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M660.0 635.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M666.0 638.0 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M672.0 640.1 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M678.0 642.2 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M684.0 644.3 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M690.0 646.4 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M696.0 648.5 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M702.0 650.6 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M708.0 652.7 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M714.0 654.8 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M720.0 656.9 l0 27" fill="none" stroke="#acbea3" stroke-width="0.5" opacity="0.2"/>
+<path d="M416.00,479.00 540.00,514.00 684.00,405.00 560.00,370.00Z" fill="url(#bridge-connector-jade)" stroke="#6eac8a" stroke-width="1.2"/>
+<path d="M416.00,479.00 540.00,514.00 540.00,557.00 416.00,522.00Z" fill="url(#bridge-connector-black)"/>
+<path d="M540.00,514.00 684.00,405.00 684.00,448.00 540.00,557.00Z" fill="url(#bridge-connector-side)"/>
+<path d="M422 481 L541 515 L680 409" fill="none" stroke="#b4e8c7" stroke-width="1.5" opacity="0.75"/>
+</svg>

@@ -1,0 +1,24 @@
+AXIS · 轴线 — COMPLETE CHINESE FONT BUNDLE
+
+Noto Sans SC, CSS alias AxisCJK; variable weights 100–900.
+Titles use real 500; body, labels and interface use real 400.
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+The unchanged internal family name is Noto Sans SC. Full copyright and
+SIL Open Font License 1.1 are retained in NotoSansSC-OFL.txt.
+OFL permits commercial use, embedding and redistribution with the
+copyright/license retained; font files must not be sold by themselves.
+The font software remains under OFL; slide content need not use OFL.
+
+Official complete SC source, pinned Google Fonts commit:
+24ddc1f324cac5d9f5aedca126d298f56e3f1640
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf
+Source SHA256: a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da
+WOFF2 SHA256: 97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f
+
+Exact already audited WOFF2 bytes from this project's INDEX bundle.
+Lossless container compression only; no subsetting, outline, metrics,
+internal name or variable-axis edits. Preserves 30,890 Unicode cmap
+codepoints and 31,036 glyphs in the complete official SC source, not the
+entire Unicode or pan-CJK repertoire. Only local filename/CSS alias changed.
+See font-audit-zh.json and AxisCJK-coverage.json.
+Use font-synthesis:none; no horizontal stretching or synthetic weights.

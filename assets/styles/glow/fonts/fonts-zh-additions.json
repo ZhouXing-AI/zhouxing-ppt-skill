@@ -1,0 +1,16 @@
+[
+  {
+    "family": "GlowCJKDisplay",
+    "file": "fonts/GlowCJKDisplay.woff2",
+    "weight": "900",
+    "style": "normal",
+    "coverage_file": "fonts/GlowCJKDisplay-coverage.json"
+  },
+  {
+    "family": "GlowCJK",
+    "file": "fonts/GlowCJK.woff2",
+    "weight": "400",
+    "style": "normal",
+    "coverage_file": "fonts/GlowCJK-coverage.json"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "fonts": [
+    {
+      "file": "ShiftSans.woff2",
+      "family": "Instrument Sans",
+      "sha256": "a203c084d99207f473a58f596a1f7249754e2343b2ef5a6a71e9f2731b666a90",
+      "license": "InstrumentSans-OFL.txt",
+      "license_sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+      "coverage_codepoints": 203,
+      "glyph_count": 226,
+      "axes": [
+        {
+          "tag": "wdth",
+          "min": 75.0,
+          "max": 100.0
+        },
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 700.0
+        }
+      ],
+      "embedding_fstype": 0
+    },
+    {
+      "file": "IndexMono.ttf",
+      "family": "IBM Plex Mono",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license": "IBMPlexMono-OFL.txt",
+      "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "coverage_codepoints": 930,
+      "glyph_count": 1033,
+      "axes": [],
+      "embedding_fstype": 0
+    },
+    {
+      "file": "AxisCJK.woff2",
+      "family": "Noto Sans SC",
+      "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
+      "license": "NotoSansSC-OFL.txt",
+      "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "coverage_codepoints": 30890,
+      "glyph_count": 31036,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "embedding_fstype": 0
+    }
+  ],
+  "instrument_sans_provenance": {
+    "original_file": "InstrumentSans[wdth,wght].ttf",
+    "embedded_family": "ShiftSans",
+    "woff2_file": "ShiftSans.woff2",
+    "bytes": 54604,
+    "sha256": "a203c084d99207f473a58f596a1f7249754e2343b2ef5a6a71e9f2731b666a90",
+    "axes": [
+      {
+        "tag": "wdth",
+        "min": 75.0,
+        "default": 100.0,
+        "max": 100.0
+      },
+      {
+        "tag": "wght",
+        "min": 400.0,
+        "default": 400.0,
+        "max": 700.0
+      }
+    ],
+    "license": "SIL OFL 1.1",
+    "license_file": "InstrumentSans-OFL.txt",
+    "repository": "https://github.com/google/fonts/tree/main/ofl/instrumentsans",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/OFL.txt",
+    "modifications": "Subset to English/Latin/basic punctuation and internally renamed; variation axes and original copyright/license metadata retained.",
+    "coverage_codepoints": 203
+  },
+  "ibm_plex_mono_provenance": {
+    "filename": "IndexMono.ttf",
+    "source_path": "ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "bytes": 135580,
+    "git_blob_sha1": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+    "family": "IBM Plex Mono",
+    "css_family": "IndexMono",
+    "css_style": "normal",
+    "css_weight": "400",
+    "recommended_use_weight": 400,
+    "role": "Body copy and metadata",
+    "license_file": "IBMPlexMono-OFL.txt",
+    "reserved_font_names": [
+      "Plex"
+    ],
+    "type": "font",
+    "license_spdx": "OFL-1.1",
+    "internal_family_name": "IBM Plex Mono",
+    "internal_subfamily_name": "Regular",
+    "postscript_name": "IBMPlexMono-Regular",
+    "version": "Version 2.3",
+    "copyright": "Copyright 2017 IBM Corp. All rights reserved.",
+    "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+    "os2_weight_class": 400,
+    "os2_embedding_fstype": 0,
+    "italic_angle": 0.0,
+    "variable_axes": [],
+    "glyph_count": 1033,
+    "verification": {
+      "sfnt_table_checksums": "passed",
+      "ascii_32_126": "complete",
+      "missing_sample_punctuation": [],
+      "original_binary_retained": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "assets": 24,
+  "categories": {
+    "collect": 6,
+    "combine": 6,
+    "shape": 6,
+    "release": 6
+  },
+  "svg_bytes": 148658,
+  "canvas": "1000x1000 transparent",
+  "external_resources": false,
+  "fonts": false,
+  "filters": false,
+  "license": "MIT",
+  "checks": "PASS",
+  "visual_review": "PASS: reviewed all 24 assets on the rendered light and dark contact sheets. Distinct silhouettes are intact, highlights remain readable, and no artwork is clipped.",
+  "preview_light": "../artwork-preview.png",
+  "preview_dark": "../artwork-preview-dark.png"
+}

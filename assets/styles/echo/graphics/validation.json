@@ -1,0 +1,21 @@
+{
+  "assets": 24,
+  "categories": {
+    "listen": 6,
+    "tune": 6,
+    "connect": 6,
+    "resonate": 6
+  },
+  "svg_bytes": 96527,
+  "canvas": "1000x1000 transparent",
+  "external_resources": false,
+  "fonts": false,
+  "filters": false,
+  "license": "MIT",
+  "checks": "PASS",
+  "visual_review": "PASS: all 24 sculptures inspected on pale and midnight-blue contact sheets; silhouettes and fine edges remain visible",
+  "contact_sheets": [
+    "../artwork-preview.png",
+    "../artwork-preview-dark.png"
+  ]
+}

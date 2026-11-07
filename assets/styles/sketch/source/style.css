@@ -1,0 +1,95 @@
+:root{--paper:#f4f1ec;--ink:#212121;--mint:#aaf0ce;--soft:#e6e2da;--muted:#6e6c67;--stage-bg:#dedbd5;--ease:cubic-bezier(.22,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:SketchSans,Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;font-synthesis:none}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:SketchSerif,Georgia,serif;font-weight:600;font-synthesis:none}h2{font-size:126px;line-height:1.01;letter-spacing:-5px}h3{font-size:60px;line-height:1.1;letter-spacing:-2px}p{font-size:30px;line-height:1.5}.label{font:500 18px/1.5 SketchSans,Arial,sans-serif;letter-spacing:.09em}.eyebrow{position:absolute;left:120px;top:112px}.slide{background:var(--paper);color:var(--ink);isolation:isolate}.slide.mint{background:var(--mint)}.slide.dark{background:var(--ink);color:var(--paper)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}.paper{border:2px solid var(--ink);background:var(--paper);color:var(--ink);box-shadow:7px 7px 0 0 var(--paper),8.5px 8.5px 0 1px var(--ink)}.underlined{position:relative;display:inline-block}.underlined:after{content:'';position:absolute;left:1%;right:0;bottom:-.03em;height:.085em;background:var(--mint);border:1.5px solid var(--ink);z-index:-1;transform:rotate(-1deg)}
+/* 01: a title and one large, hand-drawn paper object. */
+.cover-brand{position:absolute;left:120px;top:85px;display:flex;align-items:center;gap:26px}.cover-brand>span{font:500 22px SketchSans;letter-spacing:.1em;border:1.5px solid;padding:13px 26px;transform:rotate(-3deg);background:var(--mint);box-shadow:3px 3px 0 var(--ink)}.cover-brand i{font-size:39px;font-style:normal}.cover h1{position:absolute;left:110px;top:220px;font-size:161px;line-height:.98;letter-spacing:-7px;z-index:2;font-weight:700}.cover-art{position:absolute;right:65px;top:120px;width:800px;height:770px}.cover-note{position:absolute;left:120px;top:815px;font-size:31px;line-height:1.45}.cover-slip{position:absolute;left:1245px;top:835px;border-top:1.5px solid var(--ink);width:470px;padding-top:18px;transform:rotate(2deg)}.cover-slip .label{font-size:16px}.cover-slip p{font-size:25px;line-height:1.5;margin-top:12px}
+/* 02: a single oversized declaration with one tilted note. */
+.permission-loop{position:absolute;left:60px;top:40px;width:1800px;height:950px;opacity:.48}.permission-label{position:absolute;left:260px;top:135px}.permission>h2{position:absolute;left:235px;top:230px;font-size:173px;line-height:1.02;letter-spacing:-8px}.permission-note{position:absolute;right:185px;bottom:188px;width:555px;padding:41px 44px;transform:rotate(6deg)}.permission-note .label{font-size:17px}.permission-note p{font-size:37px;line-height:1.35;margin:26px 0 25px}.signature{display:block;font-family:SketchSerif;font-size:30px;line-height:1.2;border-top:1px solid;padding-top:22px}
+/* 03: asymmetric inspection plus three parallel observations. */
+.observe>h2{position:absolute;left:110px;top:220px;font-size:137px;line-height:1.04}.observe-art{position:absolute;right:95px;top:75px;width:720px;height:690px}.observe-aside{position:absolute;left:120px;top:570px;font-size:34px}.observations{position:absolute;left:120px;right:120px;top:810px;display:grid;grid-template-columns:repeat(3,1fr);gap:60px}.observations article{padding-top:26px;border-top:1.5px solid}.observations h3{font-size:43px;letter-spacing:-1.4px;margin-top:21px}.observations .label{font-size:17px}
+/* 04: three deliberately different scraps arranged on a common table. */
+.collect>h2{position:absolute;left:110px;top:110px;font-size:118px;line-height:1.04;z-index:2}.collect-intro{position:absolute;right:125px;top:170px;width:480px;font-size:30px}.collect-line{position:absolute;left:100px;right:100px;top:550px;height:220px;opacity:.65}.collection{position:absolute;left:125px;right:125px;top:495px;display:grid;grid-template-columns:repeat(3,1fr);gap:66px}.collection article{position:relative;height:374px;padding:42px 35px}.collection article:before{content:'';position:absolute;top:-13px;left:calc(50% - 53px);height:28px;width:106px;background:var(--paper);border:1px solid var(--ink);transform:rotate(-3deg)}.collection .question{background:var(--mint);transform:rotate(-5deg)}.collection .fragment{transform:rotate(3deg);top:23px}.collection .surprise{background:#e6e2da;transform:rotate(-2deg);top:-5px}.collection .label{font-size:14px;letter-spacing:.04em}.collection h3{font-size:59px;margin:29px 0 28px}.collection p{font-size:30px;line-height:1.4}
+/* 05: a dark page surrounding one bright, tangible draft. */
+.rough>.eyebrow{color:var(--mint)}.rough>h2{position:absolute;left:110px;top:220px;font-size:136px;line-height:1.02;letter-spacing:-6px;z-index:2}.rough>h2 span{color:var(--mint)}.rough-copy{position:absolute;left:120px;top:785px;font-size:31px;line-height:1.5}.prototype-sheet{position:absolute;right:125px;top:170px;width:660px;height:700px;transform:rotate(4deg);box-shadow:7px 7px 0 var(--ink),8.5px 8.5px 0 1px var(--paper)}.sheet-heading{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 31px;border-bottom:1.5px solid}.sheet-heading .label{font-size:17px}.sheet-dots{font-size:12px;letter-spacing:3px}.prototype-sheet>.artwork-slot{height:525px;width:100%;padding:15px}.sheet-caption{padding-top:22px;margin:0 31px;border-top:1.5px solid;text-align:center;font-size:15px}
+/* 06: mirrored halves show divergence and convergence, not decorative images. */
+.explore>h2{position:absolute;left:110px;top:105px;font-size:119px;line-height:1.02}.explore-spread{position:absolute;left:125px;right:125px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:140px}.explore-spread article{position:relative;border-top:1.5px solid;padding:28px 0 0}.explore-spread article+article:before{position:absolute;content:'';left:-70px;top:-1px;height:452px;border-left:1px solid #21212150}.explore-spread .label{font-size:17px}.explore-spread h3{font-size:94px;line-height:1.1;margin:18px 0 5px;letter-spacing:-4px}.circle-study{position:absolute;width:340px;height:150px;right:0;top:36px}.circle-study svg{width:100%;height:100%}.explore-spread p{font-size:33px;line-height:1.55;margin-top:72px}
+/* 07: a conversation drawing balanced by three questions. */
+.share>h2{position:absolute;left:110px;top:120px;font-size:134px;line-height:1.04}.share-copy{position:absolute;left:120px;top:480px;font-size:33px}.share-art{position:absolute;right:120px;top:60px;width:770px;height:620px}.share-prompts{position:absolute;left:120px;right:120px;top:770px;display:grid;grid-template-columns:repeat(3,1fr);gap:42px}.share-prompts article{position:relative;padding:27px 27px 35px;border:1.5px solid;border-radius:24px 24px 24px 2px;background:var(--paper)}.share-prompts article:nth-child(2){background:var(--mint);transform:rotate(2deg)}.share-prompts article:nth-child(3){transform:rotate(-2deg)}.share-prompts h3{font-size:40px;margin-top:22px;letter-spacing:-1.7px}.share-prompts .label{font-size:17px}
+/* 08: feedback loop on the left, two exact editorial choices on the right. */
+.revise>h2{position:absolute;left:110px;top:95px;font-size:117px;line-height:1.04}.revise-art{position:absolute;left:55px;top:370px;width:950px;height:590px}.revision-notes{position:absolute;left:1110px;right:110px;top:390px}.revision-notes article{border-top:1.5px solid;padding-top:24px;margin-bottom:52px}.revision-notes h3{font-size:56px;margin:20px 0 22px}.revision-notes p{font-size:29px;line-height:1.5}.revision-notes .label{font-size:17px}
+/* 09: a single perforated ticket contains the sequence. */
+.proof>h2{position:absolute;left:110px;top:215px;font-size:126px;line-height:1.06;letter-spacing:-5.5px}.proof-ticket{position:absolute;left:120px;right:120px;top:575px;height:330px;display:grid;grid-template-columns:repeat(3,1fr);transform:rotate(-1.2deg);padding:0 18px}.proof-ticket article{padding:36px 46px;position:relative}.proof-ticket article+article{border-left:2px dashed var(--ink)}.ticket-number{position:absolute;right:35px;top:35px;border:1.5px solid;border-radius:50%;width:45px;height:45px;display:grid;place-items:center;font:500 17px SketchSans}.proof-ticket h3{font-size:67px;letter-spacing:-2.8px;margin:10px 0 25px}.proof-ticket p{font-size:29px;line-height:1.4}
+/* 10: one invitation and an airy paper kite. */
+.closing>h2{position:absolute;left:110px;top:275px;font-size:141px;line-height:1.07;letter-spacing:-5.8px;z-index:2}.closing-art{position:absolute;right:70px;top:80px;width:740px;height:750px}.closing-strip{position:absolute;left:120px;right:120px;top:890px;border:1.5px solid;background:var(--mint);display:flex;align-items:center;justify-content:space-between;padding:24px 35px;transform:rotate(-.7deg)}.closing-strip p{font-size:30px}.restart{display:flex;align-items:center;gap:17px;background:none;border:0;border-bottom:1px solid;padding:0 0 5px;color:var(--ink);font:500 20px SketchSans}.restart svg{width:23px;height:23px}
+
+.cover-brand>svg{width:38px;height:38px}.sheet-dots{width:48px;height:12px;fill:currentColor}.draw-line{transform-origin:left center}
+
+/* SKETCH presentation chrome only. The slide composition stays in style.css. */
+:root{--ui-paper:#F4F1EC;--ui-ink:#212121;--ui-mint:#AAF0CE;--ui-muted:#827F79}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1.5px solid var(--ui-ink);border-radius:7px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:4px 4px 0 var(--ui-ink);font-family:SketchSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:var(--ui-ink);font:400 12px/1.2 SketchSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:var(--ui-mint);border-color:var(--ui-ink)}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-ink);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-mint);border-color:var(--ui-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.controls .divider{display:block;height:23px;margin:auto 3px;border-left:1px solid #21212133}
+.controls #full{background:var(--ui-ink);color:var(--ui-paper);border-color:var(--ui-ink)}
+.controls #full:hover{background:var(--ui-mint);color:var(--ui-ink)}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#212121ed;color:var(--ui-paper);backdrop-filter:blur(12px);font-family:SketchSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:600 40px/1.1 SketchSerif,Georgia,serif}
+.overview header button{flex:none;padding:12px 20px;border:1.5px solid var(--ui-ink);border-radius:5px;background:var(--ui-mint);color:var(--ui-ink);box-shadow:3px 3px 0 var(--ui-paper);font:400 13px/1.2 SketchSans,Arial,sans-serif;cursor:pointer}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1.5px solid var(--ui-ink);border-radius:5px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:4px 4px 0 var(--ui-muted);text-align:left;font:400 20px/1.35 SketchSans,Arial,sans-serif;cursor:pointer}
+.overview-grid button:hover{background:var(--ui-mint);translate:-1px -1px}
+.overview-grid b{font:500 32px/1 SketchSans,Arial,sans-serif;font-variant-numeric:tabular-nums}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 21px;border:1.5px solid var(--ui-ink);border-radius:5px;background:var(--ui-mint);color:var(--ui-ink);box-shadow:4px 4px 0 var(--ui-ink);font:400 13px/1.5 SketchSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-ink);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit]{outline-color:var(--ui-mint)}
+
+/* Tiny paper squares live inside the 16:9 canvas. Mint plus width marks the active page. */
+#stage{--nav-ink:#212121;--nav-paper:#F4F1EC;--nav-accent:#AAF0CE}
+#stage[data-nav-tone=dark]{--nav-ink:#F4F1EC;--nav-paper:#F4F1EC;--nav-accent:#AAF0CE}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{position:relative;display:grid;place-items:center;width:24px;height:28px;margin:0;padding:0;border:0;border-radius:2px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button::before{content:'';display:block;width:8px;height:8px;border:1px solid var(--nav-ink);border-radius:1px;background:var(--nav-paper);opacity:.5;transition:width .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.8}
+.slide-dots button[aria-current=step]{width:36px}
+.slide-dots button[aria-current=step]::before{width:23px;height:9px;background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+.nav-tip{position:absolute;left:50%;bottom:34px;display:none;transform:translateX(-50%);padding:7px 10px;border:1px solid var(--ui-ink);border-radius:3px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:2px 2px 0 var(--ui-ink);font:400 11px/1.35 SketchSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:28px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — SKETCH data compositions only. */
+.slide.x30{background:var(--x30-bg);color:var(--x30-fg);font-synthesis:none}
+.slide.x30 .x30-heading{position:absolute;left:120px;right:120px;top:80px}
+.slide.x30 .x30-heading h2{position:static;font-family:SketchSerif,serif;font-weight:600;font-size:92px;line-height:1.12;letter-spacing:-2px;margin:0;color:var(--x30-fg)}
+.slide.x30 .x30-heading p{font:400 27px/1.5 SketchSans,sans-serif;letter-spacing:0;margin:24px 0 0;color:var(--x30-fg);opacity:.78}
+.slide.x30 .x30-content{position:absolute;left:120px;top:350px;width:1680px;height:610px}
+.slide.x30 .x30-content>svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.x30 svg .x30-label{font-family:SketchSans,sans-serif;font-weight:400;letter-spacing:0}
+.slide.x30 svg .x30-display{font-family:SketchSerif,serif;font-weight:600;letter-spacing:-1px}
+.slide.x30 [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.x30 .x30-heading h2{font-family:SketchCJKDisplay,serif;font-size:74px;font-weight:900;line-height:1.25;letter-spacing:0;font-style:normal}
+html:lang(zh) .slide.x30 .x30-heading p{font-family:SketchCJK,sans-serif;font-size:26px;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-label{font-family:SketchCJK,SketchSans,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-display{font-family:SketchSerif,SketchCJK,serif;font-weight:600;letter-spacing:0}
+/* EXPANSION30 END */

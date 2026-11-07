@@ -1,0 +1,117 @@
+{
+  "prepared_at": "2026-11-06T18:13:09.843188+00:00",
+  "license_spdx": "OFL-1.1",
+  "official_sources": [
+    "https://github.com/max32002/swei-spring",
+    "https://github.com/lxgw/LxgwWenKaiGB"
+  ],
+  "source_pins": {
+    "swei_spring": "365dde98b93b82fa809acb91587b63b0fbde1c0a",
+    "wenkai_gb_tag": "v1.530",
+    "wenkai_gb_commit": "603cad835e132872f26831e36b989c574f3d0a5a"
+  },
+  "originals": [
+    {
+      "file": "originals-cjk/SweiSpringSugarCJKsc-Black.ttf",
+      "source_url": "https://raw.githubusercontent.com/max32002/swei-spring/365dde98b93b82fa809acb91587b63b0fbde1c0a/CJK%20SC/SweiSpringSugarCJKsc-Black.ttf",
+      "bytes": 26695084,
+      "sha256": "68535c20591029ce37fe1e3b376999c1207c57c5609e18c07502da471551f0f3",
+      "official_release_sha256": null
+    },
+    {
+      "file": "originals-cjk/SweiSpringSugarCJKsc-Black.woff2",
+      "source_url": "https://raw.githubusercontent.com/max32002/swei-spring/365dde98b93b82fa809acb91587b63b0fbde1c0a/WebFont/CJK%20SC/SweiSpringSugarCJKsc-Black.woff2",
+      "bytes": 7716212,
+      "sha256": "7ed281e80569a2550de21b21d3241f1c1c5533d8d3b93fe23ec4e45adc73ffb8",
+      "official_release_sha256": null
+    },
+    {
+      "file": "originals-cjk/SweiSpring-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/max32002/swei-spring/365dde98b93b82fa809acb91587b63b0fbde1c0a/SIL_Open_Font_License_1.1.txt",
+      "bytes": 4302,
+      "sha256": "e564f06d018e7b95bc3594c96a17f1d41865af4038c375e7aa974dd69df38602",
+      "official_release_sha256": null
+    },
+    {
+      "file": "originals-cjk/SweiSpring-README.md",
+      "source_url": "https://raw.githubusercontent.com/max32002/swei-spring/365dde98b93b82fa809acb91587b63b0fbde1c0a/README.md",
+      "bytes": 11871,
+      "sha256": "c3142c6a19d99b5934ac795abb034ea1f0a22bca224758888bd40cafaa6eea4e",
+      "official_release_sha256": null
+    },
+    {
+      "file": "originals-cjk/LXGWWenKaiGB-Regular.ttf",
+      "source_url": "https://github.com/lxgw/LxgwWenkaiGB/releases/download/v1.530/LXGWWenKaiGB-Regular.ttf",
+      "bytes": 26170696,
+      "sha256": "5561d48097d92e5ab99fe7b1459d381bbcdff533bfc479207b089c6860c3990e",
+      "official_release_sha256": "5561d48097d92e5ab99fe7b1459d381bbcdff533bfc479207b089c6860c3990e"
+    },
+    {
+      "file": "originals-cjk/LXGWWenKaiGB-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKaiGB/603cad835e132872f26831e36b989c574f3d0a5a/OFL.txt",
+      "bytes": 5173,
+      "sha256": "a8aa32c38a3402ba4e40fb6d39c913300dd4a0336290dce5c14e3a2f9308d092",
+      "official_release_sha256": null
+    }
+  ],
+  "fonts": [
+    {
+      "family": "SketchCJKDisplay",
+      "file": "fonts/SketchCJKDisplay.woff2",
+      "weight": "900",
+      "style": "normal",
+      "coverage_file": "fonts/SketchCJKDisplay-coverage.json",
+      "sha256": "7ed281e80569a2550de21b21d3241f1c1c5533d8d3b93fe23ec4e45adc73ffb8",
+      "bytes": 7716212,
+      "codepoints": 42820,
+      "coverage_sha256": "45cd79f4eb7ad1d6ba401f07b940cdc5bc5c6de073383caa9611d846585ae37b",
+      "license_file": "fonts/SweiSpring-OFL.txt",
+      "license_sha256": "e564f06d018e7b95bc3594c96a17f1d41865af4038c375e7aa974dd69df38602",
+      "upstream_filename": "SweiSpringSugarCJKsc-Black.woff2",
+      "full_coverage": true,
+      "subset": false
+    },
+    {
+      "family": "SketchCJK",
+      "file": "fonts/SketchCJK.woff2",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/SketchCJK-coverage.json",
+      "sha256": "a38866a41316da20cc55aaeb1ea2a763d7ed224c3092ef92384c7f04110c1a45",
+      "bytes": 10407900,
+      "codepoints": 46926,
+      "coverage_sha256": "6c1e47ee97d49115202dc89874df5d8fbf17a8b021f99dc3c0cb3747d60902ec",
+      "license_file": "fonts/LXGWWenKaiGB-OFL.txt",
+      "license_sha256": "a8aa32c38a3402ba4e40fb6d39c913300dd4a0336290dce5c14e3a2f9308d092",
+      "upstream_filename": "LXGWWenKaiGB-Regular.ttf",
+      "full_coverage": true,
+      "subset": false
+    }
+  ],
+  "fonttools_version": "4.60.2",
+  "compression": {
+    "transformed_tables": [],
+    "brotli_quality": 9,
+    "lossless": true
+  },
+  "no_text_subsetting": true,
+  "english_font_entries_modified": false,
+  "modifications": {
+    "SketchCJKDisplay": "Official complete WOFF2 original bytes copied unchanged; CSS alias only.",
+    "SketchCJK": "Full official TTF converted to WOFF2; only font primary family/style names renamed to Sketch CJK to avoid reserved LXGW names. Glyphs, outlines, metrics and cmap retained."
+  },
+  "original_files_scope": "Preparation workspace cache only; originals-cjk is excluded from the distributable Skill. Restore original bytes from these pinned source URLs and verify the listed SHA-256 values.",
+  "distribution_files": [
+    "SketchCJKDisplay.woff2",
+    "SketchCJK.woff2",
+    "SweiSpring-OFL.txt",
+    "LXGWWenKaiGB-OFL.txt",
+    "CJK-NOTICE.txt",
+    "SketchCJKDisplay-coverage.json",
+    "SketchCJK-coverage.json",
+    "fonts-array-cjk.json",
+    "font-manifest-cjk.json",
+    "cjk-source-pins.json",
+    "prepare_cjk.py"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "theme": {
+    "en": "EDIT",
+    "zh": "精选"
+  },
+  "version": "1.0.0",
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "folded-proof",
+      "name_en": "Folded Proof",
+      "name_zh": "校样折页",
+      "category": "校阅",
+      "keywords": [
+        "proof",
+        "review",
+        "draft"
+      ],
+      "file": "folded-proof.svg"
+    },
+    {
+      "id": "kept-page",
+      "name_en": "The Kept Page",
+      "name_zh": "精选一页",
+      "category": "选择",
+      "keywords": [
+        "select",
+        "retain",
+        "essential"
+      ],
+      "file": "kept-page.svg"
+    },
+    {
+      "id": "paper-sequence",
+      "name_en": "Paper Sequence",
+      "name_zh": "纸页序列",
+      "category": "编排",
+      "keywords": [
+        "order",
+        "sequence",
+        "structure"
+      ],
+      "file": "paper-sequence.svg"
+    },
+    {
+      "id": "editorial-clip",
+      "name_en": "Editorial Clip",
+      "name_zh": "编辑书夹",
+      "category": "校阅",
+      "keywords": [
+        "hold",
+        "review",
+        "attention"
+      ],
+      "file": "editorial-clip.svg"
+    },
+    {
+      "id": "selection-window",
+      "name_en": "Selection Window",
+      "name_zh": "取景留白",
+      "category": "选择",
+      "keywords": [
+        "frame",
+        "space",
+        "focus"
+      ],
+      "file": "selection-window.svg"
+    },
+    {
+      "id": "proof-pencil",
+      "name_en": "Proof Pencil",
+      "name_zh": "校改铅笔",
+      "category": "删改",
+      "keywords": [
+        "revise",
+        "edit",
+        "mark"
+      ],
+      "file": "proof-pencil.svg"
+    },
+    {
+      "id": "cut-ribbon",
+      "name_en": "Cut Ribbon",
+      "name_zh": "删改纸带",
+      "category": "删改",
+      "keywords": [
+        "remove",
+        "trim",
+        "refine"
+      ],
+      "file": "cut-ribbon.svg"
+    },
+    {
+      "id": "proof-seal",
+      "name_en": "Proof Seal",
+      "name_zh": "定稿印记",
+      "category": "校阅",
+      "keywords": [
+        "approve",
+        "finish",
+        "publish"
+      ],
+      "file": "proof-seal.svg"
+    },
+    {
+      "id": "index-tabs",
+      "name_en": "Index Tabs",
+      "name_zh": "索引纸签",
+      "category": "选择",
+      "keywords": [
+        "index",
+        "navigate",
+        "find",
+        "organize"
+      ],
+      "file": "index-tabs.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "marked-excerpt",
+      "name_en": "Marked Excerpt",
+      "name_zh": "重点摘录",
+      "category": "选择",
+      "keywords": [
+        "excerpt",
+        "highlight",
+        "retain",
+        "quote"
+      ],
+      "file": "marked-excerpt.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "paper-fan",
+      "name_en": "Paper Fan",
+      "name_zh": "纸页扇序",
+      "category": "编排",
+      "keywords": [
+        "fan",
+        "options",
+        "sequence",
+        "arrange"
+      ],
+      "file": "paper-fan.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "accordion-fold",
+      "name_en": "Accordion Fold",
+      "name_zh": "折叠思路",
+      "category": "编排",
+      "keywords": [
+        "fold",
+        "structure",
+        "story",
+        "flow"
+      ],
+      "file": "accordion-fold.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "revision-layers",
+      "name_en": "Revision Layers",
+      "name_zh": "修订层叠",
+      "category": "删改",
+      "keywords": [
+        "version",
+        "revision",
+        "improve",
+        "iterate"
+      ],
+      "file": "revision-layers.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "torn-margin",
+      "name_en": "Torn Margin",
+      "name_zh": "撕去余边",
+      "category": "删改",
+      "keywords": [
+        "trim",
+        "remove",
+        "simplify",
+        "subtract"
+      ],
+      "file": "torn-margin.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "proof-envelope",
+      "name_en": "Proof Envelope",
+      "name_zh": "校样信封",
+      "category": "校阅",
+      "keywords": [
+        "handoff",
+        "review",
+        "send",
+        "proof"
+      ],
+      "file": "proof-envelope.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "bound-folio",
+      "name_en": "Bound Folio",
+      "name_zh": "成册文稿",
+      "category": "校阅",
+      "keywords": [
+        "publish",
+        "finish",
+        "document",
+        "book"
+      ],
+      "file": "bound-folio.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "red-bookmark",
+      "name_en": "Red Bookmark",
+      "name_zh": "红色书签",
+      "category": "选择",
+      "keywords": [
+        "bookmark",
+        "retain",
+        "select"
+      ],
+      "file": "red-bookmark.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "focus-loupe",
+      "name_en": "Reading Loupe",
+      "name_zh": "选读放大镜",
+      "category": "选择",
+      "keywords": [
+        "read",
+        "inspect",
+        "focus"
+      ],
+      "file": "focus-loupe.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "layout-ruler",
+      "name_en": "Layout Ruler",
+      "name_zh": "编排直尺",
+      "category": "编排",
+      "keywords": [
+        "alignment",
+        "layout",
+        "measure"
+      ],
+      "file": "layout-ruler.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "binder-clamp",
+      "name_en": "Binder Clamp",
+      "name_zh": "装订长尾夹",
+      "category": "编排",
+      "keywords": [
+        "bind",
+        "organize",
+        "structure"
+      ],
+      "file": "binder-clamp.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "editorial-scissors",
+      "name_en": "Editorial Scissors",
+      "name_zh": "编辑剪刀",
+      "category": "删改",
+      "keywords": [
+        "cut",
+        "trim",
+        "edit"
+      ],
+      "file": "editorial-scissors.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "correction-roller",
+      "name_en": "Correction Roller",
+      "name_zh": "校改滚轮",
+      "category": "删改",
+      "keywords": [
+        "correct",
+        "revise",
+        "remove"
+      ],
+      "file": "correction-roller.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "proof-stamp",
+      "name_en": "Proof Stamp",
+      "name_zh": "校阅印章",
+      "category": "校阅",
+      "keywords": [
+        "proof",
+        "approve",
+        "finish"
+      ],
+      "file": "proof-stamp.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "annotation-nib",
+      "name_en": "Annotation Nib",
+      "name_zh": "批注笔尖",
+      "category": "校阅",
+      "keywords": [
+        "annotate",
+        "write",
+        "review"
+      ],
+      "file": "annotation-nib.svg",
+      "added_version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "theme": "grove",
+  "name": "Leaf tip",
+  "hotspot": [
+    4,
+    4
+  ],
+  "bodySize": 34,
+  "frameSize": 64,
+  "center": [
+    21,
+    21
+  ],
+  "outline": [
+    [
+      4,
+      4
+    ],
+    [
+      18,
+      5
+    ],
+    [
+      31,
+      11
+    ],
+    [
+      37,
+      20
+    ],
+    [
+      38,
+      27
+    ],
+    [
+      32,
+      36
+    ],
+    [
+      25,
+      37
+    ],
+    [
+      17,
+      34
+    ],
+    [
+      9,
+      25
+    ],
+    [
+      5,
+      13
+    ]
+  ],
+  "trailDuration": 160,
+  "trailColors": {
+    "light": "#253A31",
+    "brand": "#F2EFDF",
+    "dark": "#B8D7B8"
+  },
+  "variants": {
+    "light": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4 C27 3 39 13 38 27 C37 37 27 41 17 34 C7 27 4 16 4 4Z\" fill=\"#253A31\" stroke=\"#F2EFDF\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M9 9 C15 17 24 26 33 32 M19 20 27 18\" fill=\"none\" stroke=\"#B8D7B8\" stroke-width=\"1.3\" stroke-linecap=\"round\" opacity=\".8\"/></g></svg>",
+    "brand": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4 C27 3 39 13 38 27 C37 37 27 41 17 34 C7 27 4 16 4 4Z\" fill=\"#F2EFDF\" stroke=\"#253A31\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M9 9 C15 17 24 26 33 32 M19 20 27 18\" fill=\"none\" stroke=\"#4CA785\" stroke-width=\"1.3\" stroke-linecap=\"round\" opacity=\".8\"/></g></svg>",
+    "dark": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4 C27 3 39 13 38 27 C37 37 27 41 17 34 C7 27 4 16 4 4Z\" fill=\"#B8D7B8\" stroke=\"#253A31\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M9 9 C15 17 24 26 33 32 M19 20 27 18\" fill=\"none\" stroke=\"#253A31\" stroke-width=\"1.3\" stroke-linecap=\"round\" opacity=\".8\"/></g></svg>"
+  },
+  "renderScale": 0.6666666666666666
+}

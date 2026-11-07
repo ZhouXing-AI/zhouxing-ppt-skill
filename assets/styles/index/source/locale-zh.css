@@ -1,0 +1,157 @@
+/* INDEX 中文版：原生压缩字形的 800 标题，正文与标签保留各自字体。无横向缩放或合成粗体。 */
+html:lang(zh) body {
+  font-family: IndexMono, IndexCJK, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  line-break: strict;
+  word-break: normal;
+}
+html:lang(zh) .slide { font-synthesis: none; }
+html:lang(zh) .slide h1,
+html:lang(zh) .slide h2 {
+  font-family: IndexDisplay, IndexCJKDisplay, IndexCJK, sans-serif;
+  font-weight: 800;
+  letter-spacing: -.015em;
+  line-height: 1.18;
+  overflow-wrap: normal;
+}
+html:lang(zh) .slide h3,
+html:lang(zh) .slide .serif,
+html:lang(zh) .chapter-tab,
+html:lang(zh) .paper-tab,
+html:lang(zh) .record-stamp,
+html:lang(zh) .minute-word,
+html:lang(zh) .review-tab,
+html:lang(zh) .closing-files > div {
+  font-family: IndexSerif, IndexCJKSerif, serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  letter-spacing: 0;
+}
+html:lang(zh) .slide p { line-height: 1.55; }
+html:lang(zh) .slide .serif { line-height: 1.36; }
+html:lang(zh) .section-label { font-size: 26px; letter-spacing: .06em; }
+html:lang(zh) .chapter-tab { font-size: 30px; padding: 13px 32px 17px; }
+
+/* 01 — 五字以内的大字行长，给正文与原生插图各留一块空间。 */
+html:lang(zh) .cover-kicker { gap: 30px; }
+html:lang(zh) .cover-kicker p { font-size: 24px; line-height: 1.45; }
+html:lang(zh) .cover h1 { top: 242px; width: 985px; font-size: 220px; line-height: 1.10; }
+html:lang(zh) .cover-bottom { gap: 24px; }
+html:lang(zh) .cover-bottom .serif { font-size: 43px; line-height: 1.35; }
+html:lang(zh) .small-index { font-size: 24px; letter-spacing: .02em; }
+
+/* 02 — 两句海报标题与纸签都按中文独立定宽。 */
+html:lang(zh) .problem .section-label { top: 82px; }
+html:lang(zh) .problem-line { top: 171px; font-size: 196px; line-height: 1.08; }
+html:lang(zh) .problem-line.light { top: 391px; }
+html:lang(zh) .problem-note { padding: 48px 50px; }
+html:lang(zh) .paper-tab { height: 50px; top: -48px; font-size: 28px; padding: 10px 40px 0; }
+html:lang(zh) .problem-note .serif { font-size: 42px; line-height: 1.5; }
+html:lang(zh) .lost-labels span { font-size: 26px; line-height: 1.4; }
+
+/* 03 — 文件夹上的短宋体标签，与常规黑体说明形成层级。 */
+html:lang(zh) .directory-head { top: 70px; }
+html:lang(zh) .directory-head h2 { font-size: 146px; line-height: 1.10; }
+html:lang(zh) .directory-head .serif { font-size: 42px; line-height: 1.35; margin: 0 20px 20px 0; }
+html:lang(zh) .file-face h3 { font-size: 60px; line-height: 1.15; }
+html:lang(zh) .file-face p { font-size: 28px; line-height: 1.55; bottom: 33px; }
+
+/* 04 — 说明保留 26px，三条内容完整落在导航安全区之上。 */
+html:lang(zh) .collect h2 { top: 132px; width: 930px; font-size: 166px; line-height: 1.10; }
+html:lang(zh) .capture-list { top: 570px; width: 880px; }
+html:lang(zh) .capture-list > div { padding: 17px 0 16px; }
+html:lang(zh) .capture-list span { font-size: 24px; }
+html:lang(zh) .capture-list h3 { font-size: 42px; line-height: 1.15; }
+html:lang(zh) .capture-list p { font-size: 26px; line-height: 1.5; margin-top: 8px; }
+
+/* 05 — 档案纸的字段、正文、注释使用三种明确字号。 */
+html:lang(zh) .sorting h2 { top: 125px; font-size: 156px; line-height: 1.10; }
+html:lang(zh) .sorting-intro { top: 182px; right: 105px; font-size: 44px; line-height: 1.4; }
+html:lang(zh) .record-heading p { font-size: 24px; }
+html:lang(zh) .record-stamp { font-size: 28px; padding: 3px 19px 6px; }
+html:lang(zh) .record-row { padding: 19px 0 15px; grid-template-columns: 225px 1fr; }
+html:lang(zh) .record-row span { font-size: 24px; }
+html:lang(zh) .record-row h3 { font-size: 42px; line-height: 1.2; }
+html:lang(zh) .record-caption { font-size: 26px; margin-top: 20px; }
+
+/* 06 — 横向连线两端的宋体短句，避免侵入几何图案。 */
+html:lang(zh) .connecting header h2 { font-size: 156px; line-height: 1.10; }
+html:lang(zh) .connecting header p { font-size: 28px; margin-top: 27px; }
+html:lang(zh) .card-label { font-size: 26px; line-height: 1.4; padding-bottom: 17px; }
+html:lang(zh) .connection-card h3 { font-size: 62px; line-height: 1.25; }
+html:lang(zh) .connection-caption { font-size: 40px; bottom: 108px; line-height: 1.35; }
+
+/* 07 — 沿用 04 / 运用，左侧书脊与右侧检索面分开排字。 */
+html:lang(zh) .retrieve h2 { left: 76px; top: 157px; width: 560px; font-size: 150px; line-height: 1.17; }
+html:lang(zh) .retrieve-spine > p { font-size: 27px; line-height: 1.65; }
+html:lang(zh) .retrieve-caption { left: 825px; top: 838px; font-size: 50px; line-height: 1.35; }
+
+/* 08 — 数字沿用英文展示字体；单位是宋体，细说明是黑体。 */
+html:lang(zh) .routine-heading h2 { font-size: 166px; line-height: 1.10; margin-top: 40px; }
+html:lang(zh) .routine-heading .serif { font-size: 40px; line-height: 1.35; margin-top: 35px; }
+html:lang(zh) .minute-word { left: 375px; bottom: 67px; font-size: 60px; }
+html:lang(zh) .routine-flow span { font-size: 24px; }
+html:lang(zh) .routine-flow h3 { font-size: 44px; line-height: 1.25; margin-top: 24px; }
+html:lang(zh) .routine-flow p { font-size: 26px; line-height: 1.6; margin-top: 20px; }
+
+/* 09 — 六字最长行，保持纸张左侧的独立标题区。 */
+html:lang(zh) .review h2 { top: 180px; width: 820px; font-size: 148px; line-height: 1.17; }
+html:lang(zh) .review-tab { font-size: 31px; padding: 12px 35px; }
+html:lang(zh) .check-item { padding: 29px 0 30px; }
+html:lang(zh) .check-item h3 { font-size: 47px; line-height: 1.2; }
+html:lang(zh) .check-item p { font-size: 26px; line-height: 1.5; margin-top: 13px; }
+html:lang(zh) .review-note { font-size: 26px; line-height: 1.55; margin-top: 30px; }
+
+/* 10 — 和封面呼应，保留底部四张文件夹。 */
+html:lang(zh) .finale-kicker { font-size: 43px; line-height: 1.4; }
+html:lang(zh) .finale h2 { top: 249px; width: 980px; font-size: 218px; line-height: 1.10; }
+html:lang(zh) .closing-files > div { font-size: 51px; padding: 27px 40px; }
+
+/* 播放器和素材库也使用已内嵌中文字体；高于后载入的 artwork.css。 */
+html:lang(zh) .controls button,
+html:lang(zh) .controls #replace-artwork,
+html:lang(zh) .overview,
+html:lang(zh) .overview header,
+html:lang(zh) .overview-grid button,
+html:lang(zh) .toast,
+html:lang(zh) .nav-tip,
+html:lang(zh) .artwork-dialog,
+html:lang(zh) .artwork-dialog button,
+html:lang(zh) .artwork-dialog select,
+html:lang(zh) .artwork-dialog input,
+html:lang(zh) .artwork-card-new {
+  font-family: IndexMono, IndexCJK, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+html:lang(zh) .artwork-header h2 {
+  font-family: IndexCJK, sans-serif;
+  font-weight: 900;
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+html:lang(zh) .artwork-preview-copy h3 {
+  font-family: IndexSerif, IndexCJKSerif, serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+html:lang(zh) .artwork-eyebrow,
+html:lang(zh) .artwork-target-row label,
+html:lang(zh) .artwork-card-name { font-weight: 400; }
+
+/* EXPANSION30: INDEX information layouts. Original ten-page rules stay intact. */
+.slide.x30-index{background:var(--xbg);color:var(--xfg);padding:0}
+.slide.x30-index:before,.slide.x30-index:after{display:none}
+.slide.x30-index .x30-heading{position:absolute;left:120px;right:120px;top:80px}
+.slide.x30-index .x30-heading h2{position:static;margin:0;font:400 94px/1.12 IndexDisplay,IndexCJKDisplay,sans-serif;letter-spacing:-.02em;white-space:nowrap;color:var(--xfg);font-synthesis:none}
+.slide.x30-index .x30-heading p{position:static;font:400 27px/1.45 IndexMono,IndexCJK,sans-serif;letter-spacing:0;margin:24px 0 0;color:var(--xfg);opacity:.78;max-width:1680px}
+.slide.x30-index .x30-body{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.x30-index .x30-body svg{width:100%;height:100%;display:block;overflow:visible}
+.slide.x30-index .x30-body text{font-family:IndexMono,IndexCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.x30-index .x30-body text.x30-display{font-family:IndexDisplay,IndexCJKDisplay,sans-serif;font-weight:400;letter-spacing:-.012em}
+.slide.x30-index [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.x30-index .x30-heading h2{font-family:IndexDisplay,IndexCJKDisplay,IndexCJK,sans-serif;font-size:88px;font-weight:800;letter-spacing:0;line-height:1.22;margin:0}
+html:lang(zh) .slide.x30-index .x30-heading p{font-family:IndexMono,IndexCJK,sans-serif;font-size:27px;line-height:1.5;letter-spacing:0}
+html:lang(zh) .slide.x30-index .x30-body text{font-family:IndexMono,IndexCJK,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.x30-index .x30-body text.x30-display{font-family:IndexDisplay,IndexCJKDisplay,IndexCJK,sans-serif;font-weight:800;letter-spacing:0}

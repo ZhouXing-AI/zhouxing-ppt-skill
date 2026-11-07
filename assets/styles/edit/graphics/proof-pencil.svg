@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="proof-pencil-title"><title id="proof-pencil-title">A vermilion lacquer editing pencil with a sharpened wooden point</title><defs><linearGradient id="proof-pencil-paper" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#fffdf5"/><stop offset=".3" stop-color="#fcf8f0"/><stop offset=".7" stop-color="#e5d8c9"/><stop offset="1" stop-color="#cdbba8"/></linearGradient><linearGradient id="proof-pencil-paper-bright" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#fffef7"/><stop offset=".45" stop-color="#fcf8f0"/><stop offset=".78" stop-color="#f1e7da"/><stop offset="1" stop-color="#d6c7b8"/></linearGradient><linearGradient id="proof-pencil-paper-edge" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#e8dac8"/><stop offset=".3" stop-color="#fffdf3"/><stop offset=".6" stop-color="#bda991"/><stop offset="1" stop-color="#ddcbb8"/></linearGradient><linearGradient id="proof-pencil-red" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#e58e72"/><stop offset=".15" stop-color="#c65a43"/><stop offset=".4" stop-color="#b64032"/><stop offset=".72" stop-color="#8a2c28"/><stop offset="1" stop-color="#54202a"/></linearGradient><linearGradient id="proof-pencil-red-soft" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#cc6650"/><stop offset=".35" stop-color="#b64032"/><stop offset=".7" stop-color="#97312c"/><stop offset="1" stop-color="#66232a"/></linearGradient><linearGradient id="proof-pencil-red-dark" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#8e332d"/><stop offset=".4" stop-color="#722b2b"/><stop offset="1" stop-color="#352129"/></linearGradient><linearGradient id="proof-pencil-red-edge" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#efb19a"/><stop offset=".35" stop-color="#c25c49"/><stop offset=".6" stop-color="#84312d"/><stop offset="1" stop-color="#d2765e"/></linearGradient><radialGradient id="proof-pencil-shadow"><stop stop-color="#352129" stop-opacity=".22"/><stop offset=".45" stop-color="#352129" stop-opacity=".09"/><stop offset="1" stop-color="#352129" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="512" cy="844" rx="360" ry="42" fill="url(#proof-pencil-shadow)"/>
+<g transform="translate(5 -5) rotate(-43 500 500)">
+<defs><linearGradient id="proof-pencil-barrel" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#a3372f"/><stop offset=".13" stop-color="#e18468"/><stop offset=".22" stop-color="#eea082"/><stop offset=".3" stop-color="#c95740"/><stop offset=".52" stop-color="#b64032"/><stop offset=".8" stop-color="#9e342e"/><stop offset="1" stop-color="#64252b"/></linearGradient><linearGradient id="proof-pencil-wood" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#faf0d7"/><stop offset=".22" stop-color="#edd6af"/><stop offset=".6" stop-color="#cba779"/><stop offset="1" stop-color="#b08a63"/></linearGradient><linearGradient id="proof-pencil-woodface" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#fff7e1"/><stop offset=".5" stop-color="#ecd3aa"/><stop offset="1" stop-color="#c29a70"/></linearGradient><linearGradient id="proof-pencil-lead" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#9a8782"/><stop offset=".25" stop-color="#635158"/><stop offset=".6" stop-color="#352129"/><stop offset="1" stop-color="#18141b"/></linearGradient></defs>
+<path d="M219 434 L866 434 Q892 434 905 455 L905 535 Q894 557 866 562 L219 562Z" fill="url(#proof-pencil-red-dark)"/>
+<path d="M230 434 L866 434 L888 458 L230 458 L78 501Z" fill="url(#proof-pencil-red-edge)"/>
+<path d="M230 458 L888 458 L888 529 L230 529Z" fill="url(#proof-pencil-barrel)"/>
+<path d="M230 529 L888 529 L866 562 L219 562 L79 501Z" fill="url(#proof-pencil-red-dark)"/>
+<path d="M867 435 Q894 437 905 456 L905 535 Q891 554 867 562 L888 529 L888 458Z" fill="url(#proof-pencil-red-soft)"/>
+<path d="M230 458 L888 458" fill="none" stroke="#f3b79e" stroke-width="1.7" opacity="0.75"/>
+<path d="M238 529 L884 529" fill="none" stroke="#65252b" stroke-width="1.4" opacity="0.7"/>
+<path d="M245 475 L860 475" fill="none" stroke="#f6bca1" stroke-width="3" opacity="0.2"/>
+<path d="M230 434 Q241 443 230 458 L79 501Z" fill="url(#proof-pencil-woodface)"/>
+<path d="M230 458 Q221 474 231 488 L233 513 Q220 522 230 529 L79 501Z" fill="url(#proof-pencil-wood)"/>
+<path d="M230 529 Q242 546 219 562 L79 501Z" fill="#bd956e"/>
+<path d="M221.00 443.00 Q172 469.35 126 488.60" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M212.59 449.88 Q172 472.44 126 489.98" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M211.91 456.75 Q172 475.54 126 491.35" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M219.59 463.62 Q172 478.63 126 492.73" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M228.57 470.50 Q172 481.73 126 494.10" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M230.59 477.38 Q172 484.82 126 495.48" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M223.79 484.25 Q172 487.91 126 496.85" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M214.43 491.12 Q172 491.01 126 498.23" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M211.11 498.00 Q172 494.10 126 499.60" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M216.88 504.88 Q172 497.19 126 500.98" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M226.44 511.75 Q172 500.29 126 502.35" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M231.00 518.62 Q172 503.38 126 503.73" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M226.37 525.50 Q172 506.48 126 505.10" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M216.80 532.38 Q172 509.57 126 506.48" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M211.09 539.25 Q172 512.66 126 507.85" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M214.50 546.12 Q172 515.76 126 509.23" fill="none" stroke="#846044" stroke-width="0.6" opacity="0.23"/>
+<path d="M133 484 L79 501 L135 519 Q147 502 133 484Z" fill="url(#proof-pencil-lead)"/>
+<path d="M80 501 134 493" fill="none" stroke="#c4b6a2" stroke-width="0.8" opacity="0.35"/>
+<path d="M848 435 L870 458 L870 529 L848 562" fill="none" stroke="#cf745e" stroke-width="1.5" opacity="0.7"/>
+<path d="M853 435 L875 458 L875 529 L853 562" fill="none" stroke="#64252b" stroke-width="1" opacity="0.7"/>
+</g>
+<path d="M705 731 C759 700 814 717 814 759 C813 797 757 812 725 783 C767 797 789 771 776 752 C765 739 744 742 730 752Z" fill="url(#proof-pencil-paper)"/>
+<path d="M705 731 C759 700 814 717 814 759 C813 797 757 812 725 783" fill="none" stroke="#b64032" stroke-width="3"/>
+<path d="M731 752 C746 739 765 738 776 752" fill="none" stroke="#ad8b6e" stroke-width="1.2"/>
+</svg>

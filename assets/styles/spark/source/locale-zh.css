@@ -1,0 +1,46 @@
+/* Smiley Sans is a naturally oblique original face (400 italic), not a CSS-skewed upright font. */
+html:lang(zh) body{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-style:normal;font-synthesis:none}
+html:lang(zh) :is(.slide h1,.slide h2,.slide h3){font-family:SparkCJKDisplay,SparkCJK,sans-serif;font-weight:400;font-style:italic;font-synthesis:none;letter-spacing:0}
+html:lang(zh) .label{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;letter-spacing:.05em}
+html:lang(zh) .cover h1{font-size:166px;line-height:1.21;top:309px;left:120px}
+html:lang(zh) .cover-copy{font-size:29px;line-height:1.7}
+html:lang(zh) .cover-tag{font-size:21px}
+html:lang(zh) .action h2{font-size:172px;line-height:1.28;top:197px;left:122px}
+html:lang(zh) .specific>h2{font-size:143px;line-height:1.13}
+html:lang(zh) .specific-notes h3{font-size:64px;line-height:1.15}
+html:lang(zh) .resources>h2{font-size:138px;line-height:1.17}
+html:lang(zh) .resources-grid h3{font-size:62px;line-height:1.2;margin-top:28px}
+html:lang(zh) .resources-grid p{font-size:26px;margin-top:22px}
+html:lang(zh) .version h2{font-size:151px;line-height:1.28;top:175px;left:122px}
+html:lang(zh) .version-copy{font-size:33px}
+html:lang(zh) .experiment h2{font-size:140px;line-height:1.22;top:110px}
+html:lang(zh) .experiment-list li{font-size:28px}
+html:lang(zh) .progress>h2{font-size:110px;line-height:1.23;left:920px}
+html:lang(zh) .progress-list h3{font-size:50px;line-height:1.15}
+html:lang(zh) .progress-list p{font-size:27px;line-height:1.6}
+html:lang(zh) .review>h2{font-size:140px;line-height:1.2}
+html:lang(zh) .review-grid h3{font-size:77px;line-height:1.1;margin-top:58px}
+html:lang(zh) .review-grid p{font-size:27px}
+html:lang(zh) .practice>h2{font-size:126px;line-height:1.17}
+html:lang(zh) .practice-grid h3{font-size:67px;line-height:1.13}
+html:lang(zh) .practice-grid p{font-size:25px}
+html:lang(zh) .closing h2{font-size:139px;line-height:1.23;top:126px}
+html:lang(zh) .closing-copy{font-size:29px}
+html:lang(zh) .restart{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-style:normal}
+
+/* EXPANSION30 START — measured content layouts, theme-owned typography. */
+.slide.expansion30{background:#F1F2EE;color:#11140F}.slide.expansion30.x30-dark{background:#11140F;color:#F1F2EE} 
+.slide.expansion30 .x30-head{position:absolute;left:120px;right:120px;top:80px;margin:0;z-index:2}
+.slide.expansion30 .x30-head h2{position:static;margin:0;font-family:SparkDisplay,SparkCJKDisplay,sans-serif;font-size:116px;font-weight:800;font-style:normal;line-height:1.12;letter-spacing:-1.2px;white-space:nowrap;font-synthesis:none;color:inherit}
+.slide.expansion30 .x30-sub{position:absolute;left:0;right:0;top:120px;margin:0;font:400 27px/1.5 SparkSans,SparkCJK,sans-serif;letter-spacing:0;color:inherit;opacity:.78}
+.slide.expansion30 .x30-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.expansion30 .x30-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.expansion30 .x30-chart text{font-family:SparkSans,SparkCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.expansion30 .x30-chart text.x30-display{font-family:SparkDisplay,SparkCJK,sans-serif;font-weight:800;font-style:normal;font-synthesis:none;letter-spacing:-1px}
+.slide.expansion30 .x30-chart :is(path,line,rect,circle){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.expansion30 .x30-head h2{font-family:SparkCJKDisplay,SparkDisplay,sans-serif;font-size:80px;font-weight:400;font-style:italic;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.expansion30 .x30-sub{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .slide.expansion30 .x30-chart text{font-family:SparkSans,SparkCJK,sans-serif;font-weight:400}
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:SparkDisplay,SparkCJK,sans-serif;font-weight:800;font-style:normal}
+/* EXPANSION30 END */
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;letter-spacing:0}

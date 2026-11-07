@@ -1,0 +1,54 @@
+/* EDIT · 精选 — a type-led editorial edition; no loss of written figure captions. */
+.slide.text-led :is(h1,h2,h3,p,figcaption){overflow-wrap:break-word;white-space:normal}
+.slide.text-led :is(.cover-object,.cover-margin,.clip-object,.closing-object),
+.slide.text-led :is(.promise-object,.sequence-object)>.artwork-tilt{display:none}
+.slide.text-led.cover h1{inset:auto;left:145px;right:145px;top:270px;display:flex;gap:90px;align-items:baseline;flex-wrap:wrap;line-height:1;pointer-events:auto}
+.slide.text-led.cover h1>span{position:relative;inset:auto;min-width:0;font-size:285px;line-height:1.05}
+.slide.text-led.cover h1 .title-first::after{bottom:-26px;left:0;right:0}
+.slide.text-led.cover h1 .title-second{font-size:340px}
+.slide.text-led.cover h1 .title-second .red{position:static;font-size:inherit;line-height:inherit}
+.slide.text-led.cover .cover-revision{left:155px;top:735px;width:760px}
+.slide.text-led.cover .cover-note{left:1160px;right:140px;top:730px;width:auto;border-left:1px solid #b6403266;padding-left:55px}
+.slide.text-led.cover .cover-note p{font-size:35px;line-height:1.4}
+.slide.text-led.promise .promise-left{left:130px;top:150px;width:760px}
+.slide.text-led.promise .promise-left h2{font-size:160px;line-height:1.02;margin-top:70px}
+.slide.text-led.promise .promise-left h2 em{font-size:255px}
+.slide.text-led.promise .promise-right{left:1040px;right:140px;top:275px;width:auto;height:410px;padding:55px 0 0 65px}
+.slide.text-led.promise .promise-right .question-text{font-size:80px;line-height:1.2}
+.slide.text-led.promise .promise-object{left:1110px;right:150px;top:760px;width:auto;height:auto}
+.slide.text-led.promise .promise-object figcaption{text-align:left;font-size:35px;line-height:1.35}
+.slide.text-led.order>h2{left:130px;right:130px;top:110px;font-size:130px;line-height:1.08}
+.slide.text-led.order .order-list{left:135px;right:135px;top:340px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 100px}
+.slide.text-led.order .order-list>.label{grid-column:1/-1;margin:0 0 20px}
+.slide.text-led.order .order-list article{display:grid;grid-template-columns:60px minmax(0,1fr);min-height:165px;padding:26px 0;align-content:start;gap:14px 28px}
+.slide.text-led.order .order-list article>span{grid-row:1/3}
+.slide.text-led.order .order-list h3{font-size:57px;line-height:1.1}
+.slide.text-led.order .order-list article p{grid-column:2;margin:0;font-size:30px;line-height:1.4}
+.slide.text-led.order .sequence-object{left:135px;right:135px;top:auto;bottom:140px;width:auto;height:auto}
+.slide.text-led.order .sequence-object figcaption{text-align:left;font-size:34px;line-height:1.35}
+.slide.text-led.ritual .edit-card{transform:none;box-shadow:none}
+.slide.text-led.finale h2{left:135px;right:150px;top:240px;width:auto;font-size:182px;line-height:1.04;text-align:center}
+.slide.text-led.finale h2 span+span{font-size:182px;line-height:1.04}
+/* Revision arrows, strike-through marks, type hierarchy and checklists carry editorial meaning. */
+html:lang(zh) .slide.text-led.cover h1{top:265px;gap:115px;left:165px;right:165px}
+html:lang(zh) .slide.text-led.cover h1>span{font-size:295px;line-height:1.18}
+html:lang(zh) .slide.text-led.cover h1 .title-second{font-size:295px;left:auto;top:auto}
+html:lang(zh) .slide.text-led.cover h1 .title-first::after{left:0;right:0;bottom:-25px}
+html:lang(zh) .slide.text-led.cover h1 .title-second .red{font-size:100px;position:static;line-height:1}
+html:lang(zh) .slide.text-led.cover .cover-revision{top:735px}
+html:lang(zh) .slide.text-led.cover .cover-note{top:725px;left:1100px;width:auto}
+html:lang(zh) .slide.text-led.cover .cover-note p{font-size:31px;line-height:1.6}
+html:lang(zh) .slide.text-led.promise .promise-left h2{font-size:125px;line-height:1.18}
+html:lang(zh) .slide.text-led.promise .promise-left h2 em{font-size:210px}
+html:lang(zh) .slide.text-led.promise .promise-right .question-text{font-size:54px;line-height:1.6}
+html:lang(zh) .slide.text-led.promise .promise-object figcaption{font-size:31px;line-height:1.6}
+html:lang(zh) .slide.text-led.order>h2{font-size:112px;line-height:1.3}
+html:lang(zh) .slide.text-led.order .order-list{top:340px}
+html:lang(zh) .slide.text-led.order .order-list h3{font-size:49px;line-height:1.35}
+html:lang(zh) .slide.text-led.order .order-list article p{font-size:28px;line-height:1.6}
+html:lang(zh) .slide.text-led.order .sequence-object figcaption{font-size:30px;line-height:1.6}
+html:lang(zh) .slide.text-led.finale h2{left:135px;right:150px;top:245px;width:auto;font-size:142px;line-height:1.3}
+html:lang(zh) .slide.text-led.finale h2 span+span{font-size:142px;line-height:1.3}
+
+/* Author-selected per-slide text layout; charts and controls are unaffected. */
+.slide.text-led [data-decoration]{display:none!important}

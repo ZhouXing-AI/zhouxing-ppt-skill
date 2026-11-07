@@ -1,0 +1,1 @@
+ShiftDots and ShiftSans are locally subsetted, renamed Modified Versions of Doto and Instrument Sans. The original copyright and SIL OFL 1.1 notices are preserved in the font metadata and accompanying license files. The original downloaded TTF files are unmodified. Retain both OFL texts when embedding the WOFF2 files in a distributable HTML document.

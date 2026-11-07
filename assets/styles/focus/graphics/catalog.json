@@ -1,0 +1,309 @@
+{
+  "theme": {
+    "en": "FOCUS",
+    "zh": "明晰"
+  },
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "focus-ring",
+      "name_en": "Focus Ring",
+      "name_zh": "聚焦透镜",
+      "category": "观察",
+      "keywords": [
+        "focus",
+        "evidence",
+        "clarity"
+      ],
+      "file": "focus-ring.svg"
+    },
+    {
+      "id": "signal-prism",
+      "name_en": "Signal Prism",
+      "name_zh": "信号棱镜",
+      "category": "观察",
+      "keywords": [
+        "observe",
+        "perspective",
+        "signal"
+      ],
+      "file": "signal-prism.svg"
+    },
+    {
+      "id": "linked-rings",
+      "name_en": "Linked Rings",
+      "name_zh": "协作双环",
+      "category": "连接",
+      "keywords": [
+        "collaborate",
+        "relationship"
+      ],
+      "file": "linked-rings.svg"
+    },
+    {
+      "id": "bridge-connector",
+      "name_en": "Bridge Connector",
+      "name_zh": "连接桥",
+      "category": "连接",
+      "keywords": [
+        "bridge",
+        "connect",
+        "handoff"
+      ],
+      "file": "bridge-connector.svg"
+    },
+    {
+      "id": "rising-steps",
+      "name_en": "Rising Steps",
+      "name_zh": "递进阶梯",
+      "category": "推进",
+      "keywords": [
+        "progress",
+        "growth",
+        "stages"
+      ],
+      "file": "rising-steps.svg"
+    },
+    {
+      "id": "flow-ribbon",
+      "name_en": "Flow Ribbon",
+      "name_zh": "流动丝带",
+      "category": "推进",
+      "keywords": [
+        "motion",
+        "continuity",
+        "direction"
+      ],
+      "file": "flow-ribbon.svg"
+    },
+    {
+      "id": "layered-system",
+      "name_en": "Layered System",
+      "name_zh": "层叠系统",
+      "category": "结构",
+      "keywords": [
+        "layers",
+        "system",
+        "knowledge"
+      ],
+      "file": "layered-system.svg"
+    },
+    {
+      "id": "modular-cluster",
+      "name_en": "Modular Cluster",
+      "name_zh": "模块集群",
+      "category": "结构",
+      "keywords": [
+        "modules",
+        "organization",
+        "building"
+      ],
+      "file": "modular-cluster.svg"
+    },
+    {
+      "id": "balanced-form",
+      "name_en": "Balanced Form",
+      "name_zh": "平衡构件",
+      "category": "取舍",
+      "keywords": [
+        "balance",
+        "tradeoff",
+        "choice"
+      ],
+      "file": "balanced-form.svg"
+    },
+    {
+      "id": "branching-path",
+      "name_en": "Branching Path",
+      "name_zh": "分岔路径",
+      "category": "取舍",
+      "keywords": [
+        "options",
+        "decision",
+        "paths"
+      ],
+      "file": "branching-path.svg"
+    },
+    {
+      "id": "open-frame",
+      "name_en": "Open Frame",
+      "name_zh": "开放框架",
+      "category": "空间",
+      "keywords": [
+        "space",
+        "adapt",
+        "opportunity"
+      ],
+      "file": "open-frame.svg"
+    },
+    {
+      "id": "unfolding-form",
+      "name_en": "Unfolding Form",
+      "name_zh": "展开形态",
+      "category": "空间",
+      "keywords": [
+        "potential",
+        "unfold",
+        "discovery"
+      ],
+      "file": "unfolding-form.svg"
+    },
+    {
+      "id": "orbit-signal",
+      "name_en": "Orbit Signal",
+      "name_zh": "环绕信号",
+      "category": "观察",
+      "keywords": [
+        "signal",
+        "awareness",
+        "orbit"
+      ],
+      "file": "orbit-signal.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "wave-channel",
+      "name_en": "Wave Channel",
+      "name_zh": "波形通道",
+      "category": "观察",
+      "keywords": [
+        "pattern",
+        "wave",
+        "insight"
+      ],
+      "file": "wave-channel.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "woven-link",
+      "name_en": "Woven Link",
+      "name_zh": "交织连接",
+      "category": "连接",
+      "keywords": [
+        "interlock",
+        "teamwork",
+        "weave"
+      ],
+      "file": "woven-link.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "relay-nodes",
+      "name_en": "Relay Nodes",
+      "name_zh": "协作节点",
+      "category": "连接",
+      "keywords": [
+        "network",
+        "relay",
+        "collaborate"
+      ],
+      "file": "relay-nodes.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "momentum-arrow",
+      "name_en": "Momentum Arrow",
+      "name_zh": "动量箭头",
+      "category": "推进",
+      "keywords": [
+        "momentum",
+        "forward",
+        "execution"
+      ],
+      "file": "momentum-arrow.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "ascending-helix",
+      "name_en": "Ascending Helix",
+      "name_zh": "上升螺旋",
+      "category": "推进",
+      "keywords": [
+        "growth",
+        "iterate",
+        "ascent"
+      ],
+      "file": "ascending-helix.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "nested-architecture",
+      "name_en": "Nested Architecture",
+      "name_zh": "嵌套架构",
+      "category": "结构",
+      "keywords": [
+        "architecture",
+        "layers",
+        "framework"
+      ],
+      "file": "nested-architecture.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "core-assembly",
+      "name_en": "Core Assembly",
+      "name_zh": "核心组件",
+      "category": "结构",
+      "keywords": [
+        "core",
+        "assembly",
+        "system"
+      ],
+      "file": "core-assembly.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "pivot-disc",
+      "name_en": "Pivot Disc",
+      "name_zh": "决策支点",
+      "category": "取舍",
+      "keywords": [
+        "pivot",
+        "balance",
+        "adjust"
+      ],
+      "file": "pivot-disc.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "selective-gate",
+      "name_en": "Selective Gate",
+      "name_zh": "选择之门",
+      "category": "取舍",
+      "keywords": [
+        "filter",
+        "choose",
+        "priority"
+      ],
+      "file": "selective-gate.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "expanding-fan",
+      "name_en": "Expanding Fan",
+      "name_zh": "扩展扇面",
+      "category": "空间",
+      "keywords": [
+        "expand",
+        "opportunity",
+        "possibilities"
+      ],
+      "file": "expanding-fan.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "horizon-portal",
+      "name_en": "Horizon Portal",
+      "name_zh": "远景之窗",
+      "category": "空间",
+      "keywords": [
+        "vision",
+        "horizon",
+        "future"
+      ],
+      "file": "horizon-portal.svg",
+      "added_version": "1.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

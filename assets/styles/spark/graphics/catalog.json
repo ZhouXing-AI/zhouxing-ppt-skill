@@ -1,0 +1,562 @@
+{
+  "theme": {
+    "en": "SPARK",
+    "zh": "燃点"
+  },
+  "version": "1.0.0",
+  "license": "Original SVG illustrations by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "ignition-switch",
+      "name_en": "Ignition Switch",
+      "name_zh": "启动开关",
+      "category": "start",
+      "file": "ignition-switch.svg",
+      "keywords": [
+        "ignition switch",
+        "start",
+        "启动开关",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Make the first decisive action clear.",
+      "description_zh": "明确迈出的第一个动作。",
+      "description": {
+        "en": "Make the first decisive action clear.",
+        "zh": "明确迈出的第一个动作。"
+      }
+    },
+    {
+      "id": "idea-capsule",
+      "name_en": "Idea Capsule",
+      "name_zh": "想法胶囊",
+      "category": "start",
+      "file": "idea-capsule.svg",
+      "keywords": [
+        "idea capsule",
+        "start",
+        "想法胶囊",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Keep one promising idea compact enough to begin.",
+      "description_zh": "把一个有希望的想法收拢到可以开始。",
+      "description": {
+        "en": "Keep one promising idea compact enough to begin.",
+        "zh": "把一个有希望的想法收拢到可以开始。"
+      }
+    },
+    {
+      "id": "pull-tab",
+      "name_en": "Pull Tab",
+      "name_zh": "释放拉片",
+      "category": "start",
+      "file": "pull-tab.svg",
+      "keywords": [
+        "pull tab",
+        "start",
+        "释放拉片",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Release the hold that prevents a start.",
+      "description_zh": "释放阻止开始的约束。",
+      "description": {
+        "en": "Release the hold that prevents a start.",
+        "zh": "释放阻止开始的约束。"
+      }
+    },
+    {
+      "id": "trigger-puck",
+      "name_en": "Trigger Puck",
+      "name_zh": "触发圆钮",
+      "category": "start",
+      "file": "trigger-puck.svg",
+      "keywords": [
+        "trigger puck",
+        "start",
+        "触发圆钮",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Give the next action a tangible trigger.",
+      "description_zh": "为下一步提供明确的触发点。",
+      "description": {
+        "en": "Give the next action a tangible trigger.",
+        "zh": "为下一步提供明确的触发点。"
+      }
+    },
+    {
+      "id": "fuse-bulb",
+      "name_en": "Fuse Bulb",
+      "name_zh": "点亮想法",
+      "category": "start",
+      "file": "fuse-bulb.svg",
+      "keywords": [
+        "fuse bulb",
+        "start",
+        "点亮想法",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Turn a faint possibility into an active idea.",
+      "description_zh": "让微弱的可能成为行动中的想法。",
+      "description": {
+        "en": "Turn a faint possibility into an active idea.",
+        "zh": "让微弱的可能成为行动中的想法。"
+      }
+    },
+    {
+      "id": "spring-start",
+      "name_en": "Spring Start",
+      "name_zh": "蓄能弹簧",
+      "category": "start",
+      "file": "spring-start.svg",
+      "keywords": [
+        "spring start",
+        "start",
+        "蓄能弹簧",
+        "action",
+        "行动",
+        "启动",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Release the energy gathered before a start.",
+      "description_zh": "释放开始之前积蓄的能量。",
+      "description": {
+        "en": "Release the energy gathered before a start.",
+        "zh": "释放开始之前积蓄的能量。"
+      }
+    },
+    {
+      "id": "modular-joint",
+      "name_en": "Modular Joint",
+      "name_zh": "组合接头",
+      "category": "shape",
+      "file": "modular-joint.svg",
+      "keywords": [
+        "modular joint",
+        "shape",
+        "组合接头",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Join separate parts around a shared purpose.",
+      "description_zh": "围绕共同目标连接独立部分。",
+      "description": {
+        "en": "Join separate parts around a shared purpose.",
+        "zh": "围绕共同目标连接独立部分。"
+      }
+    },
+    {
+      "id": "folded-panel",
+      "name_en": "Folded Panel",
+      "name_zh": "折叠面板",
+      "category": "shape",
+      "file": "folded-panel.svg",
+      "keywords": [
+        "folded panel",
+        "shape",
+        "折叠面板",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Give a flat proposal a more useful shape.",
+      "description_zh": "让平面的提议形成更有用的结构。",
+      "description": {
+        "en": "Give a flat proposal a more useful shape.",
+        "zh": "让平面的提议形成更有用的结构。"
+      }
+    },
+    {
+      "id": "snap-frame",
+      "name_en": "Snap Frame",
+      "name_zh": "卡合框架",
+      "category": "shape",
+      "file": "snap-frame.svg",
+      "keywords": [
+        "snap frame",
+        "shape",
+        "卡合框架",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Hold the structure while keeping it adjustable.",
+      "description_zh": "稳住结构，同时保留调整空间。",
+      "description": {
+        "en": "Hold the structure while keeping it adjustable.",
+        "zh": "稳住结构，同时保留调整空间。"
+      }
+    },
+    {
+      "id": "flexible-elbow",
+      "name_en": "Flexible Elbow",
+      "name_zh": "转向弯头",
+      "category": "shape",
+      "file": "flexible-elbow.svg",
+      "keywords": [
+        "flexible elbow",
+        "shape",
+        "转向弯头",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Change direction without breaking continuity.",
+      "description_zh": "改变方向而不打断连续性。",
+      "description": {
+        "en": "Change direction without breaking continuity.",
+        "zh": "改变方向而不打断连续性。"
+      }
+    },
+    {
+      "id": "hinge-panels",
+      "name_en": "Hinge Panels",
+      "name_zh": "铰接双板",
+      "category": "shape",
+      "file": "hinge-panels.svg",
+      "keywords": [
+        "hinge panels",
+        "shape",
+        "铰接双板",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Connect different surfaces so they can still move.",
+      "description_zh": "让不同部分联结后仍能变化。",
+      "description": {
+        "en": "Connect different surfaces so they can still move.",
+        "zh": "让不同部分联结后仍能变化。"
+      }
+    },
+    {
+      "id": "sculpted-wave",
+      "name_en": "Sculpted Wave",
+      "name_zh": "塑形波带",
+      "category": "shape",
+      "file": "sculpted-wave.svg",
+      "keywords": [
+        "sculpted wave",
+        "shape",
+        "塑形波带",
+        "action",
+        "行动",
+        "塑形",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Find a useful curve within a rigid route.",
+      "description_zh": "在直接路径中找到有用的弯曲。",
+      "description": {
+        "en": "Find a useful curve within a rigid route.",
+        "zh": "在直接路径中找到有用的弯曲。"
+      }
+    },
+    {
+      "id": "test-loop",
+      "name_en": "Test Loop",
+      "name_zh": "试验回路",
+      "category": "test",
+      "file": "test-loop.svg",
+      "keywords": [
+        "test loop",
+        "test",
+        "试验回路",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Return what is learned to the next trial.",
+      "description_zh": "把获得的认识带回下一轮尝试。",
+      "description": {
+        "en": "Return what is learned to the next trial.",
+        "zh": "把获得的认识带回下一轮尝试。"
+      }
+    },
+    {
+      "id": "gauge-window",
+      "name_en": "Gauge Window",
+      "name_zh": "检验视窗",
+      "category": "test",
+      "file": "gauge-window.svg",
+      "keywords": [
+        "gauge window",
+        "test",
+        "检验视窗",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Make changing test conditions visible.",
+      "description_zh": "让变化的试验条件可见。",
+      "description": {
+        "en": "Make changing test conditions visible.",
+        "zh": "让变化的试验条件可见。"
+      }
+    },
+    {
+      "id": "balance-gate",
+      "name_en": "Balance Gate",
+      "name_zh": "权衡支架",
+      "category": "test",
+      "file": "balance-gate.svg",
+      "keywords": [
+        "balance gate",
+        "test",
+        "权衡支架",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Compare the consequences of two options.",
+      "description_zh": "比较两种选择带来的结果。",
+      "description": {
+        "en": "Compare the consequences of two options.",
+        "zh": "比较两种选择带来的结果。"
+      }
+    },
+    {
+      "id": "iteration-wheel",
+      "name_en": "Iteration Wheel",
+      "name_zh": "迭代转轮",
+      "category": "test",
+      "file": "iteration-wheel.svg",
+      "keywords": [
+        "iteration wheel",
+        "test",
+        "迭代转轮",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Use another pass to improve the result.",
+      "description_zh": "通过下一轮改善结果。",
+      "description": {
+        "en": "Use another pass to improve the result.",
+        "zh": "通过下一轮改善结果。"
+      }
+    },
+    {
+      "id": "split-track",
+      "name_en": "Split Track",
+      "name_zh": "分支试道",
+      "category": "test",
+      "file": "split-track.svg",
+      "keywords": [
+        "split track",
+        "test",
+        "分支试道",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Try distinct routes from the same starting point.",
+      "description_zh": "从相同起点尝试不同路径。",
+      "description": {
+        "en": "Try distinct routes from the same starting point.",
+        "zh": "从相同起点尝试不同路径。"
+      }
+    },
+    {
+      "id": "probe-arm",
+      "name_en": "Probe Arm",
+      "name_zh": "探测试臂",
+      "category": "test",
+      "file": "probe-arm.svg",
+      "keywords": [
+        "probe arm",
+        "test",
+        "探测试臂",
+        "action",
+        "行动",
+        "试验",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Hold one small sample still enough to examine.",
+      "description_zh": "稳住一个小样本以便观察。",
+      "description": {
+        "en": "Hold one small sample still enough to examine.",
+        "zh": "稳住一个小样本以便观察。"
+      }
+    },
+    {
+      "id": "step-blocks",
+      "name_en": "Step Blocks",
+      "name_zh": "递进块",
+      "category": "advance",
+      "file": "step-blocks.svg",
+      "keywords": [
+        "step blocks",
+        "advance",
+        "递进块",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Make progress through a sequence of usable steps.",
+      "description_zh": "通过连续而可行的小步取得进展。",
+      "description": {
+        "en": "Make progress through a sequence of usable steps.",
+        "zh": "通过连续而可行的小步取得进展。"
+      }
+    },
+    {
+      "id": "momentum-arrow",
+      "name_en": "Momentum Arrow",
+      "name_zh": "动量箭头",
+      "category": "advance",
+      "file": "momentum-arrow.svg",
+      "keywords": [
+        "momentum arrow",
+        "advance",
+        "动量箭头",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Turn accumulated intent into forward movement.",
+      "description_zh": "把积累的意图变成前进动作。",
+      "description": {
+        "en": "Turn accumulated intent into forward movement.",
+        "zh": "把积累的意图变成前进动作。"
+      }
+    },
+    {
+      "id": "launch-ramp",
+      "name_en": "Launch Ramp",
+      "name_zh": "起步坡道",
+      "category": "advance",
+      "file": "launch-ramp.svg",
+      "keywords": [
+        "launch ramp",
+        "advance",
+        "起步坡道",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Build a clear route from effort to movement.",
+      "description_zh": "建立从投入到行动的清楚路径。",
+      "description": {
+        "en": "Build a clear route from effort to movement.",
+        "zh": "建立从投入到行动的清楚路径。"
+      }
+    },
+    {
+      "id": "relay-baton",
+      "name_en": "Relay Baton",
+      "name_zh": "接力短棒",
+      "category": "advance",
+      "file": "relay-baton.svg",
+      "keywords": [
+        "relay baton",
+        "advance",
+        "接力短棒",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Hand useful progress to the next person.",
+      "description_zh": "把有用的进展交给下一个人。",
+      "description": {
+        "en": "Hand useful progress to the next person.",
+        "zh": "把有用的进展交给下一个人。"
+      }
+    },
+    {
+      "id": "expanding-gate",
+      "name_en": "Expanding Gate",
+      "name_zh": "扩展门架",
+      "category": "advance",
+      "file": "expanding-gate.svg",
+      "keywords": [
+        "expanding gate",
+        "advance",
+        "扩展门架",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Open enough structure for the next scale.",
+      "description_zh": "为下一阶段打开足够的结构。",
+      "description": {
+        "en": "Open enough structure for the next scale.",
+        "zh": "为下一阶段打开足够的结构。"
+      }
+    },
+    {
+      "id": "forward-sail",
+      "name_en": "Forward Sail",
+      "name_zh": "向前风帆",
+      "category": "advance",
+      "file": "forward-sail.svg",
+      "keywords": [
+        "forward sail",
+        "advance",
+        "向前风帆",
+        "action",
+        "行动",
+        "推进",
+        "resin",
+        "荧光树脂"
+      ],
+      "description_en": "Catch existing momentum and give it direction.",
+      "description_zh": "接住已有的动量并给它方向。",
+      "description": {
+        "en": "Catch existing momentum and give it direction.",
+        "zh": "接住已有的动量并给它方向。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "给成长，留点空间",
+  "subtitle": "GROVE · 共生",
+  "download_name": "GROVE-30-Chinese.html",
+  "style": "grove",
+  "style_version": "1.0.0",
+  "lang": "zh-CN",
+  "theme_name_en": "GROVE",
+  "theme_name_zh": "共生",
+  "fonts": [
+    {
+      "family": "GroveSans",
+      "file": "fonts/Onest-Variable.ttf",
+      "weight": "400 500",
+      "style": "normal",
+      "coverage_file": "fonts/Onest-Variable-coverage.json"
+    },
+    {
+      "family": "GroveMono",
+      "file": "fonts/DMMono-Regular.ttf",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/DMMono-Regular-coverage.json"
+    },
+    {
+      "family": "GroveCJK",
+      "file": "fonts/ChillRoundM-Regular.otf",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/ChillRoundM-Regular-coverage.json"
+    }
+  ],
+  "data_provenance": {
+    "kind": "synthetic-sample",
+    "scope": "Original chart pages 5 and 7, plus added sample pages 10–29",
+    "note": "Original fictional content and data for layout demonstration. Replace all measures, labels and conclusions with user-supplied or verified material.",
+    "note_zh": "新增页的内容与数据是原创虚构样例，制作实际演示时替换为用户资料或已核实信息。"
+  }
+}

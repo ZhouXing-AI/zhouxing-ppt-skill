@@ -1,0 +1,48 @@
+GROVE · 共生 — embedded font notices
+
+These fonts are licensed separately under the SIL Open Font License 1.1 (OFL-1.1).
+The Skill's or original SVG artwork's license does not replace the font licenses.
+Retain each font's copyright and full accompanying OFL text when redistributing
+this font package or embedding fonts into an exported HTML presentation.
+Commercial use, bundling, embedding and redistribution with the Skill are allowed
+under the OFL conditions. Font files may not be sold on their own. Modified font
+software must remain under the OFL and respect Reserved Font Names.
+
+Onest — GroveSans CSS alias, normal 400/500
+Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest).
+Complete original variable TTF, all official glyphs and the full wght 100–900 axis.
+Packaged from the pinned Google Fonts commit in font-manifest.json.
+License: Onest-OFL.txt. Official upstream metadata: Onest-METADATA.pb.
+
+DM Mono — GroveMono CSS alias, normal 400
+Copyright 2020 The DM Mono Project Authors
+(https://www.github.com/googlefonts/dm-mono).
+Complete original Regular TTF. License: DMMono-OFL.txt.
+Official upstream metadata: DMMono-METADATA.pb.
+
+ChillRoundM / 寒蝉半圆体 — GroveCJK CSS alias, normal 400
+Copyright 2023 ChillType, with Reserved Font Names 'ChillRoundF' 'ChillRoundM'.
+Upstream attribution retained in the original font:
+Copyright 2021 The Zen Maru Gothic Authors
+(https://github.com/googlefonts/zen-marugothic).
+Complete original OTF from the author's official ChillRoundM v1.805 release.
+License: ChillRoundM-OFL.txt (identical to the license inside the release archive).
+Official README, release JSON and tag-to-commit evidence are included.
+Only Regular 400 exists in this chosen release: do not synthesize 500 or bold.
+All 6,763 GB2312 ideographs were verified against the complete Unicode cmap.
+This is a rounded simplified-Chinese-capable font; it is not a GenSen SC font.
+The GenSen author's current official OTF directory contains JP/PJP/TC/TW, not SC.
+
+All three production font files are byte-identical to their official originals.
+No glyph was removed; no outline, font name, weight axis or embedding flag changed.
+GroveSans / GroveMono / GroveCJK are CSS aliases only, not font-family renamings.
+The OTF was kept in its original format to preserve the author's exact bytes.
+Complete repertoire does not promise all of Unicode; each coverage JSON records
+all included Unicode ranges, source hash and final font hash for validation.
+Set font-synthesis:none. Keep Chinese headings and body at real weight 400,
+and establish hierarchy through size, spacing and color.
+
+Font source pins, SHA-256 hashes, cmap/glyph counts, real weights, license hashes,
+fsType=0 (Installable Embedding) and reproduction URLs are in font-manifest.json.
+The originals/ directory is development evidence and can be excluded from the
+redistributed Skill: the production OTF is already the original release bytes.

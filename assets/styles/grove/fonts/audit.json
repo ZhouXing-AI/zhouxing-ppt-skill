@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "theme": "grove",
+  "font_count": 3,
+  "font_bytes": 5007000,
+  "complete_official_files": true,
+  "chinese_gb2312": {
+    "expected": 6763,
+    "covered": 6763,
+    "missing": []
+  },
+  "checks": [
+    {
+      "file": "Onest-Variable.ttf",
+      "hash": true,
+      "coverage_hash": true,
+      "license_hash": true,
+      "complete": true,
+      "fsType": 0,
+      "style": "normal",
+      "weights": [
+        400,
+        500
+      ]
+    },
+    {
+      "file": "DMMono-Regular.ttf",
+      "hash": true,
+      "coverage_hash": true,
+      "license_hash": true,
+      "complete": true,
+      "fsType": 0,
+      "style": "normal",
+      "weights": [
+        400
+      ]
+    },
+    {
+      "file": "ChillRoundM-Regular.otf",
+      "hash": true,
+      "coverage_hash": true,
+      "license_hash": true,
+      "complete": true,
+      "fsType": 0,
+      "style": "normal",
+      "weights": [
+        400
+      ]
+    }
+  ]
+}

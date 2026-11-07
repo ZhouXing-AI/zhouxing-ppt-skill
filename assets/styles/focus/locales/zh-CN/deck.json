@@ -1,0 +1,45 @@
+{
+  "title": "先看清，再行动",
+  "subtitle": "FOCUS · 明晰",
+  "download_name": "FOCUS-30-Chinese.html",
+  "style": "focus",
+  "style_version": "1.0.0",
+  "lang": "zh-CN",
+  "fonts": [
+    {
+      "family": "MoveSerif",
+      "file": "fonts/InstrumentSerif-Regular.ttf",
+      "weight": "400"
+    },
+    {
+      "family": "MoveItalic",
+      "file": "fonts/InstrumentSerif-Italic.ttf",
+      "weight": "400"
+    },
+    {
+      "family": "ShiftSans",
+      "file": "fonts/ShiftSans.woff2",
+      "weight": "400 700"
+    },
+    {
+      "family": "FocusCJK",
+      "file": "fonts/FocusCJK.woff2",
+      "weight": "200 900",
+      "coverage_file": "fonts/FocusCJK-coverage.json"
+    },
+    {
+      "family": "FocusCJKSans",
+      "file": "fonts/FocusCJKSans.woff2",
+      "weight": "100 900",
+      "coverage_file": "fonts/FocusCJKSans-coverage.json"
+    }
+  ],
+  "theme_name_en": "FOCUS",
+  "theme_name_zh": "明晰",
+  "data_provenance": {
+    "kind": "synthetic-sample",
+    "scope": "Data and business layouts, pages 10–29",
+    "note": "Original fictional data and business scenarios for layout examples. Not factual external results. Replace with user-supplied or verified data; re-render geometry as well as labels.",
+    "note_zh": "新增图表与业务场景均为原创虚构样例，不是外部事实。新演示使用用户资料或已核实数据，同时重新生成图形与标签。"
+  }
+}

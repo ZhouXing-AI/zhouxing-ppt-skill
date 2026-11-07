@@ -1,0 +1,207 @@
+{
+  "prepared_at_utc": "2026-11-06T19:10:55.894944+00:00",
+  "theme": "ECHO · 回响",
+  "license": "SIL Open Font License 1.1",
+  "license_spdx": "OFL-1.1",
+  "official_repository": "https://github.com/google/fonts",
+  "source_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+  "source_policy": "Complete official source font repertoires; no glyph subsetting. SC sources do not claim full Unicode or all pan-CJK characters.",
+  "css_recommendation": "font-synthesis:none. EchoDisplay 500; EchoSans 400/500 and normal width 100; EchoCJKDisplay 300; EchoCJK 400. No synthetic italic, bold or horizontal glyph scaling.",
+  "fonts": [
+    {
+      "file": "CormorantGaramond-Variable.ttf",
+      "family": "Cormorant Garamond",
+      "css_family": "EchoDisplay",
+      "css_weight": "500",
+      "recommended_weights": [
+        500
+      ],
+      "style": "normal",
+      "role": "English classical display headings",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "bytes": 1195560,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+      "source_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+      "source_sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "source_bytes": 1195560,
+      "license": "CormorantGaramond-OFL.txt",
+      "license_sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/cormorantgaramond/OFL.txt",
+      "metadata_file": "CormorantGaramond-METADATA.pb",
+      "metadata_sha256": "faa16a5e79613ca7cadd599ada1f4cf6891f3cb6731631fbed2a0b18a342e556",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/cormorantgaramond/METADATA.pb",
+      "reserved_font_names": [],
+      "unicode_codepoints": 974,
+      "glyph_count": 3241,
+      "coverage_file": "CormorantGaramond-Variable-coverage.json",
+      "coverage_sha256": "c85ba72548ab9bd0639dfc505410610c8c2acb5aac1b4df1671fc6a71b8aa9a9",
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "default": 300.0,
+          "max": 700.0
+        }
+      ],
+      "embedding_fstype": 0,
+      "full_coverage": true,
+      "subset": false,
+      "source_cmap_equal": true,
+      "source_glyph_count_equal": true,
+      "source_names_equal": true,
+      "copyright": "Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)",
+      "version": "Version 4.001",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+      "modifications": "None; original official TTF bytes retained."
+    },
+    {
+      "file": "InstrumentSans-Variable.ttf",
+      "family": "Instrument Sans",
+      "css_family": "EchoSans",
+      "css_weight": "400 500",
+      "recommended_weights": [
+        400,
+        500
+      ],
+      "style": "normal",
+      "role": "English body and UI; normal width 100",
+      "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1",
+      "bytes": 194336,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/instrumentsans/InstrumentSans%5Bwdth%2Cwght%5D.ttf",
+      "source_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+      "source_sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1",
+      "source_bytes": 194336,
+      "license": "InstrumentSans-OFL.txt",
+      "license_sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/instrumentsans/OFL.txt",
+      "metadata_file": "InstrumentSans-METADATA.pb",
+      "metadata_sha256": "111191daf841919d5d09b88ca7a17fb691c4b835c61ca81c958f334c40c11535",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/instrumentsans/METADATA.pb",
+      "reserved_font_names": [],
+      "unicode_codepoints": 343,
+      "glyph_count": 501,
+      "coverage_file": "InstrumentSans-Variable-coverage.json",
+      "coverage_sha256": "e4381b88e8a65f3a35baa57546482d047824f9cc62e152bfc9e7db7d801d6811",
+      "variable_axes": [
+        {
+          "tag": "wdth",
+          "min": 75.0,
+          "default": 100.0,
+          "max": 100.0
+        },
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "default": 400.0,
+          "max": 700.0
+        }
+      ],
+      "embedding_fstype": 0,
+      "full_coverage": true,
+      "subset": false,
+      "source_cmap_equal": true,
+      "source_glyph_count_equal": true,
+      "source_names_equal": true,
+      "copyright": "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)",
+      "version": "Version 1.000;gftools[0.9.28]",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "modifications": "None; original official TTF bytes retained."
+    },
+    {
+      "file": "EchoCJKDisplay.woff2",
+      "family": "Noto Serif SC",
+      "css_family": "EchoCJKDisplay",
+      "css_weight": "300",
+      "recommended_weights": [
+        300
+      ],
+      "style": "normal",
+      "role": "Chinese classical display headings at Light 300",
+      "sha256": "ac4121c0e56f4660e3121035cd84da1764b78753eb18439860b031e1eb167a82",
+      "bytes": 12173164,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+      "source_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+      "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+      "source_bytes": 25125512,
+      "license": "NotoSerifSC-OFL.txt",
+      "license_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/OFL.txt",
+      "metadata_file": "NotoSerifSC-METADATA.pb",
+      "metadata_sha256": "e0c253c6f850fc3ef6e7fc398361133dd55acc408c931822a3f69cfac08554c2",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/METADATA.pb",
+      "reserved_font_names": [],
+      "unicode_codepoints": 30928,
+      "glyph_count": 31058,
+      "coverage_file": "EchoCJKDisplay-coverage.json",
+      "coverage_sha256": "d6ca06335bfcba01fca9113223d895cb01305bdef23948b23edc8e25b3b7ca4b",
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 200.0,
+          "max": 900.0
+        }
+      ],
+      "embedding_fstype": 0,
+      "full_coverage": true,
+      "subset": false,
+      "source_cmap_equal": true,
+      "source_glyph_count_equal": true,
+      "source_names_equal": true,
+      "copyright": "(c) 2017-2024 Adobe (http://www.adobe.com/).",
+      "version": "Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+      "modifications": "Reused complete audited Noto WOFF2 bytes from GLOW/FOCUS/INDEX; lossless compression with preprocessing transforms disabled, all original glyphs, internal names, metrics, outlines and variable axes retained. Only filename and CSS alias changed."
+    },
+    {
+      "file": "EchoCJK.woff2",
+      "family": "Noto Sans SC",
+      "css_family": "EchoCJK",
+      "css_weight": "400",
+      "recommended_weights": [
+        400
+      ],
+      "style": "normal",
+      "role": "Chinese body and UI at Regular 400",
+      "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
+      "bytes": 8490924,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "source_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+      "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "source_bytes": 17772300,
+      "license": "NotoSansSC-OFL.txt",
+      "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/OFL.txt",
+      "metadata_file": "NotoSansSC-METADATA.pb",
+      "metadata_sha256": "c6c4bdb785793b2de1da177caeeffcd0c90d7680bdab2de8f88ab45007bc59bc",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/METADATA.pb",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "unicode_codepoints": 30890,
+      "glyph_count": 31036,
+      "coverage_file": "EchoCJK-coverage.json",
+      "coverage_sha256": "5ce79901af32ce21acae372e8adcacd6c64722aaa165612124c249dcf6757586",
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "embedding_fstype": 0,
+      "full_coverage": true,
+      "subset": false,
+      "source_cmap_equal": true,
+      "source_glyph_count_equal": true,
+      "source_names_equal": true,
+      "copyright": "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+      "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "modifications": "Reused complete audited Noto WOFF2 bytes from GLOW/FOCUS/INDEX; lossless compression with preprocessing transforms disabled, all original glyphs, internal names, metrics, outlines and variable axes retained. Only filename and CSS alias changed."
+    }
+  ],
+  "redistribution": "Commercial use, embedding and redistribution in open-source software permitted under SIL OFL 1.1. Retain all original copyright/OFL notices; font software remains OFL, not project MIT, and may not be sold by itself.",
+  "source_originals_note": "Latin TTF files are unmodified official binaries directly distributed in this folder. Large original CJK TTFs remain in the development cache; restore them using fixed URLs and SHA256 values above. All runtime fonts are self-contained, complete and offline-ready."
+}

@@ -1,0 +1,51 @@
+{
+  "title": "好想法，从草稿开始",
+  "subtitle": "SKETCH · 构想",
+  "download_name": "SKETCH-Chinese.html",
+  "lang": "zh-CN",
+  "fonts": [
+    {
+      "family": "SketchSerif",
+      "file": "fonts/FrauncesSoft72-SemiBold.woff2",
+      "weight": "600"
+    },
+    {
+      "family": "SketchSerif",
+      "file": "fonts/FrauncesSoft72-Bold.woff2",
+      "weight": "700"
+    },
+    {
+      "family": "SketchSans",
+      "file": "fonts/Poppins-Regular.woff2",
+      "weight": "400"
+    },
+    {
+      "family": "SketchSans",
+      "file": "fonts/Poppins-Medium.woff2",
+      "weight": "500"
+    },
+    {
+      "family": "SketchCJKDisplay",
+      "file": "fonts/SketchCJKDisplay.woff2",
+      "weight": "900",
+      "style": "normal",
+      "coverage_file": "fonts/SketchCJKDisplay-coverage.json"
+    },
+    {
+      "family": "SketchCJK",
+      "file": "fonts/SketchCJK.woff2",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/SketchCJK-coverage.json"
+    }
+  ],
+  "sample_pages": 30,
+  "data_provenance": {
+    "type": "original illustrative data",
+    "source": "Locally authored concept examples for SKETCH. Not survey results or external facts.",
+    "scope": "Pages 10–29; original first nine and closing retained.",
+    "reuse": "Replace values, units and conclusions with user-provided or verified data. Recalculate SVG geometry with source/expansion30.py, not by editing labels only.",
+    "units": "Each chart states the relevant count, hours, minutes, percentage or score.",
+    "validation": "source/expansion30.py --validate"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "family": "SparkCJKDisplay",
+    "file": "fonts/SmileySans-Oblique.woff2",
+    "weight": "400",
+    "style": "italic",
+    "coverage_file": "fonts/SmileySans-Oblique-coverage.json"
+  },
+  {
+    "family": "SparkCJK",
+    "file": "fonts/SparkCJK.woff2",
+    "weight": "400",
+    "style": "normal",
+    "coverage_file": "fonts/SparkCJK-coverage.json"
+  }
+]

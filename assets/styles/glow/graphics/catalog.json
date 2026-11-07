@@ -1,0 +1,514 @@
+{
+  "theme": {
+    "en": "GLOW",
+    "zh": "晴光"
+  },
+  "version": "1.0.0",
+  "license": "Original SVG illustrations by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "sun-token",
+      "name_en": "Sun Token",
+      "name_zh": "晴光信物",
+      "category": "arrive",
+      "file": "sun-token.svg",
+      "keywords": [
+        "sun token",
+        "arrive",
+        "晴光信物",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "A bright invitation to gather.",
+        "zh": "发出一份明亮的相聚邀请。"
+      },
+      "description_en": "A bright invitation to gather.",
+      "description_zh": "发出一份明亮的相聚邀请。"
+    },
+    {
+      "id": "welcome-arch",
+      "name_en": "Welcome Arch",
+      "name_zh": "欢迎拱门",
+      "category": "arrive",
+      "file": "welcome-arch.svg",
+      "keywords": [
+        "welcome arch",
+        "arrive",
+        "欢迎拱门",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Make the first step feel welcoming.",
+        "zh": "让迈出的第一步感到受欢迎。"
+      },
+      "description_en": "Make the first step feel welcoming.",
+      "description_zh": "让迈出的第一步感到受欢迎。"
+    },
+    {
+      "id": "route-flag",
+      "name_en": "Route Flag",
+      "name_zh": "相聚路旗",
+      "category": "arrive",
+      "file": "route-flag.svg",
+      "keywords": [
+        "route flag",
+        "arrive",
+        "相聚路旗",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Point people toward a shared meeting place.",
+        "zh": "为大家指向共同的集合地点。"
+      },
+      "description_en": "Point people toward a shared meeting place.",
+      "description_zh": "为大家指向共同的集合地点。"
+    },
+    {
+      "id": "ticket-pair",
+      "name_en": "Ticket Pair",
+      "name_zh": "同行双票",
+      "category": "arrive",
+      "file": "ticket-pair.svg",
+      "keywords": [
+        "ticket pair",
+        "arrive",
+        "同行双票",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "An invitation made to be shared.",
+        "zh": "一份适合与人分享的邀请。"
+      },
+      "description_en": "An invitation made to be shared.",
+      "description_zh": "一份适合与人分享的邀请。"
+    },
+    {
+      "id": "lantern",
+      "name_en": "Gathering Lantern",
+      "name_zh": "相聚灯笼",
+      "category": "arrive",
+      "file": "lantern.svg",
+      "keywords": [
+        "lantern",
+        "arrive",
+        "相聚灯笼",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Mark a visible and warm place to meet.",
+        "zh": "标记一个明亮温暖的相见之处。"
+      },
+      "description_en": "Mark a visible and warm place to meet.",
+      "description_zh": "标记一个明亮温暖的相见之处。"
+    },
+    {
+      "id": "meeting-pin",
+      "name_en": "Meeting Pin",
+      "name_zh": "见面坐标",
+      "category": "arrive",
+      "file": "meeting-pin.svg",
+      "keywords": [
+        "meeting pin",
+        "arrive",
+        "见面坐标",
+        "到场",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Choose one clear place to begin together.",
+        "zh": "选定一个清楚的共同起点。"
+      },
+      "description_en": "Choose one clear place to begin together.",
+      "description_zh": "选定一个清楚的共同起点。"
+    },
+    {
+      "id": "shared-cups",
+      "name_en": "Shared Cups",
+      "name_zh": "相聚双杯",
+      "category": "connect",
+      "file": "shared-cups.svg",
+      "keywords": [
+        "shared cups",
+        "connect",
+        "相聚双杯",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Begin a conversation over something shared.",
+        "zh": "从共同分享的小事开始交谈。"
+      },
+      "description_en": "Begin a conversation over something shared.",
+      "description_zh": "从共同分享的小事开始交谈。"
+    },
+    {
+      "id": "ribbon-loop",
+      "name_en": "Ribbon Loop",
+      "name_zh": "连结彩带",
+      "category": "connect",
+      "file": "ribbon-loop.svg",
+      "keywords": [
+        "ribbon loop",
+        "connect",
+        "连结彩带",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Bring separate paths into a lasting connection.",
+        "zh": "让不同的路径形成持续的连结。"
+      },
+      "description_en": "Bring separate paths into a lasting connection.",
+      "description_zh": "让不同的路径形成持续的连结。"
+    },
+    {
+      "id": "long-table",
+      "name_en": "Shared Table",
+      "name_zh": "共享小桌",
+      "category": "connect",
+      "file": "long-table.svg",
+      "keywords": [
+        "long table",
+        "connect",
+        "共享小桌",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Leave room for another person at the table.",
+        "zh": "在桌边为下一个人留出位置。"
+      },
+      "description_en": "Leave room for another person at the table.",
+      "description_zh": "在桌边为下一个人留出位置。"
+    },
+    {
+      "id": "conversation-bloom",
+      "name_en": "Conversation Bloom",
+      "name_zh": "对话花簇",
+      "category": "connect",
+      "file": "conversation-bloom.svg",
+      "keywords": [
+        "conversation bloom",
+        "connect",
+        "对话花簇",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Let several voices grow around one idea.",
+        "zh": "让几种声音围绕同一想法生长。"
+      },
+      "description_en": "Let several voices grow around one idea.",
+      "description_zh": "让几种声音围绕同一想法生长。"
+    },
+    {
+      "id": "linked-tiles",
+      "name_en": "Linked Tiles",
+      "name_zh": "相扣贴片",
+      "category": "connect",
+      "file": "linked-tiles.svg",
+      "keywords": [
+        "linked tiles",
+        "connect",
+        "相扣贴片",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Make a stronger whole from different pieces.",
+        "zh": "把不同部分连成更稳固的整体。"
+      },
+      "description_en": "Make a stronger whole from different pieces.",
+      "description_zh": "把不同部分连成更稳固的整体。"
+    },
+    {
+      "id": "picnic-basket",
+      "name_en": "Picnic Basket",
+      "name_zh": "共带野餐篮",
+      "category": "connect",
+      "file": "picnic-basket.svg",
+      "keywords": [
+        "picnic basket",
+        "connect",
+        "共带野餐篮",
+        "相聚",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Give each person a way to contribute.",
+        "zh": "让每个人都有可以贡献的方式。"
+      },
+      "description_en": "Give each person a way to contribute.",
+      "description_zh": "让每个人都有可以贡献的方式。"
+    },
+    {
+      "id": "record-disc",
+      "name_en": "Record Disc",
+      "name_zh": "同频唱片",
+      "category": "play",
+      "file": "record-disc.svg",
+      "keywords": [
+        "record disc",
+        "play",
+        "同频唱片",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Find a rhythm the whole room can share.",
+        "zh": "找到整个空间都能共享的节奏。"
+      },
+      "description_en": "Find a rhythm the whole room can share.",
+      "description_zh": "找到整个空间都能共享的节奏。"
+    },
+    {
+      "id": "pinwheel",
+      "name_en": "Pinwheel",
+      "name_zh": "随风彩轮",
+      "category": "play",
+      "file": "pinwheel.svg",
+      "keywords": [
+        "pinwheel",
+        "play",
+        "随风彩轮",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Create space for unplanned movement.",
+        "zh": "为自然发生的动作留出空间。"
+      },
+      "description_en": "Create space for unplanned movement.",
+      "description_zh": "为自然发生的动作留出空间。"
+    },
+    {
+      "id": "confetti-pop",
+      "name_en": "Confetti Pop",
+      "name_zh": "欢庆礼炮",
+      "category": "play",
+      "file": "confetti-pop.svg",
+      "keywords": [
+        "confetti pop",
+        "play",
+        "欢庆礼炮",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Celebrate a small moment together.",
+        "zh": "一起庆祝一个小小的时刻。"
+      },
+      "description_en": "Celebrate a small moment together.",
+      "description_zh": "一起庆祝一个小小的时刻。"
+    },
+    {
+      "id": "bouncy-star",
+      "name_en": "Bouncy Star",
+      "name_zh": "跳跃星星",
+      "category": "play",
+      "file": "bouncy-star.svg",
+      "keywords": [
+        "bouncy star",
+        "play",
+        "跳跃星星",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Keep the mood light and the path open.",
+        "zh": "让气氛轻松，让路径开放。"
+      },
+      "description_en": "Keep the mood light and the path open.",
+      "description_zh": "让气氛轻松，让路径开放。"
+    },
+    {
+      "id": "game-path",
+      "name_en": "Game Path",
+      "name_zh": "玩乐小径",
+      "category": "play",
+      "file": "game-path.svg",
+      "keywords": [
+        "game path",
+        "play",
+        "玩乐小径",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Invite people to explore one step at a time.",
+        "zh": "邀请大家一步一步尝试探索。"
+      },
+      "description_en": "Invite people to explore one step at a time.",
+      "description_zh": "邀请大家一步一步尝试探索。"
+    },
+    {
+      "id": "tambourine",
+      "name_en": "Tambourine",
+      "name_zh": "共奏铃鼓",
+      "category": "play",
+      "file": "tambourine.svg",
+      "keywords": [
+        "tambourine",
+        "play",
+        "共奏铃鼓",
+        "玩乐",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Make participation easy to hear and feel.",
+        "zh": "让参与能够轻易被听到和感受到。"
+      },
+      "description_en": "Make participation easy to hear and feel.",
+      "description_zh": "让参与能够轻易被听到和感受到。"
+    },
+    {
+      "id": "postcard",
+      "name_en": "Postcard",
+      "name_zh": "晴日明信片",
+      "category": "keep",
+      "file": "postcard.svg",
+      "keywords": [
+        "postcard",
+        "keep",
+        "晴日明信片",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Send a small piece of the day onward.",
+        "zh": "把这一天的一小部分继续传递。"
+      },
+      "description_en": "Send a small piece of the day onward.",
+      "description_zh": "把这一天的一小部分继续传递。"
+    },
+    {
+      "id": "memory-jar",
+      "name_en": "Memory Jar",
+      "name_zh": "回忆收集瓶",
+      "category": "keep",
+      "file": "memory-jar.svg",
+      "keywords": [
+        "memory jar",
+        "keep",
+        "回忆收集瓶",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Keep tokens of a day shared with others.",
+        "zh": "收藏共同度过一天的细小信物。"
+      },
+      "description_en": "Keep tokens of a day shared with others.",
+      "description_zh": "收藏共同度过一天的细小信物。"
+    },
+    {
+      "id": "stamp-stack",
+      "name_en": "Stamp Stack",
+      "name_zh": "时光邮票",
+      "category": "keep",
+      "file": "stamp-stack.svg",
+      "keywords": [
+        "stamp stack",
+        "keep",
+        "时光邮票",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Turn a moment into a portable memory.",
+        "zh": "把一个时刻变成可以携带的记忆。"
+      },
+      "description_en": "Turn a moment into a portable memory.",
+      "description_zh": "把一个时刻变成可以携带的记忆。"
+    },
+    {
+      "id": "photo-fold",
+      "name_en": "Photo Fold",
+      "name_zh": "折页相册",
+      "category": "keep",
+      "file": "photo-fold.svg",
+      "keywords": [
+        "photo fold",
+        "keep",
+        "折页相册",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Hold several views of the same experience.",
+        "zh": "留下同一次体验的不同视角。"
+      },
+      "description_en": "Hold several views of the same experience.",
+      "description_zh": "留下同一次体验的不同视角。"
+    },
+    {
+      "id": "return-key",
+      "name_en": "Return Key",
+      "name_zh": "再会钥牌",
+      "category": "keep",
+      "file": "return-key.svg",
+      "keywords": [
+        "return key",
+        "keep",
+        "再会钥牌",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Leave an invitation to return.",
+        "zh": "留下一份再次相见的邀请。"
+      },
+      "description_en": "Leave an invitation to return.",
+      "description_zh": "留下一份再次相见的邀请。"
+    },
+    {
+      "id": "keepsake-box",
+      "name_en": "Keepsake Box",
+      "name_zh": "晴光收藏盒",
+      "category": "keep",
+      "file": "keepsake-box.svg",
+      "keywords": [
+        "keepsake box",
+        "keep",
+        "晴光收藏盒",
+        "留存",
+        "community",
+        "共同体验"
+      ],
+      "description": {
+        "en": "Make room for what is worth remembering.",
+        "zh": "为值得记住的东西留出位置。"
+      },
+      "description_en": "Make room for what is worth remembering.",
+      "description_zh": "为值得记住的东西留出位置。"
+    }
+  ]
+}

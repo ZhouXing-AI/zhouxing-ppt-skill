@@ -1,0 +1,4 @@
+ShiftGlowWideHeavy is a modified version of Glow Sans SC Wide Heavy 0.91, not an official upstream release. SIL OFL 1.1 applies. On 2026-11-05, 427 shared CJK CFF glyph mappings were assigned independent copies with identical outlines and metrics to correct Chromium PDF Unicode extraction. All 31,808 codepoints retained, no subsetting or visual redesign. Primary font family renamed. Rebuild using scripts/prepare_glow_font.py and the original release OTF. Original source SHA256: 83ac6d7649f0a0648f673055fa493c19dddeebf53ec6d26552bec6099bcfa085
+Source: https://github.com/welai/glow-sans/releases/tag/v0.91
+License: GlowSans-OFL.txt. Original copyright metadata:
+Glow Sans © 2020 Project Welai

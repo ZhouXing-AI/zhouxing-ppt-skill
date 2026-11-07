@@ -1,0 +1,61 @@
+INDEX CHINESE FONT BUNDLE — SOURCES, LICENSES AND CONVERSION NOTICE
+
+The fonts are licensed under SIL Open Font License 1.1 (OFL-1.1).
+The full copyright notices and licenses accompany this bundle. Under the
+OFL conditions, these fonts may be used commercially, embedded and
+redistributed with software/documents. Do not sell the font files by
+themselves. Keep the OFL license and copyright notices with redistributed
+fonts; font software and its derivatives remain under OFL-1.1. Slide
+content itself is not required to be licensed under the OFL.
+
+Official distribution repository: https://github.com/google/fonts
+Pinned source commit: 24ddc1f324cac5d9f5aedca126d298f56e3f1640
+
+Complete official variable font binaries were downloaded, then losslessly
+compressed to WOFF2 using fontTools 4.60.2 and Brotli 1.2.1.
+All preprocessing transforms were disabled. Every decompressed SFNT table
+is byte-identical to its source, with only the container-dependent
+head.checkSumAdjustment and WOFF2 lossless-transform flag (head.flags bit 11)
+excluded from byte comparison. No subsetting,
+outline editing, glyph renaming, naming edits or variable-axis changes were
+performed. This retains the full repertoire of the official SC sources,
+not the complete Unicode or pan-CJK repertoire. Audit: font-audit-zh.json.
+
+Noto Sans SC / CSS alias IndexCJK
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+See the complete NotoSansSC-OFL.txt. The Reserved Font Name 'Source' is not
+used as the primary family name. Internal Noto font names are preserved.
+Variable wght 100–900 (source default 100); choose 400 for body and UI
+text, 900 for the artwork-picker UI heading. Slide h1/h2 headlines now
+use Glow Sans SC Compressed ExtraBold 800 (IndexCJKDisplay); see
+GlowSansCompressed-NOTICE.txt. These are real weights, not fake bold.
+
+Noto Serif SC / CSS alias IndexCJKSerif
+The official accompanying OFL.txt states:
+Copyright 2012 Google Inc. All Rights Reserved.
+The unchanged font name table additionally states:
+(c) 2017-2024 Adobe (http://www.adobe.com/).
+Both notices are retained. See the complete NotoSerifSC-OFL.txt.
+Variable wght 200–900 (source default 200); choose 400 for Chinese labels.
+
+CSS aliases and local filenames only are used for integration. Always
+request explicit weights because both source variable fonts default to
+their lightest masters. Use font-synthesis: none. Existing Latin font
+faces and their font-audit.json remain unchanged.
+
+Provenance and SHA-256 checksums:
+
+IndexCJK.woff2
+Official full TTF source: https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf
+Source TTF SHA-256: a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da
+Bundled WOFF2 SHA-256: 97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f
+License source: https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/OFL.txt
+License SHA-256: 1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9
+
+IndexCJKSerif.woff2
+Official full TTF source: https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf
+Source TTF SHA-256: 050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9
+Bundled WOFF2 SHA-256: ac4121c0e56f4660e3121035cd84da1764b78753eb18439860b031e1eb167a82
+License source: https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/OFL.txt
+License SHA-256: 5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6
+

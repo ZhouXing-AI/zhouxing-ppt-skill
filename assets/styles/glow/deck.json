@@ -1,0 +1,49 @@
+{
+  "title": "GLOW",
+  "subtitle": "Good things happen together",
+  "download_name": "GLOW-English.html",
+  "style": "glow",
+  "style_version": "1.0.0",
+  "lang": "en",
+  "theme_name_en": "GLOW",
+  "theme_name_zh": "晴光",
+  "fonts": [
+    {
+      "family": "GlowDisplay",
+      "file": "fonts/DMSerifDisplay-Regular.ttf",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/DMSerifDisplay-Regular-coverage.json"
+    },
+    {
+      "family": "GlowItalic",
+      "file": "fonts/DMSerifDisplay-Italic.ttf",
+      "weight": "400",
+      "style": "italic",
+      "coverage_file": "fonts/DMSerifDisplay-Italic-coverage.json"
+    },
+    {
+      "family": "GlowSans",
+      "file": "fonts/Poppins-Regular.woff2",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/Poppins-Regular-coverage.json"
+    },
+    {
+      "family": "GlowSans",
+      "file": "fonts/Poppins-Medium.woff2",
+      "weight": "500",
+      "style": "normal",
+      "coverage_file": "fonts/Poppins-Medium-coverage.json"
+    }
+  ],
+  "sample_pages": 30,
+  "data_provenance": {
+    "type": "original illustrative data",
+    "source": "Locally authored concept examples for GLOW. Not survey results or external facts.",
+    "scope": "Pages 10–29; original first nine and closing retained.",
+    "reuse": "Replace values, units and conclusions with user-provided or verified data. Recalculate SVG geometry with source/expansion30.py, not by editing labels only.",
+    "units": "Each chart states the relevant count, hours, minutes, percentage or score.",
+    "validation": "source/expansion30.py --validate"
+  }
+}

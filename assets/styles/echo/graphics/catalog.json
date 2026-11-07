@@ -1,0 +1,562 @@
+{
+  "theme": {
+    "en": "ECHO",
+    "zh": "回响"
+  },
+  "version": "1.0.0",
+  "license": "Original SVG illustrations by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "listening-shell",
+      "name_en": "Listening Shell",
+      "name_zh": "聆听贝壳",
+      "category": "listen",
+      "file": "listening-shell.svg",
+      "keywords": [
+        "listening shell",
+        "listen",
+        "聆听贝壳",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Turn toward the quiet detail.",
+      "description_zh": "转向细微而安静的声音。",
+      "description": {
+        "en": "Turn toward the quiet detail.",
+        "zh": "转向细微而安静的声音。"
+      }
+    },
+    {
+      "id": "signal-lens",
+      "name_en": "Signal Lens",
+      "name_zh": "信号透镜",
+      "category": "listen",
+      "file": "signal-lens.svg",
+      "keywords": [
+        "signal lens",
+        "listen",
+        "信号透镜",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Bring a faint signal into focus.",
+      "description_zh": "让微弱的信号逐渐清晰。",
+      "description": {
+        "en": "Bring a faint signal into focus.",
+        "zh": "让微弱的信号逐渐清晰。"
+      }
+    },
+    {
+      "id": "quiet-bowl",
+      "name_en": "Quiet Bowl",
+      "name_zh": "静听之碗",
+      "category": "listen",
+      "file": "quiet-bowl.svg",
+      "keywords": [
+        "quiet bowl",
+        "listen",
+        "静听之碗",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Hold a sound without enclosing it.",
+      "description_zh": "接住声音，也为它留出空间。",
+      "description": {
+        "en": "Hold a sound without enclosing it.",
+        "zh": "接住声音，也为它留出空间。"
+      }
+    },
+    {
+      "id": "aperture-fan",
+      "name_en": "Aperture Fan",
+      "name_zh": "聆听扇面",
+      "category": "listen",
+      "file": "aperture-fan.svg",
+      "keywords": [
+        "aperture fan",
+        "listen",
+        "聆听扇面",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Open toward several sources.",
+      "description_zh": "向不同的声音来源展开。",
+      "description": {
+        "en": "Open toward several sources.",
+        "zh": "向不同的声音来源展开。"
+      }
+    },
+    {
+      "id": "rain-catcher",
+      "name_en": "Rain Catcher",
+      "name_zh": "拾声集露",
+      "category": "listen",
+      "file": "rain-catcher.svg",
+      "keywords": [
+        "rain catcher",
+        "listen",
+        "拾声集露",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Gather separate impressions with care.",
+      "description_zh": "耐心收集零散的感受。",
+      "description": {
+        "en": "Gather separate impressions with care.",
+        "zh": "耐心收集零散的感受。"
+      }
+    },
+    {
+      "id": "still-ripple",
+      "name_en": "Still Ripple",
+      "name_zh": "静水声纹",
+      "category": "listen",
+      "file": "still-ripple.svg",
+      "keywords": [
+        "still ripple",
+        "listen",
+        "静水声纹",
+        "sound",
+        "声学",
+        "聆听",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Notice the smallest disturbance.",
+      "description_zh": "留意最微小的波动。",
+      "description": {
+        "en": "Notice the smallest disturbance.",
+        "zh": "留意最微小的波动。"
+      }
+    },
+    {
+      "id": "resonance-vessel",
+      "name_en": "Resonance Vessel",
+      "name_zh": "共鸣容器",
+      "category": "tune",
+      "file": "resonance-vessel.svg",
+      "keywords": [
+        "resonance vessel",
+        "tune",
+        "共鸣容器",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Give resonance a space to form.",
+      "description_zh": "给共鸣一个形成的空间。",
+      "description": {
+        "en": "Give resonance a space to form.",
+        "zh": "给共鸣一个形成的空间。"
+      }
+    },
+    {
+      "id": "harmonic-fork",
+      "name_en": "Harmonic Fork",
+      "name_zh": "和声分叉",
+      "category": "tune",
+      "file": "harmonic-fork.svg",
+      "keywords": [
+        "harmonic fork",
+        "tune",
+        "和声分叉",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Let two tones find a shared centre.",
+      "description_zh": "让两个声部找到共同的中心。",
+      "description": {
+        "en": "Let two tones find a shared centre.",
+        "zh": "让两个声部找到共同的中心。"
+      }
+    },
+    {
+      "id": "tonal-stair",
+      "name_en": "Tonal Stair",
+      "name_zh": "音阶曲片",
+      "category": "tune",
+      "file": "tonal-stair.svg",
+      "keywords": [
+        "tonal stair",
+        "tune",
+        "音阶曲片",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Tune the progression one step at a time.",
+      "description_zh": "逐步调整变化的层次。",
+      "description": {
+        "en": "Tune the progression one step at a time.",
+        "zh": "逐步调整变化的层次。"
+      }
+    },
+    {
+      "id": "prism-chord",
+      "name_en": "Prism Chord",
+      "name_zh": "棱镜和弦",
+      "category": "tune",
+      "file": "prism-chord.svg",
+      "keywords": [
+        "prism chord",
+        "tune",
+        "棱镜和弦",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Resolve different angles into one chord.",
+      "description_zh": "把不同角度组织成一个和弦。",
+      "description": {
+        "en": "Resolve different angles into one chord.",
+        "zh": "把不同角度组织成一个和弦。"
+      }
+    },
+    {
+      "id": "orbit-dial",
+      "name_en": "Orbit Dial",
+      "name_zh": "环轨调谐",
+      "category": "tune",
+      "file": "orbit-dial.svg",
+      "keywords": [
+        "orbit dial",
+        "tune",
+        "环轨调谐",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Align the small part that changes the whole.",
+      "description_zh": "对齐能够改变整体的细小部分。",
+      "description": {
+        "en": "Align the small part that changes the whole.",
+        "zh": "对齐能够改变整体的细小部分。"
+      }
+    },
+    {
+      "id": "suspended-reed",
+      "name_en": "Suspended Reed",
+      "name_zh": "悬垂音簧",
+      "category": "tune",
+      "file": "suspended-reed.svg",
+      "keywords": [
+        "suspended reed",
+        "tune",
+        "悬垂音簧",
+        "sound",
+        "声学",
+        "调谐",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Leave enough freedom for a tone to move.",
+      "description_zh": "给声音留出自由移动的余地。",
+      "description": {
+        "en": "Leave enough freedom for a tone to move.",
+        "zh": "给声音留出自由移动的余地。"
+      }
+    },
+    {
+      "id": "paired-waves",
+      "name_en": "Paired Waves",
+      "name_zh": "同频双波",
+      "category": "connect",
+      "file": "paired-waves.svg",
+      "keywords": [
+        "paired waves",
+        "connect",
+        "同频双波",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Share a frequency without losing difference.",
+      "description_zh": "共享频率，同时保留不同。",
+      "description": {
+        "en": "Share a frequency without losing difference.",
+        "zh": "共享频率，同时保留不同。"
+      }
+    },
+    {
+      "id": "glass-bridge",
+      "name_en": "Glass Bridge",
+      "name_zh": "声域之桥",
+      "category": "connect",
+      "file": "glass-bridge.svg",
+      "keywords": [
+        "glass bridge",
+        "connect",
+        "声域之桥",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Make a shared space between two sides.",
+      "description_zh": "在两端之间建立共同空间。",
+      "description": {
+        "en": "Make a shared space between two sides.",
+        "zh": "在两端之间建立共同空间。"
+      }
+    },
+    {
+      "id": "entwined-ribbons",
+      "name_en": "Entwined Ribbons",
+      "name_zh": "交织声带",
+      "category": "connect",
+      "file": "entwined-ribbons.svg",
+      "keywords": [
+        "entwined ribbons",
+        "connect",
+        "交织声带",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Let distinct paths cross with clarity.",
+      "description_zh": "让不同路径清楚地交织。",
+      "description": {
+        "en": "Let distinct paths cross with clarity.",
+        "zh": "让不同路径清楚地交织。"
+      }
+    },
+    {
+      "id": "meeting-arc",
+      "name_en": "Meeting Arc",
+      "name_zh": "交会弧线",
+      "category": "connect",
+      "file": "meeting-arc.svg",
+      "keywords": [
+        "meeting arc",
+        "connect",
+        "交会弧线",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Meet at one carefully held interval.",
+      "description_zh": "在恰好的间隔处相遇。",
+      "description": {
+        "en": "Meet at one carefully held interval.",
+        "zh": "在恰好的间隔处相遇。"
+      }
+    },
+    {
+      "id": "wave-braid",
+      "name_en": "Wave Braid",
+      "name_zh": "声浪织带",
+      "category": "connect",
+      "file": "wave-braid.svg",
+      "keywords": [
+        "wave braid",
+        "connect",
+        "声浪织带",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Weave several lines into one field.",
+      "description_zh": "将几条声线织成共同的声场。",
+      "description": {
+        "en": "Weave several lines into one field.",
+        "zh": "将几条声线织成共同的声场。"
+      }
+    },
+    {
+      "id": "shared-cavity",
+      "name_en": "Shared Cavity",
+      "name_zh": "共声之隙",
+      "category": "connect",
+      "file": "shared-cavity.svg",
+      "keywords": [
+        "shared cavity",
+        "connect",
+        "共声之隙",
+        "sound",
+        "声学",
+        "联结",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Create a third space between two forms.",
+      "description_zh": "在两个形体之间创造第三种空间。",
+      "description": {
+        "en": "Create a third space between two forms.",
+        "zh": "在两个形体之间创造第三种空间。"
+      }
+    },
+    {
+      "id": "memory-loop",
+      "name_en": "Memory Loop",
+      "name_zh": "记忆回环",
+      "category": "resonate",
+      "file": "memory-loop.svg",
+      "keywords": [
+        "memory loop",
+        "resonate",
+        "记忆回环",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Keep the trace of what was heard.",
+      "description_zh": "保留听见之后留下的痕迹。",
+      "description": {
+        "en": "Keep the trace of what was heard.",
+        "zh": "保留听见之后留下的痕迹。"
+      }
+    },
+    {
+      "id": "open-horizon",
+      "name_en": "Open Horizon",
+      "name_zh": "开放远景",
+      "category": "resonate",
+      "file": "open-horizon.svg",
+      "keywords": [
+        "open horizon",
+        "resonate",
+        "开放远景",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Let the sound open into a wider distance.",
+      "description_zh": "让声音向更远的空间展开。",
+      "description": {
+        "en": "Let the sound open into a wider distance.",
+        "zh": "让声音向更远的空间展开。"
+      }
+    },
+    {
+      "id": "echo-chamber",
+      "name_en": "Echo Chamber",
+      "name_zh": "回声之室",
+      "category": "resonate",
+      "file": "echo-chamber.svg",
+      "keywords": [
+        "echo chamber",
+        "resonate",
+        "回声之室",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Hear how distance changes a return.",
+      "description_zh": "听见距离如何改变回声。",
+      "description": {
+        "en": "Hear how distance changes a return.",
+        "zh": "听见距离如何改变回声。"
+      }
+    },
+    {
+      "id": "overtone-crown",
+      "name_en": "Overtone Crown",
+      "name_zh": "泛音波冠",
+      "category": "resonate",
+      "file": "overtone-crown.svg",
+      "keywords": [
+        "overtone crown",
+        "resonate",
+        "泛音波冠",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Find a richer whole in the upper tones.",
+      "description_zh": "在泛音中发现更丰富的整体。",
+      "description": {
+        "en": "Find a richer whole in the upper tones.",
+        "zh": "在泛音中发现更丰富的整体。"
+      }
+    },
+    {
+      "id": "pulse-stack",
+      "name_en": "Pulse Stack",
+      "name_zh": "脉冲层叠",
+      "category": "resonate",
+      "file": "pulse-stack.svg",
+      "keywords": [
+        "pulse stack",
+        "resonate",
+        "脉冲层叠",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Watch a pulse expand and settle.",
+      "description_zh": "观察脉冲如何展开并安定。",
+      "description": {
+        "en": "Watch a pulse expand and settle.",
+        "zh": "观察脉冲如何展开并安定。"
+      }
+    },
+    {
+      "id": "distant-ring",
+      "name_en": "Distant Ring",
+      "name_zh": "远声环迹",
+      "category": "resonate",
+      "file": "distant-ring.svg",
+      "keywords": [
+        "distant ring",
+        "resonate",
+        "远声环迹",
+        "sound",
+        "声学",
+        "回响",
+        "acoustic glass",
+        "声学玻璃"
+      ],
+      "description_en": "Follow an echo toward a quiet point.",
+      "description_zh": "沿着回声走向安静的远点。",
+      "description": {
+        "en": "Follow an echo toward a quiet point.",
+        "zh": "沿着回声走向安静的远点。"
+      }
+    }
+  ]
+}

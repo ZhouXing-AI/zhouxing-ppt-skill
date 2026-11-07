@@ -1,0 +1,33 @@
+EDIT · 精选 — NOTO SERIF SC FONT NOTICE
+
+Noto Serif SC, distributed under SIL Open Font License 1.1.
+License: NotoSerifSC-OFL.txt (full original license and copyright retained).
+The official OFL file states: Copyright 2012 Google Inc. All Rights Reserved.
+The preserved font name table also states: (c) 2017-2024 Adobe (http://www.adobe.com/).
+
+The OFL permits commercial use, embedding and redistribution with this Skill
+and its documents, subject to its conditions. Preserve the copyright and OFL
+with redistributed font software. Do not sell the font by itself. The font
+retains OFL licensing; slide content is not required to use the OFL.
+
+Official source repository: https://github.com/google/fonts
+Pinned commit: 24ddc1f324cac5d9f5aedca126d298f56e3f1640
+Source: https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf
+License: https://github.com/google/fonts/blob/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notoserifsc/OFL.txt
+Source SHA256: 050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9
+Bundled WOFF2 SHA256: ac4121c0e56f4660e3121035cd84da1764b78753eb18439860b031e1eb167a82
+
+The full official SC repertoire is retained: 30,928 Unicode cmap codepoints,
+31,058 glyphs. No sample-text subsetting, outline edits or font-name edits.
+This reuses the audited lossless WOFF2 conversion also bundled in INDEX.
+Conversion used fontTools 4.60.2 and Brotli 1.2.1 with preprocessing transforms
+disabled. All decompressed tables are byte-identical to source except the
+container-dependent head.checkSumAdjustment and head.flags bit 11.
+Audit and coverage: font-audit-zh.json, EditCJK-coverage.json.
+
+EditCJK is a CSS alias only. The original internal font names are unchanged.
+The genuine variable weight axis is 200–900. EDIT uses 300 for large Chinese
+headings, 400 for reversed headings, body text, labels and interface text.
+Use font-synthesis: none. Chinese emphasis uses colour and spacing without
+synthetic italics or compressed glyphs. Both English and Chinese HTML embed
+the complete font to allow offline editing of covered Chinese characters.

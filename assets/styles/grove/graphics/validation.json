@@ -1,0 +1,23 @@
+{
+  "assets": 24,
+  "categories": {
+    "seed": 6,
+    "connect": 6,
+    "nurture": 6,
+    "flourish": 6
+  },
+  "svg_bytes": 87272,
+  "canvas": "1000x1000 transparent",
+  "material": "2D flat fills and irregular botanical ink lines",
+  "external_resources": false,
+  "fonts": false,
+  "filters": false,
+  "gradients": false,
+  "license": "MIT",
+  "checks": "PASS",
+  "visual_review": "PASS: reviewed all 24 final compositions, including the distinct drooping-grain quiet-grain revision, on the light contact sheet and the explicitly paper-mounted dark contact sheet. No cropping or silhouette conflict.",
+  "bilingual_slide_review": "PASS: independently reviewed both complete 10-page English and Chinese overviews. No text/illustration collisions, clipping, misalignment, or chart unit/value conflicts found.",
+  "quiet_grain_final_sha256": "db9deea6ebe0d344faecbbd3060563c5f35aebf2cce65ad2be781eea7822d2d6",
+  "preview_light": "../artwork-preview.png",
+  "preview_dark": "../artwork-preview-dark.png"
+}

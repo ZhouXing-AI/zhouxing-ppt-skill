@@ -1,0 +1,80 @@
+/* UI typography is independent of the slide fonts. */
+.controls #replace-artwork{display:inline-flex;align-items:center;justify-content:center;gap:7px;font-family:ShiftSans,EditCJK,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.artwork-trigger-icon{width:16px;height:16px;flex:none;pointer-events:none}
+.artwork-slot img{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none}
+body.editing .artwork-slot{cursor:pointer;outline:2px dashed #b6403288;outline-offset:8px}
+body.artwork-open .pointer-halo,body.artwork-open .pointer-ripple{display:none}
+.artwork-dialog{--a-ink:#352129;--a-red:#b64032;box-sizing:border-box;width:min(1160px,calc(100vw - 48px));max-width:none;height:min(790px,calc(100dvh - 48px));max-height:none;margin:auto;padding:0;border:1px solid #c9bbb4;border-radius:12px;background:#f2eee7;color:var(--a-ink);box-shadow:0 32px 130px #30171d55;overflow:hidden;font:14px/1.5 ShiftSans,EditCJK,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.artwork-dialog[open]{display:flex;flex-direction:column}
+.artwork-dialog::backdrop{background:#352129d9;backdrop-filter:blur(12px)}
+.artwork-dialog *{box-sizing:border-box}
+.artwork-dialog h2,.artwork-dialog h3,.artwork-dialog p{font-family:inherit;letter-spacing:normal;font-style:normal}
+.artwork-dialog button,.artwork-dialog select{font:inherit;cursor:pointer;color:inherit}
+.artwork-dialog button{border:0;transition:background .15s,border-color .15s,box-shadow .15s}
+.artwork-dialog button:focus-visible,.artwork-dialog select:focus-visible{outline:3px solid #b64032;outline-offset:3px}
+.artwork-dialog button:disabled{opacity:.45;cursor:default}
+.artwork-header{padding:25px 28px 21px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #35212920;flex:none}
+.artwork-eyebrow{font-size:10px;font-weight:600;letter-spacing:.16em;color:#80666a;margin-bottom:5px}
+.artwork-header h2{font-size:24px;font-weight:600;line-height:1.2;margin:0;letter-spacing:-.02em}
+.artwork-header h2 .artwork-total{font-size:12px;font-weight:400;color:#846c6e;letter-spacing:0;margin-left:12px;vertical-align:middle}
+.artwork-close{display:grid;place-items:center;flex:none;width:36px;height:36px;border-radius:50%;background:#e7dad1;font-size:25px!important;line-height:1}
+.artwork-close:hover{background:#ddc7bc}
+.artwork-target-row{display:flex;gap:12px;align-items:center;padding:17px 28px;flex:none}
+.artwork-target-row label{font-size:12px;font-weight:600;white-space:nowrap}
+.artwork-target-row select{padding:9px 35px 9px 12px;max-width:340px;min-width:240px;background:#fcf8f0;border:1px solid #d1c1b7;border-radius:8px;font-size:13px}
+#artwork-context{margin:0 0 0 auto;font-size:11px;color:#80666a;text-align:right;max-width:280px}
+.artwork-workspace{display:grid;grid-template-columns:minmax(250px,.95fr) minmax(0,1.65fr);gap:25px;padding:0 28px 24px;min-height:0;flex:1}
+.artwork-preview-panel{display:flex;flex-direction:column;min-height:0;background:#e8ddd2;border:1px solid #d9c8bc;border-radius:8px;overflow:hidden}
+.artwork-preview{display:grid;place-items:center;min-height:100px;flex:1;background:radial-gradient(ellipse at 50% 40%,#fffaf0 0%,#e9ddd1 85%);overflow:hidden}
+.artwork-preview.on-dark{background:radial-gradient(ellipse at 50% 40%,#643c46,#352129 75%)}
+.artwork-preview img{display:block;width:100%;height:100%;max-height:400px;object-fit:contain;padding:12px}
+.artwork-preview-copy{padding:18px 23px 20px;border-top:1px solid #d6c4b7;flex:none;background:#eee3d8}
+.artwork-preview-category{font-size:10px;letter-spacing:.1em;color:#95544d}
+.artwork-preview-copy h3{font-size:22px;font-weight:600;line-height:1.3;margin:6px 0 2px}
+#artwork-preview-english{margin:0;color:#7d6168;font-size:13px}
+.artwork-preview-hint{font-size:10px;color:#8a7477;margin:14px 0 0}
+.artwork-collection{display:flex;flex-direction:column;min-height:0}
+.artwork-filters{display:flex;flex-wrap:wrap;gap:5px;flex:none;margin:0 0 13px}
+.artwork-filter{padding:6px 10px;border-radius:7px;background:transparent;color:#80666a!important;font-size:11px!important}
+.artwork-filter:hover{background:#e8d8cc}
+.artwork-filter[aria-pressed=true]{background:#8a352e;color:#fcf8f0!important}
+.artwork-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;align-content:start;overflow-y:auto;padding:4px 6px 4px 4px;margin:-4px -6px -4px -4px;scrollbar-width:thin;scrollbar-color:#c69486 transparent}
+.artwork-card{position:relative;display:flex;flex-direction:column;text-align:left;min-width:0;padding:9px 10px 12px;background:#eee3d8;border:1px solid #decec2!important;border-radius:9px}
+.artwork-card:hover{background:#e9d6c8;border-color:#c9a090!important}
+.artwork-card[aria-pressed=true]{border-color:#b64032!important;box-shadow:inset 0 0 0 1px #b64032;background:#efdbcd}
+.artwork-card-visual{display:block;width:100%;aspect-ratio:1/1;margin-bottom:6px;min-height:0;overflow:hidden}
+.artwork-card-visual img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.artwork-card-name{font-size:12px;font-weight:600;line-height:1.4}
+.artwork-card-english{margin-top:2px;color:#8a7072;font-size:9px;line-height:1.4}
+.artwork-card-check{position:absolute;right:8px;top:8px;display:none;place-items:center;width:18px;height:18px;font-size:11px;background:#b64032;color:white;border-radius:50%}
+.artwork-card[aria-pressed=true] .artwork-card-check{display:grid}
+.artwork-footer{flex:none;border-top:1px solid #d6c4b7;padding:18px 28px;display:flex;justify-content:space-between;gap:20px;align-items:center;background:#eee3d8}
+.artwork-footer-note{display:flex;flex-direction:column;gap:3px;font-size:10px;color:#866c70;min-width:0}
+.artwork-status{color:#963e34;font-size:12px;min-height:18px}
+.artwork-actions{display:flex;align-items:center;gap:8px;flex:none}
+.artwork-actions button{padding:11px 17px;border-radius:8px;white-space:nowrap;font-size:12px;background:#e4d1c3}
+.artwork-actions .artwork-reset{background:transparent;color:#7f5e65}
+.artwork-actions .artwork-apply{background:#352129;color:#fcf8f0;min-width:125px}
+.artwork-actions .artwork-apply:hover{background:#b64032}
+.artwork-actions .artwork-apply span{padding-left:12px}
+@media(max-width:780px){
+ .artwork-dialog{width:calc(100vw - 24px);height:calc(100dvh - 24px);border-radius:12px}
+ .artwork-header{padding:18px 20px 15px}.artwork-header h2{font-size:21px}.artwork-target-row{padding:12px 20px;flex-wrap:wrap;gap:8px}
+ .artwork-target-row select{max-width:calc(100% - 66px);min-width:0;flex:1}#artwork-context{flex-basis:100%;max-width:none;text-align:left;font-size:10px}
+ .artwork-workspace{padding:0 20px 16px;gap:14px;grid-template-columns:minmax(150px,.8fr) minmax(0,1.2fr)}
+ .artwork-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.artwork-filter{padding:5px 8px}.artwork-preview-copy{padding:14px}.artwork-preview-copy h3{font-size:18px}
+ .artwork-footer{padding:13px 20px;flex-wrap:wrap;gap:10px}.artwork-footer-note{font-size:9px}.artwork-actions{margin-left:auto}.artwork-actions button{padding:9px 12px}
+}
+@media(max-width:480px){
+ .artwork-workspace{display:flex;flex-direction:column;gap:12px}.artwork-preview-panel{height:140px;flex:none;flex-direction:row}.artwork-preview{flex:0 0 130px}.artwork-preview img{padding:6px}.artwork-preview-copy{padding:10px 12px;border-top:0;border-left:1px solid #d6c4b7;flex:1}.artwork-preview-copy h3{font-size:17px;margin:3px 0}.artwork-preview-hint{font-size:9px;margin-top:8px}
+ .artwork-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.artwork-card{padding:5px 6px 8px}.artwork-card-name{font-size:10px}.artwork-card-english{font-size:8px}
+ .artwork-footer-note>span:last-child{display:none}.artwork-actions .artwork-apply{min-width:110px}.artwork-target-row{padding-top:9px;padding-bottom:9px}
+}
+@media print{#artwork-editor-root{display:none!important}}
+
+.artwork-dialog{font-synthesis:none}.artwork-dialog:lang(en) .artwork-preview-hint{font-size:11px}.artwork-dialog:lang(en) .artwork-filters{gap:3px}.artwork-dialog:lang(en) .artwork-filter{padding:6px 8px}
+
+.artwork-card-new{position:absolute;left:8px;top:8px;font:500 8px/1.3 ShiftSans,sans-serif;letter-spacing:.05em;color:#a24437;background:#fff1e4;padding:3px 5px;border-radius:4px;pointer-events:none}
+
+/* Editing affordances never enter exported slide snapshots. */
+#pdf-export-host .artwork-slot{outline:none!important;cursor:auto}

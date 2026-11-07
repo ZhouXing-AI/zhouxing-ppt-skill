@@ -1,0 +1,60 @@
+{
+  "theme": "echo",
+  "name": "Resonant drop",
+  "hotspot": [
+    4,
+    4
+  ],
+  "bodySize": 34,
+  "frameSize": 64,
+  "center": [
+    23,
+    23
+  ],
+  "outline": [
+    [
+      4,
+      4
+    ],
+    [
+      20,
+      6
+    ],
+    [
+      32,
+      12
+    ],
+    [
+      38,
+      25
+    ],
+    [
+      34,
+      34
+    ],
+    [
+      25,
+      38
+    ],
+    [
+      12,
+      32
+    ],
+    [
+      6,
+      20
+    ]
+  ],
+  "trailDuration": 160,
+  "trailColors": {
+    "light": "#12141F",
+    "brand": "#12141F",
+    "dark": "#A8B9CB"
+  },
+  "variants": {
+    "light": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4C20 5 38 11 38 25C38 32.2 32.2 38 25 38C11 38 5 20 4 4Z\" fill=\"#12141F\" stroke=\"#F0F1ED\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><path d=\"M17 13C24 14 29 19 29 26M15 20C19 21 22 24 22 28\" fill=\"none\" stroke=\"#A8B9CB\" stroke-width=\"1.35\" stroke-linecap=\"round\"/></g></svg>",
+    "brand": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4C20 5 38 11 38 25C38 32.2 32.2 38 25 38C11 38 5 20 4 4Z\" fill=\"#12141F\" stroke=\"#F0F1ED\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><path d=\"M17 13C24 14 29 19 29 26M15 20C19 21 22 24 22 28\" fill=\"none\" stroke=\"#A8B9CB\" stroke-width=\"1.35\" stroke-linecap=\"round\"/></g></svg>",
+    "dark": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g data-part=\"body\"><path d=\"M4 4C20 5 38 11 38 25C38 32.2 32.2 38 25 38C11 38 5 20 4 4Z\" fill=\"#A8B9CB\" stroke=\"#12141F\" stroke-width=\"1.3\" stroke-linejoin=\"round\"/><path d=\"M17 13C24 14 29 19 29 26M15 20C19 21 22 24 22 28\" fill=\"none\" stroke=\"#12141F\" stroke-width=\"1.35\" stroke-linecap=\"round\"/></g></svg>"
+  },
+  "renderScale": 0.6666666666666666
+}

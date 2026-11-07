@@ -1,0 +1,44 @@
+{
+  "theme": "focus",
+  "name": "实心镜片",
+  "hotspot": [
+    20,
+    20
+  ],
+  "bodySize": 34,
+  "frameSize": 64,
+  "center": [
+    20,
+    20
+  ],
+  "outline": [
+    [
+      3,
+      20
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      37,
+      20
+    ],
+    [
+      20,
+      37
+    ]
+  ],
+  "trailDuration": 160,
+  "trailColors": {
+    "light": "#00856c",
+    "brand": "#71c7ac",
+    "dark": "#71c7ac"
+  },
+  "variants": {
+    "light": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs><linearGradient id=\"c3\" x1=\".1\" y1=\"0\" x2=\".8\" y2=\"1\"><stop stop-color=\"#21967b\" /><stop offset=\".5\" stop-color=\"#00856c\" /><stop offset=\"1\" stop-color=\"#055444\" /></linearGradient></defs><g data-part=\"body\"><circle cx=\"20\" cy=\"20\" r=\"16.5\" fill=\"url(#c3)\" stroke=\"#073d32\" stroke-width=\"1.5\" /><path d=\"M8.5 14a12.8 12.8 0 0 1 16-6\" fill=\"none\" stroke=\"#f0f5ee\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\".7\" /><circle cx=\"20\" cy=\"20\" r=\"3\" fill=\"#f2f7ee\" /></g></svg>",
+    "brand": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs><linearGradient id=\"c4\" x1=\".1\" y1=\"0\" x2=\".8\" y2=\"1\"><stop stop-color=\"#bce3d6\" /><stop offset=\".5\" stop-color=\"#71c7ac\" /><stop offset=\"1\" stop-color=\"#45a98b\" /></linearGradient></defs><g data-part=\"body\"><circle cx=\"20\" cy=\"20\" r=\"16.5\" fill=\"url(#c4)\" stroke=\"#ecf4ef\" stroke-width=\"1.5\" /><path d=\"M8.5 14a12.8 12.8 0 0 1 16-6\" fill=\"none\" stroke=\"#f0f5ee\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\".7\" /><circle cx=\"20\" cy=\"20\" r=\"3\" fill=\"#073d32\" /></g></svg>",
+    "dark": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs><linearGradient id=\"c5\" x1=\".1\" y1=\"0\" x2=\".8\" y2=\"1\"><stop stop-color=\"#bce3d6\" /><stop offset=\".5\" stop-color=\"#71c7ac\" /><stop offset=\"1\" stop-color=\"#45a98b\" /></linearGradient></defs><g data-part=\"body\"><circle cx=\"20\" cy=\"20\" r=\"16.5\" fill=\"url(#c5)\" stroke=\"#ecf4ef\" stroke-width=\"1.5\" /><path d=\"M8.5 14a12.8 12.8 0 0 1 16-6\" fill=\"none\" stroke=\"#f0f5ee\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\".7\" /><circle cx=\"20\" cy=\"20\" r=\"3\" fill=\"#073d32\" /></g></svg>"
+  },
+  "renderScale": 0.6666666666666666
+}

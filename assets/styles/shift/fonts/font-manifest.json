@@ -1,0 +1,73 @@
+[
+  {
+    "original_file": "Doto[ROND,wght].ttf",
+    "embedded_family": "ShiftDots",
+    "woff2_file": "ShiftDots.woff2",
+    "bytes": 5620,
+    "sha256": "727b3486030882af82eff0439b135bd435f2c0bd9c95d21376dcb559ed9ef75c",
+    "axes": [
+      {
+        "tag": "ROND",
+        "min": 0.0,
+        "default": 0.0,
+        "max": 100.0
+      },
+      {
+        "tag": "wght",
+        "min": 100.0,
+        "default": 900.0,
+        "max": 900.0
+      }
+    ],
+    "license": "SIL OFL 1.1",
+    "license_file": "Doto-OFL.txt",
+    "repository": "https://github.com/google/fonts/tree/main/ofl/doto",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/doto/OFL.txt",
+    "modifications": "Subset to English/Latin/basic punctuation and internally renamed; variation axes and original copyright/license metadata retained.",
+    "coverage_codepoints": 192
+  },
+  {
+    "original_file": "InstrumentSans[wdth,wght].ttf",
+    "embedded_family": "ShiftSans",
+    "woff2_file": "ShiftSans.woff2",
+    "bytes": 54604,
+    "sha256": "a203c084d99207f473a58f596a1f7249754e2343b2ef5a6a71e9f2731b666a90",
+    "axes": [
+      {
+        "tag": "wdth",
+        "min": 75.0,
+        "default": 100.0,
+        "max": 100.0
+      },
+      {
+        "tag": "wght",
+        "min": 400.0,
+        "default": 400.0,
+        "max": 700.0
+      }
+    ],
+    "license": "SIL OFL 1.1",
+    "license_file": "InstrumentSans-OFL.txt",
+    "repository": "https://github.com/google/fonts/tree/main/ofl/instrumentsans",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/OFL.txt",
+    "modifications": "Subset to English/Latin/basic punctuation and internally renamed; variation axes and original copyright/license metadata retained.",
+    "coverage_codepoints": 203
+  },
+  {
+    "original_family": "Glow Sans SC Wide Heavy",
+    "embedded_family": "ShiftCJK",
+    "file": "ShiftGlow-Wide-Heavy.otf",
+    "version": "0.91",
+    "bytes": 9600788,
+    "sha256": "17b09fdc13d675bdefd86bfb7634653bf8336bfdd8675e86a8aa6c371c7c4cff",
+    "license": "SIL OFL 1.1",
+    "license_file": "GlowSans-OFL.txt",
+    "source_url": "https://github.com/welai/glow-sans/releases/tag/v0.91",
+    "coverage_file": "ShiftCJK-coverage.json",
+    "coverage_codepoints": 31808,
+    "weight": 900,
+    "modifications": "Renamed derivative of Glow Sans SC Wide Heavy 0.91. Duplicated 427 shared CJK CFF glyphs with identical programs and metrics for correct PDF Unicode copy. All original codepoints and outlines retained. No subset.",
+    "internal_family": "ShiftGlowWideHeavy",
+    "cloned_glyphs": 427
+  }
+]

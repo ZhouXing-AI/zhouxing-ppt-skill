@@ -1,0 +1,17 @@
+{
+  "assets": 24,
+  "categories": {
+    "start": 6,
+    "shape": 6,
+    "test": 6,
+    "advance": 6
+  },
+  "svg_bytes": 82500,
+  "canvas": "1000x1000 transparent",
+  "external_resources": false,
+  "fonts": false,
+  "filters": false,
+  "license": "MIT",
+  "checks": "PASS",
+  "visual_review": "PASS: full 24 assets reviewed on rendered light and dark contact sheets; no clipping or lost primary silhouettes."
+}

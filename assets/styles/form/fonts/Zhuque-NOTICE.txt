@@ -1,0 +1,6 @@
+FORM Chinese typography uses the complete, unmodified Zhuque Fangsong Regular v0.212 official release. CSS alias: FormCJK. Internal font names and all original glyphs remain unchanged; no subsetting, conversion, or synthetic bolding.
+Official source: https://github.com/TrionesType/zhuque/releases/tag/v0.212
+Release asset: https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip
+Font SHA256: 558c62730844fe54ba220146ed62f859d4e2880188d92d985f8921c6e3743bc4
+License: SIL Open Font License 1.1. See Zhuque-OFL.txt. The upstream Latin/punctuation contribution is Alegreya; its license is retained in Alegreya-OFL.txt.
+Original release includes 12,882 mapped codepoints. Future deck builds validate CJK coverage against this exact font file. The font keeps its own license when bundled with the open-source Skill; it is not relicensed under the artwork/code license.

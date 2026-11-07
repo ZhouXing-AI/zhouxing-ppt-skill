@@ -1,0 +1,159 @@
+{
+  "prepared_at": "2026-11-06T17:38:15.633529+00:00",
+  "official_repository": "https://github.com/google/fonts",
+  "license": "SIL Open Font License 1.1",
+  "fonttools_version": "4.60.2",
+  "source_pins": {
+    "fraunces": "4024282d9b0cffcdb8e3024560862746178d741f",
+    "poppins": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5"
+  },
+  "originals": [
+    {
+      "family": "fraunces",
+      "file": "originals/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/4024282d9b0cffcdb8e3024560862746178d741f/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+      "commit": "4024282d9b0cffcdb8e3024560862746178d741f",
+      "bytes": 360440,
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "family": "fraunces",
+      "file": "originals/fraunces/OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/4024282d9b0cffcdb8e3024560862746178d741f/ofl/fraunces/OFL.txt",
+      "commit": "4024282d9b0cffcdb8e3024560862746178d741f",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "family": "fraunces",
+      "file": "originals/fraunces/METADATA.pb",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/4024282d9b0cffcdb8e3024560862746178d741f/ofl/fraunces/METADATA.pb",
+      "commit": "4024282d9b0cffcdb8e3024560862746178d741f",
+      "bytes": 1197,
+      "sha256": "812aeaea90af8021a306b8fbb5490e0a861c27a5291d2253b403d9fc9f37afd5"
+    },
+    {
+      "family": "poppins",
+      "file": "originals/poppins/Poppins-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/poppins/Poppins-Regular.ttf",
+      "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+      "bytes": 160316,
+      "sha256": "7e65201e9b79159e2300267cc885e16c8dcef2424cdfa09a29bfb0980a94a7ba"
+    },
+    {
+      "family": "poppins",
+      "file": "originals/poppins/Poppins-Medium.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/poppins/Poppins-Medium.ttf",
+      "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+      "bytes": 158576,
+      "sha256": "90373e7d838d32468438fc3e152dca0bdb12edcab99ea639f158790b1ba1fd05"
+    },
+    {
+      "family": "poppins",
+      "file": "originals/poppins/OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/poppins/OFL.txt",
+      "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "family": "poppins",
+      "file": "originals/poppins/METADATA.pb",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/poppins/METADATA.pb",
+      "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+      "bytes": 5157,
+      "sha256": "8121646e47a90cbcd2f4664e0df036944880035522b4f25ec51cb9465428b346"
+    }
+  ],
+  "fraunces_axes": {
+    "opsz": {
+      "min": 9.0,
+      "default": 9.0,
+      "max": 144.0
+    },
+    "wght": {
+      "min": 100.0,
+      "default": 900.0,
+      "max": 900.0
+    },
+    "SOFT": {
+      "min": 0.0,
+      "default": 0.0,
+      "max": 100.0
+    },
+    "WONK": {
+      "min": 0.0,
+      "default": 1.0,
+      "max": 1.0
+    }
+  },
+  "webfonts": [
+    {
+      "file": "FrauncesSoft72-SemiBold.woff2",
+      "css_family": "SketchSerif",
+      "weight": 600,
+      "style": "normal",
+      "source_file": "originals/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "variation_coordinates": {
+        "SOFT": 100,
+        "WONK": 1,
+        "opsz": 72,
+        "wght": 600
+      },
+      "unicode_codepoints": 624,
+      "full_coverage": true,
+      "subset": false,
+      "bytes": 31504,
+      "sha256": "9cc740d4cc8106de0cacca4df03774204cf153f1d81caff15bc7e920c980ffe5",
+      "license": "Fraunces-OFL.txt"
+    },
+    {
+      "file": "FrauncesSoft72-Bold.woff2",
+      "css_family": "SketchSerif",
+      "weight": 700,
+      "style": "normal",
+      "source_file": "originals/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "variation_coordinates": {
+        "SOFT": 100,
+        "WONK": 1,
+        "opsz": 72,
+        "wght": 700
+      },
+      "unicode_codepoints": 624,
+      "full_coverage": true,
+      "subset": false,
+      "bytes": 31792,
+      "sha256": "9f3f7884d845e31b796707af20628e379fda170b50692e8974640eafcbf7df3a",
+      "license": "Fraunces-OFL.txt"
+    },
+    {
+      "file": "Poppins-Regular.woff2",
+      "css_family": "SketchSans",
+      "weight": 400,
+      "style": "normal",
+      "source_file": "originals/poppins/Poppins-Regular.ttf",
+      "unicode_codepoints": 471,
+      "full_coverage": true,
+      "subset": false,
+      "bytes": 51484,
+      "sha256": "30ed61f0439e61b8a05f782c3f42060c086e6d1b31e98584b4b5aa4e60552215",
+      "license": "Poppins-OFL.txt"
+    },
+    {
+      "file": "Poppins-Medium.woff2",
+      "css_family": "SketchSans",
+      "weight": 500,
+      "style": "normal",
+      "source_file": "originals/poppins/Poppins-Medium.ttf",
+      "unicode_codepoints": 471,
+      "full_coverage": true,
+      "subset": false,
+      "bytes": 50944,
+      "sha256": "ac0b0450c90a3853ca250e0fdafab5df265742917801e81b91aff4c6b715ebb0",
+      "license": "Poppins-OFL.txt"
+    }
+  ],
+  "redistribution": "Commercial use, embedding, modification and redistribution permitted under OFL 1.1; include copyright and license. Fonts remain OFL, not the project MIT license. Font software may not be sold by itself.",
+  "reserved_font_names": "Neither source OFL copyright header declares a Reserved Font Name.",
+  "modifications": "Fraunces: instantiated full variable font at SOFT=100, WONK=1, opsz=72, wght=600/700; updated instance style names; WOFF2 compression. Poppins: WOFF2 compression only. No glyph subsetting."
+}

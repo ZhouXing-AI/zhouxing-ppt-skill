@@ -1,0 +1,286 @@
+/* Chinese-first typography. Append after style.css; the English baseline is untouched. */
+html:lang(zh) body{font-family:'ShiftSans','ShiftCJK',sans-serif;font-synthesis:none}
+html:lang(zh) :is(h1,h2,h3,p){word-break:normal;line-break:strict;overflow-wrap:normal;hyphens:none}
+html:lang(zh) :is(h1,h2,h3){letter-spacing:-.025em}
+html:lang(zh) h2{margin:0;line-height:1.3}
+html:lang(zh) p{font-size:32px;line-height:1.6;letter-spacing:0;font-weight:400}
+html:lang(zh) .cjk-title{font-family:'ShiftSans','ShiftCJK',sans-serif;font-weight:700;letter-spacing:-.035em;line-height:1.26}
+html:lang(zh) .cjk-accent{color:var(--orange)}
+html:lang(zh) .eyebrow{font-size:26px;line-height:1.5;letter-spacing:.04em;font-weight:500}
+html:lang(zh) .pill{letter-spacing:0;line-height:1.4}
+html:lang(zh) .latin-label{font-size:22px;letter-spacing:.04em;line-height:1.5}
+
+/* 01 / Main language takes the largest type; the dot word remains a visual accent. */
+html:lang(zh) .hero .eyebrow{top:92px}
+html:lang(zh) .hero .eyebrow .dot{font-size:94px;line-height:1;letter-spacing:-.065em}
+html:lang(zh) .hero h1{left:78px;top:276px;font-size:184px;line-height:1.18;letter-spacing:-.04em;max-width:790px}
+html:lang(zh) .hero-object{right:-15px;top:70px;width:1040px;height:840px}
+html:lang(zh) .hero-bottom{bottom:106px;align-items:flex-end}
+html:lang(zh) .hero-bottom .hero-intro{font-size:34px;width:580px;line-height:1.5}
+html:lang(zh) .hero-bottom .hero-side-note{font-size:28px;line-height:1.5;width:auto;white-space:nowrap}
+
+/* 02 / CJK lines form a compact statement rather than inheriting English tracking. */
+html:lang(zh) .manifesto .statement{top:278px;font-size:150px;line-height:1.35;max-width:1160px}
+html:lang(zh) .manifesto .aside{right:100px;bottom:155px;width:480px;font-size:32px}
+
+/* 03 / Three parallel units, with short labels and one supporting sentence each. */
+html:lang(zh) .beginnings>h2{top:139px;font-size:102px;max-width:1740px}
+html:lang(zh) .three-coins{top:380px;gap:65px}
+html:lang(zh) .three-coins h3{font-size:61px;font-weight:650;letter-spacing:.02em;margin-top:40px;line-height:1.35}
+html:lang(zh) .three-coins p{font-size:28px;margin-top:17px;line-height:1.5}
+
+/* 04 / Leave the information sculpture its own right-hand field. */
+html:lang(zh) .signal>h2{top:205px;font-size:144px;line-height:1.32;max-width:700px}
+html:lang(zh) .signal-caption{font-size:28px;line-height:1.5;bottom:145px}
+
+/* 05 / Familiar Chinese reading rhythm and aligned columns. */
+html:lang(zh) .practice-heading{top:115px}
+html:lang(zh) .practice-heading .eyebrow{padding-top:12px;max-width:440px}
+html:lang(zh) .practice-heading h2{font-size:100px;line-height:1.27;width:1020px}
+html:lang(zh) .schedule{top:410px}
+html:lang(zh) .schedule article{height:137px;grid-template-columns:145px 310px 1fr 70px}
+html:lang(zh) .schedule h3{font-size:61px;font-weight:650;letter-spacing:.015em;line-height:1.35}
+html:lang(zh) .schedule p{font-size:31px;line-height:1.5}
+
+/* 06 / Mixed language, with dot letters explicitly confined to Latin text. */
+html:lang(zh) .constraint>h2{top:110px;font-size:102px;line-height:1.28;max-width:1100px}
+html:lang(zh) .orbit{left:460px;top:350px;width:1000px;height:670px}
+html:lang(zh) .constraint-label{font-size:30px;line-height:1.6;letter-spacing:0;font-weight:400}
+html:lang(zh) .constraint-label .dot{font-size:65px;line-height:1.2}
+html:lang(zh) .label-left{bottom:158px}
+html:lang(zh) .label-right{right:90px;bottom:158px;width:370px}
+html:lang(zh) .label-right .latin-label{display:inline-block;margin-bottom:16px}
+
+/* 07 / Concise bilingual labels share a baseline on each stacked surface. */
+html:lang(zh) .forms>h2{top:180px;font-size:111px;line-height:1.3;max-width:740px}
+html:lang(zh) .forms-copy{bottom:159px;width:650px;font-size:31px;line-height:1.65}
+html:lang(zh) .sheet>span{font-size:26px;letter-spacing:.01em;line-height:1.5}
+html:lang(zh) .sheet>span [lang=en]{font-size:.94em;font-weight:500}
+
+/* 08 / The accent is a type and color treatment, never a fallback dot font. */
+html:lang(zh) .surprise-copy{top:235px;left:1010px;right:75px}
+html:lang(zh) .surprise-copy h2{font-size:122px;line-height:1.32;margin-top:54px}
+html:lang(zh) .surprise-copy p{margin-top:65px;font-size:32px;line-height:1.65;color:var(--silver)}
+
+/* 09 / A number remains a number; the explanation is set in the main language. */
+html:lang(zh) .ritual-number .pill{font-size:29px}
+html:lang(zh) .ritual-copy{top:205px}
+html:lang(zh) .ritual-copy h2{font-size:105px;line-height:1.3}
+html:lang(zh) .ritual-steps{margin-top:78px}
+html:lang(zh) .ritual-steps p{font-size:31px;line-height:1.5;padding:29px 0;gap:30px}
+html:lang(zh) .ritual-steps b{flex-shrink:0}
+
+/* 10 / Closing words stay inside the left field and clear of the directional object. */
+html:lang(zh) .closing h2{left:82px;top:268px;font-size:178px;line-height:1.24;letter-spacing:-.035em;max-width:1050px}
+html:lang(zh) .closing-arrow{left:1180px;top:290px;width:580px;height:580px}
+html:lang(zh) .closing>p{bottom:104px;font-size:32px;line-height:1.55}
+html:lang(zh) .restart{bottom:111px;right:110px;font-size:26px}
+
+html:lang(zh) .keep{white-space:nowrap}
+html:lang(zh) .controls button{font-size:14px}
+html:lang(zh) .overview header{letter-spacing:0}
+
+/* Data layouts keep the established SHIFT canvas, fonts and copper palette. */
+.data-slide:before{opacity:.035}.data-slide .data-heading{position:absolute;left:100px;right:100px;top:90px;z-index:2}.data-slide .data-kicker{font-family:ShiftSans,ShiftCJK,sans-serif;font-size:21px;line-height:1.4;letter-spacing:.05em;font-weight:500;opacity:.72}.data-slide .data-heading h2{position:static;font-size:86px;line-height:1.12;margin:25px 0 0;letter-spacing:-3px;font-weight:600}.data-slide .data-subtitle{font-size:28px;line-height:1.45;letter-spacing:0;margin-top:18px}.data-slide svg text{font-family:ShiftSans,ShiftCJK,sans-serif;letter-spacing:0}.data-slide svg{overflow:visible}.data-slide p{letter-spacing:0}.data-slide h3{letter-spacing:-1px}.data-slide .chart-caption{font-size:24px;line-height:1.4}.data-slide [data-information-visual]{pointer-events:none}
+html:lang(zh) .data-slide .data-heading h2{font-size:81px;line-height:1.3;letter-spacing:-1px;margin:22px 0 0}html:lang(zh) .data-slide .data-kicker{font-size:22px;letter-spacing:.025em}html:lang(zh) .data-slide .data-subtitle{font-size:28px;line-height:1.5}
+/* Four independent lanes, kept square and spacious. */
+.four-tracks{background:#e3e3d9}.track-grid{position:absolute;left:100px;right:100px;top:355px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.track-grid article{height:575px;padding:35px 30px;position:relative;background:#bcbcbc;border-top:5px solid #1a1302}.track-grid article:nth-child(2){background:#ffb948}.track-grid article:nth-child(3){background:#ff661a}.track-grid article:nth-child(4){background:#1a1302;color:#e3e3d9;border-color:#ff661a}.track-number{font-size:72px}.track-grid h3{font-size:49px;line-height:1.18;margin:45px 0 25px}.track-grid p{font-size:27px;line-height:1.45}.track-output{position:absolute;left:30px;right:30px;bottom:35px;border-top:1px solid currentColor;padding-top:23px;display:flex;justify-content:space-between;align-items:center;font-size:24px}.track-output>span{font-size:34px}html:lang(zh) .track-grid h3{font-size:54px;letter-spacing:0}html:lang(zh) .track-grid p{font-size:27px;line-height:1.6}
+.target-legend{position:absolute;top:265px;right:130px;display:flex;align-items:center;gap:20px;font-size:25px}.actual-key{width:35px;height:16px;background:#ff661a}.goal-key{width:4px;height:27px;background:#e3e3d9;margin-left:28px}.target-chart{position:absolute;left:100px;right:100px;top:345px;height:620px}.target-chart svg{width:100%;height:100%;fill:#e3e3d9}.target-name{font-size:32px}.target-value{font-size:57px;font-weight:500}.target-label{font-size:27px;opacity:.76}
+
+/* SHIFT bar-family data pages. All geometry is authored at 1920 × 1080. */
+.bar-slide{color:#1a1302;background:#bcbcbc;--bar-foreground:#1a1302}
+.bar-slide.dark{background:#1a1302;color:#e3e3d9;--bar-foreground:#e3e3d9}
+.bar-slide.orange{background:#ff661a;color:#1a1302}
+.bar-slide .data-heading{right:100px}
+.bar-slide .data-heading h2{font-size:86px;letter-spacing:-4.1px;line-height:1.08;margin:25px 0 0;white-space:nowrap}
+.bar-slide.bar-zh .data-heading h2{font-family:'ShiftCJK',sans-serif;font-weight:900;font-size:81px;letter-spacing:-1px;line-height:1.12;margin:22px 0 0}
+.bar-slide .bar-kicker{display:block;font-size:21px;line-height:1.4;letter-spacing:2px;font-weight:600;color:var(--bar-foreground);opacity:.75}
+.bar-slide .bar-subtitle{font-size:28px;line-height:1.35;letter-spacing:-.2px;color:var(--bar-foreground);opacity:.8;margin:18px 0 0}
+.bar-slide.bar-zh .bar-subtitle,.bar-slide.bar-zh .bar-kicker{font-family:'ShiftCJK',sans-serif;font-weight:900;letter-spacing:0}
+.bar-slide .bar-chart{position:absolute;left:100px;top:330px;width:1720px;height:620px}
+.bar-slide .bar-chart svg{width:100%;height:100%;display:block;overflow:visible;color:var(--bar-foreground);fill:var(--bar-foreground)}
+.bar-slide .bar-chart text{font-family:'ShiftSans','ShiftCJK',sans-serif;font-weight:500;letter-spacing:-.3px}
+.bar-slide.bar-zh .bar-chart .bar-label{font-family:'ShiftCJK',sans-serif;font-weight:900;letter-spacing:0}
+.bar-slide .bar-chart .bar-number{font-family:'ShiftSans',sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.5px}
+.bar-slide.bar-zh .bar-chart .bar-number{font-family:'ShiftSans','ShiftCJK',sans-serif}
+.bar-slide .bar-chart text[font-weight="600"]{font-weight:600}
+.bar-slide:before{opacity:.055}
+.bar-slide.dark:before{opacity:.09}
+
+/* Six SHIFT information layouts. No artwork slots and no global player edits. */
+.chart-slide{isolation:isolate;overflow:hidden;color:#1A1302;background:#BCBCBC}
+.chart-slide[data-tone="dark"]{color:#E3E3D9;background:#1A1302}
+.chart-slide[data-tone="orange"]{color:#1A1302;background:#FF661A}
+.chart-slide .chart-canvas{position:absolute;left:100px;top:330px;width:1720px;height:590px;display:block;overflow:visible}
+.chart-slide .chart-label{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.chart-slide .data-kicker{margin:0;letter-spacing:.13em}
+.chart-slide .data-heading h2{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:500;line-height:1.06;letter-spacing:-2.5px}
+.chart-slide .data-subtitle{position:absolute;left:100px;top:260px;max-width:1720px;font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:400;line-height:1.45;margin:0;letter-spacing:0}
+html:lang(zh) .chart-slide .data-heading h2{font-family:ShiftCJK,ShiftSans,sans-serif;font-weight:400;letter-spacing:0;line-height:1.12}
+html:lang(zh) .chart-slide .data-kicker,html:lang(zh) .chart-slide .data-subtitle{font-family:ShiftCJK,ShiftSans,sans-serif;font-weight:400;letter-spacing:0}
+/* Native SVG glyph fallback keeps Latin/numerals in ShiftSans and Chinese in ShiftCJK. */
+.chart-slide .chart-canvas path,.chart-slide .chart-canvas line,.chart-slide .chart-canvas circle{vector-effect:non-scaling-stroke}
+
+/* Finished data slides have no production kicker; preserve the title baseline. */
+.slide.data-slide .data-heading{top:144.4px}
+.slide.data-slide .data-heading h2{margin:0}
+html:lang(zh) .slide.data-slide .data-heading{top:142.8px}
+html:lang(zh) .slide.data-slide .data-heading h2{margin:0}
+
+/* SHIFT chart compositions: a calm heading band, then a distinct information field.
+   Page 10 retains its approved four-track composition. */
+.slide.data-slide:not(.four-tracks) .data-heading,
+html:lang(zh) .slide.data-slide:not(.four-tracks) .data-heading{top:76px;left:100px;right:100px}
+.slide.data-slide:not(.four-tracks) .data-heading h2,
+html:lang(zh) .slide.data-slide:not(.four-tracks) .data-heading h2{margin:0;line-height:1.12}
+.slide.data-slide:not(.four-tracks) .data-subtitle{font-size:27px;line-height:1.5;opacity:.74}
+.slide.bar-slide .bar-subtitle,.slide.target-progress .data-subtitle{position:static;margin:24px 0 0}
+.slide.chart-slide .data-subtitle{top:199px;margin:0;left:100px;right:100px;max-width:1720px}
+.slide.target-progress .target-chart{top:350px;height:620px}
+.target-progress .target-chart svg{overflow:visible}
+.target-progress .target-index{font-family:ShiftDots,monospace;font-size:44px;font-weight:900;fill:#ff661a}
+.target-progress .target-name{font-size:32px;fill:#e3e3d9;letter-spacing:-.5px}
+.target-progress .target-value{font-size:96px;font-weight:500;letter-spacing:-5px;fill:#e3e3d9}
+.target-progress .target-percent{font-size:43px;letter-spacing:-1px}
+.target-progress .target-note{font-size:24px;fill:#bcbcbc}
+.target-progress .target-label{font-size:24px;opacity:1;fill:#e3e3d9}
+.target-progress .target-tick{font-size:19px;fill:#bcbcbc;opacity:.7}
+html:lang(zh) .target-progress .target-name{font-size:32px}
+html:lang(zh) .target-progress .target-note{font-size:23px}
+
+/* SHIFT / data chapter: warm metal, dot typography, and six distinct compositions. */
+.slide.data-slide.bar-slide{color:#1a1302;background:#bcbcbc;--bar-foreground:#1a1302}
+.slide.data-slide.bar-slide.dark{background:#1a1302;color:#e3e3d9;--bar-foreground:#e3e3d9}
+.slide.data-slide.bar-slide.orange{background:#ff661a;color:#1a1302}
+.slide.data-slide.bar-slide.bar-columns{background:linear-gradient(180deg,#bcbcbc 0%,#bcbcbc 78%,#c8b4a6 100%)}
+.slide.data-slide.bar-slide.bar-grouped{background:#e3e3d9}
+.slide.data-slide.bar-slide:before{opacity:.075;background-size:40px 40px}
+.slide.data-slide.bar-slide.dark:before{opacity:.12}
+.slide.data-slide.bar-slide .data-heading{position:absolute;left:100px;right:100px;top:76px}
+.slide.data-slide.bar-slide .data-heading h2{font-family:ShiftSans,ShiftCJK,sans-serif;font-size:90px;line-height:1.12;font-weight:600;letter-spacing:-4px;white-space:nowrap;margin:0}
+.slide.data-slide.bar-slide .bar-title-dot{font-family:ShiftDots,monospace;font-weight:900;font-size:.96em;font-variation-settings:'ROND' 100;letter-spacing:-.045em}
+.slide.data-slide.bar-slide .data-subtitle{font-family:ShiftSans,ShiftCJK,sans-serif;font-size:27px;line-height:1.4;font-weight:400;letter-spacing:0;margin:24px 0 0;color:var(--bar-foreground);opacity:.9}
+.slide.data-slide.bar-slide .bar-chart{position:absolute;left:100px;top:330px;width:1720px;height:620px;overflow:visible}
+.slide.data-slide.bar-slide .bar-chart>svg{display:block;width:100%;height:100%;overflow:visible;fill:var(--bar-foreground)}
+.slide.data-slide.bar-slide .bar-chart text{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:500;font-synthesis:none;letter-spacing:0}
+.slide.data-slide.bar-slide .bar-chart .bar-number{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:-.025em}
+.slide.data-slide.bar-slide .bar-chart .bar-dot{font-family:ShiftDots,monospace;font-weight:900;font-variation-settings:'ROND' 100;letter-spacing:-.045em}
+.slide.data-slide.bar-slide .bar-chart text[font-weight="600"]{font-weight:600}
+.slide.data-slide.bar-slide [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.data-slide.bar-slide .data-heading{top:76px}
+html:lang(zh) .slide.data-slide.bar-slide .data-heading h2{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:82px;font-weight:900;line-height:1.12;letter-spacing:-1px;margin:0}
+html:lang(zh) .slide.data-slide.bar-slide .data-subtitle{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:27px;font-weight:900;line-height:1.4;letter-spacing:0;margin:24px 0 0}
+html:lang(zh) .slide.data-slide.bar-slide .bar-chart .bar-label{font-family:ShiftCJK,ShiftSans,sans-serif;font-weight:900;letter-spacing:0}
+html:lang(zh) .slide.data-slide.bar-slide .bar-chart .bar-number{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:500;letter-spacing:-.025em}
+html:lang(zh) .slide.data-slide.bar-slide .bar-chart .bar-dot{font-family:ShiftDots,monospace;font-weight:900}
+
+/* SHIFT analysis: generous title spacing, data-led dot type, flat silver/copper. */
+.slide.data-slide.chart-slide{isolation:isolate;overflow:hidden;background:#BCBCBC;color:#1A1302}
+.slide.data-slide.chart-slide:before{opacity:.075}
+.slide.data-slide.chart-slide[data-tone="dark"]{background:#1A1302;color:#E3E3D9}
+.slide.data-slide.chart-slide[data-tone="dark"]:before{opacity:.1}
+.slide.data-slide.chart-slide[data-tone="orange"]{background:#FF661A;color:#1A1302}
+.slide.data-slide.chart-slide .data-heading{position:absolute;left:100px;right:100px;top:80px;z-index:2}
+.slide.data-slide.chart-slide .data-heading h2{position:static;margin:0;font-family:ShiftSans,ShiftCJK,sans-serif;font-size:94px;line-height:1.08;font-weight:600;letter-spacing:-3px;white-space:nowrap}
+.slide.data-slide.chart-slide .data-subtitle{position:absolute;left:100px;right:100px;top:200px;max-width:none;margin:0;font-family:ShiftSans,ShiftCJK,sans-serif;font-size:28px;line-height:1.4;font-weight:400;letter-spacing:0;opacity:.82}
+.slide.data-slide.chart-slide .chart-canvas{position:absolute;left:100px;top:330px;width:1720px;height:620px;display:block;overflow:visible}
+.slide.data-slide.chart-slide .chart-label{font-family:ShiftSans,ShiftCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.data-slide.chart-slide .chart-label.chart-dot{font-family:ShiftDots,monospace;font-weight:900;font-variation-settings:'ROND' 100;letter-spacing:-.055em}
+.slide.data-slide.chart-slide .chart-canvas :is(path,line,circle,rect){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.data-slide.chart-slide .data-heading{top:80px}
+html:lang(zh) .slide.data-slide.chart-slide .data-heading h2{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:88px;line-height:1.15;font-weight:400;letter-spacing:0;margin:0}
+html:lang(zh) .slide.data-slide.chart-slide .data-subtitle{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:27px;line-height:1.45;font-weight:400;letter-spacing:0;margin:0}
+
+
+
+/* SHIFT refinement: scoped to these six original business layouts. */
+.slide.x30.xr{background:#e3e3d9;color:#1a1302;--x-ink:#1a1302;--x-paper:#e3e3d9;--x-accent:#ff661a;--x-muted:#bcbcbc;--x-soft:#ffb948;font-synthesis:none}
+.slide.x30.xr:before{opacity:.065;background-size:40px 40px}
+.slide.x30.xr.x30-silver{background:#bcbcbc}
+.slide.x30.xr.x30-orange{background:#ff661a}
+.slide.x30.xr.x30-dark{background:#1a1302;color:#e3e3d9;--x-ink:#e3e3d9;--x-paper:#1a1302;--x-accent:#ff661a}
+.slide.x30.xr .x30-heading{position:absolute;left:100px;right:100px;top:76px}
+.slide.x30.xr .x30-heading h2{position:static;font:600 94px/1.12 ShiftSans,ShiftCJK,sans-serif;margin:0;letter-spacing:-3px;white-space:nowrap}
+.slide.x30.xr .x30-heading p{font:400 27px/1.45 ShiftSans,ShiftCJK,sans-serif;margin:24px 0 0;letter-spacing:0;opacity:.84}
+html:lang(zh) .slide.x30.xr .x30-heading h2{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:82px;font-weight:900;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.x30.xr .x30-heading p{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:27px;line-height:1.45;letter-spacing:0}
+.slide.x30.xr .x30-body{position:absolute;left:100px;top:350px;width:1720px;height:600px}
+.slide.x30.xr .x30-body svg{width:100%;height:100%;display:block;overflow:visible}
+.slide.x30.xr svg text{font:400 29px ShiftSans,ShiftCJK,sans-serif;letter-spacing:0;fill:var(--x-ink);font-synthesis:none}
+.slide.x30.xr svg .xr-mid{font-size:44px;font-weight:600}
+.slide.x30.xr svg .xr-number{font-size:46px;font-weight:500;font-variant-numeric:tabular-nums}
+.slide.x30.xr svg .xr-small{font-size:25px}
+.slide.x30.xr svg .xr-dot{font-family:ShiftDots,monospace;font-weight:900;font-variation-settings:'ROND' 100;letter-spacing:-.045em}
+.slide.x30.xr svg .xr-step{font-size:46px}
+.slide.x30.xr svg .xr-metric{font-size:194px}
+.slide.x30.xr svg .xr-center-total{font-size:188px}
+.slide.x30.xr svg .xr-percent{font-size:78px}
+.slide.x30.xr [data-chart-motion]{transform-box:view-box}
+.slide.x30.xr .x30-art{position:absolute;pointer-events:none}
+.slide.x30.xr .x30-art .artwork-slot{width:100%;height:100%}
+.slide.x30.xr .x30-art img{display:block;width:100%;height:100%;object-fit:contain}
+.slide.x30.xr .x30-art svg{width:100%;height:100%;overflow:visible}
+.slide.x30.xr .x30-art-work{left:192px;top:710px;width:230px;height:230px}
+.slide.x30.xr .x30-art-time{left:1590px;top:60px;width:220px;height:220px}
+.slide.x30.xr .x30-art-release{left:1510px;top:720px;width:230px;height:230px}
+/* 24: a semantic total and a true four-column register. */
+.slide.x30.xr .xr-work-total{position:absolute;left:0;top:6px;width:440px}
+.slide.x30.xr .xr-work-total .xr-total-number{display:block;font:900 260px/.98 ShiftDots,monospace;font-variation-settings:'ROND' 100;letter-spacing:-.08em;color:#1a1302}
+.slide.x30.xr .xr-work-total p{font:500 31px/1.4 ShiftSans,ShiftCJK,sans-serif;margin:28px 0 0;letter-spacing:0}
+.slide.x30.xr .xr-register-wrap{position:absolute;left:520px;top:4px;width:1200px}
+.slide.x30.xr table{border-collapse:collapse;table-layout:fixed;width:100%;color:inherit;font:400 32px/1.35 ShiftSans,ShiftCJK,sans-serif}
+.slide.x30.xr table th{font-size:25px;font-weight:500;text-align:left;padding:0 24px 24px;border-bottom:2px solid #1a1302;opacity:1;letter-spacing:0}
+.slide.x30.xr table td{height:105px;padding:20px 24px;border-bottom:1px solid #1a130244;vertical-align:middle;letter-spacing:0;text-decoration:none;color:inherit}
+.slide.x30.xr table th:first-child,.slide.x30.xr table td:first-child{padding-left:0;width:auto}
+.slide.x30.xr .xr-register td:nth-child(2){font:600 49px ShiftSans,ShiftCJK,sans-serif;color:#1a1302}
+.slide.x30.xr .xr-register td:last-child,.slide.x30.xr .xr-register th:last-child{text-align:right}
+.slide.x30.xr .xr-register td:first-child{font-weight:600}
+.slide.x30.xr .xr-register-note{font:400 26px/1.4 ShiftSans,ShiftCJK,sans-serif;margin:26px 0 0;letter-spacing:0}
+/* 25: aligned comparison rows; the center header alone is the copper focal point. */
+.slide.x30.xr .x30-matrix th{height:160px;padding:0 22px 28px;font:600 43px/1.15 ShiftSans,ShiftCJK,sans-serif;vertical-align:middle;opacity:1;background:none!important;color:#1a1302!important;border-bottom:2px solid #1a1302;text-align:left}
+.slide.x30.xr .x30-matrix th:first-child{font:500 25px ShiftSans,ShiftCJK,sans-serif;padding-left:0;width:auto}
+.slide.x30.xr .x30-matrix td{height:115px;padding:22px;font:400 31px/1.3 ShiftSans,ShiftCJK,sans-serif;background:none!important;color:#1a1302!important;text-align:left;text-decoration:none}
+.slide.x30.xr .x30-matrix td:first-child{font-size:26px;padding-left:0;width:auto}
+.slide.x30.xr .x30-matrix th:nth-child(3){border-bottom:6px solid #ff661a}
+.slide.x30.xr .xr-plan-head{display:flex;align-items:center;gap:20px}
+.slide.x30.xr .xr-plan-coin{flex:0 0 94px;height:94px;border-radius:50%;display:grid;place-items:center;border:2px solid #92938e;background:radial-gradient(ellipse at 30% 20%,#f6f5ec,#bcbcb7 56%,#e3e3d9 76%,#9c9e97);box-shadow:inset 0 0 0 5px #e3e3d977;font:900 45px ShiftDots,monospace;font-variation-settings:'ROND' 100;letter-spacing:-.06em;padding-right:4px}
+.slide.x30.xr .x30-matrix th:nth-child(3) .xr-plan-coin{background:#ff661a;border-color:#cc4a0c;box-shadow:inset 0 0 0 5px #ffb94844;color:#1a1302}
+.slide.x30.xr .xr-matrix-note{margin-top:26px;font:400 25px/1.4 ShiftSans,ShiftCJK,sans-serif;letter-spacing:0}
+/* 26: the small sculpture occupies the heading's reserved right-hand space. */
+.slide.x30.xr.x30-timeline .x30-heading{right:360px}
+.slide.x30.xr.x30-timeline .x30-heading h2{font-size:90px}
+.slide.x30.xr.x30-decision-flow .x30-heading h2{font-size:90px}
+.slide.x30.xr .xr-flow-label{font-size:31px;font-weight:500}
+html:lang(zh) .slide.x30.xr .xr-plan-head{gap:18px}
+html:lang(zh) .slide.x30.xr .x30-matrix th{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:37px}
+html:lang(zh) .slide.x30.xr .x30-matrix th:first-child{font-size:25px}
+html:lang(zh) .slide.x30.xr .x30-matrix td{font-size:29px}
+html:lang(zh) .slide.x30.xr .x30-matrix td:first-child{font-size:26px}
+html:lang(zh) .slide.x30.xr.x30-timeline .x30-heading h2,html:lang(zh) .slide.x30.xr.x30-decision-flow .x30-heading h2{font-size:82px}
+
+/* SHIFT chart refinement: keep measurements clear, use dot sculptures as accents. */
+.slide.data-slide .mini-chart-art{position:absolute;left:1558px;top:49px;width:260px;height:230px;margin:0;z-index:2;pointer-events:none}
+.slide.data-slide .mini-chart-art .artwork-slot{width:100%;height:100%}
+.slide.data-slide .mini-chart-art img{display:block;width:100%;height:100%;object-fit:contain}
+.slide.data-slide.has-chart-art .data-heading{right:430px}
+.slide.data-slide.has-chart-art .data-subtitle{max-width:1390px}
+.slide.data-slide.chart-slide.has-chart-art .data-subtitle{right:430px}
+.slide.data-slide.bar-ranking .mini-chart-art{top:56px;height:215px}
+.slide.data-slide.chart-area .mini-chart-art{top:55px;height:208px}
+.slide.data-slide.chart-scatter .mini-chart-art{top:48px;height:225px}
+.slide.data-slide.four-tracks .data-heading{top:98px;left:100px;right:100px}
+.slide.data-slide.four-tracks .data-heading h2{font-size:94px;line-height:1.12;letter-spacing:-3.5px}
+html:lang(zh) .slide.data-slide.four-tracks .data-heading h2{font-size:86px;letter-spacing:0}
+.slide.data-slide.four-tracks .track-grid{top:335px;gap:26px}
+.slide.data-slide.four-tracks .track-grid article{height:596px;border-top-width:2px;box-shadow:inset 0 -3px #1a130218}
+.slide.data-slide.four-tracks .track-grid article:nth-child(1){background:#c6c7bf}
+.slide.data-slide.four-tracks .track-grid article:nth-child(2){background:#dcded4;border-top-color:#1a1302}
+.slide.data-slide.four-tracks .track-grid article:nth-child(2) .track-number{color:#1a1302}
+.slide.data-slide.four-tracks .track-number{font-size:85px;line-height:1}
+.slide.data-slide.four-tracks .track-grid h3{margin-top:36px}
+.slide.data-slide.four-tracks .track-output{padding-top:25px;border-top-color:#1a130255}
+.slide.data-slide.four-tracks .track-grid article:last-child .track-output{border-top-color:#e3e3d955}
+.slide.data-slide.target-progress .target-value{font-family:ShiftDots,monospace;font-size:102px;font-weight:900;letter-spacing:-2px}
+.slide.data-slide.target-progress .target-hit{fill:#ff661a}
+.slide.data-slide.target-progress .target-note{fill:#c8c9bf}
+.slide.data-slide.chart-scatter{background:#c2c3ba}

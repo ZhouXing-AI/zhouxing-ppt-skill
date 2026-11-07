@@ -1,0 +1,426 @@
+{
+  "theme": {
+    "en": "INDEX",
+    "zh": "索引"
+  },
+  "version": "1.0.0",
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "visual_language": "Original flat archival compositions: continuously curved folder tabs, paper inserts, filing objects and precise geometric registration marks. Distinct silhouettes for collecting, sorting, connecting and using knowledge. Transparent, self-contained SVG; no shading, perspective, gradients, fonts or external assets.",
+  "palette": {
+    "blue": "#1E4BD7",
+    "green": "#0C7866",
+    "purple": "#581E70",
+    "red": "#D71E1E",
+    "yellow": "#FFE927",
+    "black": "#191919",
+    "paper": "#FDFAF7"
+  },
+  "assets": [
+    {
+      "id": "open-index",
+      "name_en": "Open Index",
+      "name_zh": "展开索引",
+      "category": "collect",
+      "keywords": [
+        "archive",
+        "opening",
+        "cards",
+        "overview"
+      ],
+      "file": "open-index.svg"
+    },
+    {
+      "id": "capture-frame",
+      "name_en": "Capture Frame",
+      "name_zh": "捕捉框",
+      "category": "collect",
+      "keywords": [
+        "capture",
+        "idea",
+        "frame",
+        "selection"
+      ],
+      "file": "capture-frame.svg"
+    },
+    {
+      "id": "sorted-set",
+      "name_en": "Sorted Set",
+      "name_zh": "归档成组",
+      "category": "sort",
+      "keywords": [
+        "group",
+        "classify",
+        "records",
+        "order"
+      ],
+      "file": "sorted-set.svg"
+    },
+    {
+      "id": "linked-records",
+      "name_en": "Linked Records",
+      "name_zh": "关联档案",
+      "category": "connect",
+      "keywords": [
+        "relation",
+        "bridge",
+        "reference",
+        "connection"
+      ],
+      "file": "linked-records.svg"
+    },
+    {
+      "id": "search-window",
+      "name_en": "Search Window",
+      "name_zh": "检索窗口",
+      "category": "use",
+      "keywords": [
+        "find",
+        "fragment",
+        "locate",
+        "research"
+      ],
+      "file": "search-window.svg"
+    },
+    {
+      "id": "living-library",
+      "name_en": "Living Library",
+      "name_zh": "流动藏库",
+      "category": "use",
+      "keywords": [
+        "library",
+        "reuse",
+        "return",
+        "collection"
+      ],
+      "file": "living-library.svg"
+    },
+    {
+      "id": "intake-tray",
+      "name_en": "Intake Tray",
+      "name_zh": "收集托盘",
+      "category": "collect",
+      "keywords": [
+        "inbox",
+        "gather",
+        "sources",
+        "incoming",
+        "收集",
+        "来源",
+        "汇入"
+      ],
+      "file": "intake-tray.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "field-notes",
+      "name_en": "Field Notes",
+      "name_zh": "现场笔记",
+      "category": "collect",
+      "keywords": [
+        "observe",
+        "notebook",
+        "record",
+        "fieldwork",
+        "观察",
+        "笔记",
+        "采样"
+      ],
+      "file": "field-notes.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "source-envelope",
+      "name_en": "Source Envelope",
+      "name_zh": "来源信封",
+      "category": "collect",
+      "keywords": [
+        "source",
+        "clipping",
+        "gather",
+        "envelope",
+        "来源",
+        "摘录",
+        "收纳"
+      ],
+      "file": "source-envelope.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "signal-capture",
+      "name_en": "Signal Capture",
+      "name_zh": "信号采集",
+      "category": "collect",
+      "keywords": [
+        "listen",
+        "signal",
+        "recording",
+        "transcript",
+        "聆听",
+        "信号",
+        "记录"
+      ],
+      "file": "signal-capture.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "branching-taxonomy",
+      "name_en": "Branching Taxonomy",
+      "name_zh": "分类树",
+      "category": "sort",
+      "keywords": [
+        "taxonomy",
+        "branch",
+        "category",
+        "hierarchy",
+        "分类",
+        "分支",
+        "层级"
+      ],
+      "file": "branching-taxonomy.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "indexed-drawers",
+      "name_en": "Indexed Drawers",
+      "name_zh": "索引抽屉",
+      "category": "sort",
+      "keywords": [
+        "filing",
+        "cabinet",
+        "address",
+        "retrieval",
+        "归档",
+        "抽屉",
+        "定位"
+      ],
+      "file": "indexed-drawers.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "nested-categories",
+      "name_en": "Nested Categories",
+      "name_zh": "嵌套分类",
+      "category": "sort",
+      "keywords": [
+        "containment",
+        "subset",
+        "membership",
+        "hierarchy",
+        "包含",
+        "子集",
+        "归属"
+      ],
+      "file": "nested-categories.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "sequence-strip",
+      "name_en": "Sequence Strip",
+      "name_zh": "顺序折页",
+      "category": "sort",
+      "keywords": [
+        "sequence",
+        "timeline",
+        "order",
+        "register",
+        "顺序",
+        "时间",
+        "编排"
+      ],
+      "file": "sequence-strip.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "comparison-table",
+      "name_en": "Comparison Table",
+      "name_zh": "对照表",
+      "category": "sort",
+      "keywords": [
+        "compare",
+        "criteria",
+        "difference",
+        "matrix",
+        "对照",
+        "标准",
+        "差异"
+      ],
+      "file": "comparison-table.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "reference-wheel",
+      "name_en": "Reference Wheel",
+      "name_zh": "参照轮",
+      "category": "connect",
+      "keywords": [
+        "reference",
+        "hub",
+        "shared",
+        "network",
+        "参照",
+        "枢纽",
+        "共用"
+      ],
+      "file": "reference-wheel.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "shared-spine",
+      "name_en": "Shared Spine",
+      "name_zh": "共同书脊",
+      "category": "connect",
+      "keywords": [
+        "shared",
+        "bridge",
+        "cross-reference",
+        "book",
+        "共通",
+        "对读",
+        "互引"
+      ],
+      "file": "shared-spine.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "crossing-paths",
+      "name_en": "Crossing Paths",
+      "name_zh": "交汇路径",
+      "category": "connect",
+      "keywords": [
+        "crosslink",
+        "route",
+        "intersection",
+        "relation",
+        "交汇",
+        "路径",
+        "交叉引用"
+      ],
+      "file": "crossing-paths.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "evidence-chain",
+      "name_en": "Evidence Chain",
+      "name_zh": "证据链",
+      "category": "connect",
+      "keywords": [
+        "citation",
+        "provenance",
+        "evidence",
+        "trace",
+        "引证",
+        "溯源",
+        "证据"
+      ],
+      "file": "evidence-chain.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "synthesis-map",
+      "name_en": "Synthesis Map",
+      "name_zh": "综合图谱",
+      "category": "connect",
+      "keywords": [
+        "synthesis",
+        "merge",
+        "insight",
+        "combine",
+        "综合",
+        "融合",
+        "洞见"
+      ],
+      "file": "synthesis-map.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "decision-route",
+      "name_en": "Decision Route",
+      "name_zh": "决策路径",
+      "category": "use",
+      "keywords": [
+        "decision",
+        "choice",
+        "criteria",
+        "action",
+        "决策",
+        "选择",
+        "行动"
+      ],
+      "file": "decision-route.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "working-template",
+      "name_en": "Working Template",
+      "name_zh": "复用模板",
+      "category": "use",
+      "keywords": [
+        "template",
+        "reuse",
+        "pattern",
+        "apply",
+        "模板",
+        "复用",
+        "应用"
+      ],
+      "file": "working-template.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "knowledge-toolkit",
+      "name_en": "Knowledge Toolkit",
+      "name_zh": "知识工具箱",
+      "category": "use",
+      "keywords": [
+        "toolkit",
+        "method",
+        "practice",
+        "working",
+        "工具",
+        "方法",
+        "实践"
+      ],
+      "file": "knowledge-toolkit.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "published-brief",
+      "name_en": "Published Brief",
+      "name_zh": "成果简报",
+      "category": "use",
+      "keywords": [
+        "publish",
+        "brief",
+        "output",
+        "share",
+        "发布",
+        "简报",
+        "成果"
+      ],
+      "file": "published-brief.svg",
+      "added_version": "1.0.0"
+    }
+  ],
+  "categories": [
+    {
+      "id": "collect",
+      "name_en": "Collect",
+      "name_zh": "收集"
+    },
+    {
+      "id": "sort",
+      "name_en": "Sort",
+      "name_zh": "整理"
+    },
+    {
+      "id": "connect",
+      "name_en": "Connect",
+      "name_zh": "连接"
+    },
+    {
+      "id": "use",
+      "name_en": "Use",
+      "name_zh": "应用"
+    }
+  ]
+}

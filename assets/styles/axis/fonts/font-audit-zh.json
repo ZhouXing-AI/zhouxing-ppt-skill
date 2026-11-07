@@ -1,0 +1,157 @@
+{
+  "audit_version": 1,
+  "audited_at_utc": "2026-11-06T03:08:02.617215+00:00",
+  "project": "AXIS · 轴线",
+  "repository": "https://github.com/google/fonts",
+  "repository_commit": "24ddc1f324cac5d9f5aedca126d298f56e3f1640",
+  "source_policy": "Official Google Fonts complete SC font files. This bundle preserves all glyphs in those official source binaries; it is not a text subset and does not claim the entire Unicode or pan-CJK repertoire.",
+  "license_spdx": "OFL-1.1",
+  "offline_ready": true,
+  "css_synthesis_recommendation": "font-synthesis: none;",
+  "font_binary_modifications": "Lossless TTF-to-WOFF2 container conversion only. All WOFF2 preprocessing transforms disabled. Every decompressed SFNT table is byte-identical to source, except the container-dependent head.checkSumAdjustment and the WOFF2 lossless-transform flag (head.flags bit 11). No glyphs, outlines, variable axes, metrics, hints, names, copyrights, or licenses changed; no subsetting.",
+  "compression": {
+    "tool": "fontTools.ttLib.woff2.compress",
+    "fontTools_version": "4.60.2",
+    "brotli_version": "1.2.1",
+    "transform_tables": []
+  },
+  "files": [
+    {
+      "filename": "AxisCJK.woff2",
+      "source_path": "ofl/notosanssc/NotoSansSC[wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "source_ttf_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "source_ttf_bytes": 17772300,
+      "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
+      "bytes": 8490924,
+      "family": "Noto Sans SC",
+      "css_family": "AxisCJK",
+      "css_style": "normal",
+      "css_weight": "100 900",
+      "recommended_use_weight": [
+        400,
+        500
+      ],
+      "role": "Chinese titles 500; body, labels and UI 400",
+      "license_file": "NotoSansSC-OFL.txt",
+      "license_spdx": "OFL-1.1",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/OFL.txt",
+      "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_original_bytes_retained": true,
+      "metadata_source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/METADATA.pb",
+      "metadata_sha256": "c6c4bdb785793b2de1da177caeeffcd0c90d7680bdab2de8f88ab45007bc59bc",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "internal_family_name": "Noto Sans SC Thin",
+      "internal_typographic_family_name": "Noto Sans SC",
+      "internal_subfamily_name": "Regular",
+      "postscript_name": "NotoSansSC-Thin",
+      "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "copyright": "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+      "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "embedded_license_url": "http://scripts.sil.org/OFL",
+      "os2_embedding_fstype": 0,
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "glyph_count": 31036,
+      "unicode_cmap_codepoints": 30890,
+      "coverage_file": "AxisCJK-coverage.json",
+      "verification": {
+        "all_source_tables_retained": true,
+        "sfnt_table_comparison": {
+          "head": "identical excluding checkSumAdjustment and lossless-transform flag bit 11",
+          "hhea": "identical",
+          "maxp": "identical",
+          "OS/2": "identical",
+          "hmtx": "identical",
+          "cmap": "identical",
+          "prep": "identical",
+          "loca": "identical",
+          "glyf": "identical",
+          "name": "identical",
+          "post": "identical",
+          "gasp": "identical",
+          "BASE": "identical",
+          "GDEF": "identical",
+          "GPOS": "identical",
+          "GSUB": "identical",
+          "HVAR": "identical",
+          "STAT": "identical",
+          "avar": "identical",
+          "fvar": "identical",
+          "gvar": "identical",
+          "vhea": "identical",
+          "vmtx": "identical"
+        },
+        "unicode_cmaps_equal": true,
+        "glyph_count_equal": true,
+        "names_copyright_and_license_unchanged": true,
+        "subset": false,
+        "missing_current_slide_ui_han": [],
+        "current_slide_ui_han_count": 0,
+        "missing_chinese_ui_specimen": []
+      }
+    }
+  ],
+  "display_font_audit": "font-audit-condensed.json",
+  "reuse_note": "Exact audited Noto Sans SC bytes from the INDEX bundle. Only local filename and CSS alias differ.",
+  "bundled_fonts_checked": [
+    {
+      "file": "ShiftSans.woff2",
+      "family": "Instrument Sans",
+      "sha256": "a203c084d99207f473a58f596a1f7249754e2343b2ef5a6a71e9f2731b666a90",
+      "license": "InstrumentSans-OFL.txt",
+      "license_sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+      "coverage_codepoints": 203,
+      "glyph_count": 226,
+      "axes": [
+        {
+          "tag": "wdth",
+          "min": 75.0,
+          "max": 100.0
+        },
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "max": 700.0
+        }
+      ],
+      "embedding_fstype": 0
+    },
+    {
+      "file": "IndexMono.ttf",
+      "family": "IBM Plex Mono",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license": "IBMPlexMono-OFL.txt",
+      "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "coverage_codepoints": 930,
+      "glyph_count": 1033,
+      "axes": [],
+      "embedding_fstype": 0
+    },
+    {
+      "file": "AxisCJK.woff2",
+      "family": "Noto Sans SC",
+      "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
+      "license": "NotoSansSC-OFL.txt",
+      "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "coverage_codepoints": 30890,
+      "glyph_count": 31036,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ],
+      "embedding_fstype": 0
+    }
+  ]
+}

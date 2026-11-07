@@ -1,0 +1,321 @@
+{
+  "theme": {
+    "en": "SHIFT",
+    "zh": "流变"
+  },
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "categories": {
+    "流动": "Flow",
+    "连接": "Connection",
+    "结构": "Structure",
+    "可能": "Possibility"
+  },
+  "assets": [
+    {
+      "id": "torus",
+      "name_en": "Circulation",
+      "name_zh": "循环点环",
+      "category": "流动",
+      "keywords": [
+        "circulation",
+        "exchange",
+        "ideas"
+      ],
+      "file": "TORUS.svg"
+    },
+    {
+      "id": "orbit",
+      "name_en": "Orbit",
+      "name_zh": "开放轨道",
+      "category": "连接",
+      "keywords": [
+        "orbit",
+        "relationship",
+        "limits"
+      ],
+      "file": "ORBIT.svg"
+    },
+    {
+      "id": "portal",
+      "name_en": "Open Portal",
+      "name_zh": "开放之门",
+      "category": "可能",
+      "keywords": [
+        "portal",
+        "opening",
+        "possibility"
+      ],
+      "file": "PORTAL.svg"
+    },
+    {
+      "id": "signal",
+      "name_en": "Signal Field",
+      "name_zh": "信号聚合",
+      "category": "结构",
+      "keywords": [
+        "signal",
+        "convergence",
+        "information"
+      ],
+      "file": "SIGNAL.svg"
+    },
+    {
+      "id": "grid",
+      "name_en": "Dot Grid",
+      "name_zh": "点阵网格",
+      "category": "结构",
+      "keywords": [
+        "grid",
+        "system",
+        "information"
+      ],
+      "file": "GRID.svg"
+    },
+    {
+      "id": "cluster",
+      "name_en": "Shared Cluster",
+      "name_zh": "共享群集",
+      "category": "连接",
+      "keywords": [
+        "cluster",
+        "community",
+        "information"
+      ],
+      "file": "CLUSTER.svg"
+    },
+    {
+      "id": "arrow",
+      "name_en": "Forward Arrow",
+      "name_zh": "向前箭头",
+      "category": "流动",
+      "keywords": [
+        "forward",
+        "share",
+        "direction"
+      ],
+      "file": "ARROW.svg"
+    },
+    {
+      "id": "sphere",
+      "name_en": "Whole View",
+      "name_zh": "完整视野",
+      "category": "可能",
+      "keywords": [
+        "sphere",
+        "perspective",
+        "whole"
+      ],
+      "file": "sphere.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "helix",
+      "name_en": "Rising Helix",
+      "name_zh": "螺旋上升",
+      "category": "流动",
+      "keywords": [
+        "helix",
+        "growth",
+        "progress"
+      ],
+      "file": "helix.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "mobius",
+      "name_en": "Continuous Loop",
+      "name_zh": "无尽循环",
+      "category": "连接",
+      "keywords": [
+        "mobius",
+        "continuity",
+        "exchange"
+      ],
+      "file": "mobius.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "wave",
+      "name_en": "Changing Surface",
+      "name_zh": "流动曲面",
+      "category": "流动",
+      "keywords": [
+        "wave",
+        "change",
+        "surface"
+      ],
+      "file": "wave.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "bridge",
+      "name_en": "Connection Bridge",
+      "name_zh": "连结拱桥",
+      "category": "连接",
+      "keywords": [
+        "bridge",
+        "connection",
+        "crossing"
+      ],
+      "file": "bridge.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "link",
+      "name_en": "Linked Loops",
+      "name_zh": "相扣双环",
+      "category": "连接",
+      "keywords": [
+        "link",
+        "partnership",
+        "exchange"
+      ],
+      "file": "link.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "prism",
+      "name_en": "New Perspective",
+      "name_zh": "转向棱镜",
+      "category": "结构",
+      "keywords": [
+        "prism",
+        "perspective",
+        "structure"
+      ],
+      "file": "prism.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "stack",
+      "name_en": "Layers of Thought",
+      "name_zh": "思考叠层",
+      "category": "结构",
+      "keywords": [
+        "layers",
+        "process",
+        "collection"
+      ],
+      "file": "stack.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "fold",
+      "name_en": "Open Fan",
+      "name_zh": "展开折扇",
+      "category": "可能",
+      "keywords": [
+        "fan",
+        "choice",
+        "unfold"
+      ],
+      "file": "fold.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "spiral",
+      "name_en": "Expanding Spiral",
+      "name_zh": "扩展涡旋",
+      "category": "流动",
+      "keywords": [
+        "spiral",
+        "expansion",
+        "momentum"
+      ],
+      "file": "spiral.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "cascade",
+      "name_en": "Stepping Surfaces",
+      "name_zh": "递进曲面",
+      "category": "流动",
+      "keywords": [
+        "cascade",
+        "iteration",
+        "steps"
+      ],
+      "file": "cascade.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "burst",
+      "name_en": "Radiant Possibility",
+      "name_zh": "放射可能",
+      "category": "可能",
+      "keywords": [
+        "rays",
+        "possibility",
+        "reach"
+      ],
+      "file": "burst.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "pulse",
+      "name_en": "Creative Pulse",
+      "name_zh": "灵感脉冲",
+      "category": "流动",
+      "keywords": [
+        "pulse",
+        "rhythm",
+        "energy"
+      ],
+      "file": "pulse.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "lens",
+      "name_en": "A Different Lens",
+      "name_zh": "另一视角",
+      "category": "可能",
+      "keywords": [
+        "lens",
+        "observe",
+        "focus"
+      ],
+      "file": "lens.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "ribbon",
+      "name_en": "Connecting Ribbon",
+      "name_zh": "连接飘带",
+      "category": "连接",
+      "keywords": [
+        "ribbon",
+        "continuity",
+        "path"
+      ],
+      "file": "ribbon.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "vessel",
+      "name_en": "Room for Ideas",
+      "name_zh": "容纳灵感",
+      "category": "结构",
+      "keywords": [
+        "vessel",
+        "space",
+        "container"
+      ],
+      "file": "vessel.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "bloom",
+      "name_en": "Emerging Form",
+      "name_zh": "萌发形态",
+      "category": "可能",
+      "keywords": [
+        "bloom",
+        "emergence",
+        "growth"
+      ],
+      "file": "bloom.svg",
+      "added_version": "1.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

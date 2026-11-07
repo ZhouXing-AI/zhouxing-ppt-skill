@@ -1,0 +1,100 @@
+:root{--ink:#17171A;--purple:#5D57F4;--paper:#F4F3F0;--peach:#FF986B;--lavender:#D7D0FC;--mint:#C9E9DD;--stage-bg:#DFDEDA;--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:BlendSans,Arial,sans-serif;color:var(--ink);font-synthesis:none;-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:BlendSans,Arial,sans-serif;font-weight:500;font-style:normal;font-synthesis:none}h2{font-size:122px;line-height:1.04;letter-spacing:-5px}h3{font-size:48px;line-height:1.14;letter-spacing:-1.6px}p{font-size:29px;line-height:1.5}.label{font:400 19px/1.5 BlendMono,monospace;letter-spacing:.03em}.slide{background:var(--paper);color:var(--ink);isolation:isolate}.slide.dark{background:var(--ink);color:var(--paper)}.slide.violet{background:var(--lavender)}.slide.purple{background:var(--purple);color:var(--paper)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}.small-index{font:400 20px/1.5 BlendMono,monospace;letter-spacing:.01em}
+/* 01 — an oversized typographic block and a soft, continuous object. */
+.wordmark{position:absolute;left:120px;top:87px;display:flex;align-items:center;gap:20px;font-size:40px;font-weight:600;letter-spacing:-2px}.wordmark-dots{display:flex;margin-left:6px}.wordmark-dots i{width:18px;height:18px;border-radius:50%;background:var(--purple);margin-left:-6px}.wordmark-dots i:nth-child(2){background:var(--peach)}.wordmark-dots i:nth-child(3){background:var(--mint)}.cover-kicker{position:absolute;left:125px;top:229px;font:400 19px/1.5 BlendMono;letter-spacing:.04em}.cover h1{position:absolute;left:111px;top:292px;font-size:167px;line-height:.99;letter-spacing:-8px;z-index:2}.cover h1 span{color:var(--purple)}.cover-copy{position:absolute;left:125px;top:837px;font-size:29px;color:#68676D}.cover-art{position:absolute;right:9px;top:218px;width:925px;height:790px}
+/* 02 — a type-only pause and four soft colour fields. */
+.manifesto-label{position:absolute;left:120px;right:120px;top:156px;text-align:center}.manifesto h2{position:absolute;left:90px;right:90px;top:294px;text-align:center;font-size:145px;line-height:1.08;letter-spacing:-7px}.manifesto h2 span{color:var(--purple)}.color-track{position:absolute;left:565px;right:565px;top:703px;display:grid;grid-template-columns:1.2fr 1fr 1.55fr .9fr;gap:14px;height:73px}.color-track i{border-radius:26px;background:var(--purple)}.color-track i:nth-child(2){background:var(--peach)}.color-track i:nth-child(3){background:var(--lavender)}.color-track i:nth-child(4){background:var(--mint)}.manifesto-copy{position:absolute;left:120px;right:120px;top:846px;text-align:center;color:#68676D}
+/* 03 — offset artwork leaves a clean reading column for three ingredients. */
+.ingredients>h2{position:absolute;left:116px;top:123px;font-size:111px;letter-spacing:-5px}.ingredients-art{position:absolute;left:53px;top:413px;width:837px;height:575px}.ingredient-list{position:absolute;left:1040px;right:125px;top:179px}.ingredient-list article{position:relative;min-height:225px;padding:31px 0 38px 0;border-top:1px solid #CFCED4}.ingredient-list .small-index{color:var(--purple);display:block;margin-bottom:17px}.ingredient-list h3{font-size:46px}.ingredient-list p{font-size:27px;color:#68676D;margin-top:16px;max-width:660px}
+/* 04 — four equal cards; warm colour shifts keep the sequence legible. */
+.toolkit>h2{position:absolute;left:115px;top:126px;font-size:122px;line-height:1.06}.toolkit-art{position:absolute;right:160px;top:48px;width:540px;height:494px}.toolkit-grid{position:absolute;left:120px;right:120px;top:569px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.toolkit-grid article{height:359px;border-radius:26px;background:var(--lavender);padding:33px 29px}.toolkit-grid article:nth-child(2){background:var(--peach)}.toolkit-grid article:nth-child(3){background:var(--mint)}.toolkit-grid article:nth-child(4){background:var(--ink);color:var(--paper)}.toolkit-grid .small-index{opacity:.64}.toolkit-grid h3{margin-top:71px;font-size:45px;letter-spacing:-1.6px}.toolkit-grid p{font-size:25px;line-height:1.45;margin-top:25px;max-width:320px}
+/* 05 — precise 2D length encodes hours; decorative depth would impair comparison. */
+.data-label{position:absolute;left:120px;top:105px;color:#73717D}.time h2{position:absolute;left:115px;top:176px;font-size:110px;letter-spacing:-5px}.time h2 span{color:var(--purple)}.time-chart{position:absolute;left:120px;top:360px;width:1720px;height:525px}.time-chart svg{width:100%;height:100%}.tick{font:400 25px BlendSans,Arial,sans-serif;fill:#68676D}.row-label{font:500 31px BlendSans,Arial,sans-serif;fill:var(--ink)}.stack-value{font:500 35px BlendSans,Arial,sans-serif}.time-callout{position:absolute;left:360px;top:873px;display:flex;align-items:center;gap:29px}.time-callout b{font-size:64px;line-height:1;font-weight:500;letter-spacing:-3px;color:var(--purple)}.time-callout p{font-size:27px;color:#68676D}
+/* 06 — one folded ribbon on a lavender field, three quiet changes of context. */
+.forms h2{position:absolute;left:116px;top:160px;font-size:140px;line-height:1.04;letter-spacing:-6px}.forms-art{position:absolute;right:53px;top:190px;width:850px;height:760px}.forms-words{position:absolute;left:125px;top:675px;display:flex;flex-direction:column;gap:23px}.forms-words span{font-size:30px;line-height:1.4;display:flex;align-items:center;gap:22px}.forms-words span:before{content:'';width:12px;height:12px;background:var(--purple);border-radius:4px}
+/* 07 — a flat, labelled trend and one large change metric. */
+.testing h2{position:absolute;left:115px;top:181px;font-size:123px}.trend-chart{position:absolute;left:90px;top:350px;width:1200px;height:580px}.trend-chart svg{width:100%;height:100%;overflow:visible}.grid-line{stroke:#D6D4DC;stroke-width:1}.value{font:500 32px BlendSans,Arial,sans-serif;fill:var(--purple)}.trend-callout{position:absolute;left:1380px;right:100px;top:458px}.trend-callout b{font-size:113px;line-height:1;font-weight:500;letter-spacing:-7px;color:var(--purple);white-space:nowrap}.trend-callout b span{font-size:45px;letter-spacing:-1px;margin-left:11px}.trend-callout h3{font-size:39px;line-height:1.18;margin-top:40px;letter-spacing:-1.5px}.trend-callout p{font-size:27px;margin-top:26px;color:#68676D}
+/* 08 — a tactile control illustrates feedback without replacing the explanation. */
+.feedback h2{position:absolute;left:115px;top:120px;font-size:132px;line-height:1.03}.feedback-list{position:absolute;left:125px;top:481px;width:730px}.feedback-list article{position:relative;padding-left:66px;margin-bottom:41px}.feedback-list .small-index{position:absolute;left:0;top:10px;color:var(--purple)}.feedback-list h3{font-size:43px}.feedback-list p{margin-top:12px;font-size:26px;color:#68676D;max-width:650px}.feedback-art{position:absolute;right:15px;top:180px;width:960px;height:800px}
+/* 09 — a dark interlude and four steps joined by a single shared baseline. */
+.practice h2{position:absolute;left:115px;top:135px;font-size:134px;line-height:1.05}.practice-copy{position:absolute;left:1270px;top:264px;font-size:28px;color:#B9B7C3}.practice-track{position:absolute;left:120px;right:120px;top:630px;display:grid;grid-template-columns:repeat(4,1fr);gap:30px}.practice-track:before{content:'';position:absolute;left:0;right:0;top:36px;height:1px;background:#6E6A7A}.practice-track article{position:relative}.practice-track article>span{display:flex;align-items:center;justify-content:center;width:86px;height:73px;background:var(--lavender);border-radius:25px;color:var(--ink);font:400 23px BlendMono}.practice-track article:nth-child(2)>span{background:var(--peach)}.practice-track article:nth-child(3)>span{background:var(--mint)}.practice-track article:nth-child(4)>span{background:#F4F3F0}.practice-track h3{font-size:49px;letter-spacing:-1.5px;margin-top:44px}.practice-track p{font-size:25px;margin-top:22px;color:#B9B7C3;max-width:350px}
+/* 10 — a soft radial opening and a clear restart affordance. */
+.closing h2{position:absolute;left:116px;top:258px;font-size:154px;line-height:1.04;letter-spacing:-6px;z-index:2}.closing-art{position:absolute;right:6px;top:115px;width:940px;height:820px}.closing-copy{position:absolute;left:124px;top:820px;font-size:28px;color:#E8E4FC}.restart{position:absolute;left:125px;top:912px;background:transparent;border:0;border-bottom:1px solid #D7D0FC99;padding:0 0 9px;color:var(--paper);font:500 19px BlendSans;display:flex;gap:24px;align-items:center}.restart svg{width:22px;height:22px}
+
+/* BLEND chrome: translucent light surfaces, rounded modules and violet active states. */
+:root{--ui-ink:#17171A;--ui-accent:#5D57F4;--ui-paper:#F4F3F0;--ui-soft:#D7D0FC;--ui-line:#17171A1c}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1px solid #ffffffcc;border-radius:12px;background:#F4F3F0eb;color:var(--ui-ink);backdrop-filter:blur(18px);box-shadow:0 5px 24px #17171A18,0 1px 2px #17171A0d;font-family:BlendSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:8px;background:transparent;color:var(--ui-ink);font:400 12px/1.2 BlendSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:#D7D0FC66;border-color:#5D57F422}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-accent);border-color:var(--ui-accent);color:#fff;font:400 12px/1.2 BlendMono,monospace;font-variant-numeric:tabular-nums}
+.controls .count:hover{background:#4D48D8;color:#fff}
+.controls .divider{display:block;height:20px;margin:auto 3px;border-left:1px solid var(--ui-line)}
+.controls #full{border-color:#5D57F433;color:var(--ui-accent)}
+.controls #full:hover{background:var(--ui-accent);color:#fff}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#F4F3F0f5;color:var(--ui-ink);backdrop-filter:blur(16px);font-family:BlendSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:500 32px/1.15 BlendSans,Arial,sans-serif}
+.overview header button{flex:none;padding:12px 20px;border:1px solid var(--ui-line);border-radius:10px;background:#fff8;color:var(--ui-ink);font:400 13px/1.2 BlendSans,Arial,sans-serif;cursor:pointer}
+.overview header button:hover{background:var(--ui-accent);color:#fff}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1px solid var(--ui-line);border-radius:12px;background:#ffffffab;color:var(--ui-ink);text-align:left;font:400 20px/1.35 BlendSans,Arial,sans-serif;cursor:pointer;transition:background .15s,border-color .15s}
+.overview-grid button:hover{background:#D7D0FC77;border-color:#5D57F466}
+.overview-grid b{font:400 28px/1 BlendMono,monospace;font-variant-numeric:tabular-nums;color:var(--ui-accent)}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1px solid #ffffffcc;border-radius:12px;background:#F4F3F0f5;color:var(--ui-ink);backdrop-filter:blur(12px);box-shadow:0 8px 30px #17171A22;font:400 13px/1.5 BlendSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-accent);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit],body.editing [data-nav-tone=purple] [data-edit]{outline-color:var(--ui-soft)}
+/* Rounded grains live inside the 16:9 canvas; the current grain is three times wider. */
+#stage{--nav-ink:#17171A;--nav-accent:#5D57F4}
+#stage[data-nav-tone=dark]{--nav-ink:#D7D0FC;--nav-accent:#D7D0FC}
+#stage:is([data-nav-tone=purple],[data-nav-tone=brand]){--nav-ink:#F4F3F0;--nav-accent:#FFFFFF}
+/* Explicit active-slide intent wins when the shared player classifies purple as dark. */
+#stage:has(.slide.active:is([data-nav-tone=purple],[data-nav-tone=brand])){--nav-ink:#F4F3F0;--nav-accent:#FFFFFF}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:6px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button::before{content:'';display:block;width:7px;height:7px;transform:none;border:0;border-radius:2px;background:var(--nav-ink);opacity:.3;transition:width .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.6}
+.slide-dots button[aria-current=step]{width:38px}
+.slide-dots button[aria-current=step]::before{width:21px;height:7px;border-radius:3px;background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button::before{background:#17171A;box-shadow:0 0 0 1px #F4F3F0;opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button[aria-current=step]::before{background:#5D57F4;box-shadow:0 0 0 1px #F4F3F0}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 11px;border:1px solid var(--ui-line);border-radius:8px;background:#F4F3F0f5;color:var(--ui-ink);box-shadow:0 5px 18px #17171A18;font:400 11px/1.35 BlendSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:BlendCJK,BlendSans,sans-serif;font-weight:400;font-style:normal}
+html:lang(zh) .overview header{font-family:BlendCJK,BlendSans,sans-serif;font-weight:500;font-style:normal}
+html:lang(zh) .overview-grid b,html:lang(zh) .controls .count{font-family:BlendMono,BlendCJK,sans-serif;font-weight:400;font-style:normal}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:26px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — measured content layouts, theme-owned typography. */
+.slide.expansion30{background:#F4F3F0;color:#17171A}.slide.expansion30.x30-dark{background:#17171A;color:#F4F3F0} 
+.slide.expansion30 .x30-head{position:absolute;left:120px;right:120px;top:80px;margin:0;z-index:2}
+.slide.expansion30 .x30-head h2{position:static;margin:0;font-family:BlendSans,BlendCJK,sans-serif;font-size:78px;font-weight:500;font-style:normal;line-height:1.12;letter-spacing:-2px;white-space:nowrap;font-synthesis:none;color:inherit}
+.slide.expansion30 .x30-sub{position:absolute;left:0;right:0;top:120px;margin:0;font:400 27px/1.5 BlendSans,BlendCJK,sans-serif;letter-spacing:0;color:inherit;opacity:.78}
+.slide.expansion30 .x30-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.expansion30 .x30-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal;font-synthesis:none;letter-spacing:-.7px}
+.slide.expansion30 .x30-chart :is(path,line,rect,circle){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.expansion30 .x30-head h2{font-family:BlendCJK,BlendSans,sans-serif;font-size:75px;font-weight:500;font-style:normal;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.expansion30 .x30-sub{font-family:BlendCJK,BlendSans,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400}
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal}
+/* EXPANSION30 END */

@@ -1,0 +1,25 @@
+INDEX CHINESE DISPLAY FONT — Glow Sans SC Compressed ExtraBold v0.93
+
+Source: https://github.com/welai/glow-sans/releases/tag/v0.93
+Original archive: https://github.com/welai/glow-sans/releases/download/v0.93/GlowSansSC-Compressed-v0.93.zip
+Original archive member: GlowSansSC-Compressed-ExtraBold.otf
+Copyright (c) 2020, Celestial Phineas (official OFL.txt).
+Font metadata: Glow Sans (c) 2021 Project Welai.
+Full license: GlowSansCompressed-OFL.txt (SIL Open Font License 1.1).
+The official license does not declare any Reserved Font Name.
+
+Under OFL conditions, this font may be used commercially, embedded in
+HTML/PDF and redistributed with this open-source Skill. Preserve this
+notice and the complete OFL. Do not sell the font by itself. The font
+continues under OFL and is not relicensed as the Skill's code.
+
+The container was compressed from OTF to WOFF2. The empty DSIG placeholder
+(usNumSigs=0, no signature) was removed by the standard WOFF2 encoder. The full
+source repertoire, names, metrics, contours and cmap are retained; no
+subsetting, glyph editing, synthesized bold or CSS width scaling.
+IndexCJKDisplay is a CSS alias, not a renamed font family. The real weight
+is 800 (ExtraBold); representative Han advances are 800 / 1000 units.
+Use this face for Chinese headlines. Noto Sans SC remains the body/UI
+font and Noto Serif SC remains the label font.
+
+Audit and hashes: font-audit-condensed.json and IndexCJKDisplay-coverage.json.

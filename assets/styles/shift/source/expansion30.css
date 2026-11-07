@@ -1,0 +1,64 @@
+/* SHIFT refinement: scoped to these six original business layouts. */
+.slide.x30.xr{background:#e3e3d9;color:#1a1302;--x-ink:#1a1302;--x-paper:#e3e3d9;--x-accent:#ff661a;--x-muted:#bcbcbc;--x-soft:#ffb948;font-synthesis:none}
+.slide.x30.xr:before{opacity:.065;background-size:40px 40px}
+.slide.x30.xr.x30-silver{background:#bcbcbc}
+.slide.x30.xr.x30-orange{background:#ff661a}
+.slide.x30.xr.x30-dark{background:#1a1302;color:#e3e3d9;--x-ink:#e3e3d9;--x-paper:#1a1302;--x-accent:#ff661a}
+.slide.x30.xr .x30-heading{position:absolute;left:100px;right:100px;top:76px}
+.slide.x30.xr .x30-heading h2{position:static;font:600 94px/1.12 ShiftSans,ShiftCJK,sans-serif;margin:0;letter-spacing:-3px;white-space:nowrap}
+.slide.x30.xr .x30-heading p{font:400 27px/1.45 ShiftSans,ShiftCJK,sans-serif;margin:24px 0 0;letter-spacing:0;opacity:.84}
+html:lang(zh) .slide.x30.xr .x30-heading h2{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:82px;font-weight:900;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.x30.xr .x30-heading p{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:27px;line-height:1.45;letter-spacing:0}
+.slide.x30.xr .x30-body{position:absolute;left:100px;top:350px;width:1720px;height:600px}
+.slide.x30.xr .x30-body svg{width:100%;height:100%;display:block;overflow:visible}
+.slide.x30.xr svg text{font:400 29px ShiftSans,ShiftCJK,sans-serif;letter-spacing:0;fill:var(--x-ink);font-synthesis:none}
+.slide.x30.xr svg .xr-mid{font-size:44px;font-weight:600}
+.slide.x30.xr svg .xr-number{font-size:46px;font-weight:500;font-variant-numeric:tabular-nums}
+.slide.x30.xr svg .xr-small{font-size:25px}
+.slide.x30.xr svg .xr-dot{font-family:ShiftDots,monospace;font-weight:900;font-variation-settings:'ROND' 100;letter-spacing:-.045em}
+.slide.x30.xr svg .xr-step{font-size:46px}
+.slide.x30.xr svg .xr-metric{font-size:194px}
+.slide.x30.xr svg .xr-center-total{font-size:188px}
+.slide.x30.xr svg .xr-percent{font-size:78px}
+.slide.x30.xr [data-chart-motion]{transform-box:view-box}
+.slide.x30.xr .x30-art{position:absolute;pointer-events:none}
+.slide.x30.xr .x30-art .artwork-slot{width:100%;height:100%}
+.slide.x30.xr .x30-art img{display:block;width:100%;height:100%;object-fit:contain}
+.slide.x30.xr .x30-art svg{width:100%;height:100%;overflow:visible}
+.slide.x30.xr .x30-art-work{left:192px;top:710px;width:230px;height:230px}
+.slide.x30.xr .x30-art-time{left:1590px;top:60px;width:220px;height:220px}
+.slide.x30.xr .x30-art-release{left:1510px;top:720px;width:230px;height:230px}
+/* 24: a semantic total and a true four-column register. */
+.slide.x30.xr .xr-work-total{position:absolute;left:0;top:6px;width:440px}
+.slide.x30.xr .xr-work-total .xr-total-number{display:block;font:900 260px/.98 ShiftDots,monospace;font-variation-settings:'ROND' 100;letter-spacing:-.08em;color:#1a1302}
+.slide.x30.xr .xr-work-total p{font:500 31px/1.4 ShiftSans,ShiftCJK,sans-serif;margin:28px 0 0;letter-spacing:0}
+.slide.x30.xr .xr-register-wrap{position:absolute;left:520px;top:4px;width:1200px}
+.slide.x30.xr table{border-collapse:collapse;table-layout:fixed;width:100%;color:inherit;font:400 32px/1.35 ShiftSans,ShiftCJK,sans-serif}
+.slide.x30.xr table th{font-size:25px;font-weight:500;text-align:left;padding:0 24px 24px;border-bottom:2px solid #1a1302;opacity:1;letter-spacing:0}
+.slide.x30.xr table td{height:105px;padding:20px 24px;border-bottom:1px solid #1a130244;vertical-align:middle;letter-spacing:0;text-decoration:none;color:inherit}
+.slide.x30.xr table th:first-child,.slide.x30.xr table td:first-child{padding-left:0;width:auto}
+.slide.x30.xr .xr-register td:nth-child(2){font:600 49px ShiftSans,ShiftCJK,sans-serif;color:#1a1302}
+.slide.x30.xr .xr-register td:last-child,.slide.x30.xr .xr-register th:last-child{text-align:right}
+.slide.x30.xr .xr-register td:first-child{font-weight:600}
+.slide.x30.xr .xr-register-note{font:400 26px/1.4 ShiftSans,ShiftCJK,sans-serif;margin:26px 0 0;letter-spacing:0}
+/* 25: aligned comparison rows; the center header alone is the copper focal point. */
+.slide.x30.xr .x30-matrix th{height:160px;padding:0 22px 28px;font:600 43px/1.15 ShiftSans,ShiftCJK,sans-serif;vertical-align:middle;opacity:1;background:none!important;color:#1a1302!important;border-bottom:2px solid #1a1302;text-align:left}
+.slide.x30.xr .x30-matrix th:first-child{font:500 25px ShiftSans,ShiftCJK,sans-serif;padding-left:0;width:auto}
+.slide.x30.xr .x30-matrix td{height:115px;padding:22px;font:400 31px/1.3 ShiftSans,ShiftCJK,sans-serif;background:none!important;color:#1a1302!important;text-align:left;text-decoration:none}
+.slide.x30.xr .x30-matrix td:first-child{font-size:26px;padding-left:0;width:auto}
+.slide.x30.xr .x30-matrix th:nth-child(3){border-bottom:6px solid #ff661a}
+.slide.x30.xr .xr-plan-head{display:flex;align-items:center;gap:20px}
+.slide.x30.xr .xr-plan-coin{flex:0 0 94px;height:94px;border-radius:50%;display:grid;place-items:center;border:2px solid #92938e;background:radial-gradient(ellipse at 30% 20%,#f6f5ec,#bcbcb7 56%,#e3e3d9 76%,#9c9e97);box-shadow:inset 0 0 0 5px #e3e3d977;font:900 45px ShiftDots,monospace;font-variation-settings:'ROND' 100;letter-spacing:-.06em;padding-right:4px}
+.slide.x30.xr .x30-matrix th:nth-child(3) .xr-plan-coin{background:#ff661a;border-color:#cc4a0c;box-shadow:inset 0 0 0 5px #ffb94844;color:#1a1302}
+.slide.x30.xr .xr-matrix-note{margin-top:26px;font:400 25px/1.4 ShiftSans,ShiftCJK,sans-serif;letter-spacing:0}
+/* 26: the small sculpture occupies the heading's reserved right-hand space. */
+.slide.x30.xr.x30-timeline .x30-heading{right:360px}
+.slide.x30.xr.x30-timeline .x30-heading h2{font-size:90px}
+.slide.x30.xr.x30-decision-flow .x30-heading h2{font-size:90px}
+.slide.x30.xr .xr-flow-label{font-size:31px;font-weight:500}
+html:lang(zh) .slide.x30.xr .xr-plan-head{gap:18px}
+html:lang(zh) .slide.x30.xr .x30-matrix th{font-family:ShiftCJK,ShiftSans,sans-serif;font-size:37px}
+html:lang(zh) .slide.x30.xr .x30-matrix th:first-child{font-size:25px}
+html:lang(zh) .slide.x30.xr .x30-matrix td{font-size:29px}
+html:lang(zh) .slide.x30.xr .x30-matrix td:first-child{font-size:26px}
+html:lang(zh) .slide.x30.xr.x30-timeline .x30-heading h2,html:lang(zh) .slide.x30.xr.x30-decision-flow .x30-heading h2{font-size:82px}

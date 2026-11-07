@@ -1,0 +1,30 @@
+[
+  {
+    "family": "GlowDisplay",
+    "file": "fonts/DMSerifDisplay-Regular.ttf",
+    "weight": "400",
+    "style": "normal",
+    "coverage_file": "fonts/DMSerifDisplay-Regular-coverage.json"
+  },
+  {
+    "family": "GlowItalic",
+    "file": "fonts/DMSerifDisplay-Italic.ttf",
+    "weight": "400",
+    "style": "italic",
+    "coverage_file": "fonts/DMSerifDisplay-Italic-coverage.json"
+  },
+  {
+    "family": "GlowSans",
+    "file": "fonts/Poppins-Regular.woff2",
+    "weight": "400",
+    "style": "normal",
+    "coverage_file": "fonts/Poppins-Regular-coverage.json"
+  },
+  {
+    "family": "GlowSans",
+    "file": "fonts/Poppins-Medium.woff2",
+    "weight": "500",
+    "style": "normal",
+    "coverage_file": "fonts/Poppins-Medium-coverage.json"
+  }
+]

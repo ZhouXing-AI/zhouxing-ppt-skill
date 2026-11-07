@@ -1,0 +1,86 @@
+/* UI typography is independent of the slide fonts. */
+.controls #replace-artwork{display:inline-flex;align-items:center;justify-content:center;gap:7px;font-family:IndexMono,IndexSerif,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.artwork-trigger-icon{width:16px;height:16px;flex:none;pointer-events:none}
+.artwork-slot img{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none}
+body.editing .artwork-slot{cursor:pointer;outline:2px dashed #1e4bd788;outline-offset:8px}
+body.artwork-open .pointer-halo,body.artwork-open .pointer-ripple{display:none}
+.artwork-dialog{--a-ink:#1e4bd7;--a-accent:#1e4bd7;box-sizing:border-box;width:min(1160px,calc(100vw - 48px));max-width:none;height:min(790px,calc(100dvh - 48px));max-height:none;margin:auto;padding:0;border:1px solid #c3c7c8;border-radius:6px;background:#fdfaf7;color:var(--a-ink);box-shadow:0 32px 130px #07366c55;overflow:hidden;font:14px/1.5 IndexMono,IndexSerif,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.artwork-dialog[open]{display:flex;flex-direction:column}
+.artwork-dialog::backdrop{background:#1e4bd7d9;backdrop-filter:blur(12px)}
+.artwork-dialog *{box-sizing:border-box}
+.artwork-dialog h2,.artwork-dialog h3,.artwork-dialog p{font-family:inherit;letter-spacing:normal;font-style:normal}
+.artwork-dialog button,.artwork-dialog select{font:inherit;cursor:pointer;color:inherit}
+.artwork-dialog button{border:0;transition:background .15s,border-color .15s,box-shadow .15s}
+.artwork-dialog button:focus-visible,.artwork-dialog select:focus-visible{outline:3px solid #1e4bd7;outline-offset:3px}
+.artwork-dialog button:disabled{opacity:.45;cursor:default}
+.artwork-header{padding:25px 28px 21px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #1e4bd720;flex:none}
+.artwork-eyebrow{font-size:10px;font-weight:600;letter-spacing:.16em;color:#536f94;margin-bottom:5px}
+.artwork-header h2{font-size:24px;font-weight:600;line-height:1.2;margin:0;letter-spacing:-.02em}
+.artwork-header h2 .artwork-total{font-size:12px;font-weight:400;color:#536f94;letter-spacing:0;margin-left:12px;vertical-align:middle}
+.artwork-close{display:grid;place-items:center;flex:none;width:36px;height:36px;border-radius:50%;background:#d5d9d9;font-size:25px!important;line-height:1}
+.artwork-close:hover{background:#c7d0dc}
+.artwork-target-row{display:flex;gap:12px;align-items:center;padding:17px 28px;flex:none}
+.artwork-target-row label{font-size:12px;font-weight:600;white-space:nowrap}
+.artwork-target-row select{padding:9px 35px 9px 12px;max-width:340px;min-width:240px;background:#fdfaf7;border:1px solid #bdc8cf;border-radius:4px;font-size:13px}
+#artwork-context{margin:0 0 0 auto;font-size:11px;color:#536f94;text-align:right;max-width:280px}
+.artwork-workspace{display:grid;grid-template-columns:minmax(250px,.95fr) minmax(0,1.65fr);gap:25px;padding:0 28px 24px;min-height:0;flex:1}
+.artwork-preview-panel{display:flex;flex-direction:column;min-height:0;background:#d8d9d5;border:1px solid #c9cfce;border-radius:4px;overflow:hidden}
+.artwork-preview{display:grid;place-items:center;min-height:100px;flex:1;background:radial-gradient(ellipse at 50% 40%,#f4f4ef 0%,#dadbd6 85%);overflow:hidden}
+.artwork-preview.on-dark{background:radial-gradient(ellipse at 50% 40%,#226bcb,#1e4bd7 75%)}
+.artwork-preview img{display:block;width:100%;height:100%;max-height:400px;object-fit:contain;padding:12px}
+.artwork-preview-copy{padding:18px 23px 20px;border-top:1px solid #c3cacd;flex:none;background:#e6e6e0}
+.artwork-preview-category{font-size:10px;letter-spacing:.1em;color:#1e4bd7}
+.artwork-preview-copy h3{font-size:22px;font-weight:600;line-height:1.3;margin:6px 0 2px}
+#artwork-preview-english{margin:0;color:#536f94;font-size:13px}
+.artwork-preview-hint{font-size:10px;color:#536f94;margin:14px 0 0}
+.artwork-collection{display:flex;flex-direction:column;min-height:0}
+.artwork-filters{display:flex;flex-wrap:wrap;gap:5px;flex:none;margin:0 0 13px}
+.artwork-filter{padding:6px 10px;border-radius:7px;background:transparent;color:#536f94!important;font-size:11px!important}
+.artwork-filter:hover{background:#d5dde6}
+.artwork-filter[aria-pressed=true]{background:#1e4bd7;color:#fdfaf7!important}
+.artwork-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;align-content:start;overflow-y:auto;padding:4px 6px 4px 4px;margin:-4px -6px -4px -4px;scrollbar-width:thin;scrollbar-color:#98b2cf transparent}
+.artwork-card{position:relative;display:flex;flex-direction:column;text-align:left;min-width:0;padding:9px 10px 12px;background:#e6e6e0;border:1px solid #c6cdd0!important;border-radius:5px}
+.artwork-card:hover{background:#d9e1e8;border-color:#7f9fc6!important}
+.artwork-card[aria-pressed=true]{border-color:#1e4bd7!important;box-shadow:inset 0 0 0 1px #1e4bd7;background:#d9e2ee}
+.artwork-card-visual{display:block;width:100%;aspect-ratio:1/1;margin-bottom:6px;min-height:0;overflow:hidden}
+.artwork-card-visual img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.artwork-card-name{font-size:12px;font-weight:600;line-height:1.4}
+.artwork-card-english{margin-top:2px;color:#536f94;font-size:9px;line-height:1.4}
+.artwork-card-check{position:absolute;right:8px;top:8px;display:none;place-items:center;width:18px;height:18px;font-size:11px;background:#1e4bd7;color:white;border-radius:50%}
+.artwork-card[aria-pressed=true] .artwork-card-check{display:grid}
+.artwork-footer{flex:none;border-top:1px solid #c3cacd;padding:18px 28px;display:flex;justify-content:space-between;gap:20px;align-items:center;background:#e6e6e0}
+.artwork-footer-note{display:flex;flex-direction:column;gap:3px;font-size:10px;color:#536f94;min-width:0}
+.artwork-status{color:#1e4bd7;font-size:12px;min-height:18px}
+.artwork-actions{display:flex;align-items:center;gap:8px;flex:none}
+.artwork-actions button{padding:11px 17px;border-radius:4px;white-space:nowrap;font-size:12px;background:#cdd8e4}
+.artwork-actions .artwork-reset{background:transparent;color:#536f94}
+.artwork-actions .artwork-apply{background:#1e4bd7;color:#fdfaf7;min-width:125px}
+.artwork-actions .artwork-apply:hover{background:#1e4bd7}
+.artwork-actions .artwork-apply span{padding-left:12px}
+@media(max-width:780px){
+ .artwork-dialog{width:calc(100vw - 24px);height:calc(100dvh - 24px);border-radius:6px}
+ .artwork-header{padding:18px 20px 15px}.artwork-header h2{font-size:21px}.artwork-target-row{padding:12px 20px;flex-wrap:wrap;gap:8px}
+ .artwork-target-row select{max-width:calc(100% - 66px);min-width:0;flex:1}#artwork-context{flex-basis:100%;max-width:none;text-align:left;font-size:10px}
+ .artwork-workspace{padding:0 20px 16px;gap:14px;grid-template-columns:minmax(150px,.8fr) minmax(0,1.2fr)}
+ .artwork-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.artwork-filter{padding:5px 8px}.artwork-preview-copy{padding:14px}.artwork-preview-copy h3{font-size:18px}
+ .artwork-footer{padding:13px 20px;flex-wrap:wrap;gap:10px}.artwork-footer-note{font-size:9px}.artwork-actions{margin-left:auto}.artwork-actions button{padding:9px 12px}
+}
+@media(max-width:480px){
+ .artwork-workspace{display:flex;flex-direction:column;gap:12px}.artwork-preview-panel{height:140px;flex:none;flex-direction:row}.artwork-preview{flex:0 0 130px}.artwork-preview img{padding:6px}.artwork-preview-copy{padding:10px 12px;border-top:0;border-left:1px solid #c3cacd;flex:1}.artwork-preview-copy h3{font-size:17px;margin:3px 0}.artwork-preview-hint{font-size:9px;margin-top:8px}
+ .artwork-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.artwork-card{padding:5px 6px 8px}.artwork-card-name{font-size:10px}.artwork-card-english{font-size:8px}
+ .artwork-footer-note>span:last-child{display:none}.artwork-actions .artwork-apply{min-width:110px}.artwork-target-row{padding-top:9px;padding-bottom:9px}
+}
+@media print{#artwork-editor-root{display:none!important}}
+
+.artwork-dialog{font-synthesis:none}.artwork-dialog:lang(en) .artwork-preview-hint{font-size:11px}.artwork-dialog:lang(en) .artwork-filters{gap:3px}.artwork-dialog:lang(en) .artwork-filter{padding:6px 8px}
+
+.artwork-card-new{position:absolute;left:8px;top:8px;font:500 8px/1.3 IndexMono,sans-serif;letter-spacing:.05em;color:#1e4bd7;background:#edf2f5;padding:3px 5px;border-radius:4px;pointer-events:none}
+
+/* Editing affordances never enter exported slide snapshots. */
+#pdf-export-host .artwork-slot{outline:none!important;cursor:auto}
+
+/* Match the actual same-material relief field in both the library and slide. */
+.artwork-card-visual,.artwork-preview{background:#fdfaf7}
+.artwork-preview.on-dark{background:#1e4bd7}
+
+.artwork-preview.on-dark{background:#191919}.artwork-dialog{font-family:IndexMono,monospace}.artwork-preview-copy h3{font-family:IndexSerif,serif;font-weight:400}.artwork-header h2{font-family:IndexDisplay,sans-serif;font-weight:400}.artwork-card-visual{background:#e8e8e4}.artwork-dialog button{font-family:IndexMono,monospace}

@@ -1,0 +1,317 @@
+{
+  "theme": {
+    "en": "FORM",
+    "zh": "成形"
+  },
+  "version": "1.0.0",
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "open-volume",
+      "name_en": "Unfolding Seed",
+      "name_zh": "舒展种子",
+      "category": "空间",
+      "keywords": [
+        "opening",
+        "possibility",
+        "unfolding"
+      ],
+      "file": "open-volume.svg"
+    },
+    {
+      "id": "joined-planes",
+      "name_en": "Woven Relation",
+      "name_zh": "交织纹结",
+      "category": "结构",
+      "keywords": [
+        "connection",
+        "structure",
+        "belonging"
+      ],
+      "file": "joined-planes.svg"
+    },
+    {
+      "id": "ribbed-wave",
+      "name_en": "Flowing Ridges",
+      "name_zh": "流动层纹",
+      "category": "推进",
+      "keywords": [
+        "pattern",
+        "rhythm",
+        "detail"
+      ],
+      "file": "ribbed-wave.svg"
+    },
+    {
+      "id": "step-study",
+      "name_en": "Rising Folds",
+      "name_zh": "递进折纹",
+      "category": "推进",
+      "keywords": [
+        "sequence",
+        "iteration",
+        "progress"
+      ],
+      "file": "step-study.svg"
+    },
+    {
+      "id": "balanced-mass",
+      "name_en": "Weight & Crescent",
+      "name_zh": "盈缺平衡",
+      "category": "平衡",
+      "keywords": [
+        "balance",
+        "weight",
+        "space"
+      ],
+      "file": "balanced-mass.svg"
+    },
+    {
+      "id": "carved-loop",
+      "name_en": "Spiral Bloom",
+      "name_zh": "回旋花纹",
+      "category": "结构",
+      "keywords": [
+        "refine",
+        "wholeness",
+        "form"
+      ],
+      "file": "carved-loop.svg"
+    },
+    {
+      "id": "quiet-arch",
+      "name_en": "Quiet Arch",
+      "name_zh": "静谧拱门",
+      "category": "空间",
+      "keywords": [
+        "threshold",
+        "boundary",
+        "possibility"
+      ],
+      "file": "quiet-arch.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "folded-horizon",
+      "name_en": "Folded Horizon",
+      "name_zh": "折叠地平",
+      "category": "空间",
+      "keywords": [
+        "space",
+        "landscape",
+        "freedom"
+      ],
+      "file": "folded-horizon.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "veined-leaf",
+      "name_en": "Veined Leaf",
+      "name_zh": "叶脉留白",
+      "category": "空间",
+      "keywords": [
+        "growth",
+        "detail",
+        "breathing"
+      ],
+      "file": "veined-leaf.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "open-courtyard",
+      "name_en": "Open Courtyard",
+      "name_zh": "回廊留庭",
+      "category": "空间",
+      "keywords": [
+        "frame",
+        "opening",
+        "exploration"
+      ],
+      "file": "open-courtyard.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "scalloped-aperture",
+      "name_en": "Scalloped Aperture",
+      "name_zh": "花缘开孔",
+      "category": "空间",
+      "keywords": [
+        "aperture",
+        "attention",
+        "negative space"
+      ],
+      "file": "scalloped-aperture.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "braided-current",
+      "name_en": "Braided Current",
+      "name_zh": "编流交织",
+      "category": "结构",
+      "keywords": [
+        "weaving",
+        "connection",
+        "collaboration"
+      ],
+      "file": "braided-current.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "gathered-fronds",
+      "name_en": "Gathered Fronds",
+      "name_zh": "叶序聚合",
+      "category": "结构",
+      "keywords": [
+        "system",
+        "gathering",
+        "hierarchy"
+      ],
+      "file": "gathered-fronds.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "shared-spine",
+      "name_en": "Shared Spine",
+      "name_zh": "共生脊线",
+      "category": "结构",
+      "keywords": [
+        "structure",
+        "alignment",
+        "support"
+      ],
+      "file": "shared-spine.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "linked-vaults",
+      "name_en": "Linked Vaults",
+      "name_zh": "连拱成组",
+      "category": "结构",
+      "keywords": [
+        "modules",
+        "connection",
+        "foundation"
+      ],
+      "file": "linked-vaults.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "expanding-echo",
+      "name_en": "Expanding Echo",
+      "name_zh": "层层回响",
+      "category": "推进",
+      "keywords": [
+        "expansion",
+        "iteration",
+        "reach"
+      ],
+      "file": "expanding-echo.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "terraced-contours",
+      "name_en": "Terraced Contours",
+      "name_zh": "等高台地",
+      "category": "推进",
+      "keywords": [
+        "layers",
+        "progress",
+        "refinement"
+      ],
+      "file": "terraced-contours.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "branching-path",
+      "name_en": "Branching Path",
+      "name_zh": "分枝生长",
+      "category": "推进",
+      "keywords": [
+        "choice",
+        "development",
+        "direction"
+      ],
+      "file": "branching-path.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "unfurling-scroll",
+      "name_en": "Unfurling Scroll",
+      "name_zh": "徐徐展开",
+      "category": "推进",
+      "keywords": [
+        "unfolding",
+        "discovery",
+        "next step"
+      ],
+      "file": "unfurling-scroll.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "twin-seeds",
+      "name_en": "Twin Seeds",
+      "name_zh": "双籽相依",
+      "category": "平衡",
+      "keywords": [
+        "pair",
+        "complement",
+        "duality"
+      ],
+      "file": "twin-seeds.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "counter-curves",
+      "name_en": "Counter Curves",
+      "name_zh": "对弧相持",
+      "category": "平衡",
+      "keywords": [
+        "tension",
+        "balance",
+        "counterweight"
+      ],
+      "file": "counter-curves.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "weighted-petals",
+      "name_en": "Weighted Petals",
+      "name_zh": "轻重叶瓣",
+      "category": "平衡",
+      "keywords": [
+        "emphasis",
+        "proportion",
+        "weight"
+      ],
+      "file": "weighted-petals.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "orbit-core",
+      "name_en": "Orbit & Core",
+      "name_zh": "环抱重心",
+      "category": "平衡",
+      "keywords": [
+        "focus",
+        "centre",
+        "relationship"
+      ],
+      "file": "orbit-core.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "still-ripple",
+      "name_en": "Still Ripple",
+      "name_zh": "静水浅纹",
+      "category": "平衡",
+      "keywords": [
+        "calm",
+        "rest",
+        "harmony"
+      ],
+      "file": "still-ripple.svg",
+      "added_version": "1.0.0"
+    }
+  ],
+  "visual_language": "Original low plaster bas-relief; frontal view; same-plane contact shading; no freestanding volume or ground shadow."
+}

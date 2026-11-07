@@ -1,0 +1,48 @@
+{
+  "theme": "edit",
+  "name": "朱红笔尖",
+  "hotspot": [
+    3,
+    3
+  ],
+  "bodySize": 34,
+  "frameSize": 64,
+  "center": [
+    20,
+    20
+  ],
+  "outline": [
+    [
+      3,
+      3
+    ],
+    [
+      28,
+      8
+    ],
+    [
+      36,
+      25
+    ],
+    [
+      25,
+      36
+    ],
+    [
+      8,
+      28
+    ]
+  ],
+  "trailDuration": 160,
+  "trailColors": {
+    "light": "#b64032",
+    "brand": "#f2eee7",
+    "dark": "#f2eee7"
+  },
+  "variants": {
+    "light": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs /><g data-part=\"body\"><path d=\"M3 3 28 8 36 25 25 36 8 28Z\" fill=\"#b64032\" stroke=\"#352129\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><path d=\"m4.5 4.5 13 13\" stroke=\"#f2eee7\" stroke-width=\"1.7\" /><circle cx=\"19.5\" cy=\"19.5\" r=\"3.2\" fill=\"#f2eee7\" /><path d=\"m22 33 11-11\" stroke=\"#f2eee7\" stroke-width=\"2.2\" opacity=\".7\" /></g></svg>",
+    "brand": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs /><g data-part=\"body\"><path d=\"M3 3 28 8 36 25 25 36 8 28Z\" fill=\"#f2eee7\" stroke=\"#352129\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><path d=\"m4.5 4.5 13 13\" stroke=\"#b64032\" stroke-width=\"1.7\" /><circle cx=\"19.5\" cy=\"19.5\" r=\"3.2\" fill=\"#b64032\" /><path d=\"m22 33 11-11\" stroke=\"#b64032\" stroke-width=\"2.2\" opacity=\".7\" /></g></svg>",
+    "dark": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><defs /><g data-part=\"body\"><path d=\"M3 3 28 8 36 25 25 36 8 28Z\" fill=\"#b64032\" stroke=\"#f2eee7\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><path d=\"m4.5 4.5 13 13\" stroke=\"#f2eee7\" stroke-width=\"1.7\" /><circle cx=\"19.5\" cy=\"19.5\" r=\"3.2\" fill=\"#f2eee7\" /><path d=\"m22 33 11-11\" stroke=\"#f2eee7\" stroke-width=\"2.2\" opacity=\".7\" /></g></svg>"
+  },
+  "renderScale": 0.6666666666666666
+}

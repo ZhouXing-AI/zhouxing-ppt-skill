@@ -1,0 +1,27 @@
+SKETCH · 构想 — 中文字体版权与来源说明
+
+正式 Skill 分发文件：SketchCJKDisplay.woff2、SketchCJK.woff2、两份 OFL、两个 coverage JSON、fonts-array-cjk.json、font-manifest-cjk.json 与本 NOTICE。
+originals-cjk/ 是准备工作区的官方原始文件缓存，不需要随正式 Skill 重复打包。所有原件均可按 font-manifest-cjk.json 中的固定 URL、提交/版本和 SHA-256 恢复。
+
+两个字体采用 SIL Open Font License 1.1，可用于商业文档并随开源软件嵌入、修改和再分发；字体保留 OFL，不变更为 Skill 的软件许可证，不单独售卖字体。
+
+标题：狮尾四季春加糖 SC Black，真实字重900。官方完整 WOFF2 字节未经修改，仅通过 CSS 名称 SketchCJKDisplay 引用。
+来源：https://github.com/max32002/swei-spring/tree/365dde98b93b82fa809acb91587b63b0fbde1c0a
+许可文件：SweiSpring-OFL.txt
+
+SweiSpringSugarCJKsc-Black.ttf 原始字体内部版权声明：
+Chun Yu Yao
+
+LXGWWenKaiGB-Regular.ttf 原始字体内部版权声明：
+Copyright 2022-2026 LXGW (https://github.com/lxgw/LxgwWenKaiGB), with Reserved Font Name '霞鹜', '霞鶩', '落霞孤鹜', '落霞孤鶩' and 'LXGW'.
+Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
+
+正文：霞鹜文楷 GB Regular v1.530，真实字重400。原始完整 TTF 保持原样存档。嵌入 WOFF2 将内部主字体名改为 Sketch CJK，避免衍生字体使用 LXGW 等保留名称；原版权与许可信息保留，轮廓、度量及全部字符映射不变。
+来源：https://github.com/lxgw/LxgwWenKaiGB/tree/603cad835e132872f26831e36b989c574f3d0a5a
+发布：https://github.com/lxgw/LxgwWenKaiGB/releases/tag/v1.530
+许可文件：LXGWWenKaiGB-OFL.txt
+
+文件完整性：没有按这10页文案裁剪。标题42820码位，正文46926码位，保留对应官方字体文件的全部cmap。此处“完整”指所选上游文件完整，非整个Unicode字符库。
+WOFF2采用无损Brotli压缩，禁用可选glyf预处理，优先让构建时间可控。
+
+此前英文Fraunces/Poppins文件与font-manifest.json条目未修改。

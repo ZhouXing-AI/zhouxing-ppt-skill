@@ -1,0 +1,63 @@
+/* ECHO chrome: a quiet midnight-blue instrument panel. No audio is loaded. */
+:root{--ui-ink:#12141F;--ui-mist:#A8B9CB;--ui-paper:#F0F1ED;--ui-blue:#607E9A;--ui-line:#A8B9CB55}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1px solid var(--ui-line);border-radius:8px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 28px #12141F33;font-family:EchoSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:var(--ui-paper);font:400 12px/1.2 EchoSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:#607E9A30;border-color:var(--ui-line)}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-mist);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-mist);border-color:var(--ui-mist);color:var(--ui-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.controls .count:hover{background:var(--ui-paper);color:var(--ui-ink)}
+.controls .divider{display:block;height:20px;margin:auto 3px;border-left:1px solid var(--ui-line)}
+.controls #full{border-color:var(--ui-line);color:var(--ui-mist)}
+.controls #full:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#12141Ff5;color:var(--ui-paper);backdrop-filter:blur(12px);font-family:EchoSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:400 40px/1.15 EchoDisplay,Georgia,serif}
+.overview header button{flex:none;padding:12px 20px;border:1px solid var(--ui-line);border-radius:4px;background:transparent;color:var(--ui-paper);font:400 13px/1.2 EchoSans,Arial,sans-serif;cursor:pointer}
+.overview header button:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1px solid var(--ui-line);border-radius:5px;background:var(--ui-ink);color:var(--ui-paper);text-align:left;font:400 20px/1.35 EchoSans,Arial,sans-serif;cursor:pointer;transition:background .15s,color .15s}
+.overview-grid button:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.overview-grid b{font:400 35px/1 EchoDisplay,Georgia,serif;font-variant-numeric:tabular-nums;color:var(--ui-mist)}
+.overview-grid button:hover b{color:var(--ui-ink)}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1px solid var(--ui-line);border-radius:6px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 30px #12141F44;font:400 13px/1.5 EchoSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-blue);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit]{outline-color:var(--ui-mist)}
+/* Short scale bars stay inside the 16:9 canvas. Width and brightness mark the current page. */
+#stage{--nav-ink:#12141F;--nav-accent:#A8B9CB;--nav-outline:#12141F}
+#stage[data-nav-tone=dark]{--nav-ink:#A8B9CB;--nav-accent:#A8B9CB;--nav-outline:#F0F1ED}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{--note-height:9px;position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:3px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button:nth-child(5n+2){--note-height:14px}.slide-dots button:nth-child(5n+3){--note-height:18px}.slide-dots button:nth-child(5n+4){--note-height:11px}.slide-dots button:nth-child(5n){--note-height:16px}
+.slide-dots button::before{content:'';display:block;width:3px;height:var(--note-height);border:0;border-radius:1px;background:var(--nav-ink);opacity:.4;transition:width .18s,height .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.7}
+.slide-dots button[aria-current=step]{width:36px}
+.slide-dots button[aria-current=step]::before{width:19px;height:18px;border:1px solid var(--nav-outline);border-radius:2px;background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+/* Split fields may place the same centered pager on both light and dark backgrounds.
+   A dark core and a fine silver outline remain legible across either field. */
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button::before{background:#12141F;box-shadow:0 0 0 1px #F0F1ED;opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button[aria-current=step]::before{background:#A8B9CB;border-color:#12141F;box-shadow:0 0 0 1px #F0F1ED}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 11px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 5px 18px #12141F33;font:400 11px/1.35 EchoSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+/* Interface text remains sans-serif in both languages; only display headings use a serif. */
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:EchoCJK,EchoSans,sans-serif}
+html:lang(zh) .overview header{font-family:EchoCJKDisplay,serif;font-weight:400}
+html:lang(zh) .overview-grid b{font-family:EchoDisplay,EchoCJKDisplay,serif;font-weight:400}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:28px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}

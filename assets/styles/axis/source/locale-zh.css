@@ -1,0 +1,126 @@
+/* AXIS 中文版：完整 Noto Sans SC 可变字库，500 标题、400 正文。
+   用中文自己的行长、字距与基线组织内容；保留 AXIS 英文字标和等宽数字。 */
+html:lang(zh) body {
+  font-family: AxisSans, AxisCJK, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  line-break: strict;
+  word-break: normal;
+}
+html:lang(zh) .slide { font-synthesis: none; }
+html:lang(zh) .slide :is(h2,h3) {
+  font-family: AxisSans, AxisCJK, sans-serif;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  line-height: 1.18;
+  overflow-wrap: normal;
+}
+html:lang(zh) .slide p { line-height: 1.55; }
+html:lang(zh) .slide :is(.eyebrow,.mono) {
+  font-family: AxisMono, AxisCJK, sans-serif;
+  font-weight: 400;
+  letter-spacing: .06em;
+  line-height: 1.5;
+}
+html:lang(zh) .eyebrow { font-size: 23px; }
+
+/* 01 — AXIS 字标保持原样；中文副标题与线性雕塑分别占据两侧。 */
+html:lang(zh) .cover-sub { top: 578px; font-size: 103px; line-height: 1.22; letter-spacing: -.035em; }
+html:lang(zh) .cover-note { top: 883px; font-size: 28px; line-height: 1.6; }
+
+/* 02 — 五字标题行与右侧方向箭头之间保留明确间隔。 */
+html:lang(zh) .bearing-word h2 { margin-top: 68px; font-size: 143px; letter-spacing: -.04em; line-height: 1.15; }
+html:lang(zh) .bearing-bottom p { font-size: 40px; line-height: 1.4; }
+html:lang(zh) .bearing-bottom .mono { font-size: 22px; margin-bottom: 26px; }
+
+/* 03 — 三组两字节点，说明控制在两行；图形高度沿用英文。 */
+html:lang(zh) .forces>h2 { top: 88px; font-size: 93px; line-height: 1.2; }
+html:lang(zh) .force-grid h3 { font-size: 54px; }
+html:lang(zh) .force-grid p { margin-top: 25px; font-size: 29px; line-height: 1.65; }
+
+/* 04 — 中文取舍标题改为两行，用更长的行宽与矩阵形成平衡。 */
+html:lang(zh) .trade-copy h2 { margin-top: 80px; font-size: 127px; line-height: 1.23; letter-spacing: -.04em; }
+html:lang(zh) .trade-copy>p:last-child { margin-top: 65px; font-size: 31px; line-height: 1.7; }
+html:lang(zh) .matrix-grid span { font-size: 47px; font-weight: 500; letter-spacing: -.025em; }
+html:lang(zh) .matrix-grid small { font-size: 25px; margin-top: 61px; line-height: 1.5; }
+html:lang(zh) .matrix .axis-label { font-size: 20px; }
+html:lang(zh) .matrix>p { font-size: 20px; letter-spacing: .03em; }
+
+/* 05 — 标题、说明、三步证据链使用独立字号；短句不压缩字符。 */
+html:lang(zh) .evidence>h2 { font-size: 123px; line-height: 1.18; }
+html:lang(zh) .evidence-intro { top: 174px; font-size: 33px; line-height: 1.65; }
+html:lang(zh) .evidence-steps .mono { font-size: 22px; }
+html:lang(zh) .evidence-steps h3 { font-size: 63px; line-height: 1.2; letter-spacing: -.025em; }
+html:lang(zh) .evidence-steps p { margin-top: 31px; font-size: 27px; }
+
+/* 06 — 七字标题最长行限制在左栏；正文与下方输入输出保持分离。 */
+html:lang(zh) .layers>h2 { font-size: 104px; line-height: 1.2; }
+html:lang(zh) .layers-intro { top: 395px; font-size: 31px; line-height: 1.65; }
+html:lang(zh) .layers-list .mono { font-size: 22px; margin-bottom: 26px; }
+html:lang(zh) .layers-list h3 { font-size: 44px; }
+html:lang(zh) .layers-list p { font-size: 27px; margin-top: 23px; }
+
+/* 07 — 四个短节点与回路线组合，不让中文说明压到下边界。 */
+html:lang(zh) .loop>h2 { font-size: 110px; line-height: 1.2; }
+html:lang(zh) .loop-diagram h3 { font-size: 61px; margin-top: 21px; }
+html:lang(zh) .loop-diagram p { font-size: 26px; margin-top: 21px; }
+html:lang(zh) .loop-caption { font-size: 28px; }
+
+/* 08 — 左右两栏使用相同的文字节奏，对比稳定的目标与可变的路径。 */
+html:lang(zh) .adapt>h2 { font-size: 112px; line-height: 1.2; }
+html:lang(zh) .adapt-columns .mono { font-size: 22px; }
+html:lang(zh) .adapt-columns h3 { font-size: 76px; margin-top: 31px; }
+html:lang(zh) .adapt-columns ul { margin-top: 35px; }
+html:lang(zh) .adapt-columns li { font-size: 31px; line-height: 1.6; padding: 7px 0; }
+
+/* 09 — 三个等长标题对齐同一基线，不挤占雕塑的独立空间。 */
+html:lang(zh) .scale>h2 { font-size: 111px; line-height: 1.18; }
+html:lang(zh) .scale-path h3 { font-size: 46px; margin: 15px 0 24px; }
+html:lang(zh) .scale-path p { font-size: 27px; }
+
+/* 10 — 五字行长收在左侧，给右边方向图形留出空间。 */
+html:lang(zh) .closing>h2 { font-size: 153px; line-height: 1.2; letter-spacing: -.04em; }
+html:lang(zh) .closing-copy { font-size: 32px; }
+html:lang(zh) .restart { font-size: 20px; letter-spacing: .04em; }
+
+/* 中文播放器和素材选择器也只用内嵌字库。 */
+html:lang(zh) .controls,
+html:lang(zh) .controls button,
+html:lang(zh) .overview,
+html:lang(zh) .overview header,
+html:lang(zh) .overview button,
+html:lang(zh) .toast,
+html:lang(zh) .nav-tip,
+html:lang(zh) .artwork-dialog,
+html:lang(zh) .artwork-dialog :is(button,select,input,p,label),
+html:lang(zh) .artwork-card-new {
+  font-family: AxisSans, AxisCJK, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+html:lang(zh) .artwork-dialog :is(h2,h3) {
+  font-family: AxisSans, AxisCJK, sans-serif;
+  font-weight: 500;
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+html:lang(zh) .controls .count,
+html:lang(zh) .overview-grid b { font-family: AxisMono, AxisCJK, sans-serif; }
+
+html:lang(zh) .controls #replace-artwork { font-family: AxisSans, AxisCJK, sans-serif; font-weight: 400; }
+
+/* EXPANSION30: AXIS information layouts. Original ten-page rules stay intact. */
+.slide.x30-axis{background:var(--xbg);color:var(--xfg);padding:0}
+.slide.x30-axis:before,.slide.x30-axis:after{display:none}
+.slide.x30-axis .x30-heading{position:absolute;left:120px;right:120px;top:80px}
+.slide.x30-axis .x30-heading h2{position:static;margin:0;font:500 88px/1.12 AxisSans,AxisCJK,sans-serif;letter-spacing:-.02em;white-space:nowrap;color:var(--xfg);font-synthesis:none}
+.slide.x30-axis .x30-heading p{position:static;font:400 27px/1.45 AxisSans,AxisCJK,sans-serif;letter-spacing:0;margin:24px 0 0;color:var(--xfg);opacity:.78;max-width:1680px}
+.slide.x30-axis .x30-body{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.x30-axis .x30-body svg{width:100%;height:100%;display:block;overflow:visible}
+.slide.x30-axis .x30-body text{font-family:AxisSans,AxisCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.x30-axis .x30-body text.x30-display{font-family:AxisSans,AxisCJK,sans-serif;font-weight:500;letter-spacing:-.012em}
+.slide.x30-axis [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.x30-axis .x30-heading h2{font-family:AxisSans,AxisCJK,AxisCJK,sans-serif;font-size:80px;font-weight:500;letter-spacing:0;line-height:1.22;margin:0}
+html:lang(zh) .slide.x30-axis .x30-heading p{font-family:AxisSans,AxisCJK,sans-serif;font-size:27px;line-height:1.5;letter-spacing:0}
+html:lang(zh) .slide.x30-axis .x30-body text{font-family:AxisSans,AxisCJK,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.x30-axis .x30-body text.x30-display{font-family:AxisSans,AxisCJK,AxisCJK,sans-serif;font-weight:500;letter-spacing:0}

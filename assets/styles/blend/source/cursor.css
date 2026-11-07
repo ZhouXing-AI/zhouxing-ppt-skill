@@ -1,0 +1,12 @@
+/* BLEND soft triangular pick: ~23px solid body, two finite rounded-grain trails, exact northwest hotspot. */
+.theme-cursor{position:fixed;left:0;top:0;width:var(--cursor-size,42.666667px);height:var(--cursor-size,42.666667px);z-index:3000;pointer-events:none!important;visibility:hidden;contain:layout style;}
+.theme-cursor.visible{visibility:visible}
+.theme-cursor svg{display:block;width:var(--cursor-size,42.666667px);height:var(--cursor-size,42.666667px);overflow:visible;pointer-events:none}
+.theme-cursor [data-part="body"]{transform-box:view-box}
+.theme-cursor .cursor-trail{pointer-events:none;opacity:0}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ body.themed-pointer:not(.editing):not(.artwork-open) #stage,
+ body.themed-pointer:not(.editing):not(.artwork-open) #stage *{cursor:none!important}
+}
+@media(hover:none),(pointer:coarse),(prefers-reduced-motion:reduce){.theme-cursor{display:none!important}}
+@media print{.theme-cursor{display:none!important}}

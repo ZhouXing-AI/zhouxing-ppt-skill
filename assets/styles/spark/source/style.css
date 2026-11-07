@@ -1,0 +1,101 @@
+:root{--ink:#11140F;--lime:#B7FF3C;--paper:#F1F2EE;--green:#396214;--stage-bg:#D9DDD3;--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:SparkSans,Arial,sans-serif;color:var(--ink);font-synthesis:none;-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:SparkDisplay,Impact,sans-serif;font-weight:800;font-style:normal;font-synthesis:none}h2{font-size:154px;line-height:.94;letter-spacing:-1px}h3{font-size:61px;line-height:1;letter-spacing:-.3px}p{font-size:29px;line-height:1.55}.label{font:500 18px/1.5 SparkSans,Arial,sans-serif;letter-spacing:.08em}.slide{background:var(--paper);color:var(--ink);isolation:isolate}.slide.dark{background:var(--ink);color:var(--paper)}.slide.lime{background:var(--lime)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}
+/* 01 — a compact ignition module counters two monumental lines. */
+.cover-brand{position:absolute;left:120px;top:92px;font:800 42px/1 SparkDisplay;display:flex;align-items:center;gap:18px}.brand-slice{width:19px;height:29px;background:var(--lime);transform:skewX(-23deg)}.cover-eyebrow{position:absolute;left:120px;top:236px;color:#B5BCAE}.cover h1{position:absolute;left:112px;top:301px;z-index:2;font-size:237px;line-height:.89;letter-spacing:-3px}.cover h1 span{color:var(--lime)}.cover-copy{position:absolute;left:120px;top:801px;color:#C5CABE;font-size:30px}.cover-art{position:absolute;right:25px;top:247px;width:780px;height:780px}.cover-tag{position:absolute;right:125px;top:173px;color:var(--lime);border-bottom:1px solid #B7FF3C66;padding-bottom:16px;width:570px}
+/* 02 — an unillustrated manifesto lets the type carry the entire idea. */
+.action h2{position:absolute;left:115px;top:204px;font-size:224px;line-height:.91;letter-spacing:-3px}.action h2 span{color:var(--green)}.action-copy{position:absolute;left:125px;top:803px;font-size:31px}.action-chevrons{position:absolute;right:130px;top:785px;display:flex;gap:21px}.action-chevrons i{width:80px;height:115px;background:var(--ink);clip-path:polygon(0 0,46% 0,100% 50%,46% 100%,0 100%,54% 50%)}.action-chevrons i:first-child{opacity:.25}.action-chevrons i:nth-child(2){opacity:.55}
+/* 03 — a tangible idea, then three questions on a common baseline. */
+.specific>h2{position:absolute;left:115px;top:111px;font-size:161px}.specific-art{position:absolute;left:90px;top:391px;width:760px;height:600px}.specific-notes{position:absolute;left:1010px;right:130px;top:205px}.specific-notes article{position:relative;border-top:2px solid #11140F;padding:32px 0 35px 39px;min-height:223px}.note-dot{position:absolute;left:0;top:44px;width:13px;height:13px;background:var(--green);transform:skewX(-23deg)}.specific-notes h3{font-size:69px}.specific-notes p{margin-top:20px;font-size:28px;color:#5B6254}
+/* 04 — a resource inventory: one construction object and three aligned bands. */
+.resources>h2{position:absolute;left:115px;top:120px;font-size:167px;line-height:.95}.resources-art{position:absolute;right:95px;top:55px;width:615px;height:520px}.resources-grid{position:absolute;left:120px;right:120px;top:625px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.resources-grid article{height:305px;padding:34px 35px;background:#E1E5DB}.resources-grid article:first-child{background:var(--lime)}.resources-grid article:last-child{background:var(--ink);color:var(--paper)}.resource-number{font:500 19px SparkSans;opacity:.65}.resources-grid h3{font-size:70px;text-transform:uppercase;margin-top:30px}.resources-grid p{font-size:25px;line-height:1.5;margin-top:23px}
+/* 05 — no illustration: making the first version is the statement. */
+.version h2{position:absolute;left:115px;top:183px;font-size:194px;line-height:.97}.version h2 span{color:var(--lime)}.version-rule{position:absolute;left:120px;right:120px;top:667px;height:12px;background:var(--lime)}.version-rule:after{content:'';position:absolute;right:0;top:-22px;width:56px;height:56px;border-top:12px solid var(--lime);border-right:12px solid var(--lime);transform:rotate(45deg)}.version-copy{position:absolute;left:120px;top:761px;font-size:36px}.version-note{position:absolute;left:120px;top:838px;font-size:28px;color:#AEB8A5}
+/* 06 — three action words and a closed feedback path. */
+.experiment h2{position:absolute;left:117px;top:107px;font-size:177px;line-height:.91}.experiment h2 span{color:var(--green)}.experiment-art{position:absolute;right:60px;top:172px;width:850px;height:760px}.experiment-list{position:absolute;left:124px;top:690px;margin:0;padding:0;list-style:none}.experiment-list li{display:flex;gap:24px;align-items:baseline;font-size:29px;line-height:2.1}.experiment-list span{font:500 18px SparkSans;color:var(--green)}
+/* 07 — the illustration builds upward; the reading order remains clear. */
+.progress>h2{position:absolute;left:885px;top:130px;font-size:125px;line-height:.98}.progress-art{position:absolute;left:40px;top:178px;width:845px;height:795px}.progress-list{position:absolute;left:946px;right:125px;top:491px}.progress-list article{position:relative;padding-left:35px;margin-bottom:48px}.progress-mark{position:absolute;left:0;top:13px;width:13px;height:23px;background:var(--green);transform:skewX(-23deg)}.progress-list h3{font-size:56px;text-transform:uppercase}.progress-list p{font-size:27px;color:#5B6254;margin-top:18px}
+/* 08 — review with three distinct decisions, each given equal weight. */
+.review>h2{position:absolute;left:115px;top:112px;font-size:170px;line-height:.92}.review-grid{position:absolute;left:120px;right:120px;top:554px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.review-grid article{height:380px;background:#292F24;padding:37px 35px}.review-grid article:first-child{background:var(--lime);color:var(--ink)}.review-grid article:last-child{background:transparent;border:1px solid #67745B}.review-number{font:500 19px SparkSans;opacity:.65}.review-grid h3{font-size:88px;margin-top:61px}.review-grid p{font-size:28px;margin-top:24px}
+/* 09 — four steps form a rising staircase without a decorative illustration. */
+.practice>h2{position:absolute;left:115px;top:108px;font-size:150px;line-height:.94}.practice-grid{position:absolute;left:120px;right:120px;top:440px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:end;height:498px}.practice-grid article{height:330px;padding:32px 28px;background:#DEE5D4}.practice-grid article:nth-child(2){height:382px;background:#C8E695}.practice-grid article:nth-child(3){height:434px;background:var(--lime)}.practice-grid article:nth-child(4){height:486px;background:var(--ink);color:var(--paper)}.practice-number{font:500 19px SparkSans;opacity:.65}.practice-grid h3{font-size:76px;margin-top:74px;text-transform:uppercase}.practice-grid p{font-size:25px;line-height:1.5;margin-top:23px;max-width:300px}
+/* 10 — a decisive closing line and an original momentum object. */
+.closing h2{position:absolute;left:116px;top:130px;font-size:183px;line-height:.91;letter-spacing:-1px}.closing h2 span{color:var(--green)}.closing-art{position:absolute;right:53px;top:184px;width:835px;height:735px}.closing-copy{position:absolute;left:124px;top:863px;font-size:30px}.restart{position:absolute;right:128px;top:922px;background:none;border:0;border-bottom:1px solid #11140F99;padding:0 0 9px;color:var(--ink);font:500 18px SparkSans;display:flex;gap:24px;align-items:center}.restart svg{width:22px;height:22px}
+
+/* SPARK chrome: compact carbon-black controls with fluorescent-green active states. */
+:root{--ui-ink:#11140F;--ui-accent:#B7FF3C;--ui-paper:#F1F2EE;--ui-deep-green:#396214;--ui-line:#F1F2EE33}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 28px #11140F33;font-family:SparkSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:var(--ui-paper);font:400 12px/1.2 SparkSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:#39621430;border-color:var(--ui-line)}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-accent);border-color:var(--ui-accent);color:var(--ui-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.controls .count:hover{background:var(--ui-paper);color:var(--ui-ink)}
+.controls .divider{display:block;height:20px;margin:auto 3px;border-left:1px solid var(--ui-line)}
+.controls #full{border-color:var(--ui-line);color:var(--ui-accent)}
+.controls #full:hover{background:var(--ui-accent);color:var(--ui-ink)}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#11140Ff5;color:var(--ui-paper);backdrop-filter:blur(12px);font-family:SparkSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:500 32px/1.15 SparkSans,Arial,sans-serif}
+.overview header button{flex:none;padding:12px 20px;border:1px solid var(--ui-line);border-radius:4px;background:transparent;color:var(--ui-paper);font:400 13px/1.2 SparkSans,Arial,sans-serif;cursor:pointer}
+.overview header button:hover{background:var(--ui-accent);color:var(--ui-ink)}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);text-align:left;font:400 20px/1.35 SparkSans,Arial,sans-serif;cursor:pointer;transition:background .15s,color .15s}
+.overview-grid button:hover{background:var(--ui-accent);color:var(--ui-ink)}
+.overview-grid b{font:500 32px/1 SparkSans,Arial,sans-serif;font-variant-numeric:tabular-nums;color:var(--ui-accent)}
+.overview-grid button:hover b{color:var(--ui-ink)}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 30px #11140F44;font:400 13px/1.5 SparkSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-deep-green);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit]{outline-color:var(--ui-accent)}
+/* Short oblique slices stay inside the 16:9 canvas. The current slice is solid and wider. */
+#stage{--nav-ink:#11140F;--nav-accent:#B7FF3C;--nav-outline:#11140F}
+#stage[data-nav-tone=dark]{--nav-ink:#F1F2EE;--nav-accent:#B7FF3C;--nav-outline:#B7FF3C}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:3px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button::before{content:'';display:block;width:8px;height:7px;transform:skewX(-25deg);border:1px solid transparent;border-radius:0;background:var(--nav-ink);opacity:.35;transition:width .16s,opacity .16s,background .16s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.65}
+.slide-dots button[aria-current=step]{width:38px}
+.slide-dots button[aria-current=step]::before{width:24px;height:8px;border-color:var(--nav-outline);background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+/* A contrasting edge also supports future split layouts without relying on a page number. */
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button::before{background:#11140F;box-shadow:0 0 0 1px #F1F2EE;opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button[aria-current=step]::before{background:#B7FF3C;border-color:#11140F;box-shadow:0 0 0 1px #F1F2EE}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 11px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 5px 18px #11140F33;font:400 11px/1.35 SparkSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+/* UI text remains upright sans-serif in both languages; slide display styling is independent. */
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-style:normal}
+html:lang(zh) .overview header{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-style:normal}
+html:lang(zh) .overview-grid b{font-family:SparkSans,SparkCJK,sans-serif;font-weight:500;font-style:normal}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:28px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — measured content layouts, theme-owned typography. */
+.slide.expansion30{background:#F1F2EE;color:#11140F}.slide.expansion30.x30-dark{background:#11140F;color:#F1F2EE} 
+.slide.expansion30 .x30-head{position:absolute;left:120px;right:120px;top:80px;margin:0;z-index:2}
+.slide.expansion30 .x30-head h2{position:static;margin:0;font-family:SparkDisplay,SparkCJKDisplay,sans-serif;font-size:116px;font-weight:800;font-style:normal;line-height:1.12;letter-spacing:-1.2px;white-space:nowrap;font-synthesis:none;color:inherit}
+.slide.expansion30 .x30-sub{position:absolute;left:0;right:0;top:120px;margin:0;font:400 27px/1.5 SparkSans,SparkCJK,sans-serif;letter-spacing:0;color:inherit;opacity:.78}
+.slide.expansion30 .x30-chart{position:absolute;left:120px;top:340px;width:1680px;height:610px}
+.slide.expansion30 .x30-chart svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.expansion30 .x30-chart text{font-family:SparkSans,SparkCJK,sans-serif;font-weight:400;font-style:normal;font-synthesis:none;letter-spacing:0}
+.slide.expansion30 .x30-chart text.x30-display{font-family:SparkDisplay,SparkCJK,sans-serif;font-weight:800;font-style:normal;font-synthesis:none;letter-spacing:-1px}
+.slide.expansion30 .x30-chart :is(path,line,rect,circle){vector-effect:non-scaling-stroke}
+html:lang(zh) .slide.expansion30 .x30-head h2{font-family:SparkCJKDisplay,SparkDisplay,sans-serif;font-size:80px;font-weight:400;font-style:italic;line-height:1.2;letter-spacing:0;margin:0}
+html:lang(zh) .slide.expansion30 .x30-sub{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;font-size:27px;line-height:1.5}
+html:lang(zh) .slide.expansion30 .x30-chart text{font-family:SparkSans,SparkCJK,sans-serif;font-weight:400}
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:SparkDisplay,SparkCJK,sans-serif;font-weight:800;font-style:normal}
+/* EXPANSION30 END */
+html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:SparkCJK,SparkSans,sans-serif;font-weight:400;letter-spacing:0}

@@ -1,0 +1,97 @@
+:root{--cream:#FFF1D2;--ink:#422532;--pink:#F58ACB;--lemon:#FFE63B;--orange:#D9653B;--stage-bg:#eadfc9;--ease:cubic-bezier(.22,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:GlowSans,Arial,sans-serif;color:var(--ink);font-synthesis:none;-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:GlowDisplay,Georgia,serif;font-weight:400;font-synthesis:none}h2{font-size:124px;line-height:1.01;letter-spacing:-4px}h3{font-size:66px;line-height:1.12;letter-spacing:-1.6px}em{font-family:GlowItalic,Georgia,serif;font-style:italic;font-weight:400}p{font-size:30px;line-height:1.55}.label{font:500 20px/1.5 GlowSans,Arial,sans-serif;letter-spacing:.1em}.eyebrow{position:absolute;left:120px;top:112px}.slide{background:var(--cream);color:var(--ink);isolation:isolate}.slide.pink{background:var(--pink)}.slide.lemon{background:var(--lemon)}.slide.dark{background:var(--ink);color:var(--cream)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}.mini-spark{width:32px;height:32px}.small-number{display:grid;place-items:center;width:60px;height:60px;flex:none;border:2px solid;border-radius:50%;font:500 22px GlowSans}
+/* 01 — A warm poster, an oversized title, a single sun token. */
+.cover-brand{position:absolute;left:118px;top:75px;display:flex;align-items:center;gap:24px;font:400 55px/1 GlowDisplay;letter-spacing:-2px}.cover-brand .mini-spark{width:29px;height:29px}.cover-eyebrow{position:absolute;left:120px;top:164px;font-size:18px}.cover h1{position:absolute;left:110px;top:245px;font-size:155px;line-height:.99;letter-spacing:-5px;z-index:2}.cover h1 em{color:var(--cream);text-shadow:2px 2px 0 var(--ink)}.cover-art{position:absolute;right:105px;top:145px;width:790px;height:790px}.cover-copy{position:absolute;left:120px;top:820px;font-size:31px;line-height:1.5}.entry-stamp{position:absolute;right:177px;bottom:126px;width:300px;height:140px;background:var(--lemon);border:3px solid var(--ink);border-radius:18px;box-shadow:7px 7px 0 var(--ink);transform:rotate(-8deg);display:grid;place-items:center;text-align:center;font:500 22px/1.35 GlowSans;letter-spacing:.08em}
+/* 02 — A typographic manifesto, without a decorative image. */
+.presence-label{position:absolute;top:143px;width:100%;text-align:center;font-size:20px}.presence>h2{position:absolute;left:100px;right:100px;top:265px;text-align:center;font-size:148px;line-height:1.18;letter-spacing:-4.8px}.presence-copy{position:absolute;top:685px;left:170px;right:170px;text-align:center;font-size:31px}.feelings{position:absolute;left:170px;right:170px;top:833px;display:flex;align-items:center;justify-content:center;gap:65px;border-top:2px solid var(--ink);padding-top:45px;font:400 50px/1 GlowDisplay}.feelings b{display:block}.feelings .mini-spark{width:25px;height:25px}
+/* 03 — One welcoming object balances a clear three-part invitation. */
+.welcome>h2{position:absolute;left:110px;top:110px;font-size:114px;line-height:1.06}.welcome-copy{position:absolute;left:120px;top:415px;font-size:28px}.welcome-art{position:absolute;left:225px;top:520px;width:460px;height:430px}.welcome-steps{position:absolute;left:1030px;right:120px;top:152px;display:flex;flex-direction:column;gap:52px}.welcome-steps article{display:flex;gap:34px;border-top:2px solid;padding-top:33px;min-height:203px}.welcome-steps .small-number{background:var(--pink);margin-top:8px}.welcome-steps article:nth-child(2) .small-number{background:var(--lemon)}.welcome-steps article:nth-child(3) .small-number{background:var(--orange);color:var(--cream);border-color:var(--ink)}.welcome-steps h3{font-size:61px}.welcome-steps p{font-size:28px;line-height:1.5;margin-top:21px}
+/* 04 — The wave is information: three moments in the experience. */
+.rhythm>h2{position:absolute;left:110px;top:118px;font-size:121px;line-height:1.04}.rhythm-tag{position:absolute;right:155px;top:205px;transform:rotate(7deg);padding:28px 40px;border:2px solid var(--cream);border-radius:50%;color:var(--lemon);text-align:center;font:500 22px/1.4 GlowSans;letter-spacing:.08em}.rhythm-line{position:absolute;left:120px;top:423px;width:1680px;height:130px;color:var(--pink)}.rhythm-phases{position:absolute;left:120px;right:120px;top:580px;display:grid;grid-template-columns:repeat(3,1fr);gap:60px}.rhythm-phases article{position:relative;padding-top:22px}.phase{font:500 22px GlowSans;color:var(--pink)}.rhythm-phases h3{font-size:94px;color:var(--lemon);margin:25px 0 20px}.rhythm-phases p{font-size:29px;line-height:1.6}
+/* 05 — An organic field supports the table; the copy stays independent. */
+.table-orbit{position:absolute;width:1030px;height:850px;left:-45px;top:115px;border-radius:48% 52% 45% 51%;background:var(--pink);transform:rotate(-8deg)}.table-art{position:absolute;left:75px;top:195px;width:860px;height:740px}.table-text{position:absolute;left:1090px;right:110px;top:165px}.table-text h2{font-size:103px;line-height:1.1;letter-spacing:-2.8px}.table-text>p{margin-top:53px;font-size:29px;line-height:1.6}.table-text ul{padding:0;margin:53px 0 0;list-style:none}.table-text li{font-size:26px;line-height:1.5;padding:21px 0;border-top:1.5px solid #42253270}.table-text li:before{content:'+';display:inline-block;width:45px;font-size:28px}
+/* 06 — Three bold circular activity windows, no photographic assets. */
+.play>h2{position:absolute;left:110px;top:97px;font-size:119px;line-height:1.03}.play-label{position:absolute;right:140px;top:167px;font-size:21px;line-height:1.7;text-align:right}.play-grid{position:absolute;left:130px;right:130px;top:425px;display:grid;grid-template-columns:repeat(3,1fr);gap:60px}.play-grid article{text-align:center}.play-circle{width:390px;height:390px;margin:0 auto;background:var(--cream);border:3px solid var(--ink);border-radius:50%;box-shadow:6px 7px 0 var(--ink);display:grid;place-items:center}.play-circle.c1{background:var(--lemon)}.play-circle.c2{background:var(--orange)}.play-art{width:335px;height:335px}.play-grid h3{font-size:48px;line-height:1.2;margin-top:38px;letter-spacing:-1px}.play-note{position:absolute;left:140px;right:140px;top:944px;text-align:center;font-size:25px}
+/* 07 — The largest line has breathing room; a small loop holds the corner. */
+.surprise>.eyebrow{top:135px;font-size:20px}.surprise>h2{position:absolute;left:110px;top:267px;font-size:141px;line-height:1.07;letter-spacing:-4.3px}.surprise-notes{position:absolute;left:125px;top:664px;width:1020px}.surprise-notes p{font-size:35px;line-height:1.4;padding:20px 0;border-top:1.5px solid var(--ink)}.surprise-notes span{font-size:19px;display:inline-block;width:77px;vertical-align:middle}.surprise-art{position:absolute;right:85px;top:610px;width:470px;height:390px}
+/* 08 — Two reciprocal fields, with semantic arrows between them. */
+.exchange>h2{position:absolute;left:110px;top:105px;font-size:122px;line-height:1.04}.exchange-panels{position:absolute;left:120px;right:120px;top:463px;height:450px;display:grid;grid-template-columns:1fr 1fr;border:3px solid var(--ink);border-radius:80px;overflow:hidden;box-shadow:8px 8px 0 var(--ink)}.exchange-panels article{padding:64px 82px;background:var(--pink)}.exchange-panels article+article{background:var(--lemon);padding-left:116px}.exchange-panels h3{font-size:101px;line-height:1.05;letter-spacing:-2.5px}.exchange-panels p{font-size:29px;line-height:1.65;margin-top:43px}.exchange-arrow{position:absolute;left:calc(50% - 62px);top:162px;width:124px;height:124px;background:var(--cream);border:2px solid var(--ink);border-radius:50%;padding:16px}
+/* 09 — A keepsake on the left, three possible takeaways on the right. */
+.memory>h2{position:absolute;left:110px;top:115px;font-size:126px;line-height:1.03}.memory-art{position:absolute;left:115px;top:405px;width:790px;height:540px}.memory-list{position:absolute;left:1060px;right:120px;top:208px;display:flex;flex-direction:column;gap:35px}.memory-list article{display:flex;gap:30px;border-top:1.5px solid #fff1d270;padding-top:31px;min-height:213px}.memory-list .small-number{background:var(--pink);color:var(--ink);border-color:var(--pink);margin-top:8px}.memory-list h3{font-size:67px;line-height:1.1;color:var(--lemon)}.memory-list p{font-size:27px;line-height:1.6;margin-top:23px}
+/* 10 — The final invitation is a poster, with a lantern instead of a logo. */
+.closing>.eyebrow{top:110px;font-size:18px}.closing>h2{position:absolute;left:110px;top:225px;font-size:149px;line-height:1.0;letter-spacing:-4.7px;z-index:2}.closing h2 em{color:var(--cream);text-shadow:2px 2px 0 var(--ink)}.closing-art{position:absolute;right:95px;top:140px;width:770px;height:730px}.closing-strip{position:absolute;left:120px;right:120px;top:887px;border:2px solid var(--ink);border-radius:20px;background:var(--lemon);display:flex;align-items:center;justify-content:space-between;padding:27px 34px;box-shadow:5px 5px 0 var(--ink)}.closing-strip p{font-size:27px}.restart{display:flex;align-items:center;gap:17px;background:none;border:0;border-bottom:1.5px solid;padding:0 0 5px;color:var(--ink);font:500 18px GlowSans}.restart svg{width:23px;height:23px}
+
+/* GLOW chrome: warm paper, rounded print labels and a small sun-shaped pager. */
+:root{--ui-paper:#FFF1D2;--ui-ink:#422532;--ui-pink:#F58ACB;--ui-lemon:#FFE63B;--ui-orange:#D9653B;--ui-muted:#422532b3}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1.5px solid var(--ui-ink);border-radius:999px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:0 4px 0 var(--ui-ink);font-family:GlowSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:999px;background:transparent;color:var(--ui-ink);font:400 12px/1.2 GlowSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:var(--ui-pink);border-color:var(--ui-ink)}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-orange);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-lemon);border-color:var(--ui-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.controls .divider{display:block;height:21px;margin:auto 3px;border-left:1px solid #42253240}
+.controls #full{background:var(--ui-ink);color:var(--ui-paper);border-color:var(--ui-ink)}
+.controls #full:hover{background:var(--ui-pink);color:var(--ui-ink)}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#422532f2;color:var(--ui-paper);backdrop-filter:blur(12px);font-family:GlowSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:400 40px/1.15 GlowDisplay,Georgia,serif}
+.overview header button{flex:none;padding:12px 20px;border:1.5px solid var(--ui-ink);border-radius:999px;background:var(--ui-lemon);color:var(--ui-ink);box-shadow:0 3px 0 var(--ui-pink);font:400 13px/1.2 GlowSans,Arial,sans-serif;cursor:pointer}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1.5px solid var(--ui-ink);border-radius:20px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:0 4px 0 var(--ui-pink);text-align:left;font:400 20px/1.35 GlowSans,Arial,sans-serif;cursor:pointer}
+.overview-grid button:nth-child(3n+2){background:var(--ui-pink)}
+.overview-grid button:nth-child(3n){background:var(--ui-lemon)}
+.overview-grid button:hover{background:var(--ui-paper);translate:0 -2px;box-shadow:0 6px 0 var(--ui-orange)}
+.overview-grid b{font:400 34px/1 GlowDisplay,Georgia,serif;font-variant-numeric:tabular-nums}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1.5px solid var(--ui-ink);border-radius:24px;background:var(--ui-lemon);color:var(--ui-ink);box-shadow:0 4px 0 var(--ui-ink);font:400 13px/1.5 GlowSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-ink);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit]{outline-color:var(--ui-lemon)}
+/* Navigation stays inside the authored 16:9 canvas. The active sun widens into a lemon oval. */
+#stage{--nav-ink:#422532;--nav-paper:#FFF1D2;--nav-accent:#FFE63B}
+#stage[data-nav-tone=dark]{--nav-ink:#FFF1D2;--nav-paper:#422532;--nav-accent:#FFE63B}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:2px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:999px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button::before{content:'';display:block;width:7px;height:7px;border:1px solid var(--nav-ink);border-radius:999px;background:var(--nav-paper);opacity:.55;transition:width .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:'';position:absolute;left:50%;top:50%;width:15px;height:15px;transform:translate(-50%,-50%);background:linear-gradient(var(--nav-ink),var(--nav-ink)) center top/1px 2px no-repeat,linear-gradient(var(--nav-ink),var(--nav-ink)) center bottom/1px 2px no-repeat,linear-gradient(var(--nav-ink),var(--nav-ink)) left center/2px 1px no-repeat,linear-gradient(var(--nav-ink),var(--nav-ink)) right center/2px 1px no-repeat;opacity:.35;pointer-events:none}
+.slide-dots button[data-passed=true]::before{opacity:.85}
+.slide-dots button[aria-current=step]{width:38px}
+.slide-dots button[aria-current=step]::before{width:23px;height:9px;border-color:#422532;background:var(--nav-accent);opacity:1}
+.slide-dots button[aria-current=step]::after{width:31px;height:17px;opacity:1}
+.slide-dots button:hover::before,.slide-dots button:hover::after{opacity:1}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 12px;border:1px solid var(--ui-ink);border-radius:999px;background:var(--ui-paper);color:var(--ui-ink);box-shadow:0 2px 0 var(--ui-ink);font:400 11px/1.35 GlowSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+/* Chinese chrome uses the supplied full CJK faces; slide typography is owned by locale-zh.css. */
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:GlowCJK,GlowSans,sans-serif}
+html:lang(zh) .overview header{font-family:GlowCJKDisplay,serif;font-weight:900}
+html:lang(zh) .overview-grid b{font-family:GlowDisplay,GlowCJKDisplay,serif;font-weight:400}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:28px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — GLOW data compositions only. */
+.slide.x30{background:var(--x30-bg);color:var(--x30-fg);font-synthesis:none}
+.slide.x30 .x30-heading{position:absolute;left:120px;right:120px;top:80px}
+.slide.x30 .x30-heading h2{position:static;font-family:GlowDisplay,serif;font-weight:400;font-size:92px;line-height:1.12;letter-spacing:-2px;margin:0;color:var(--x30-fg)}
+.slide.x30 .x30-heading p{font:400 27px/1.5 GlowSans,sans-serif;letter-spacing:0;margin:24px 0 0;color:var(--x30-fg);opacity:.78}
+.slide.x30 .x30-content{position:absolute;left:120px;top:350px;width:1680px;height:610px}
+.slide.x30 .x30-content>svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.x30 svg .x30-label{font-family:GlowSans,sans-serif;font-weight:400;letter-spacing:0}
+.slide.x30 svg .x30-display{font-family:GlowDisplay,serif;font-weight:400;letter-spacing:-1px}
+.slide.x30 [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.x30 .x30-heading h2{font-family:GlowCJKDisplay,serif;font-size:74px;font-weight:900;line-height:1.25;letter-spacing:0;font-style:normal}
+html:lang(zh) .slide.x30 .x30-heading p{font-family:GlowCJK,sans-serif;font-size:26px;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-label{font-family:GlowCJK,GlowSans,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-display{font-family:GlowDisplay,GlowCJK,serif;font-weight:400;letter-spacing:0}
+/* EXPANSION30 END */

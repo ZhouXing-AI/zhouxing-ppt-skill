@@ -1,0 +1,22 @@
+AXIS — LATIN FONT BUNDLE
+
+Instrument Sans (CSS AxisSans, local file ShiftSans.woff2) retains the
+existing approved Latin subset from SHIFT, including the original
+variable axes. The derivative's internal name is ShiftSans; the original
+copyright/license metadata and InstrumentSans-OFL.txt are preserved.
+Copyright 2022 The Instrument Sans Project Authors
+https://github.com/Instrument/instrument-sans
+Original distribution: https://github.com/google/fonts/tree/main/ofl/instrumentsans
+The subset contains 203 Unicode cmap codepoints; it is not a complete
+multilingual font. See font-manifest.json for the reused binary hash.
+
+IBM Plex Mono (CSS AxisMono, local file IndexMono.ttf) preserves the
+original official Regular TTF bytes already audited in INDEX.
+Copyright © 2017 IBM Corp. with Reserved Font Name "Plex".
+Original distribution: https://github.com/google/fonts/tree/main/ofl/ibmplexmono
+See IBMPlexMono-OFL.txt and font-manifest.json for pinned source and hash.
+
+Both fonts retain SIL Open Font License 1.1. Commercial use, embedding
+and redistribution are permitted under OFL; preserve copyright/license
+and do not sell font files by themselves. Font software remains under
+OFL, independently of this Skill's code and illustration license.

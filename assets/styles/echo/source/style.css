@@ -1,0 +1,102 @@
+:root{--night:#12141F;--mist:#A8B9CB;--pearl:#F0F1ED;--blue:#607E9A;--pale:#E2E8E9;--stage-bg:#0c0e16;--ease:cubic-bezier(.22,.8,.2,1)}
+*{box-sizing:border-box}body{font-family:EchoSans,Arial,sans-serif;color:var(--pearl);font-synthesis:none;-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}h1,h2,h3,p,figure{margin:0}svg{display:block}h1,h2,h3{font-family:EchoDisplay,Georgia,serif;font-weight:500;font-synthesis:none}h2{font-size:136px;line-height:.99;letter-spacing:-3px}h3{font-size:60px;line-height:1.08;letter-spacing:-.7px}p{font-size:29px;line-height:1.6}.label{font:400 18px/1.5 EchoSans,Arial,sans-serif;letter-spacing:.17em}.slide{background:var(--night);color:var(--pearl);isolation:isolate}.slide:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 76% 43%,#42648242,transparent 63%)}.slide.light{background:var(--pale);color:var(--night)}.slide.light:before{background:radial-gradient(ellipse at 20% 80%,#fff6,transparent 55%)}.slide.blue{background:#293E53}.slide.blue:before{background:radial-gradient(ellipse at 17% 20%,#617f9765,transparent 65%)}#stage{position:absolute;width:1920px;height:1080px;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center;overflow:hidden}.artwork-slot,.artwork-slot img{width:100%;height:100%}.artwork-slot img{display:block;object-fit:contain}.art-entrance{transform-origin:center}.slide .art-entrance:before{content:'';position:absolute;inset:12%;border-radius:50%;background:radial-gradient(ellipse,#a9cde61b,transparent 66%);z-index:-1}.item-number{font:400 19px EchoSans;color:var(--mist)}
+/* 01: a quiet editorial title, independent from the sculptural object. */
+.cover-wordmark{position:absolute;left:120px;top:115px;font:400 25px EchoSans;letter-spacing:.35em;display:flex;align-items:center;gap:27px}.wordmark-line{height:1px;width:130px;background:#a8b9cb6b}.cover-eyebrow{position:absolute;left:120px;top:265px;color:var(--mist);font-size:17px}.cover h1{position:absolute;left:110px;top:336px;width:1100px;font-size:170px;line-height:.97;letter-spacing:-4px;z-index:2}.cover-copy{position:absolute;left:120px;top:780px;color:var(--mist);font-size:29px}.cover-art{position:absolute;right:15px;top:180px;width:810px;height:810px}
+/* 02: the pause is part of the composition. */
+.listen-label{position:absolute;top:146px;width:100%;text-align:center;color:#556879}.listen h2{position:absolute;left:100px;right:100px;top:290px;text-align:center;font-size:174px;line-height:1.03}.listen h2 span{display:block;color:#637b8d;font-size:123px;margin-top:40px;letter-spacing:-2px}.silence-rule{position:absolute;left:495px;right:495px;top:770px;height:36px;display:flex;align-items:center;justify-content:center;gap:14px}.silence-rule:before,.silence-rule:after{content:'';height:1px;background:#687e8d77;flex:1;margin:0 16px}.silence-rule i{display:block;width:3px;height:12px;background:#566d7e}.silence-rule i:nth-child(2),.silence-rule i:nth-child(4){height:23px}.silence-rule i:nth-child(3){height:35px}.listen-copy{position:absolute;top:876px;left:100px;right:100px;text-align:center;font-size:27px;color:#4b6071}
+/* 03: the three questions read as a single aligned column. */
+.signal>h2{position:absolute;left:115px;top:115px;font-size:130px;line-height:1.04}.signal-art{position:absolute;left:130px;top:410px;width:660px;height:570px}.signal-list{position:absolute;left:1050px;right:125px;top:205px;display:flex;flex-direction:column;gap:35px}.signal-list article{border-top:1px solid #a8b9cb55;display:flex;gap:32px;padding-top:27px;min-height:215px}.signal-list .item-number{padding-top:11px}.signal-list h3{font-size:59px}.signal-list p{font-size:27px;line-height:1.5;color:var(--mist);margin-top:22px}
+/* 04: a lens anchors the idea; horizontal bands distinguish three layers. */
+.layers>h2{position:absolute;left:115px;top:115px;font-size:134px;line-height:1.01}.layers-art{position:absolute;left:140px;top:435px;width:650px;height:520px}.layer-list{position:absolute;left:990px;right:125px;top:220px}.layer-list article{display:grid;grid-template-columns:62px 1fr;align-items:baseline;padding:30px 0 35px;border-top:1px solid #f0f1ed50}.layer-list article>span{font:400 18px EchoSans;color:#bbcbd8}.layer-list h3{font-size:88px}.layer-list p{grid-column:2;color:#c6d3dd;font-size:27px;margin-top:14px}
+/* 05: silence and signal are two informational fields, not illustrations. */
+.contrast-half{position:absolute;top:0;bottom:0;width:50%;padding:245px 110px 0}.contrast-half.left{left:0;background:var(--pale);color:var(--night)}.contrast-half.right{right:0;background:var(--night);color:var(--pearl)}.contrast-half h2{font-size:132px;letter-spacing:-3px;white-space:nowrap}.contrast-half p{margin-top:63px;font-size:28px;color:#657d8f}.contrast-half.right p{color:var(--mist)}.contrast-wave{position:absolute;left:120px;right:120px;top:600px;width:1680px;height:180px;stroke-linecap:round;color:#7897af}.contrast-caption{position:absolute;top:900px;left:1070px;right:110px;text-align:left;color:#A8B9CB;font-size:20px}
+/* 06: a large pair of waves faces a vertical exchange, with ample margins. */
+.frequency>h2{position:absolute;left:115px;top:115px;font-size:132px;line-height:1.01}.frequency-art{position:absolute;left:110px;top:440px;width:780px;height:510px}.frequency-list{position:absolute;left:1090px;right:130px;top:230px;padding-left:60px;border-left:1px solid #687e8d55}.frequency-list article{position:relative;min-height:220px;padding-bottom:24px}.frequency-dot{position:absolute;left:-68px;top:26px;width:15px;height:15px;border-radius:50%;background:#46657d;border:4px solid var(--pale);box-shadow:0 0 0 1px #46657d}.frequency-list h3{font-size:68px}.frequency-list p{font-size:27px;line-height:1.5;color:#4f687b;margin-top:21px}
+/* 07: four phases arranged on one continuous timeline. */
+.rhythm h2{position:absolute;left:115px;top:140px;font-size:136px;line-height:1.05}.rhythm h2 span{display:block;color:#a8bccb;font-size:118px;margin-top:12px}.rhythm-track{position:absolute;left:120px;right:120px;top:600px;height:1px;background:#c1d1db66;display:grid;grid-template-columns:repeat(4,1fr)}.rhythm-track i{width:13px;height:13px;border-radius:50%;border:1px solid var(--pearl);background:#293e53;transform:translateY(-6px)}.rhythm-grid{position:absolute;left:120px;right:120px;top:656px;display:grid;grid-template-columns:repeat(4,1fr);gap:40px}.phase-number{font:400 18px EchoSans;color:#a7bfce}.rhythm-grid h3{font-size:67px;margin-top:28px}.rhythm-grid p{font-size:26px;line-height:1.5;color:#b6c8d6;margin-top:20px;max-width:310px}
+/* 08: a memory is one restrained gesture, rather than a wall of cards. */
+.memory h2{position:absolute;left:115px;top:200px;font-size:156px;line-height:1.04;z-index:2}.memory-copy{position:absolute;left:125px;top:650px;color:var(--mist);font-size:29px;line-height:1.7}.memory-art{position:absolute;right:70px;top:140px;width:810px;height:730px}.memory-note{position:absolute;right:155px;top:865px;width:600px;text-align:center;color:#a8bccb;font-size:25px;line-height:1.5}
+/* 09: typographic principles, staggered by a modest amount. */
+.discovery>h2{position:absolute;left:115px;top:120px;font-size:143px;line-height:1.03}.discovery-copy{position:absolute;left:1090px;right:130px;top:255px;font-size:30px;color:#50677a;line-height:1.65}.discovery-grid{position:absolute;left:120px;right:120px;top:600px;display:grid;grid-template-columns:repeat(3,1fr);gap:75px}.discovery-grid article{border-top:1px solid #607e9a88;padding-top:27px}.discovery-index{font:400 19px EchoSans;color:#637e92}.discovery-grid h3{font-size:90px;margin-top:30px}.discovery-grid p{font-size:27px;line-height:1.6;margin-top:24px;max-width:440px;color:#50677a}
+/* 10: a closing horizon leaves an opening for the next idea. */
+.closing-wordmark{position:absolute;left:125px;top:120px;letter-spacing:.4em;font-size:23px;color:var(--mist)}.closing h2{position:absolute;left:115px;top:280px;font-size:166px;line-height:1.02;z-index:2}.closing-art{position:absolute;right:40px;top:225px;width:820px;height:650px}.closing-copy{position:absolute;left:125px;top:800px;font-size:29px;color:var(--mist)}.restart{position:absolute;left:125px;top:902px;background:none;border:0;border-bottom:1px solid #a8b9cb77;padding:0 0 9px;color:var(--pearl);font:400 19px EchoSans;display:flex;gap:24px;align-items:center}.restart svg{width:22px;height:22px}
+
+/* ECHO chrome: a quiet midnight-blue instrument panel. No audio is loaded. */
+:root{--ui-ink:#12141F;--ui-mist:#A8B9CB;--ui-paper:#F0F1ED;--ui-blue:#607E9A;--ui-line:#A8B9CB55}
+.controls,.controls *,.overview,.overview *,.toast,.slide-dots,.slide-dots *{box-sizing:border-box}
+.controls{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1000;display:flex;align-items:center;gap:4px;padding:6px;border:1px solid var(--ui-line);border-radius:8px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 28px #12141F33;font-family:EchoSans,Arial,sans-serif;font-synthesis:none;transition:opacity .1s,translate .1s,visibility .1s}
+.controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-width:38px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:var(--ui-paper);font:400 12px/1.2 EchoSans,Arial,sans-serif;white-space:nowrap;cursor:pointer}
+.controls button:hover{background:#607E9A30;border-color:var(--ui-line)}
+.controls button:disabled{opacity:.3;cursor:default}
+.controls button:focus-visible,.overview button:focus-visible,.slide-dots button:focus-visible{outline:2px solid var(--ui-mist);outline-offset:3px}
+.controls .count{min-width:89px;background:var(--ui-mist);border-color:var(--ui-mist);color:var(--ui-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.controls .count:hover{background:var(--ui-paper);color:var(--ui-ink)}
+.controls .divider{display:block;height:20px;margin:auto 3px;border-left:1px solid var(--ui-line)}
+.controls #full{border-color:var(--ui-line);color:var(--ui-mist)}
+.controls #full:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.fullscreen-icon{display:block;flex:0 0 16px;width:16px;height:16px;pointer-events:none}
+body.presenting{cursor:auto}
+body.presenting:not(.tools-open):not(.editing) .controls{opacity:0;visibility:hidden;pointer-events:none;translate:0 12px}
+body.presenting.tools-open .controls,body.editing .controls{opacity:1;visibility:visible;pointer-events:auto;translate:none}
+.overview{position:fixed;inset:0;z-index:1500;display:none;padding:48px 8vw;overflow:auto;background:#12141Ff5;color:var(--ui-paper);backdrop-filter:blur(12px);font-family:EchoSans,Arial,sans-serif;font-synthesis:none}
+.overview.open{display:block}
+.overview header{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-bottom:30px;font:400 40px/1.15 EchoDisplay,Georgia,serif}
+.overview header button{flex:none;padding:12px 20px;border:1px solid var(--ui-line);border-radius:4px;background:transparent;color:var(--ui-paper);font:400 13px/1.2 EchoSans,Arial,sans-serif;cursor:pointer}
+.overview header button:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.overview-grid button{display:flex;align-items:center;gap:25px;min-height:100px;padding:24px;border:1px solid var(--ui-line);border-radius:5px;background:var(--ui-ink);color:var(--ui-paper);text-align:left;font:400 20px/1.35 EchoSans,Arial,sans-serif;cursor:pointer;transition:background .15s,color .15s}
+.overview-grid button:hover{background:var(--ui-mist);color:var(--ui-ink)}
+.overview-grid b{font:400 35px/1 EchoDisplay,Georgia,serif;font-variant-numeric:tabular-nums;color:var(--ui-mist)}
+.overview-grid button:hover b{color:var(--ui-ink)}
+.toast{position:fixed;left:50%;top:22px;transform:translateX(-50%);z-index:2000;display:none;max-width:calc(100vw - 32px);padding:14px 23px;border:1px solid var(--ui-line);border-radius:6px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 8px 30px #12141F44;font:400 13px/1.5 EchoSans,Arial,sans-serif;font-synthesis:none}
+.toast.show{display:block}
+body.editing [data-edit]{outline:2px dashed var(--ui-blue);outline-offset:5px;cursor:text}
+body.editing [data-tone=dark] [data-edit]{outline-color:var(--ui-mist)}
+/* Short scale bars stay inside the 16:9 canvas. Width and brightness mark the current page. */
+#stage{--nav-ink:#12141F;--nav-accent:#A8B9CB;--nav-outline:#12141F}
+#stage[data-nav-tone=dark]{--nav-ink:#A8B9CB;--nav-accent:#A8B9CB;--nav-outline:#F0F1ED}
+#stage .slide-dots{position:absolute;left:50%;bottom:25px;z-index:20;display:flex;align-items:center;gap:1px;padding:0;transform:translateX(-50%) scale(var(--ui-scale,1));transform-origin:center bottom;background:none;border:0;box-shadow:none;transition:opacity .15s}
+.slide-dots button{--note-height:9px;position:relative;display:grid;place-items:center;width:25px;height:28px;margin:0;padding:0;border:0;border-radius:3px;background:none;color:var(--nav-ink);cursor:pointer}
+.slide-dots button:nth-child(5n+2){--note-height:14px}.slide-dots button:nth-child(5n+3){--note-height:18px}.slide-dots button:nth-child(5n+4){--note-height:11px}.slide-dots button:nth-child(5n){--note-height:16px}
+.slide-dots button::before{content:'';display:block;width:3px;height:var(--note-height);border:0;border-radius:1px;background:var(--nav-ink);opacity:.4;transition:width .18s,height .18s,opacity .18s,background .18s}
+.slide-dots button::after{content:none}
+.slide-dots button[data-passed=true]::before{opacity:.7}
+.slide-dots button[aria-current=step]{width:36px}
+.slide-dots button[aria-current=step]::before{width:19px;height:18px;border:1px solid var(--nav-outline);border-radius:2px;background:var(--nav-accent);opacity:1}
+.slide-dots button:hover::before{opacity:1}
+/* Split fields may place the same centered pager on both light and dark backgrounds.
+   A dark core and a fine silver outline remain legible across either field. */
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button::before{background:#12141F;box-shadow:0 0 0 1px #F0F1ED;opacity:1}
+#stage:has(.slide.active:is(.split,[data-cursor-split])) .slide-dots button[aria-current=step]::before{background:#A8B9CB;border-color:#12141F;box-shadow:0 0 0 1px #F0F1ED}
+.nav-tip{position:absolute;left:50%;bottom:35px;display:none;transform:translateX(-50%);padding:7px 11px;border:1px solid var(--ui-line);border-radius:4px;background:var(--ui-ink);color:var(--ui-paper);box-shadow:0 5px 18px #12141F33;font:400 11px/1.35 EchoSans,Arial,sans-serif;white-space:nowrap;pointer-events:none}
+@media(hover:hover){.slide-dots button:hover .nav-tip{display:block}}
+.slide-dots button:focus-visible .nav-tip{display:block}
+#tools-toggle{display:none}
+body.presenting.tools-open #stage .slide-dots{opacity:0;pointer-events:none}
+/* Interface text remains sans-serif in both languages; only display headings use a serif. */
+html:lang(zh) :is(.controls,.controls button,.overview,.overview header button,.overview-grid button,.toast,.nav-tip){font-family:EchoCJK,EchoSans,sans-serif}
+html:lang(zh) .overview header{font-family:EchoCJKDisplay,serif;font-weight:400}
+html:lang(zh) .overview-grid b{font-family:EchoDisplay,EchoCJKDisplay,serif;font-weight:400}
+@media(max-width:700px){
+ .controls{max-width:calc(100vw - 12px);gap:2px;padding:5px;overflow-x:auto;overflow-y:hidden}.controls button{min-width:32px;padding:0 10px;font-size:12px}.controls .count{min-width:78px}
+ .overview{padding:28px 20px}.overview header{font-size:27px}.overview-grid{grid-template-columns:1fr}.overview-grid button{min-height:84px;padding:18px;font-size:18px}.overview-grid b{font-size:28px}
+ #stage .slide-dots{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.controls,.overview-grid button,.slide-dots,.slide-dots button::before{transition:none}}
+@media print{.controls,.overview,.toast,#tools-toggle,#stage .slide-dots{display:none!important}}
+
+/* EXPANSION30 START — ECHO data compositions only. */
+.slide.x30{background:var(--x30-bg);color:var(--x30-fg);font-synthesis:none}
+.slide.x30 .x30-heading{position:absolute;left:120px;right:120px;top:80px}
+.slide.x30 .x30-heading h2{position:static;font-family:EchoDisplay,serif;font-weight:500;font-size:92px;line-height:1.12;letter-spacing:-2px;margin:0;color:var(--x30-fg)}
+.slide.x30 .x30-heading p{font:400 27px/1.5 EchoSans,sans-serif;letter-spacing:0;margin:24px 0 0;color:var(--x30-fg);opacity:.78}
+.slide.x30 .x30-content{position:absolute;left:120px;top:350px;width:1680px;height:610px}
+.slide.x30 .x30-content>svg{display:block;width:100%;height:100%;overflow:visible}
+.slide.x30 svg .x30-label{font-family:EchoSans,sans-serif;font-weight:400;letter-spacing:0}
+.slide.x30 svg .x30-display{font-family:EchoDisplay,serif;font-weight:500;letter-spacing:-1px}
+.slide.x30 [data-chart-motion]{transform-box:view-box}
+html:lang(zh) .slide.x30 .x30-heading h2{font-family:EchoCJKDisplay,serif;font-size:74px;font-weight:300;line-height:1.25;letter-spacing:0;font-style:normal}
+html:lang(zh) .slide.x30 .x30-heading p{font-family:EchoCJK,sans-serif;font-size:26px;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-label{font-family:EchoCJK,EchoSans,sans-serif;font-weight:400;letter-spacing:0}
+html:lang(zh) .slide.x30 svg .x30-display{font-family:EchoDisplay,EchoCJK,serif;font-weight:500;letter-spacing:0}
+/* EXPANSION30 END */

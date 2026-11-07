@@ -1,0 +1,6 @@
+/* The second theme uses squared navigation marks inside the canvas. */
+#stage{--nav-ink:#162720;--nav-accent:#00856c}#stage[data-nav-tone=dark]{--nav-ink:#e6eee4;--nav-accent:#c2e5cd}
+#stage .slide-dots button:before{border-radius:0;width:6px;height:6px}#stage .slide-dots button[aria-current=step]:before{width:25px;height:6px;border-radius:0}
+.controls{background:#eef0eaeF;border-color:#16272026}.controls button:hover{background:#d4e5da}.controls .count{background:#073d32;color:#edf1e9}.controls #full{background:#dbe7dc;color:#073d32}
+.overview-grid b{font:400 44px MoveSerif}.overview-grid button:hover{background:#c1dfcc}.nav-tip{font-family:ShiftSans,Arial,sans-serif}.pointer-halo{width:28px;height:28px;border-width:1px}.pointer-halo.over-link{width:42px;height:42px}
+body.editing [data-edit]{outline-color:#00856c}

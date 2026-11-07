@@ -1,0 +1,38 @@
+/* FORM: cobalt wayfinding set into the limestone presentation frame. */
+#stage{--nav-ink:#0755bb;--nav-accent:#0755bb}
+#stage[data-nav-tone=dark]{--nav-ink:#f0f0eb;--nav-accent:#f0f0eb}
+#stage[data-nav-tone=warm]{--nav-ink:#0755bb;--nav-accent:#0755bb}
+#stage .slide-dots{bottom:27px;gap:0}
+#stage .slide-dots button{width:25px;height:30px;border-radius:3px}
+#stage .slide-dots button:before{width:2px;height:11px;border:0;border-radius:0;background:currentColor;opacity:.26;transition:width .18s,height .18s,opacity .18s,background .18s}
+#stage .slide-dots button[data-passed=true]:before{height:11px;opacity:.65}
+#stage .slide-dots button[aria-current=step]{width:38px}
+#stage .slide-dots button[aria-current=step]:before{width:25px;height:7px;opacity:1;background:var(--nav-accent);border-radius:1px;scale:1}
+#stage .slide-dots button:hover:before{opacity:1;scale:1}
+#stage .slide-dots button:focus-visible{outline:1px solid currentColor;outline-offset:1px}
+.nav-tip{font-family:ShiftSans,FormCJK,sans-serif;font-size:12px;letter-spacing:.02em;border-radius:3px;background:#0755bb;color:#f0f0eb;box-shadow:0 3px 14px #003b8722}
+#stage[data-nav-tone=dark] .nav-tip{background:#f0f0eb;color:#0755bb}
+body .controls{border-radius:7px;background:#edede8f5;border-color:#0755bb22;box-shadow:0 6px 26px #26426416}
+.controls button{color:#0755bb;border-radius:3px;font-family:ShiftSans,FormCJK,sans-serif}
+.controls button:hover{background:#d9e1ea}
+.controls .count{background:#0755bb;color:#f0f0eb;border-radius:3px}
+.controls .divider{border-color:#0755bb26}
+.controls #full{background:#d5dfeb;color:#0755bb;border-radius:3px}
+.controls #full:hover{background:#0755bb;color:#f0f0eb}
+.overview{background:#0755bbeb}
+.overview header{color:#f0f0eb}
+.overview header button{background:#f0f0eb;color:#0755bb;border-radius:4px}
+.overview-grid button{background:#e1e0da;color:#0755bb;border-radius:5px}
+.overview-grid button:hover{background:#f0f0eb}
+.overview-grid b{font:400 44px FormDisplay,ShiftSans,serif}
+.toast{color:#0755bb;background:#f0f0eb;border:1px solid #0755bb20;border-radius:5px;box-shadow:0 6px 26px #26426416;font-family:ShiftSans,FormCJK,sans-serif}
+body.editing [data-edit]{outline-color:#0755bb;outline-offset:5px}
+body[data-pointer-tone=dark].editing [data-edit]{outline-color:#f0f0eb}
+.pointer-halo{width:25px;height:25px;border:1px solid #0755bb;mix-blend-mode:normal}
+.pointer-halo.visible{opacity:.58}.pointer-halo.over-link{width:37px;height:37px}
+.pointer-ripple{border:1px solid #0755bb;mix-blend-mode:normal}
+body[data-pointer-tone=dark] .pointer-halo,body[data-pointer-tone=dark] .pointer-ripple{border-color:#f0f0eb}
+.form-line{transform-origin:left center}
+.form-mark{transform-origin:center}
+@media(max-width:700px){#stage .slide-dots{bottom:20px}.controls button{border-radius:3px}}
+@media(prefers-reduced-motion:reduce){.form-panel,.reveal,.art-entrance,.form-line,.form-mark{will-change:auto}}

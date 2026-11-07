@@ -1,0 +1,410 @@
+{
+  "theme": {
+    "en": "SKETCH",
+    "zh": "构想"
+  },
+  "version": "1.0.0",
+  "license": "Original vector artwork by zhouxing-ppt-skill contributors; MIT.",
+  "assets": [
+    {
+      "id": "folded-thought",
+      "name_en": "Folded Thought",
+      "name_zh": "折角构想",
+      "category": "discover",
+      "keywords": [
+        "draft",
+        "idea",
+        "unfinished",
+        "草稿",
+        "构想"
+      ],
+      "file": "folded-thought.svg",
+      "description_en": "Let a loose thought escape the unfinished page.",
+      "description_zh": "让自由的想法走出未完成的纸页。"
+    },
+    {
+      "id": "observation-lens",
+      "name_en": "Observation Lens",
+      "name_zh": "观察纸镜",
+      "category": "discover",
+      "keywords": [
+        "observe",
+        "notice",
+        "research",
+        "观察",
+        "研究"
+      ],
+      "file": "observation-lens.svg",
+      "description_en": "Notice the detail hidden inside an early idea.",
+      "description_zh": "看见早期想法里藏着的细节。"
+    },
+    {
+      "id": "idea-cards",
+      "name_en": "Idea Cards",
+      "name_zh": "便笺重组",
+      "category": "compose",
+      "keywords": [
+        "organise",
+        "ideas",
+        "cards",
+        "便笺",
+        "重组"
+      ],
+      "file": "idea-cards.svg",
+      "description_en": "Rearrange loose notes before settling on a plan.",
+      "description_zh": "在确定计划前重新排列零散的便笺。"
+    },
+    {
+      "id": "rough-model",
+      "name_en": "Rough Model",
+      "name_zh": "试作纸模",
+      "category": "compose",
+      "keywords": [
+        "prototype",
+        "model",
+        "build",
+        "原型",
+        "纸模"
+      ],
+      "file": "rough-model.svg",
+      "description_en": "Build a light prototype to make an idea tangible.",
+      "description_zh": "用轻量纸模让想法可以被看见。"
+    },
+    {
+      "id": "feedback-loop",
+      "name_en": "Feedback Loop",
+      "name_zh": "回声纸环",
+      "category": "test",
+      "keywords": [
+        "feedback",
+        "iteration",
+        "learn",
+        "反馈",
+        "迭代"
+      ],
+      "file": "feedback-loop.svg",
+      "description_en": "Return each observation to the next iteration.",
+      "description_zh": "把每次观察带回下一轮迭代。"
+    },
+    {
+      "id": "conversation-pieces",
+      "name_en": "Conversation Pieces",
+      "name_zh": "对话纸片",
+      "category": "test",
+      "keywords": [
+        "conversation",
+        "review",
+        "share",
+        "交流",
+        "评审"
+      ],
+      "file": "conversation-pieces.svg",
+      "description_en": "Let different viewpoints shape a better draft.",
+      "description_zh": "让不同观点共同改善草稿。"
+    },
+    {
+      "id": "open-window",
+      "name_en": "Open Window",
+      "name_zh": "打开可能",
+      "category": "act",
+      "keywords": [
+        "possibility",
+        "open",
+        "explore",
+        "打开",
+        "探索"
+      ],
+      "file": "open-window.svg",
+      "description_en": "Open a possibility before the answer is complete.",
+      "description_zh": "答案尚未完成，也可以打开新的可能。"
+    },
+    {
+      "id": "paper-kite",
+      "name_en": "Paper Kite",
+      "name_zh": "起飞纸鸢",
+      "category": "act",
+      "keywords": [
+        "action",
+        "launch",
+        "begin",
+        "行动",
+        "启程"
+      ],
+      "file": "paper-kite.svg",
+      "description_en": "Give the first version enough room to take flight.",
+      "description_zh": "给第一个版本留出起飞的空间。"
+    },
+    {
+      "id": "trace-roll",
+      "name_en": "Trace Roll",
+      "name_zh": "观察卷纸",
+      "category": "discover",
+      "keywords": [
+        "observation",
+        "pattern",
+        "record",
+        "观察",
+        "记录"
+      ],
+      "description_en": "Record observations as a continuous trace.",
+      "description_zh": "把观察串成一条连续的线索。",
+      "file": "trace-roll.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "question-map",
+      "name_en": "Question Map",
+      "name_zh": "线索地图",
+      "category": "discover",
+      "keywords": [
+        "questions",
+        "route",
+        "research",
+        "问题",
+        "探索"
+      ],
+      "description_en": "Follow a changing route through questions.",
+      "description_zh": "沿着变化的路径探索问题。",
+      "file": "question-map.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "sample-tray",
+      "name_en": "Sample Tray",
+      "name_zh": "取样纸盘",
+      "category": "discover",
+      "keywords": [
+        "samples",
+        "collect",
+        "research",
+        "取样",
+        "收集"
+      ],
+      "description_en": "Collect useful fragments before choosing a direction.",
+      "description_zh": "先收集有用的片段，再选择方向。",
+      "file": "sample-tray.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "focus-frame",
+      "name_en": "Focus Frame",
+      "name_zh": "取景纸框",
+      "category": "discover",
+      "keywords": [
+        "focus",
+        "detail",
+        "notice",
+        "聚焦",
+        "细节"
+      ],
+      "description_en": "Frame one detail that deserves a closer look.",
+      "description_zh": "框出值得进一步观察的细节。",
+      "file": "focus-frame.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "woven-strips",
+      "name_en": "Woven Strips",
+      "name_zh": "编织纸带",
+      "category": "compose",
+      "keywords": [
+        "combine",
+        "weave",
+        "structure",
+        "组合",
+        "编织"
+      ],
+      "description_en": "Interlace separate ideas into a shared structure.",
+      "description_zh": "把独立想法交织成共同结构。",
+      "file": "woven-strips.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "story-accordion",
+      "name_en": "Story Accordion",
+      "name_zh": "故事折页",
+      "category": "compose",
+      "keywords": [
+        "story",
+        "sequence",
+        "unfold",
+        "故事",
+        "顺序"
+      ],
+      "description_en": "Unfold a sequence into a readable story.",
+      "description_zh": "把连续的片段展开成清楚的叙事。",
+      "file": "story-accordion.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "connected-tabs",
+      "name_en": "Connected Tabs",
+      "name_zh": "连接纸榫",
+      "category": "compose",
+      "keywords": [
+        "connect",
+        "fit",
+        "join",
+        "连接",
+        "组合"
+      ],
+      "description_en": "Join complementary pieces into a new outline.",
+      "description_zh": "让互补的部分形成新的整体。",
+      "file": "connected-tabs.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "pivot-board",
+      "name_en": "Pivot Board",
+      "name_zh": "编排转盘",
+      "category": "compose",
+      "keywords": [
+        "arrange",
+        "pivot",
+        "choice",
+        "编排",
+        "选择"
+      ],
+      "description_en": "Move the arrangement until its direction becomes clear.",
+      "description_zh": "调整编排，直到方向变得清楚。",
+      "file": "pivot-board.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "test-strip",
+      "name_en": "Test Strip",
+      "name_zh": "实验纸条",
+      "category": "test",
+      "keywords": [
+        "experiment",
+        "test",
+        "variation",
+        "实验",
+        "变量"
+      ],
+      "description_en": "Compare several small variations on one strip.",
+      "description_zh": "在同一纸条上比较几种小变化。",
+      "file": "test-strip.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "split-test",
+      "name_en": "Split Test",
+      "name_zh": "分支对照",
+      "category": "test",
+      "keywords": [
+        "compare",
+        "alternatives",
+        "test",
+        "对照",
+        "分支"
+      ],
+      "description_en": "Try two alternatives from the same starting point.",
+      "description_zh": "从同一起点尝试两种方案。",
+      "file": "split-test.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "revision-stack",
+      "name_en": "Revision Stack",
+      "name_zh": "修订叠页",
+      "category": "test",
+      "keywords": [
+        "revise",
+        "draft",
+        "iteration",
+        "修订",
+        "迭代"
+      ],
+      "description_en": "Keep the useful lessons from earlier drafts.",
+      "description_zh": "保留旧稿中有用的发现。",
+      "file": "revision-stack.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "balance-study",
+      "name_en": "Balance Study",
+      "name_zh": "平衡试验",
+      "category": "test",
+      "keywords": [
+        "tradeoff",
+        "balance",
+        "compare",
+        "权衡",
+        "平衡"
+      ],
+      "description_en": "Examine the weight and consequence of a choice.",
+      "description_zh": "比较一个选择的分量与结果。",
+      "file": "balance-study.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "release-envelope",
+      "name_en": "Release Envelope",
+      "name_zh": "发布信封",
+      "category": "act",
+      "keywords": [
+        "release",
+        "send",
+        "share",
+        "发布",
+        "分享"
+      ],
+      "description_en": "Send the first useful version into the world.",
+      "description_zh": "把第一个有用的版本送出去。",
+      "file": "release-envelope.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "paper-sail",
+      "name_en": "Paper Sail",
+      "name_zh": "纸帆启程",
+      "category": "act",
+      "keywords": [
+        "start",
+        "sail",
+        "direction",
+        "启程",
+        "方向"
+      ],
+      "description_en": "Take a small vessel toward a clear direction.",
+      "description_zh": "让一只小船朝清楚的方向出发。",
+      "file": "paper-sail.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "launch-ramp",
+      "name_en": "Launch Ramp",
+      "name_zh": "展开坡道",
+      "category": "act",
+      "keywords": [
+        "launch",
+        "path",
+        "momentum",
+        "行动",
+        "推进"
+      ],
+      "description_en": "Turn a flat beginning into a path forward.",
+      "description_zh": "把平面的起点变成前行的路径。",
+      "file": "launch-ramp.svg",
+      "added_version": "1.0.0"
+    },
+    {
+      "id": "open-handbook",
+      "name_en": "Open Handbook",
+      "name_zh": "开放手册",
+      "category": "act",
+      "keywords": [
+        "open",
+        "learn",
+        "contribute",
+        "开放",
+        "共创"
+      ],
+      "description_en": "Leave room for the next useful contribution.",
+      "description_zh": "为下一次有用的贡献留出位置。",
+      "file": "open-handbook.svg",
+      "added_version": "1.0.0"
+    }
+  ]
+}

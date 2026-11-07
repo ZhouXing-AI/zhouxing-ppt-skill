@@ -1,0 +1,76 @@
+INDEX FONT BUNDLE — SOURCES AND LICENSE NOTICE
+
+The Latin TTF font binaries in this folder are unmodified copies from the
+official Google Fonts repository. Local filenames and CSS aliases were
+changed for integration only; original internal font names and notices
+remain intact. Chinese body and serif fonts are complete official Noto
+fonts after a lossless container conversion; see NOTICE-zh.txt and
+font-audit-zh.json. Chinese display headings use the complete official
+Glow Sans SC Compressed ExtraBold v0.93 font, compressed to WOFF2; see
+GlowSansCompressed-NOTICE.txt, GlowSansCompressed-OFL.txt and
+font-audit-condensed.json. Each family retains its full OFL license.
+
+Source repository: https://github.com/google/fonts
+Pinned source commit: 24ddc1f324cac5d9f5aedca126d298f56e3f1640
+Audit: font-audit.json
+
+Included families:
+
+Anton
+Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)
+License: SIL Open Font License 1.1; see Anton-OFL.txt
+
+Newsreader
+Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)
+License: SIL Open Font License 1.1; see Newsreader-OFL.txt
+
+IBM Plex Mono
+Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+License: SIL Open Font License 1.1; see IBMPlexMono-OFL.txt
+
+File provenance (all URLs are pinned to the source commit):
+
+IndexDisplay.ttf
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/anton/Anton-Regular.ttf
+SHA-256: a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab
+
+IndexSerif.ttf
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf
+SHA-256: 8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1
+
+IndexSerif-Italic.ttf
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf
+SHA-256: 796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792
+
+IndexMono.ttf
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/IBMPlexMono-Regular.ttf
+SHA-256: 6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46
+
+IndexMono-Medium.ttf
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/IBMPlexMono-Medium.ttf
+SHA-256: a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755
+
+Anton-OFL.txt
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/anton/OFL.txt
+SHA-256: ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4
+
+Newsreader-OFL.txt
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/newsreader/OFL.txt
+SHA-256: fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8
+
+IBMPlexMono-OFL.txt
+https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/ibmplexmono/OFL.txt
+SHA-256: 7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da
+
+Distribution notes:
+Keep this notice, NOTICE-zh.txt and all five complete OFL files with redistributed fonts.
+Font software retains OFL-1.1. The OFL does not require the slide content to
+use the same license. Do not sell these font files by themselves.
+IBM Plex Mono carries the Reserved Font Name "Plex"; its binaries are unmodified.
+
+CSS aliases: IndexDisplay, IndexSerif, IndexMono.
+Use Anton at weight 400. Newsreader files contain wght 200–800 and opsz 6–72;
+the intended tab-label weight is 400. IBM Plex Mono files are 400 and 500.
+Use the separate Newsreader italic file for italic labels.
+
+This bundle does not include Founders Grotesk or Signifier.

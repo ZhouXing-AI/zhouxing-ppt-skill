@@ -1,0 +1,16 @@
+[
+  {
+    "family": "SparkDisplay",
+    "file": "fonts/BarlowCondensed-ExtraBold.ttf",
+    "weight": "800",
+    "style": "normal",
+    "coverage_file": "fonts/BarlowCondensed-ExtraBold-coverage.json"
+  },
+  {
+    "family": "SparkSans",
+    "file": "fonts/Manrope-Variable.ttf",
+    "weight": "400 500",
+    "style": "normal",
+    "coverage_file": "fonts/Manrope-Variable-coverage.json"
+  }
+]

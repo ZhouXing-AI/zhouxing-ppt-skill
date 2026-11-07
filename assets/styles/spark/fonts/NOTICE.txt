@@ -1,0 +1,77 @@
+SPARK · 燃点 — COMPLETE FONT BUNDLE
+
+English display: Barlow Condensed ExtraBold 800, normal; SparkDisplay.
+English body/UI: Manrope variable font at 400/500, normal; SparkSans.
+Chinese display: Smiley Sans Oblique v2.0.1, genuine 400 italic;
+SparkCJKDisplay. Chinese body/UI: Noto Sans SC 400 normal; SparkCJK.
+
+All four families are licensed under SIL Open Font License 1.1.
+Commercial use, software/document embedding and redistribution with
+open-source software are permitted subject to the supplied licenses.
+Keep the original copyrights and OFL notices. Font software remains OFL,
+not the Skill's MIT license, and may not be sold by itself. The font
+authors do not endorse SPARK or the presentation Skill.
+
+Copyright and license files:
+- Barlow: Copyright 2017 The Barlow Project Authors
+  (https://github.com/jpt/barlow). BarlowCondensed-OFL.txt.
+- Manrope: official OFL states Copyright 2018 The Manrope Project
+  Authors; unchanged font metadata also carries its original copyright.
+  Both retained. Manrope-OFL.txt.
+- Smiley Sans: Copyright 2022–2024 atelierAnchor, Reserved Font Names
+  'Smiley' and '得意黑'. SmileySans-OFL.txt.
+- Noto Sans SC: Copyright 2014–2021 Adobe; Reserved Font Name 'Source'.
+  NotoSansSC-OFL.txt.
+
+Google Fonts source pin for Barlow, Manrope and Noto:
+24ddc1f324cac5d9f5aedca126d298f56e3f1640
+Smiley official release: v2.0.1, released 2024-02-07.
+Smiley tag resolves to commit:
+67e3821f4b06cbd7155fa6fa69daff4b6f311b76
+Official release page:
+https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1
+
+The manifest contains fixed URLs, source/delivery SHA256, release archive
+member and archive hash, actual weights/axes, cmap coverage, glyph counts,
+font-name checks, license/metadata hashes and embedding permission bits.
+Original official OFL and METADATA files are bundled. For Smiley, official
+release JSON and tag-resolution JSON serve as source/release evidence.
+
+Barlow and Manrope keep unmodified official TTF bytes. Smiley keeps the
+exact official SmileySans-Oblique.ttf.woff2 release bytes, also matched
+byte-for-byte to the cached official ZIP member. Its filename is shortened
+locally, but no font table, glyph, name, metric or permission bit changed.
+The CSS alias does not change the font's internal family or Reserved Font
+Names. Noto reuses the complete previously audited WOFF2; its original
+lossless conversion disabled preprocessing transforms. No repeat
+conversion, subsetting, outline or internal-name edits were performed.
+
+Complete official source repertoire verified:
+- Barlow Condensed ExtraBold: 525 Unicode cmap codepoints, true weight 800.
+- Manrope: 678 Unicode cmap codepoints, real variable weight 200–800.
+- Smiley Sans: 9,440 Unicode cmap codepoints, true weight 400.
+- Noto Sans SC: 30,890 Unicode cmap codepoints, real variable weight 100–900.
+
+Smiley's internal post.italicAngle is -8 degrees and fsSelection marks
+the actual face italic. Declare both its @font-face and Chinese display
+text as font-style:italic; this selects its real native oblique design.
+Do not add skew(), scaleX(), synthetic bold, or a second slant. Use
+font-synthesis:none throughout. The font is visually heavy but has genuine
+weight 400: requesting 800 would not create a real heavier master.
+
+Smiley's unmodified fsType is 0x0008 (Editable Embedding), which permits
+editable document embedding; it is not Restricted License Embedding.
+The official OFL separately permits commercial use and redistribution.
+The other three fonts have fsType 0 (Installable Embedding). These values
+were inspected and preserved, not patched. OpenType permission reference:
+https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fstype
+
+All cmap sets, glyph counts and internal font-name tables were compared
+with the complete official source TTF files. Full source coverage does
+not claim all Unicode or all pan-CJK characters. Noto Sans remains the
+readable body face; Smiley is reserved for display text. Original large
+Noto TTF and Smiley ZIP/TTF stay in the development cache; pinned URLs and
+hashes can restore them. They are not runtime dependencies.
+
+No Anyflow brand graphics, 3D models, logo, honeycomb patterns, website
+copy, screenshots, textures or commercial media are included here.

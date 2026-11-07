@@ -1,0 +1,35 @@
+/* INDEX · 索引 — poster headlines and indexed notes replace decorative library objects. */
+.slide.text-led :is(h1,h2,h3,p,figcaption){overflow-wrap:break-word;white-space:normal}
+.slide.text-led :is(.cover-art,.collect-art,.retrieve-art,.finale-art){display:none}
+.slide.text-led.cover h1{left:100px;right:100px;top:240px;width:auto;font-size:254px;line-height:1.02;text-align:center}
+.slide.text-led.cover .cover-bottom{left:105px;right:105px;bottom:110px;display:flex;flex-direction:row;justify-content:space-between;gap:100px;align-items:flex-end}
+.slide.text-led.cover .cover-bottom .serif{font-size:45px;line-height:1.25;max-width:1000px}
+.slide.text-led.cover .small-index{font-size:21px;line-height:1.65;max-width:510px;text-align:right}
+.slide.text-led.collect h2{left:100px;right:100px;top:150px;width:auto;font-size:178px;line-height:1.05;text-align:center}
+.slide.text-led.collect .capture-list{left:105px;right:105px;top:650px;width:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:65px}
+.slide.text-led.collect .capture-list>div{display:flex;flex-direction:column;align-items:flex-start;gap:26px;padding:30px 0}
+.slide.text-led.collect .capture-list span{font-size:27px}
+.slide.text-led.collect .capture-list h3{font-size:52px;line-height:1.15}
+.slide.text-led.collect .capture-list p{font-size:27px;line-height:1.55;margin:0}
+.slide.text-led.retrieve .retrieve-spine{width:1120px}
+.slide.text-led.retrieve::after{left:1120px}
+.slide.text-led.retrieve h2{left:100px;right:80px;top:170px;width:auto;font-size:185px;line-height:1.08}
+.slide.text-led.retrieve .retrieve-spine>p{left:105px;right:80px;bottom:130px;font-size:29px;line-height:1.6}
+.slide.text-led.retrieve .retrieve-caption{left:1230px;right:100px;top:390px;font-size:70px;line-height:1.25;border-top:1px solid #19191966;padding-top:55px}
+.slide.text-led.finale h2{left:100px;right:100px;top:260px;width:auto;font-size:245px;line-height:1.02;text-align:center}
+/* File records, relation cards/connectors, the five-minute metric, checklists and file tabs are content. */
+html:lang(zh) .slide.text-led.cover h1{top:250px;width:auto;font-size:228px;line-height:1.12}
+html:lang(zh) .slide.text-led.cover .cover-bottom .serif{font-size:42px;line-height:1.45}
+html:lang(zh) .slide.text-led.cover .small-index{font-size:25px;line-height:1.65}
+html:lang(zh) .slide.text-led.collect h2{top:150px;width:auto;font-size:190px;line-height:1.15}
+html:lang(zh) .slide.text-led.collect .capture-list{top:650px;width:auto}
+html:lang(zh) .slide.text-led.collect .capture-list>div{padding:30px 0}
+html:lang(zh) .slide.text-led.collect .capture-list h3{font-size:47px;line-height:1.3}
+html:lang(zh) .slide.text-led.collect .capture-list p{font-size:28px;line-height:1.65;margin:0}
+html:lang(zh) .slide.text-led.retrieve h2{left:100px;right:80px;top:170px;width:auto;font-size:178px;line-height:1.2}
+html:lang(zh) .slide.text-led.retrieve .retrieve-spine>p{font-size:29px;line-height:1.65}
+html:lang(zh) .slide.text-led.retrieve .retrieve-caption{left:1230px;right:100px;top:385px;font-size:54px;line-height:1.6}
+html:lang(zh) .slide.text-led.finale h2{top:260px;width:auto;font-size:230px;line-height:1.12}
+
+/* Author-selected per-slide text layout; charts and controls are unaffected. */
+.slide.text-led [data-decoration]{display:none!important}

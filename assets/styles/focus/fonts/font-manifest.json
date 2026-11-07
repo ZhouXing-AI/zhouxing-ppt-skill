@@ -1,0 +1,45 @@
+{
+  "fonts": [
+    {
+      "family": "MoveSerif",
+      "file": "InstrumentSerif-Regular.ttf",
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+      "license": "SIL OFL 1.1",
+      "complete_font": true
+    },
+    {
+      "family": "MoveItalic",
+      "file": "InstrumentSerif-Italic.ttf",
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385",
+      "license": "SIL OFL 1.1",
+      "complete_font": true
+    },
+    {
+      "family": "ShiftSans",
+      "file": "ShiftSans.woff2",
+      "sha256": "a203c084d99207f473a58f596a1f7249754e2343b2ef5a6a71e9f2731b666a90",
+      "license": "SIL OFL 1.1",
+      "complete_font": true
+    },
+    {
+      "family": "FocusCJK",
+      "file": "FocusCJK.woff2",
+      "sha256": "ac4121c0e56f4660e3121035cd84da1764b78753eb18439860b031e1eb167a82",
+      "license": "SIL OFL 1.1",
+      "complete_font": true
+    },
+    {
+      "family": "FocusCJKSans",
+      "file": "FocusCJKSans.woff2",
+      "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
+      "license": "SIL OFL 1.1",
+      "complete_font": true
+    }
+  ],
+  "cjk_notice": "NOTICE-zh.txt",
+  "cjk_coverage": [
+    "FocusCJK-coverage.json",
+    "FocusCJKSans-coverage.json"
+  ],
+  "cjk_audit": "font-audit-zh.json"
+}

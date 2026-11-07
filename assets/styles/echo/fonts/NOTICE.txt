@@ -1,0 +1,69 @@
+ECHO · 回响 — COMPLETE FONT BUNDLE
+
+English display: Cormorant Garamond, genuine variable weight 500.
+CSS alias: EchoDisplay.
+English body/UI: Instrument Sans, genuine variable weights 400 and 500,
+normal width 100. CSS alias: EchoSans.
+Chinese display: Noto Serif SC, genuine variable weight 300.
+CSS alias: EchoCJKDisplay.
+Chinese body/UI: Noto Sans SC, genuine variable weight 400.
+CSS alias: EchoCJK.
+
+All font software is licensed under the SIL Open Font License 1.1.
+Commercial use, document/software embedding and redistribution with
+open-source software are permitted subject to the supplied licenses.
+Keep original copyright and OFL notices with redistributed font software.
+Fonts remain under OFL, not the Skill's MIT license. Font software may
+not be sold by itself. Font authors do not endorse this theme.
+
+Copyright and accompanying licenses:
+- Cormorant Garamond: Copyright 2015 the Cormorant Project Authors
+  (github.com/CatharsisFonts/Cormorant). CormorantGaramond-OFL.txt.
+- Instrument Sans: Copyright 2022 The Instrument Sans Project Authors
+  (https://github.com/Instrument/instrument-sans). InstrumentSans-OFL.txt.
+- Noto Serif SC: official license file states Copyright 2012 Google Inc.;
+  unchanged font metadata also states (c) 2017–2024 Adobe. Both retained.
+  NotoSerifSC-OFL.txt.
+- Noto Sans SC: Copyright 2014–2021 Adobe; Reserved Font Name 'Source'.
+  NotoSansSC-OFL.txt. Unchanged primary family name is Noto Sans SC.
+
+Official distribution repository: https://github.com/google/fonts
+All sources pinned to commit:
+24ddc1f324cac5d9f5aedca126d298f56e3f1640
+
+The font manifest records fixed official source URLs, source and delivered
+SHA256, byte lengths, actual axes, cmap coverage, glyph counts, font names,
+copyright/license metadata, license hashes and verification results.
+Each family has its original official METADATA.pb and OFL text here.
+
+CormorantGaramond-Variable.ttf and InstrumentSans-Variable.ttf retain
+unmodified original official TTF bytes. Only local filenames and CSS
+aliases differ. Instrument Sans is the full official 343-codepoint file,
+not the 203-codepoint ShiftSans subset used in earlier theme bundles.
+
+Noto fonts reuse complete WOFF2 bytes audited in INDEX/FOCUS/GLOW. The
+original conversion used lossless compression with preprocessing
+transforms disabled. No glyphs, outlines, metrics, names, copyright,
+licenses or variable axes were removed or changed. No repeat conversion
+was performed for ECHO. Only filenames and CSS aliases differ. Large
+original CJK TTF files stay in the preparation cache; restore them from
+the fixed official URLs and SHA256 values in font-manifest.json.
+
+Complete source coverage verified:
+- Cormorant Garamond: 974 cmap codepoints; 3,241 glyphs; weight 300–700.
+- Instrument Sans: 343 cmap codepoints; 501 glyphs; weight 400–700,
+  width 75–100. ECHO uses 400/500 at normal width 100.
+- Noto Serif SC: 30,928 cmap codepoints; 31,058 glyphs; weight 200–900.
+- Noto Sans SC: 30,890 cmap codepoints; 31,036 glyphs; weight 100–900.
+
+All Unicode cmap subtables, glyph counts and internal name tables were
+compared with complete official sources and match. All fsType values are
+zero. These are complete official SC-source repertoires; this is not a
+claim that the fonts cover all Unicode or all pan-CJK characters.
+
+Use font-synthesis:none. English display uses 500; Chinese display 300;
+body uses the real weights declared above. Do not simulate italic or
+stretch Chinese outlines horizontally. No font is subset to example copy.
+
+No proprietary fonts, logos, photography or other Overworld Audio brand
+assets are included in this bundle.

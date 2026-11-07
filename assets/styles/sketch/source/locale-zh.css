@@ -1,0 +1,57 @@
+/* SKETCH Chinese composition: independent line lengths, no synthetic bold. */
+html:lang(zh) body{font-family:SketchSans,SketchCJK,sans-serif;font-weight:400;font-synthesis:none;line-break:strict;word-break:normal}
+html:lang(zh) .slide :is(h1,h2,h3){font-family:SketchCJKDisplay,SketchSerif,serif;font-weight:900;font-synthesis:none;letter-spacing:0;line-height:1.18}
+html:lang(zh) .slide p{line-height:1.6}
+html:lang(zh) .label{font-family:SketchSans,SketchCJK,sans-serif;font-weight:400;letter-spacing:.08em;font-size:22px}
+html:lang(zh) .cover-brand>span{font-family:SketchSans,sans-serif}
+html:lang(zh) .cover h1{top:222px;font-size:169px;line-height:1.05;letter-spacing:-.02em}
+html:lang(zh) .cover-note{top:827px;font-size:31px;line-height:1.6}
+html:lang(zh) .cover-slip .label{font-size:20px}
+html:lang(zh) .cover-slip p{font-size:27px;line-height:1.55;margin-top:12px}
+html:lang(zh) .underlined:after{bottom:.04em;height:.07em}
+html:lang(zh) .permission-label{top:140px}
+html:lang(zh) .permission>h2{left:240px;top:235px;font-size:159px;line-height:1.14;letter-spacing:-.02em}
+html:lang(zh) .permission-note .label{font-size:21px}
+html:lang(zh) .permission-note p{font-size:33px;line-height:1.55;margin:25px 0}
+html:lang(zh) .signature{font-family:SketchCJK,serif;font-weight:400;font-size:30px;line-height:1.5}
+html:lang(zh) .observe>h2{top:235px;font-size:138px;line-height:1.18}
+html:lang(zh) .observe-aside{top:593px;font-size:32px}
+html:lang(zh) .observations .label{font-size:21px}
+html:lang(zh) .observations h3{font-size:42px;line-height:1.3;letter-spacing:0;margin-top:21px}
+html:lang(zh) .collect>h2{top:112px;font-size:125px;line-height:1.16}
+html:lang(zh) .collect-intro{top:175px;font-size:30px;width:485px}
+html:lang(zh) .collection .label{font-size:19px;letter-spacing:.06em}
+html:lang(zh) .collection h3{font-size:58px;line-height:1.2;margin:28px 0}
+html:lang(zh) .collection p{font-size:29px;line-height:1.6}
+html:lang(zh) .rough>h2{top:225px;font-size:143px;line-height:1.12;letter-spacing:0}
+html:lang(zh) .rough-copy{top:800px;font-size:31px;line-height:1.65}
+html:lang(zh) .sheet-heading .label{font-size:22px}
+html:lang(zh) .sheet-caption{font-size:21px}
+html:lang(zh) .explore>h2{top:100px;font-size:115px;line-height:1.2}
+html:lang(zh) .explore-spread h3{font-size:94px;line-height:1.2;letter-spacing:0;margin-top:22px}
+html:lang(zh) .explore-spread .label{font-size:21px}
+html:lang(zh) .explore-spread p{font-size:32px;line-height:1.65;margin-top:65px}
+html:lang(zh) .share>h2{top:135px;font-size:116px;line-height:1.2}
+html:lang(zh) .share-copy{top:490px;font-size:32px}
+html:lang(zh) .share-prompts .label{font-size:21px}
+html:lang(zh) .share-prompts h3{font-size:42px;line-height:1.25;letter-spacing:0;margin-top:20px}
+html:lang(zh) .revise>h2{top:95px;font-size:125px;line-height:1.2}
+html:lang(zh) .revision-notes{top:406px}
+html:lang(zh) .revision-notes .label{font-size:21px}
+html:lang(zh) .revision-notes h3{font-size:48px;line-height:1.3;margin:19px 0}
+html:lang(zh) .revision-notes p{font-size:28px;line-height:1.65}
+html:lang(zh) .revision-notes article{margin-bottom:43px}
+html:lang(zh) .proof>h2{top:220px;font-size:127px;line-height:1.2;letter-spacing:0}
+html:lang(zh) .proof-ticket h3{font-size:66px;line-height:1.2;letter-spacing:0;margin:8px 0 23px}
+html:lang(zh) .proof-ticket p{font-size:28px;line-height:1.6}
+html:lang(zh) .closing>h2{top:280px;font-size:151px;line-height:1.2;letter-spacing:0}
+html:lang(zh) .closing-strip p{font-size:30px}
+html:lang(zh) .restart{font-family:SketchSans,SketchCJK,sans-serif;font-size:21px;font-weight:400}
+/* Localize all controls and artwork UI using embedded Chinese glyphs. */
+html:lang(zh) :is(.controls,.controls button,.overview,.overview button,.toast,.nav-tip),
+html:lang(zh) .artwork-dialog,
+html:lang(zh) .artwork-dialog :is(button,select,input,p,label,.artwork-card-name,.artwork-card-new,.artwork-preview-note){font-family:SketchSans,SketchCJK,sans-serif;font-weight:400;font-synthesis:none}
+html:lang(zh) .overview header,
+html:lang(zh) .artwork-dialog :is(h2,h3){font-family:SketchCJKDisplay,SketchSerif,serif;font-weight:900;letter-spacing:0;font-synthesis:none}
+html:lang(zh) .controls #replace-artwork{font-family:SketchSans,SketchCJK,sans-serif;font-weight:400}
+html:lang(zh) .artwork-header h2 .artwork-total{font-family:SketchSans,SketchCJK,sans-serif;font-weight:400}
