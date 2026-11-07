@@ -107,4 +107,9 @@ python3 scripts/build_deck.py --project /absolute/path/to/new-deck
 
 ## 许可
 
+本项目原创代码与文档采用 [MIT 许可证](LICENSE)，版权所有 © 2026 昼星AI说。复制或分发项目代码及其重要部分时，请保留版权和许可声明。
+
+作者：**昼星AI说** · [个人网站](https://zhouxingai.com)  
+欢迎在分享或介绍项目时附上项目名称和 GitHub 链接。
+
 各主题字体、SVG 与依赖库的许可文件保留在对应 `assets/styles/<id>/` 目录（含 `fonts/`、`graphics/`、`source/` 下的 LICENSE）。请按各文件条款使用与再分发。
