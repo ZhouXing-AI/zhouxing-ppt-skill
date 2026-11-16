@@ -22,7 +22,7 @@ def main():
         try:text=a.prompt_file.expanduser().read_text(encoding='utf-8')
         except OSError as e:p.error(str(e))
     lang=infer_language(text or a.title or '') if a.lang=='auto' else a.lang
-    styles=json.loads((SKILL/'styles.json').read_text())['styles']
+    styles=json.loads((SKILL/'styles.json').read_text(encoding='utf-8'))['styles']
     if a.style not in [s['id'] for s in styles]:p.error('Unknown style. Available: '+', '.join(s['id'] for s in styles))
     source=SKILL/'assets/styles'/a.style;out=Path(a.out).expanduser().resolve();locale=source/'locales'/lang
     if lang!='en' and not locale.exists():p.error('This style does not contain a template for '+lang)
@@ -30,9 +30,9 @@ def main():
     out.mkdir(parents=True,exist_ok=True)
     for directory in ['source','fonts','graphics']:
         if (source/directory).exists():shutil.copytree(source/directory,out/directory,dirs_exist_ok=True)
-    meta=json.loads((source/'deck.json').read_text())
+    meta=json.loads((source/'deck.json').read_text(encoding='utf-8'))
     if locale.exists():
-        meta.update(json.loads((locale/'deck.json').read_text()))
+        meta.update(json.loads((locale/'deck.json').read_text(encoding='utf-8')))
         shutil.copyfile(locale/'slides.html',out/'source/slides.html')
         if (locale/'style.css').exists():
             shutil.copyfile(locale/'style.css',out/'source/style.css')
@@ -40,6 +40,6 @@ def main():
             shutil.copyfile(locale/'ui.json',out/'source/ui.json')
     meta['lang']=lang
     if a.title:meta['title']=a.title;meta['subtitle']='';meta['download_name']='presentation.html'
-    (out/'deck.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2))
+    (out/'deck.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'language':lang,**build(out)},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

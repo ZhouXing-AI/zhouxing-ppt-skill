@@ -6,7 +6,7 @@
 
 # zhouxing-ppt-skill
 
-ZhouXing PPT Skill · **v1.1.0** · Reordered themes and LENS.
+ZhouXing PPT Skill · **v1.0.0** · Reordered themes and LENS.
 
 Twelve confirmed offline HTML presentation themes for editable, downloadable Chinese and English decks.
 
@@ -18,16 +18,28 @@ Twelve confirmed offline HTML presentation themes for editable, downloadable Chi
 - Custom mouse cursor designed per theme
 - Bilingual templates, fonts, and license files included for offline use
 
-## Quick start
+## Copy the installation prompt
 
-Load this repository as a Cursor / Agent skill, then follow [SKILL.md](SKILL.md). Example:
+Click the copy button at the top-right of the text block, paste it into your Agent, and send it to install and verify the skill.
 
-```sh
-python3 scripts/create_deck.py --style blend --lang en --out /absolute/path/to/new-deck
-python3 scripts/build_deck.py --project /absolute/path/to/new-deck
+Use the same prompt with **Doubao, Doubao Work, DeepSeek Harness, WorkBuddy, Codex, Grok Bot, Claude Code, Cursor**, and other agents. The agent selects an installation method based on the current client's skill, file, and execution capabilities.
+
+```text
+Please install ZhouXing PPT Skill (zhouxing-ppt-skill, v1.0.0):
+https://github.com/ZhouXing-AI/zhouxing-ppt-skill
+
+Carry out the installation, rather than only giving me a tutorial. First read README.en.md, INSTALL.md, and SKILL.md in the repository. Identify your current agent, operating system, and supported skill installation mechanism, then use that mechanism.
+
+If local skill directories are supported, install the complete repository into a directory your client actually discovers, named zhouxing-ppt-skill. If skill-package import is supported, use that entry point. Keep SKILL.md, styles.json, scripts, references, and assets, including templates, fonts, SVGs, and licenses; do not download only SKILL.md. Preserve local edits when updating an existing installation, and do not overwrite my presentations.
+
+After installation, confirm that the current agent can discover the skill. Check all 12 themes, 24 SVGs per theme, and Chinese and English templates. Generate a sample deck in a separate temporary directory to verify the Python 3 creation and build workflow. Report the actual installation location, version, verification results, and how to invoke the skill.
+
+If this environment only supports chat and cannot download, write files, or execute scripts, clearly state that installation is incomplete and give the shortest supported import steps for this client. Reading a webpage or remembering a prompt in this chat is not a successful installation.
 ```
 
-Theme registry: [styles.json](styles.json). Details in `references/*.md`.
+After installation, try: **“Use ZhouXing PPT Skill to create an English presentation about …”**
+
+Automatic installation requires the client's skill, file, and execution capabilities. Any platform-required manual import or authorization still applies. See [installation and compatibility](INSTALL.md#english) for details, [SKILL.md](SKILL.md) for deck creation, and [styles.json](styles.json) for the theme registry.
 
 ## Theme Gallery
 

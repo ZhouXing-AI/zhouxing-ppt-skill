@@ -2,12 +2,12 @@
 name: zhouxing-ppt-skill
 description: 使用昼星已确认的 BLEND／融合、GROVE／共生、SPARK／燃点、ECHO／回响、GLOW／晴光、SKETCH／构想、AXIS／轴线、INDEX／索引、FORM／成形、LENS／透见、FOCUS／明晰、EDIT／精选主题创建或修改中英文离线 HTML 演示，按每页内容调整排版与配图，支持文字编辑、素材替换和直接下载 PDF。适用于用户点名 zhouxing-ppt-skill、上述主题，或要求沿用已确认样式制作演示。
 metadata:
-  version: 1.1.0
+  version: 1.0.0
 ---
 
 # zhouxing-ppt-skill
 
-这是用户自己的演示样式库，当前版本为 v1.1.0。十二套均已收录，登记见 [styles.json](styles.json)，按用户指定的主题选择，不必再次要求挑选风格。
+这是用户自己的演示样式库，当前版本为 v1.0.0。十二套均已收录，登记见 [styles.json](styles.json)，按用户指定的主题选择，不必再次要求挑选风格。
 
 | 用户所指 | 主题与内部 ID | 先读 |
 |---|---|---|
@@ -25,6 +25,12 @@ metadata:
 | 第十二套、EDIT、精选 | **EDIT · 精选**（`edit`） | [references/edit.md](references/edit.md) |
 
 仅说“上一套”“最终那套”时结合当前会话判断，不固定映射到第一套。主题名称与内容标题独立：例如「把复杂看清楚」「先看清，再行动」、`A Good Edit` 和「让想法成形」都是示例标题，新内容应另拟标题。
+
+## Agent 与运行环境
+
+本 Skill 使用通用的 `SKILL.md`、相对路径资源和 Python 3 标准库，不要求 Cursor、Codex 或某个模型专属工具。安装或迁移时读 [INSTALL.md](INSTALL.md)，按当前宿主实际支持的技能目录或导入入口加载完整包。
+
+运行前定位本 SKILL.md 所在目录，不假设终端当前目录就是安装目录。示例中的 `python3` 可换成当前系统的 Python 3 命令（例如 Windows 的 `py -3`）；带空格的路径需正确引用。输出写到用户可访问的新工作目录，不修改安装包内的主题母版。文件生成成功与宿主已识别技能分别验证；只有聊天或只读网页能力时，说明执行限制，不声称已经安装或生成文件。
 
 ## 使用
 

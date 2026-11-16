@@ -6,7 +6,7 @@
 
 # zhouxing-ppt-skill
 
-昼星 PPT Skill · **v1.1.0** · 新主题顺序与 LENS 透见。
+昼星 PPT Skill · **v1.0.0** · 新主题顺序与 LENS 透见。
 
 用十二套已确认的离线 HTML 演示主题，快速做出可编辑、可下载的中英文 PPT。
 
@@ -18,16 +18,28 @@
 - 每套 PPT 的鼠标都按对应主题单独设计
 - 中英双语模板、字体与许可文件随包提供，可离线使用
 
-## 快速使用
+## 复制提示词安装
 
-把本仓库作为 Cursor / Agent 的 Skill 目录加载后，按 [SKILL.md](SKILL.md) 操作。创建工作副本示例：
+点击下方文本框右上角的复制按钮，粘贴到你的 Agent 对话框并发送，让它完成安装与检查。
 
-```sh
-python3 scripts/create_deck.py --style blend --lang zh-CN --out /absolute/path/to/new-deck
-python3 scripts/build_deck.py --project /absolute/path/to/new-deck
+同一条提示词面向 **豆包、豆包工作、DeepSeek Harness、WorkBuddy、Codex、Grok Bot、Claude Code、Cursor** 等 Agent，由 Agent 根据当前客户端的技能、文件和执行能力选择安装方式。
+
+```text
+请帮我安装昼星 PPT Skill（zhouxing-ppt-skill，v1.0.0）：
+https://github.com/ZhouXing-AI/zhouxing-ppt-skill
+
+请直接执行安装，不要只给我教程。先读取仓库的 README.md、INSTALL.md 和 SKILL.md，识别你当前所在的 Agent、操作系统及技能安装机制，再选择本客户端支持的安装方式。
+
+如果支持本地技能目录，请把完整仓库安装到你实际识别的技能目录下，目录名为 zhouxing-ppt-skill；如果支持技能包导入，请使用该入口。保留 SKILL.md、styles.json、scripts、references、assets 中的模板、字体、SVG 和许可证，不要只下载 SKILL.md。已有安装时保留用户修改，安全更新；不要覆盖我的演示稿。
+
+安装后确认技能可被当前 Agent 发现，检查 12 套主题、每套 24 个 SVG 和中英文模板，并在独立临时目录生成一个演示样稿，验证 Python 3 创建与编译流程。最后告诉我实际安装位置、版本、验证结果和调用方式。
+
+如果当前环境只能聊天、无法下载写入或执行脚本，请如实说明尚未完成安装，并给出本客户端可用的最短导入步骤；不能把读取网页或临时记住提示词说成安装成功。
 ```
 
-主题登记见 [styles.json](styles.json)。详细约定见各 `references/*.md`。
+安装后可以说：**“用昼星 PPT Skill，帮我做一份关于……的中文演示稿。”**
+
+自动安装需要客户端开放相应的技能安装、文件与执行能力；平台要求手动导入或授权时仍需完成该步骤。详细适配与检查方式见 [安装说明](INSTALL.md)。创建演示稿的脚本用法见 [SKILL.md](SKILL.md)，主题登记见 [styles.json](styles.json)。
 
 ## 主题样张
 

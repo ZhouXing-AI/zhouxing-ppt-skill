@@ -1,6 +1,6 @@
 {
   "name": "zhouxing-ppt-skill",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "styles": [
     {
       "id": "blend",
@@ -785,7 +785,7 @@
       "name_en": "LENS",
       "name_zh": "透见",
       "status": "user-approved",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "registered_on": "2026-11-16",
       "aliases": [
         "第十套",
@@ -854,8 +854,8 @@
       ],
       "order": 10,
       "example_sha256": {
-        "zh": "3b232b1205694a9887e7193539c9fc2386d25e1bfbc3eadec2b5fdd20a186e0f",
-        "en": "5c6cdf5ba2895f11f87f2ce8e3b1a8a32dbc7c69494ec5da4bd3a96ba8b0a30b"
+        "zh": "37117189c2638ccec72c86d1a7e4b30e0e841e860eb51a4a86389934b9880fca",
+        "en": "0eb3d3ad224f0de49c1bce59e8a27c534f8b71677ba98cda626d10c8485bc414"
       }
     },
     {

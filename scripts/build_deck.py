@@ -39,7 +39,7 @@ def check_cjk(project,meta,parser,ui):
             if project not in p.parents:raise ValueError('Coverage file must be inside the source project.')
             font=(project/f['file']).resolve()
             if project not in font.parents:raise ValueError('Font file must be inside the source project.')
-            coverage=json.loads(p.read_text())
+            coverage=json.loads(p.read_text(encoding='utf-8'))
             if coverage.get('font_sha256')!=hashlib.sha256(font.read_bytes()).hexdigest():
                 raise ValueError('Font coverage metadata does not match '+f['file']+'. Regenerate it from the final font cmap.')
             for lo,hi in coverage['ranges']:covered.update(range(lo,hi+1))
@@ -74,7 +74,7 @@ def apply_content_layouts(html):
 def artwork_library(project):
     catalog=project/'graphics/catalog.json'
     if not catalog.exists():return None
-    data=json.loads(catalog.read_text());ids=set()
+    data=json.loads(catalog.read_text(encoding='utf-8'));ids=set()
     for asset in data['assets']:
         key=asset['id']
         if not re.fullmatch(r'[a-z0-9][a-z0-9-]*',key) or key in ids:raise ValueError('Invalid or duplicate artwork id: '+key)
@@ -104,17 +104,17 @@ def fill_artwork_slots(html,library):
     return re.sub(r'(<div\b[^>]*data-artwork-slot="[^"]+"[^>]*>)\s*</div>',fill,html)
 
 def build(project,output=None):
-    project=Path(project).resolve();src=project/'source';meta=json.loads((project/'deck.json').read_text());html=(src/'slides.html').read_text()
+    project=Path(project).resolve();src=project/'source';meta=json.loads((project/'deck.json').read_text(encoding='utf-8'));html=(src/'slides.html').read_text(encoding='utf-8')
     meta.pop('presentation_mode',None)
     html=apply_content_layouts(html)
     library=artwork_library(project);html=fill_artwork_slots(html,library)
     for art in sorted((project/'graphics').glob('*.svg')):
-        if '__'+art.stem+'__' in html:html=html.replace('__'+art.stem+'__',art.read_text())
+        if '__'+art.stem+'__' in html:html=html.replace('__'+art.stem+'__',art.read_text(encoding='utf-8'))
     unresolved=re.findall(r'__[A-Za-z][A-Za-z0-9_-]*__',html)
     if unresolved:raise ValueError('Missing graphics: '+', '.join(sorted(set(unresolved))))
     parser=Slides();parser.feed(html)
     if not parser.titles:raise ValueError('The source contains no slides.')
-    ui=json.loads((src/'ui.json').read_text()) if (src/'ui.json').exists() else {}
+    ui=json.loads((src/'ui.json').read_text(encoding='utf-8')) if (src/'ui.json').exists() else {}
     check_cjk(project,meta,parser,ui)
     fonts=[]
     for f in meta['fonts']:
@@ -125,27 +125,27 @@ def build(project,output=None):
         font_style=f.get('style','normal')
         if font_style not in {'normal','italic'}:raise ValueError('Font style must be normal or italic: '+f['family'])
         fonts.append('@font-face{font-family:'+json.dumps(f['family'])+';font-weight:'+f['weight']+';font-style:'+font_style+';font-display:block;src:url(data:'+mime+';base64,'+base64.b64encode(p.read_bytes()).decode()+') format("'+fmt+'")'+unicode_rule+'}')
-    notices={p.name:p.read_text() for p in sorted((project/'fonts').glob('*.txt'))}
-    notices.update({p.name:p.read_text() for p in sorted((project/'source').glob('*LICENSE.txt'))})
+    notices={p.name:p.read_text(encoding='utf-8') for p in sorted((project/'fonts').glob('*.txt'))}
+    notices.update({p.name:p.read_text(encoding='utf-8') for p in sorted((project/'source').glob('*LICENSE.txt'))})
     title=meta['title']+(' · '+meta['subtitle'] if meta.get('subtitle') else '')
-    css=(src/'viewport-base.css').read_text()+'\n'+''.join(fonts)+'\n'+(src/'style.css').read_text()
-    if (src/'locale-zh.css').exists():css+='\n'+(src/'locale-zh.css').read_text()
-    if (src/'artwork.css').exists():css+='\n'+(src/'artwork.css').read_text()
+    css=(src/'viewport-base.css').read_text(encoding='utf-8')+'\n'+''.join(fonts)+'\n'+(src/'style.css').read_text(encoding='utf-8')
+    if (src/'locale-zh.css').exists():css+='\n'+(src/'locale-zh.css').read_text(encoding='utf-8')
+    if (src/'artwork.css').exists():css+='\n'+(src/'artwork.css').read_text(encoding='utf-8')
     for extra_css in ['text-layouts.css','player-controls.css','cursor.css']:
-        if (src/extra_css).exists():css+='\n'+(src/extra_css).read_text()
+        if (src/extra_css).exists():css+='\n'+(src/extra_css).read_text(encoding='utf-8')
     artwork_data='<script id="artwork-library" type="application/json">'+json_script(library)+'</script>' if library else ''
-    artwork_html=(src/'artwork.html').read_text() if (src/'artwork.html').exists() else ''
-    artwork_js='<script>'+(src/'artwork.js').read_text().replace('</script','<\\/script')+'</script>' if (src/'artwork.js').exists() else ''
+    artwork_html=(src/'artwork.html').read_text(encoding='utf-8') if (src/'artwork.html').exists() else ''
+    artwork_js='<script>'+(src/'artwork.js').read_text(encoding='utf-8').replace('</script','<\\/script')+'</script>' if (src/'artwork.js').exists() else ''
     cursor_data='';cursor_js=''
     if (src/'cursor.js').exists():
-        cursor_config=json.loads((src/'cursor.json').read_text())
-        cursor_config['svg']=(src/'cursor.svg').read_text()
+        cursor_config=json.loads((src/'cursor.json').read_text(encoding='utf-8'))
+        cursor_config['svg']=(src/'cursor.svg').read_text(encoding='utf-8')
         cursor_data='<script id="cursor-art" type="application/json">'+json_script(cursor_config)+'</script>'
-        cursor_js='<script>'+(src/'cursor.js').read_text().replace('</script','<\\/script')+'</script>'
-    chart_js='<script>'+(src/'chart-motion.js').read_text().replace('</script','<\\/script')+'</script>' if (src/'chart-motion.js').exists() else ''
-    pdf_scripts=''.join('<script>'+re.sub(r'//# sourceMappingURL=.*', '', (src/name).read_text()).replace('</script', '<\\/script')+'</script>' for name in ['html-to-image.js','pdf-lib.js','pdf-export.js'])
-    result='<!doctype html><html lang="'+escape(meta.get('lang','en'),quote=True)+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>'+css+'</style><script id="font-licenses" type="application/json">'+json_script(notices)+'</script><script id="deck-meta" type="application/json">'+json_script(meta)+'</script><script id="deck-ui" type="application/json">'+json_script(ui)+'</script>'+artwork_data+cursor_data+'</head><body><main id="stage" aria-label="'+escape(meta['title'],quote=True)+'">'+html+(src/'navigation.html').read_text()+'</main>'+(src/'controls.html').read_text()+artwork_html+pdf_scripts+cursor_js+chart_js+'<script>'+(src/'player.js').read_text()+'</script>'+artwork_js+'</body></html>'
-    out=Path(output).resolve() if output else project/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(result)
+        cursor_js='<script>'+(src/'cursor.js').read_text(encoding='utf-8').replace('</script','<\\/script')+'</script>'
+    chart_js='<script>'+(src/'chart-motion.js').read_text(encoding='utf-8').replace('</script','<\\/script')+'</script>' if (src/'chart-motion.js').exists() else ''
+    pdf_scripts=''.join('<script>'+re.sub(r'//# sourceMappingURL=.*', '', (src/name).read_text(encoding='utf-8')).replace('</script', '<\\/script')+'</script>' for name in ['html-to-image.js','pdf-lib.js','pdf-export.js'])
+    result='<!doctype html><html lang="'+escape(meta.get('lang','en'),quote=True)+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>'+css+'</style><script id="font-licenses" type="application/json">'+json_script(notices)+'</script><script id="deck-meta" type="application/json">'+json_script(meta)+'</script><script id="deck-ui" type="application/json">'+json_script(ui)+'</script>'+artwork_data+cursor_data+'</head><body><main id="stage" aria-label="'+escape(meta['title'],quote=True)+'">'+html+(src/'navigation.html').read_text(encoding='utf-8')+'</main>'+(src/'controls.html').read_text(encoding='utf-8')+artwork_html+pdf_scripts+cursor_js+chart_js+'<script>'+(src/'player.js').read_text(encoding='utf-8')+'</script>'+artwork_js+'</body></html>'
+    out=Path(output).resolve() if output else project/'index.html';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(result,encoding='utf-8')
     return {'output':str(out),'slides':len(parser.titles),'titles':parser.titles,'bytes':out.stat().st_size}
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--project',required=True);p.add_argument('--output');a=p.parse_args()
