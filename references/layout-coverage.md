@@ -1,8 +1,10 @@
 # 十二套主题的30页能力样稿
 
-每套中英文各30页，共24份演示、720页（每种语言360页）。首次公开版本仍为1.0.0。30是样稿能力清单，不是用户生成演示的固定长度；中英翻译、改数据和换配图不单独计为新版式。原有前9页保留，原收尾移动到30页。
+每套中英文各30页，共24份演示、720页（每种语言360页）。当前主题顺序与版本见 styles.json。30是样稿能力清单，不是用户生成演示的固定长度；中英翻译、改数据和换配图不单独计为新版式。LENS 已按语义合并重复样例；各主题的实际页码以完整样稿为准。
 
-## 公共能力与页码
+## 常见能力与历史样稿页码
+
+下表用于理解原有样稿的覆盖，不约束 LENS 或新演示。LENS 的最新 30 页地图见 [lens.md](lens.md)，其卡片、柱状与折线样例已去重。
 
 | 页 | 能力 | 使用条件 |
 |---|---|---|
@@ -28,13 +30,13 @@
 
 ## 复用方式
 
-十二套工作副本均含 `source/expansion30.py`。它提供 `get_slides(lang)` 和 `validate_data()`：前三套返回新增第24–29页六个片段，后九套返回第10–29页二十个片段。先在工作副本修改数据和文案，运行校验，再生成所需片段：
+FOCUS、EDIT、FORM、INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND、GROVE 的工作副本含 `source/expansion30.py`；LENS 直接编辑 `source/slides.html` 和 `source/style.css`，不运行本扩展脚本。它提供 `get_slides(lang)` 和 `validate_data()`：FOCUS、EDIT 返回新增第24–29页片段，其余现行主题的配方返回第10–29页片段。先在工作副本修改数据和文案，运行校验，再生成所需片段：
 
 ```sh
 python3 scripts/render_layout_extensions.py --project /absolute/path/to/deck --lang zh-CN --output /absolute/path/to/new-sections.html
 ```
 
-输出是依赖工作副本CSS与播放器的section片段，不是完整HTML。选择合适片段放入 `source/slides.html` 后再用 `build_deck.py` 编译。前三套第10–23页仍使用原有 `source/chart-recipes/` 与对应 `render_*_data_slides.py`。新增CSS与原主题样式合并，修改时同步相应源文件。
+输出是依赖工作副本CSS与播放器的section片段，不是完整HTML。选择合适片段放入 `source/slides.html` 后再用 `build_deck.py` 编译。FOCUS、EDIT 第10–23页仍使用原有 `source/chart-recipes/` 与对应 `render_*_data_slides.py`。新增CSS与原主题样式合并，修改时同步相应源文件。
 
 示例数据和业务场景为原创虚构，记录在配方、参考资料和deck.json元数据；不在画面加「示例数据」、图表类型或制作标签。生成真实演示时使用用户资料或已核实信息。改变数值必须同步更新几何、标签、单位和结论；浏览器的文字编辑不会自动重算图表。
 

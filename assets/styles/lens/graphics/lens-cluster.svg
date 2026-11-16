@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc"><title id="title">多点采样</title><desc id="desc">不同大小的镜面松散汇聚，让多处观察共同形成完整视野。</desc><defs>
+ <linearGradient id="glass" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#FBFEFF" stop-opacity=".97"/><stop offset=".22" stop-color="#D7EAF2" stop-opacity=".88"/><stop offset=".5" stop-color="#B0CFDF" stop-opacity=".8"/><stop offset=".76" stop-color="#8AB1C6" stop-opacity=".94"/><stop offset="1" stop-color="#E6F3F8" stop-opacity=".96"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2=".85"><stop stop-color="#F7FCFF"/><stop offset=".28" stop-color="#CBE3EF"/><stop offset=".65" stop-color="#729DB4"/><stop offset="1" stop-color="#B6D1DE"/></linearGradient>
+ <linearGradient id="rim" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".35" stop-color="#F1FAFF" stop-opacity=".8"/><stop offset=".68" stop-color="#6993AB" stop-opacity=".62"/><stop offset="1" stop-color="#D9EBF4"/></linearGradient>
+ <radialGradient id="lens" cx=".32" cy=".28" r=".84"><stop stop-color="#FFFFFF" stop-opacity=".76"/><stop offset=".35" stop-color="#EAF6FA" stop-opacity=".67"/><stop offset=".65" stop-color="#C1DEEB" stop-opacity=".64"/><stop offset=".83" stop-color="#85B1C8" stop-opacity=".85"/><stop offset=".94" stop-color="#D7EAF3" stop-opacity=".94"/><stop offset="1" stop-color="#FCFEFF"/></radialGradient>
+ <radialGradient id="ring-skin" cx=".48" cy=".49" r=".52"><stop offset=".55" stop-color="#7298B0" stop-opacity=".4"/><stop offset=".64" stop-color="#EDF7FC" stop-opacity=".8"/><stop offset=".74" stop-color="#B8D6E4" stop-opacity=".14"/><stop offset=".92" stop-color="#7097AF" stop-opacity=".22"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".92"/></radialGradient>
+ <linearGradient id="reflection" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".7"/><stop offset=".36" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset=".53" stop-color="#FFFFFF" stop-opacity=".42"/><stop offset=".65" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#89B6CC" stop-opacity=".16"/></linearGradient>
+ <radialGradient id="ground-shadow" cx=".5" cy=".5" r=".5"><stop stop-color="#527086" stop-opacity=".21"/><stop offset=".3" stop-color="#527086" stop-opacity=".14"/><stop offset=".6" stop-color="#527086" stop-opacity=".05"/><stop offset=".82" stop-color="#527086" stop-opacity=".008"/><stop offset="1" stop-color="#527086" stop-opacity="0"/></radialGradient>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".76" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".035"/></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"/><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+ </defs><ellipse data-ground-shadow="elliptical" cx="500" cy="852" rx="325" ry="70" fill="url(#ground-shadow)"/><g transform="rotate(24 618 304)">
+ <defs><clipPath id="clip-618-304"><path d="M760.000,304.000A142,170 0 1 1 476.000,304.000A142,170 0 1 1 760.000,304.000Z"/></clipPath></defs>
+ <path d="M760.000,304.000A142,170 0 1 1 476.000,304.000A142,170 0 1 1 760.000,304.000Z" transform="translate(9 12)" fill="url(#edge)" opacity=".67"/>
+ <path d="M760.000,304.000A142,170 0 1 1 476.000,304.000A142,170 0 1 1 760.000,304.000Z" fill="url(#lens)" stroke="url(#rim)" stroke-width="2.2"/>
+ <g clip-path="url(#clip-618-304)"><path d="M406,164C648,104 536,444 810,464" fill="none" stroke="#FFFFFF" stroke-width="70" opacity=".3" filter="url(#soft)"/>
+ <path d="M760.000,304.000A142,170 0 1 1 476.000,304.000A142,170 0 1 1 760.000,304.000Z" fill="url(#reflection)" opacity=".25" filter="url(#grain)"/></g>
+ <path d="M751.000,304.000A133,161 0 1 1 485.000,304.000A133,161 0 1 1 751.000,304.000Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".68"/>
+ <path d="M503.049,253.752A122,150 0 0 1 638.736,156.183" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".88" stroke-linecap="round"/>
+ <path d="M734.415,318.476A117,145 0 0 1 626.276,448.637" fill="none" stroke="#719DB6" stroke-width="1.5" opacity=".4"/>
+ </g><g transform="rotate(-29 332 425)">
+ <defs><clipPath id="clip-332-425"><path d="M455.000,425.000A123,153 0 1 1 209.000,425.000A123,153 0 1 1 455.000,425.000Z"/></clipPath></defs>
+ <path d="M455.000,425.000A123,153 0 1 1 209.000,425.000A123,153 0 1 1 455.000,425.000Z" transform="translate(9 12)" fill="url(#edge)" opacity=".67"/>
+ <path d="M455.000,425.000A123,153 0 1 1 209.000,425.000A123,153 0 1 1 455.000,425.000Z" fill="url(#lens)" stroke="url(#rim)" stroke-width="2.2"/>
+ <g clip-path="url(#clip-332-425)"><path d="M139,302C362,242 269,548 505,568" fill="none" stroke="#FFFFFF" stroke-width="70" opacity=".3" filter="url(#soft)"/>
+ <path d="M455.000,425.000A123,153 0 1 1 209.000,425.000A123,153 0 1 1 455.000,425.000Z" fill="url(#reflection)" opacity=".25" filter="url(#grain)"/></g>
+ <path d="M446.000,425.000A114,144 0 1 1 218.000,425.000A114,144 0 1 1 446.000,425.000Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".68"/>
+ <path d="M234.951,380.447A103,133 0 0 1 349.507,293.935" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".88" stroke-linecap="round"/>
+ <path d="M429.510,437.779A98,128 0 0 1 338.932,552.679" fill="none" stroke="#719DB6" stroke-width="1.5" opacity=".4"/>
+ </g><g transform="rotate(12 552 559)">
+ <defs><clipPath id="clip-552-559"><path d="M749.000,559.000A197,217 0 1 1 355.000,559.000A197,217 0 1 1 749.000,559.000Z"/></clipPath></defs>
+ <path d="M749.000,559.000A197,217 0 1 1 355.000,559.000A197,217 0 1 1 749.000,559.000Z" transform="translate(9 12)" fill="url(#edge)" opacity=".67"/>
+ <path d="M749.000,559.000A197,217 0 1 1 355.000,559.000A197,217 0 1 1 749.000,559.000Z" fill="url(#lens)" stroke="url(#rim)" stroke-width="2.2"/>
+ <g clip-path="url(#clip-552-559)"><path d="M285,372C582,312 415,746 799,766" fill="none" stroke="#FFFFFF" stroke-width="70" opacity=".3" filter="url(#soft)"/>
+ <path d="M749.000,559.000A197,217 0 1 1 355.000,559.000A197,217 0 1 1 749.000,559.000Z" fill="url(#reflection)" opacity=".25" filter="url(#grain)"/></g>
+ <path d="M740.000,559.000A188,208 0 1 1 364.000,559.000A188,208 0 1 1 740.000,559.000Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".68"/>
+ <path d="M385.227,493.007A177,197 0 0 1 582.084,364.866" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".88" stroke-linecap="round"/>
+ <path d="M723.141,578.168A172,192 0 0 1 564.167,750.519" fill="none" stroke="#719DB6" stroke-width="1.5" opacity=".4"/>
+ </g><g transform="rotate(-20 288 674)">
+ <defs><clipPath id="clip-288-674"><path d="M331.000,674.000A43,52 0 1 1 245.000,674.000A43,52 0 1 1 331.000,674.000Z"/></clipPath></defs>
+ <path d="M331.000,674.000A43,52 0 1 1 245.000,674.000A43,52 0 1 1 331.000,674.000Z" transform="translate(9 12)" fill="url(#edge)" opacity=".67"/>
+ <path d="M331.000,674.000A43,52 0 1 1 245.000,674.000A43,52 0 1 1 331.000,674.000Z" fill="url(#lens)" stroke="url(#rim)" stroke-width="2.2"/>
+ <g clip-path="url(#clip-288-674)"><path d="M175,652C318,592 305,696 381,716" fill="none" stroke="#FFFFFF" stroke-width="70" opacity=".3" filter="url(#soft)"/>
+ <path d="M331.000,674.000A43,52 0 1 1 245.000,674.000A43,52 0 1 1 331.000,674.000Z" fill="url(#reflection)" opacity=".25" filter="url(#grain)"/></g>
+ <path d="M322.000,674.000A34,43 0 1 1 254.000,674.000A34,43 0 1 1 322.000,674.000Z" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".68"/>
+ <path d="M266.329,663.280A23,32 0 0 1 291.909,642.466" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".88" stroke-linecap="round"/>
+ <path d="M305.910,676.696A18,27 0 0 1 289.273,700.932" fill="none" stroke="#719DB6" stroke-width="1.5" opacity=".4"/>
+ </g><path d="M774 502v32M758 518h32" fill="none" stroke="#8EB6CB" stroke-width="2" opacity="0.45" stroke-linecap="round" stroke-linejoin="round"/></svg>

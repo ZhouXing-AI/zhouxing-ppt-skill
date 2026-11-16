@@ -1,0 +1,26 @@
+{
+  "en": {
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "count": "Current slide, open slide overview",
+    "tools": "Presentation tools",
+    "tools_short": "Tools (T)",
+    "navigation": "Slide navigation",
+    "contents": "Contents",
+    "close": "Close \u00d7",
+    "full": "Full screen",
+    "exit_full": "Exit full",
+    "edit": "Edit",
+    "done": "Done",
+    "save": "Download HTML",
+    "motion_on": "Motion on",
+    "motion_off": "Motion off",
+    "fullscreen_hint": "Use your browser full-screen command.",
+    "edit_hint": "Click text to edit. Download HTML to keep your changes.",
+    "slide_label": "Slide {n} of {total}: {title}",
+    "pdf": "Download PDF",
+    "pdf_progress": "Creating PDF {n}/{total}",
+    "pdf_error": "PDF export failed. Please retry in the latest Chrome.",
+    "pdf_done": "PDF created. Download started."
+  }
+}

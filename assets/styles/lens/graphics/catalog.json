@@ -1,0 +1,538 @@
+{
+  "theme": {
+    "en": "LENS",
+    "zh": "透见"
+  },
+  "version": "1.1.0",
+  "license": "Original geometry by 昼星AI说; MIT.",
+  "assets": [
+    {
+      "id": "layered-lenses",
+      "name_zh": "聚焦透镜",
+      "name_en": "Focus Lens",
+      "file": "layered-lenses.svg",
+      "category": "observe",
+      "keywords": [
+        "聚焦透镜",
+        "focus lens",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "偏轴凸透镜与开放弧形镜框，表达聚焦与洞察。",
+      "description_en": "Focus Lens — an original optical glass sculpture.",
+      "description": {
+        "zh": "偏轴凸透镜与开放弧形镜框，表达聚焦与洞察。",
+        "en": "Focus Lens — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "spectral-fan",
+      "name_zh": "采光扇面",
+      "name_en": "Light Fan",
+      "file": "spectral-fan.svg",
+      "category": "observe",
+      "keywords": [
+        "采光扇面",
+        "light fan",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "五片凸面玻璃围绕同一焦点展开，收集来自不同方向的线索。",
+      "description_en": "Light Fan — an original optical glass sculpture.",
+      "description": {
+        "zh": "五片凸面玻璃围绕同一焦点展开，收集来自不同方向的线索。",
+        "en": "Light Fan — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "dew-lens",
+      "name_zh": "凝光水滴",
+      "name_en": "Dew Lens",
+      "file": "dew-lens.svg",
+      "category": "observe",
+      "keywords": [
+        "凝光水滴",
+        "dew lens",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "凝结成水滴的凸面透镜，以圆润体积放大微小观察。",
+      "description_en": "Dew Lens — an original optical glass sculpture.",
+      "description": {
+        "zh": "凝结成水滴的凸面透镜，以圆润体积放大微小观察。",
+        "en": "Dew Lens — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "horizon-bowl",
+      "name_zh": "承光浅皿",
+      "name_en": "Light Vessel",
+      "file": "horizon-bowl.svg",
+      "category": "observe",
+      "keywords": [
+        "承光浅皿",
+        "light vessel",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "宽阔的椭圆开口与弧形容器，接住零散而细微的信息。",
+      "description_en": "Light Vessel — an original optical glass sculpture.",
+      "description": {
+        "zh": "宽阔的椭圆开口与弧形容器，接住零散而细微的信息。",
+        "en": "Light Vessel — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "biconvex-lens",
+      "name_zh": "双凸镜面",
+      "name_en": "Biconvex Lens",
+      "file": "biconvex-lens.svg",
+      "category": "observe",
+      "keywords": [
+        "双凸镜面",
+        "biconvex lens",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "两侧向外鼓起的透镜截面，用清晰的弧度表达放大与观察。",
+      "description_en": "Biconvex Lens — an original optical glass sculpture.",
+      "description": {
+        "zh": "两侧向外鼓起的透镜截面，用清晰的弧度表达放大与观察。",
+        "en": "Biconvex Lens — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "lens-cluster",
+      "name_zh": "多点采样",
+      "name_en": "Lens Constellation",
+      "file": "lens-cluster.svg",
+      "category": "observe",
+      "keywords": [
+        "多点采样",
+        "lens constellation",
+        "observe",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "不同大小的镜面松散汇聚，让多处观察共同形成完整视野。",
+      "description_en": "Lens Constellation — an original optical glass sculpture.",
+      "description": {
+        "zh": "不同大小的镜面松散汇聚，让多处观察共同形成完整视野。",
+        "en": "Lens Constellation — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "clear-window",
+      "name_zh": "棱镜视窗",
+      "name_en": "Prism Aperture",
+      "file": "clear-window.svg",
+      "category": "focus",
+      "keywords": [
+        "棱镜视窗",
+        "prism aperture",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "圆角三角棱镜与透光开孔，表达判断与清晰。",
+      "description_en": "Prism Aperture — an original optical glass sculpture.",
+      "description": {
+        "zh": "圆角三角棱镜与透光开孔，表达判断与清晰。",
+        "en": "Prism Aperture — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "iris-aperture",
+      "name_zh": "可变光圈",
+      "name_en": "Iris Aperture",
+      "file": "iris-aperture.svg",
+      "category": "focus",
+      "keywords": [
+        "可变光圈",
+        "iris aperture",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "六片弧形叶片围合成开放光圈，表达筛选、聚焦与取舍。",
+      "description_en": "Iris Aperture — an original optical glass sculpture.",
+      "description": {
+        "zh": "六片弧形叶片围合成开放光圈，表达筛选、聚焦与取舍。",
+        "en": "Iris Aperture — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "split-prism",
+      "name_zh": "剖分棱镜",
+      "name_en": "Split Prism",
+      "file": "split-prism.svg",
+      "category": "focus",
+      "keywords": [
+        "剖分棱镜",
+        "split prism",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "六边形棱镜被一条清晰的窄缝剖开，让复杂结构变得可读。",
+      "description_en": "Split Prism — an original optical glass sculpture.",
+      "description": {
+        "zh": "六边形棱镜被一条清晰的窄缝剖开，让复杂结构变得可读。",
+        "en": "Split Prism — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "focal-cone",
+      "name_zh": "汇聚光锥",
+      "name_en": "Focal Cone",
+      "file": "focal-cone.svg",
+      "category": "focus",
+      "keywords": [
+        "汇聚光锥",
+        "focal cone",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "宽口透镜向下收拢为小焦点，把多条线索聚成一个判断。",
+      "description_en": "Focal Cone — an original optical glass sculpture.",
+      "description": {
+        "zh": "宽口透镜向下收拢为小焦点，把多条线索聚成一个判断。",
+        "en": "Focal Cone — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "crystal-cut",
+      "name_zh": "清晰切面",
+      "name_en": "Crystal Facets",
+      "file": "crystal-cut.svg",
+      "category": "focus",
+      "keywords": [
+        "清晰切面",
+        "crystal facets",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "偏轴晶体把光分成清晰切面，展示同一问题的多个角度。",
+      "description_en": "Crystal Facets — an original optical glass sculpture.",
+      "description": {
+        "zh": "偏轴晶体把光分成清晰切面，展示同一问题的多个角度。",
+        "en": "Crystal Facets — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "contour-gate",
+      "name_zh": "轮廓之门",
+      "name_en": "Contour Gate",
+      "file": "contour-gate.svg",
+      "category": "focus",
+      "keywords": [
+        "轮廓之门",
+        "contour gate",
+        "focus",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "拱形玻璃围出明确的留白，帮助辨识边界与关键入口。",
+      "description_en": "Contour Gate — an original optical glass sculpture.",
+      "description": {
+        "zh": "拱形玻璃围出明确的留白，帮助辨识边界与关键入口。",
+        "en": "Contour Gate — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "paired-lenses",
+      "name_zh": "交叠曲面",
+      "name_en": "Interlaced Optics",
+      "file": "paired-lenses.svg",
+      "category": "connect",
+      "keywords": [
+        "交叠曲面",
+        "interlaced optics",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "开放的曲面玻璃带相互穿插，表达筛选与连接。",
+      "description_en": "Interlaced Optics — an original optical glass sculpture.",
+      "description": {
+        "zh": "开放的曲面玻璃带相互穿插，表达筛选与连接。",
+        "en": "Interlaced Optics — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "bridge-arc",
+      "name_zh": "连光拱桥",
+      "name_en": "Optical Bridge",
+      "file": "bridge-arc.svg",
+      "category": "connect",
+      "keywords": [
+        "连光拱桥",
+        "optical bridge",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "跨度舒展的玻璃拱桥，把分开的两端连成一条通路。",
+      "description_en": "Optical Bridge — an original optical glass sculpture.",
+      "description": {
+        "zh": "跨度舒展的玻璃拱桥，把分开的两端连成一条通路。",
+        "en": "Optical Bridge — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "woven-loop",
+      "name_zh": "连续回路",
+      "name_en": "Continuous Loop",
+      "file": "woven-loop.svg",
+      "category": "connect",
+      "keywords": [
+        "连续回路",
+        "continuous loop",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "一条双回环玻璃带保持连贯，表达往复沟通与持续反馈。",
+      "description_en": "Continuous Loop — an original optical glass sculpture.",
+      "description": {
+        "zh": "一条双回环玻璃带保持连贯，表达往复沟通与持续反馈。",
+        "en": "Continuous Loop — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "shared-focus",
+      "name_zh": "共同焦点",
+      "name_en": "Shared Focus",
+      "file": "shared-focus.svg",
+      "category": "connect",
+      "keywords": [
+        "共同焦点",
+        "shared focus",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "三片弧面从不同方向向中心汇聚，形成共享的关注点。",
+      "description_en": "Shared Focus — an original optical glass sculpture.",
+      "description": {
+        "zh": "三片弧面从不同方向向中心汇聚，形成共享的关注点。",
+        "en": "Shared Focus — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "linked-prisms",
+      "name_zh": "棱镜相扣",
+      "name_en": "Linked Prisms",
+      "file": "linked-prisms.svg",
+      "category": "connect",
+      "keywords": [
+        "棱镜相扣",
+        "linked prisms",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "两只圆角六边棱镜相互穿插，用明确的结构表达连接。",
+      "description_en": "Linked Prisms — an original optical glass sculpture.",
+      "description": {
+        "zh": "两只圆角六边棱镜相互穿插，用明确的结构表达连接。",
+        "en": "Linked Prisms — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "optical-orbit",
+      "name_zh": "环绕视野",
+      "name_en": "Optical Orbit",
+      "file": "optical-orbit.svg",
+      "category": "connect",
+      "keywords": [
+        "环绕视野",
+        "optical orbit",
+        "connect",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "一片立式透镜与倾斜环带交会，让中心与周边保持关联。",
+      "description_en": "Optical Orbit — an original optical glass sculpture.",
+      "description": {
+        "zh": "一片立式透镜与倾斜环带交会，让中心与周边保持关联。",
+        "en": "Optical Orbit — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "rising-planes",
+      "name_zh": "上升光带",
+      "name_en": "Ascending Ribbon",
+      "file": "rising-planes.svg",
+      "category": "advance",
+      "keywords": [
+        "上升光带",
+        "ascending ribbon",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "舒展上升的玻璃曲面，表达推进与行动。",
+      "description_en": "Ascending Ribbon — an original optical glass sculpture.",
+      "description": {
+        "zh": "舒展上升的玻璃曲面，表达推进与行动。",
+        "en": "Ascending Ribbon — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "step-lenses",
+      "name_zh": "递进镜阶",
+      "name_en": "Lens Steps",
+      "file": "step-lenses.svg",
+      "category": "advance",
+      "keywords": [
+        "递进镜阶",
+        "lens steps",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "三块弧面镜阶向上递进，用节奏与高度表达逐步推进。",
+      "description_en": "Lens Steps — an original optical glass sculpture.",
+      "description": {
+        "zh": "三块弧面镜阶向上递进，用节奏与高度表达逐步推进。",
+        "en": "Lens Steps — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "turning-sail",
+      "name_zh": "转向光帆",
+      "name_en": "Turning Sail",
+      "file": "turning-sail.svg",
+      "category": "advance",
+      "keywords": [
+        "转向光帆",
+        "turning sail",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "张开的弧面光帆在中段转折，表达方向调整与向前的力量。",
+      "description_en": "Turning Sail — an original optical glass sculpture.",
+      "description": {
+        "zh": "张开的弧面光帆在中段转折，表达方向调整与向前的力量。",
+        "en": "Turning Sail — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "opening-rays",
+      "name_zh": "舒展光束",
+      "name_en": "Opening Rays",
+      "file": "opening-rays.svg",
+      "category": "advance",
+      "keywords": [
+        "舒展光束",
+        "opening rays",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "三道弯曲光束从共同起点展开，表达新的方向和可能。",
+      "description_en": "Opening Rays — an original optical glass sculpture.",
+      "description": {
+        "zh": "三道弯曲光束从共同起点展开，表达新的方向和可能。",
+        "en": "Opening Rays — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "spiral-shell",
+      "name_zh": "生长光旋",
+      "name_en": "Growing Spiral",
+      "file": "spiral-shell.svg",
+      "category": "advance",
+      "keywords": [
+        "生长光旋",
+        "growing spiral",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "由内向外逐步舒展的玻璃螺旋，让每一圈都延伸出新的空间。",
+      "description_en": "Growing Spiral — an original optical glass sculpture.",
+      "description": {
+        "zh": "由内向外逐步舒展的玻璃螺旋，让每一圈都延伸出新的空间。",
+        "en": "Growing Spiral — an original optical glass sculpture."
+      }
+    },
+    {
+      "id": "threshold-lens",
+      "name_zh": "越过界面",
+      "name_en": "Threshold Lens",
+      "file": "threshold-lens.svg",
+      "category": "advance",
+      "keywords": [
+        "越过界面",
+        "threshold lens",
+        "advance",
+        "optical sculpture",
+        "frosted glass",
+        "霜蓝玻璃",
+        "透见"
+      ],
+      "description_zh": "凸透镜穿过开放拱门，从清晰的认识走向下一步行动。",
+      "description_en": "Threshold Lens — an original optical glass sculpture.",
+      "description": {
+        "zh": "凸透镜穿过开放拱门，从清晰的认识走向下一步行动。",
+        "en": "Threshold Lens — an original optical glass sculpture."
+      }
+    }
+  ]
+}

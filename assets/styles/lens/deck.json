@@ -1,0 +1,355 @@
+{
+  "title": "LENS",
+  "subtitle": "See through complexity",
+  "download_name": "LENS-English-30-slides.html",
+  "style": "lens",
+  "style_version": "1.1.0",
+  "lang": "en",
+  "theme_name_en": "LENS",
+  "theme_name_zh": "透见",
+  "fonts": [
+    {
+      "family": "LensDisplay",
+      "file": "fonts/SpaceGrotesk-Variable.ttf",
+      "weight": "300 700"
+    },
+    {
+      "family": "LensBody",
+      "file": "fonts/SpaceGrotesk-Variable.ttf",
+      "weight": "300 700"
+    },
+    {
+      "family": "LensSans",
+      "file": "fonts/SpaceGrotesk-Variable.ttf",
+      "weight": "300 700"
+    }
+  ],
+  "data_provenance": {
+    "kind": "synthetic-sample",
+    "note_zh": "第三页为原创虚构的界面迭代任务完成率，六轮各100次任务；成功任务数为48、54、63、70、79、86。仅用于设计评审，不代表外部研究结果。",
+    "values": [
+      48,
+      54,
+      63,
+      70,
+      79,
+      86
+    ],
+    "denominators": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "feedback_chart": {
+      "slide": 6,
+      "kind": "synthetic-sample",
+      "total": 100,
+      "categories": [
+        "找不到入口",
+        "看不懂说明",
+        "反复填资料"
+      ],
+      "values": [
+        42,
+        33,
+        25
+      ],
+      "classification": "互斥分类，每条反馈按首要阻碍归类；前两类合计75%"
+    },
+    "decision_matrix": {
+      "slide": 9,
+      "kind": "qualitative-framework",
+      "note": "原创行动框架；四象限表示相对价值与难度，不是调查数据。"
+    },
+    "extension": {
+      "kind": "synthetic-design-example",
+      "note_zh": "第10至29页全部数量为原创概念数据，不是外部研究或实际业务结果。按内容选择版式，画面不展示制作标签。",
+      "data": {
+        "metrics": {
+          "tasks": 100,
+          "responses": 100,
+          "completion": [
+            48,
+            86
+          ],
+          "minutes": [
+            9.6,
+            6.4
+          ],
+          "reuse_intent": [
+            68,
+            82
+          ]
+        },
+        "releases": [
+          8,
+          12,
+          18,
+          24
+        ],
+        "waiting": {
+          "before": [
+            15,
+            12,
+            10,
+            8
+          ],
+          "after": [
+            9,
+            7,
+            6,
+            4
+          ]
+        },
+        "feedback": [
+          22,
+          12,
+          6
+        ],
+        "grouped": {
+          "before": [
+            58,
+            72,
+            46
+          ],
+          "after": [
+            82,
+            92,
+            76
+          ],
+          "attempts_per_group": 100
+        },
+        "time": {
+          "before": [
+            16,
+            14,
+            10
+          ],
+          "after": [
+            10,
+            8,
+            22
+          ],
+          "hours": 40
+        },
+        "waterfall": {
+          "start": 30,
+          "changes": [
+            -8,
+            -6,
+            -4,
+            3
+          ],
+          "end": 15
+        },
+        "trend": {
+          "old": [
+            52,
+            55,
+            54,
+            59,
+            58,
+            61
+          ],
+          "new": [
+            52,
+            59,
+            66,
+            73,
+            78,
+            86
+          ],
+          "attempts_per_group_per_round": 100
+        },
+        "area": {
+          "notes": [
+            6,
+            8,
+            12,
+            16,
+            20,
+            24
+          ],
+          "templates": [
+            2,
+            4,
+            8,
+            12,
+            16,
+            20
+          ],
+          "guides": [
+            0,
+            2,
+            4,
+            8,
+            12,
+            16
+          ]
+        },
+        "radar": {
+          "before": [
+            2.8,
+            3.0,
+            2.6,
+            3.2,
+            3.4
+          ],
+          "after": [
+            4.3,
+            4.1,
+            4.2,
+            4.0,
+            4.4
+          ],
+          "scale": [
+            1,
+            5
+          ],
+          "responses": 100
+        },
+        "sankey": {
+          "sources": [
+            120,
+            80,
+            100
+          ],
+          "middle": [
+            180,
+            120
+          ],
+          "targets": [
+            210,
+            90
+          ],
+          "left": [
+            [
+              90,
+              30
+            ],
+            [
+              40,
+              40
+            ],
+            [
+              50,
+              50
+            ]
+          ],
+          "right": [
+            [
+              150,
+              30
+            ],
+            [
+              60,
+              60
+            ]
+          ]
+        },
+        "scatter": {
+          "effort": [
+            4,
+            8,
+            16,
+            24,
+            12,
+            20
+          ],
+          "weekly_saving": [
+            12,
+            18,
+            9,
+            14,
+            6,
+            22
+          ]
+        },
+        "heatmap": [
+          [
+            42,
+            31,
+            26,
+            18,
+            15
+          ],
+          [
+            18,
+            16,
+            22,
+            14,
+            12
+          ],
+          [
+            12,
+            19,
+            38,
+            27,
+            20
+          ],
+          [
+            26,
+            35,
+            29,
+            24,
+            18
+          ]
+        ],
+        "targets": {
+          "actual": [
+            86,
+            82,
+            88
+          ],
+          "target": [
+            90,
+            80,
+            85
+          ],
+          "denominator": 100
+        },
+        "gantt": {
+          "start": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "duration": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "weeks": 6
+        },
+        "donut": {
+          "hours": [
+            8,
+            12,
+            14,
+            6
+          ],
+          "total": 40
+        },
+        "funnel": [
+          500,
+          400,
+          250,
+          150
+        ]
+      }
+    },
+    "note_en": "Original synthetic design examples. Values and denominators match the Chinese edition; these are not research or business results."
+  },
+  "reference": {
+    "site": "https://www.auremin.com/",
+    "eagle_item": "MSTZIO97BW8PC",
+    "translation": "Warm mineral paper, cool frosted glass, generous spacing and restrained type. Original compositions and artwork."
+  },
+  "layout_count": 30,
+  "ui_lang": "en"
+}

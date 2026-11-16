@@ -1,4 +1,6 @@
-# SHIFT · 流变 / 已确认风格与中英文适配
+# SHIFT · 流变（历史资源） / 已确认风格与中英文适配
+
+本目录为历史版本兼容资料，不在当前十二套主题登记中；当前主题顺序以 `styles.json` 为准。
 
 视觉参考唯一来自 [Superlocal](https://www.superlocaldesign.com/)。已核对其首页、Lineup、Cronograma及公开CSS/JS；点群分步显现和滚动机制来自源码。它是设计参考，成品不代表 Superlocal 官方。
 

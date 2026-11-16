@@ -4,7 +4,7 @@
 
 ## 创建
 
-这是用户确认的第二套主题。提供完整中文与英文模板。先读本参考，查看 `assets/styles/focus/preview.png`、`assets/styles/focus/preview-zh.png` 和 `assets/styles/focus/artwork-preview.png`。
+这是用户确认的第十一套主题。提供完整中文与英文模板。先读本参考，查看 `assets/styles/focus/preview.png`、`assets/styles/focus/preview-zh.png` 和 `assets/styles/focus/artwork-preview.png`。
 
 ```sh
 python3 scripts/create_deck.py --style focus --prompt "先看清，再行动" --out /absolute/path/to/new-deck

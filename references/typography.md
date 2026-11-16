@@ -3,10 +3,10 @@
 ## 模式与文件
 
 - 默认 `--lang auto`，通过 `--prompt` 或 `--prompt-file` 识别本次输入：有汉字用 `zh-CN`，纯英文用 `en`；没有输入时回退中文。用户明确指定输出语言时由 Agent 显式传 `--lang`，优先于检测。
-- `--lang en` 复制英文视觉样片（SHIFT、FOCUS、EDIT 各 24 页，其余九套各 10 页），随后按内容调整页数。SHIFT、FOCUS、EDIT、FORM 的中英文模式均内嵌本主题完整中文字体；INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND 与 GROVE 英文 HTML 只内嵌西文字体。中文版中，INDEX 加入三种完整中文字库，AXIS、BLEND 与 GROVE 各加入一种，SKETCH、GLOW、ECHO 与 SPARK 各加入两种。离线编辑新汉字应使用含相应中文字体的版本。
+- `--lang en` 复制对应主题的英文视觉样片（每套 30 页），随后按内容调整页数。FOCUS、EDIT、FORM 的中英文模式均内嵌本主题完整中文字体；LENS、INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND 与 GROVE 英文 HTML 只内嵌西文字体。中文版中，INDEX 加入三种完整中文字库，AXIS、BLEND 与 GROVE 各加入一种，SKETCH、GLOW、ECHO 与 SPARK 各加入两种。离线编辑新汉字应使用含相应中文字体的版本。
 - `source/style.css` 是原始样式，`source/locale-zh.css` 的中文调整以 `html:lang(zh)` 为范围。不要为了适配中文修改已确认的英文大字字距。
 - `deck.json.lang` 控制排版与菜单语言，`ui_lang` 可单独指定菜单语言（`zh-CN` 或 `en`），前提是已包含对应菜单与字体。更改 lang 不会自动翻译已有页面或增加字库，需同时调整文案、布局和字体配置。
-- 中文模板在各主题的 `assets/styles/<id>/locales/zh-CN/`，已确认的 ID 为 `shift`、`focus`、`edit`、`form`、`index`、`axis`、`sketch`、`glow`、`echo`、`spark`、`blend`、`grove`。各主题的中英文示例独立保存，不能用中文稿覆盖英文验收基准。
+- 中文模板在各主题的 `assets/styles/<id>/locales/zh-CN/`，当前 ID 按顺序为 `blend`、`grove`、`spark`、`echo`、`glow`、`sketch`、`axis`、`index`、`form`、`lens`、`focus`、`edit`。各主题的中英文示例独立保存，不能用中文稿覆盖英文验收基准。
 - INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND 与 GROVE 的英文 `source/ui.json` 仅含英文；中文版创建时复制 locale 的双语 `ui.json`，并以 locale 元数据中的完整 `fonts` 数组覆盖英文数组。`source/locale-zh.css` 共存于源目录，但样式仅在 `html:lang(zh)` 生效。要从英文转中文，必须同时采用这些中文配置，不能仅改 `lang` 或 `ui_lang`。
 
 ## 字体与覆盖
@@ -17,7 +17,7 @@
 
 | 主题 | 中文字体 | 配套英文字体 |
 |---|---|---|
-| SHIFT · 流变 | 未来荧黑 SC Wide Heavy／`ShiftCJK` | Instrument Sans／`ShiftSans`；点阵短英文与数字用 Doto／`ShiftDots` |
+| SHIFT · 流变（历史） | 未来荧黑 SC Wide Heavy／`ShiftCJK` | Instrument Sans／`ShiftSans`；点阵短英文与数字用 Doto／`ShiftDots` |
 | FOCUS · 明晰 | Noto Serif SC／`FocusCJK`：内容 400、绿底描边标题 500；Noto Sans SC／`FocusCJKSans`：短标签、界面与学习回路 SVG 文字 400 | Instrument Serif／`MoveSerif`、真斜体／`MoveItalic`、Instrument Sans／`ShiftSans` |
 | EDIT · 精选 | Noto Serif SC／`EditCJK`：标题 300，深底及红底标题、正文、标签与界面 400 | Instrument Serif／`EditSerif`、真斜体／`EditItalic`、Instrument Sans／`ShiftSans` |
 | FORM · 成形 | 朱雀仿宋 Regular／`FormCJK` | Marcellus Regular／`FormDisplay`、Instrument Sans／`ShiftSans` |
@@ -71,3 +71,7 @@
 中文稿逐页检查汉字缺字、句读、标点落位、主标题与图形关系。混排至少看短英文术语、数字百分比与中文单位同一行的表现；检查实际字体加载，不以 CSS 中写了字体名作为成功依据。
 
 用输入法编辑时，组合输入不能触发翻页或退出编辑。保存 HTML 后离线重开，确认新汉字与菜单仍正常。下载的 PDF 按实际页数检查独立分页、中文画面完整以及导航/操作栏被隐藏；该下载功能是高清画面 PDF，不包含可选择的文字层。
+
+## LENS · 透见
+
+中文标题使用寒蝉德黑 Std 500（LensDisplay），正文使用 Noto Sans SC 400（LensBody），英文与数字使用 Space Grotesk（LensSans）。英文模板三种字族都映射到 Space Grotesk；中文模板内嵌完整中文字库与覆盖表。三个字体的 OFL 版权全文均保留于 fonts/。独立语言样式分别来自 source/style.css 和 locales/zh-CN/style.css；创建副本时按语言复制，不能只切换 lang 属性。

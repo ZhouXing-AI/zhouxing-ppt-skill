@@ -13,7 +13,7 @@ def infer_language(text):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--out',required=True);p.add_argument('--style',default='shift');p.add_argument('--title')
+    p.add_argument('--out',required=True);p.add_argument('--style',default='blend');p.add_argument('--title')
     p.add_argument('--lang',choices=['auto','zh-CN','en'],default='auto',help='Explicit locale overrides brief detection.')
     group=p.add_mutually_exclusive_group();group.add_argument('--prompt',help='User creative brief for language detection; not slide generation.');group.add_argument('--prompt-file',type=Path)
     a=p.parse_args()
@@ -34,6 +34,8 @@ def main():
     if locale.exists():
         meta.update(json.loads((locale/'deck.json').read_text()))
         shutil.copyfile(locale/'slides.html',out/'source/slides.html')
+        if (locale/'style.css').exists():
+            shutil.copyfile(locale/'style.css',out/'source/style.css')
         if (locale/'ui.json').exists():
             shutil.copyfile(locale/'ui.json',out/'source/ui.json')
     meta['lang']=lang
