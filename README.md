@@ -6,13 +6,13 @@
 
 # zhouxing-ppt-skill
 
-昼星 PPT Skill · **v1.0.0** · 新主题顺序与 LENS 透见。
+昼星 PPT Skill · **v1.0.0**
 
-用十二套已确认的离线 HTML 演示主题，快速做出可编辑、可下载的中英文 PPT。
+用十二套精心设计的离线 HTML 演示主题，快速做出可编辑、可下载的中英文 PPT。
 
 ## 功能亮点
 
-- 十二套已确认主题：BLEND 融合、GROVE 共生、SPARK 燃点、ECHO 回响、GLOW 晴光、SKETCH 构想、AXIS 轴线、INDEX 索引、FORM 成形、LENS 透见、FOCUS 明晰、EDIT 精选
+- 十二套主题：BLEND 融合、GROVE 共生、SPARK 燃点、ECHO 回响、GLOW 晴光、SKETCH 构想、AXIS 轴线、INDEX 索引、FORM 成形、LENS 透见、FOCUS 明晰、EDIT 精选
 - 每套 PPT 内置 **24 个 SVG 图标**，支持替换图标
 - HTML PPT **支持编辑文字**，支持下载 **HTML**，支持下载 **PDF**
 - 每套 PPT 的鼠标都按对应主题单独设计

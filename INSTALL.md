@@ -32,7 +32,7 @@
 ### 检查与交付
 
 1. 确认 `SKILL.md` 和 `styles.json` 的版本为 `1.0.0`。当前版本名称不代表必须存在同名 Git 标签；以 `main` 的实际文件为准，并记录提交号。
-2. 读取 `styles.json`：顺序应为 BLEND、GROVE、SPARK、ECHO、GLOW、SKETCH、AXIS、INDEX、FORM、LENS、FOCUS、EDIT。逐套检查登记的 `artwork_catalog` 含 24 条素材且文件存在；检查英文 `source/`、中文 `locales/zh-CN/`、字体及许可。历史 SHIFT 目录不计入当前 12 套主题。
+2. 读取 `styles.json`：顺序应为 BLEND、GROVE、SPARK、ECHO、GLOW、SKETCH、AXIS、INDEX、FORM、LENS、FOCUS、EDIT。逐套检查登记的 `artwork_catalog` 含 24 条素材且文件存在；检查英文 `source/`、中文 `locales/zh-CN/`、字体及许可。主题范围以 styles.json 中登记的 12 套为准。
 3. 检测可运行的 Python 3（`python3`、`python` 或 `py -3`）。创建/编译入口只依赖标准库，无需安装 Node、浏览器自动化或额外 Python 包。
 4. 在技能根目录执行下例，将路径替换为独立临时目录下尚不存在的输出目录；中文版也应可使用 `--lang zh-CN` 创建。脚本使用 UTF-8 读写文件。
 
@@ -60,7 +60,7 @@ These are capability-based integration strategies, not certification of every cl
 
 Prefer the host's installer. Otherwise shallow-clone the public repository's `main` branch into a new `zhouxing-ppt-skill` directory, or download the [main ZIP](https://github.com/ZhouXing-AI/zhouxing-ppt-skill/archive/refs/heads/main.zip). For package import, place SKILL.md directly inside the single top-level `zhouxing-ppt-skill/` folder. Preserve scripts, references, templates, fonts, SVGs, and licenses; exclude `.git`. Preserve existing local edits and user presentations. Reading this public repository requires no GitHub token.
 
-Verify version **1.0.0**, the 12 registered themes in the documented order, 24 catalog assets per theme with existing files, both language templates, fonts, and licenses. Historical SHIFT assets are not part of the active 12-theme registry. Use the files on `main` and record the commit; do not assume a release tag exists.
+Verify version **1.0.0**, the 12 registered themes in the documented order, 24 catalog assets per theme with existing files, both language templates, fonts, and licenses. The supported theme set is defined by the 12 entries in styles.json. Use the files on `main` and record the commit; do not assume a release tag exists.
 
 Detect Python 3 (`python3`, `python`, or `py -3`). The creation and build entrypoints use only its standard library and explicit UTF-8 file I/O. Run `scripts/create_deck.py` and `scripts/build_deck.py` from the skill root, with a new temporary output directory; the commands above demonstrate the English build, and `--lang zh-CN` selects Chinese. Verify the resulting index.html, and separately confirm skill discovery in the host. Report the actual location, version, scope, completed checks, invocation method, and any reload or manual import still needed. A chat-only client without file or execution tools cannot complete this installation merely by reading the repository.
 

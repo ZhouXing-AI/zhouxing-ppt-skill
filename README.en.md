@@ -6,13 +6,13 @@
 
 # zhouxing-ppt-skill
 
-ZhouXing PPT Skill · **v1.0.0** · Reordered themes and LENS.
+ZhouXing PPT Skill · **v1.0.0**
 
-Twelve confirmed offline HTML presentation themes for editable, downloadable Chinese and English decks.
+Twelve carefully designed offline HTML presentation themes for editable, downloadable Chinese and English decks.
 
 ## Highlights
 
-- Twelve confirmed themes: BLEND, GROVE, SPARK, ECHO, GLOW, SKETCH, AXIS, INDEX, FORM, LENS, FOCUS, EDIT
+- Twelve themes: BLEND, GROVE, SPARK, ECHO, GLOW, SKETCH, AXIS, INDEX, FORM, LENS, FOCUS, EDIT
 - **24 replaceable SVG icons** per theme
 - HTML decks support **inline text editing**, **HTML download**, and **PDF download**
 - Custom mouse cursor designed per theme
