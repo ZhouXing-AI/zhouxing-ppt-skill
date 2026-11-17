@@ -65,18 +65,21 @@ def material_defs(kind):
  return '<defs>'+''.join(defs)+'</defs>'
 
 def material_rect(x,y,w,h,fill,rx,kind):
+ if kind=='four-cards' and fill==THEME['soft']:
+  return '<g data-blend-material="four-cards" data-card-state="default">'+rect(x,y,w,h,'#E3E8EF',rx,'data-material-face=""')+'</g>'
  name='purple' if fill==THEME['accent'] else 'peach' if fill==THEME['second'] else 'lavender'
  face=rect(x,y,w,h,f'url(#blend-{kind}-{name})',rx,'data-material-face=""')
  sheen=rect(x,y,w,h,f'url(#blend-{kind}-sheen)',rx)
  rim=rect(x+1,y+1,w-2,h-2,'none',max(0,rx-1),f'stroke="url(#blend-{kind}-rim)" stroke-width="1.5"')
  # A shallow underside only for cards. Quantitative bars keep their exact silhouette.
- shadow=rect(x+3,y+7,w-6,h,'#514392',rx,'opacity=".09"') if kind=='four-cards' else ''
- return f'<g data-blend-material="{kind}">'+shadow+face+sheen+rim+'</g>'
+ shadow=rect(x+3,y+5,w-6,h,'#A95C3D',rx,'opacity=".10"') if kind=='four-cards' else ''
+ state=' data-card-state="selected"' if kind=='four-cards' else ''
+ return f'<g data-blend-material="{kind}"{state}>'+shadow+face+sheen+rim+'</g>'
 
 def cards(lang):
  p=[material_defs('four-cards')];w=390;gap=40
  for i,c in enumerate(THEME['cards']):
-  x=i*(w+gap);y=20+(0 if THEME['id']=='spark' else i%2*35);fill=THEME['accent'] if i==3 else THEME['soft'];fg=THEME['paper'] if i==3 else THEME['ink']
+  x=i*(w+gap);y=20+(0 if THEME['id']=='spark' else i%2*35);fill=THEME['second'] if i==3 else THEME['soft'];fg=THEME['ink']
   if THEME['id']=='spark':fill=THEME['bright'] if i==3 else THEME['ink'];fg=THEME['ink'] if i==3 else THEME['paper']
   p.append(group(material_rect(x,y,w,500,fill,THEME['radius'],'four-cards')+symbol(x+30,y+30,35,fg)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1)+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
