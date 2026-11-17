@@ -98,3 +98,13 @@ html:lang(zh) .slide.expansion30 .x30-sub{font-family:BlendCJK,BlendSans,sans-se
 html:lang(zh) .slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400}
 html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal}
 /* EXPANSION30 END */
+
+/* BLEND soft translucent step markers: the same light direction as the artwork. */
+.practice-track article>span{
+ background:radial-gradient(ellipse at 22% 12%,#FFFFFFB8,transparent 57%),linear-gradient(145deg,#E8E1FF 0%,#C5B8F6 56%,#9D90CD 100%);
+ box-shadow:inset 1px 2px 2px #FFFFFFC7,inset -2px -4px 5px #574A8438,0 5px 0 #6A5F8955,0 10px 18px #00000026;
+ border:1px solid #FFFFFF48;
+}
+.practice-track article:nth-child(2)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFBD,transparent 57%),linear-gradient(145deg,#FFD4B8,#FFAA7E 56%,#DD825F)}
+.practice-track article:nth-child(3)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFCF,transparent 57%),linear-gradient(145deg,#E7FFF5,#B4DECF 56%,#86B4A6)}
+.practice-track article:nth-child(4)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFE6,transparent 57%),linear-gradient(145deg,#FFFFFF,#E9E7EE 56%,#BDB9C8)}

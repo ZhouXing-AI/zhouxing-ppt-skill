@@ -50,16 +50,39 @@ def axes_y(parts,ticks,maximum,x0,x1,base,height,fg,grid,unit):
  for v in ticks:
   y=base-v/maximum*height;parts.extend([line(x0,y,x1,y,fg if v==0 else grid,1.2),text(x0-25,y+9,v,27,fg,'end')])
 
+def material_defs(kind):
+ # Soft translucent material, with shading across (not along) the measured axis.
+ colors={'lavender':['#F4EFFF','#DDD4FC','#C9BDEB','#B5AAD8'],
+         'purple':['#A99BFF','#7665F8','#5D57F4','#4940B7'],
+         'peach':['#FFE0C5','#FFBA94','#FF986B','#DA7958']}
+ defs=[]
+ for name,stops in colors.items():
+  direction='x2="1" y2="0"' if kind=='columns' else 'x2="0" y2="1"'
+  if kind=='four-cards':direction='x2=".7" y2="1"'
+  defs.append(f'<linearGradient id="blend-{kind}-{name}" x1="0" y1="0" {direction}>'+''.join(f'<stop offset="{offset}" stop-color="{color}"/>' for offset,color in zip(['0','.22','.68','1'],stops))+'</linearGradient>')
+ defs.append(f'<radialGradient id="blend-{kind}-sheen" cx=".13" cy=".04" r=".8"><stop stop-color="#FFFFFF" stop-opacity=".58"/><stop offset=".52" stop-color="#FFFFFF" stop-opacity=".08"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>')
+ defs.append(f'<linearGradient id="blend-{kind}-rim" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".9"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity=".22"/><stop offset="1" stop-color="#514392" stop-opacity=".24"/></linearGradient>')
+ return '<defs>'+''.join(defs)+'</defs>'
+
+def material_rect(x,y,w,h,fill,rx,kind):
+ name='purple' if fill==THEME['accent'] else 'peach' if fill==THEME['second'] else 'lavender'
+ face=rect(x,y,w,h,f'url(#blend-{kind}-{name})',rx,'data-material-face=""')
+ sheen=rect(x,y,w,h,f'url(#blend-{kind}-sheen)',rx)
+ rim=rect(x+1,y+1,w-2,h-2,'none',max(0,rx-1),f'stroke="url(#blend-{kind}-rim)" stroke-width="1.5"')
+ # A shallow underside only for cards. Quantitative bars keep their exact silhouette.
+ shadow=rect(x+3,y+7,w-6,h,'#514392',rx,'opacity=".09"') if kind=='four-cards' else ''
+ return f'<g data-blend-material="{kind}">'+shadow+face+sheen+rim+'</g>'
+
 def cards(lang):
- p=[];w=390;gap=40
+ p=[material_defs('four-cards')];w=390;gap=40
  for i,c in enumerate(THEME['cards']):
   x=i*(w+gap);y=20+(0 if THEME['id']=='spark' else i%2*35);fill=THEME['accent'] if i==3 else THEME['soft'];fg=THEME['paper'] if i==3 else THEME['ink']
   if THEME['id']=='spark':fill=THEME['bright'] if i==3 else THEME['ink'];fg=THEME['ink'] if i==3 else THEME['paper']
-  p.append(group(rect(x,y,w,500,fill,THEME['radius'])+symbol(x+30,y+30,35,fg)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1)+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
+  p.append(group(material_rect(x,y,w,500,fill,THEME['radius'],'four-cards')+symbol(x+30,y+30,35,fg)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1)+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
 
 def columns(lang):
- p=[];vals=THEME['counts'];base=510;h=390
+ p=[material_defs('columns')];vals=THEME['counts'];base=510;h=390
  # BLEND is a full-width chart; SPARK and GROVE pair a typographic measure with a plot.
  full=THEME['id']=='blend';x0=100 if full else 650;x1=1600
  axes_y(p,[0,15,30,45,60],60,x0,x1,base,h,THEME['ink'],THEME['soft'],pair(lang,THEME['units']))
@@ -67,14 +90,14 @@ def columns(lang):
  step=(x1-x0)/4
  for i,v in enumerate(vals):
   x=x0+step*(i+.5);top=base-v/60*h;w=min(150,step*.42)
-  p += [motion(rect(x-w/2,top,w,base-top,THEME['accent'] if i==3 else THEME['second'],min(THEME['radius'],8)),'grow-y',i),motion(text(x,top-22,v,39,THEME['ink'],'middle',cls='x30-display'),'fade',i+1),text(x,565,tr(lang,f'Cycle {i+1}',f'第{i+1}轮'),27,anchor='middle')]
+  p += [motion(material_rect(x-w/2,top,w,base-top,THEME['accent'] if i==3 else THEME['second'],min(THEME['radius'],8),'columns'),'grow-y',i),motion(text(x,top-22,v,39,THEME['ink'],'middle',cls='x30-display'),'fade',i+1),text(x,565,tr(lang,f'Cycle {i+1}',f'第{i+1}轮'),27,anchor='middle')]
  return section(lang,1,p,tr(lang,'Four cycles, measured with the same completion criteria.','四轮实践，采用同一套完成标准。'),{'values':vals,'axis':[0,60],'cumulative':False})
 
 def ranking(lang):
- dark=THEME['id']=='spark';fg=THEME['paper'] if dark else THEME['ink'];col=THEME['bright'] if dark else THEME['accent'];p=[];start=430;scale=28
+ dark=THEME['id']=='spark';fg=THEME['paper'] if dark else THEME['ink'];col=THEME['bright'] if dark else THEME['accent'];p=[material_defs('ranking')];start=430;scale=28
  for v in (0,10,20,30,40):p += [line(start+v*scale,55,start+v*scale,490,THEME['soft'],1,'opacity=".35"'),text(start+v*scale,562,v,27,fg,'middle')]
  for i,v in enumerate(THEME['rank']):
-  y=66+i*120;p += [text(0,y+38,label(lang,'ranklabels',i),30,fg),motion(rect(start,y,v*scale,48,col if i==0 else THEME['second'],THEME['radius']),'grow-x',i),motion(text(start+v*scale+20,y+37,v,34,fg),'fade',i+1)]
+  y=66+i*120;p += [text(0,y+38,label(lang,'ranklabels',i),30,fg),motion(material_rect(start,y,v*scale,48,col if i==0 else THEME['second'],THEME['radius'],'ranking'),'grow-x',i),motion(text(start+v*scale+20,y+37,v,34,fg),'fade',i+1)]
  p.append(text(1550,609,tr(lang,'Mentions in review · count','评审中提及次数 · 次'),26,fg,'end'))
  return section(lang,2,p,tr(lang,'Rank the questions by how often they appeared in the review.','按评审中的提及次数，安排下一步的关注顺序。'),{'values':THEME['rank'],'axis':[0,40],'unit':'mentions'},dark)
 
