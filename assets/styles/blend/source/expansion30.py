@@ -2,7 +2,7 @@ THEME={'name': 'BLEND', 'zh': '融合', 'paper': '#F4F3F0', 'ink': '#17171A', 'a
 """Twenty reproducible bilingual layouts. Data are fictional design examples.
 Run get_slides('en'/'zh-CN') and validate_data(); no browser dependencies.
 """
-import json, math, re
+import json, math, re, textwrap
 from html import escape
 # THEME is injected into each installed, standalone copy.
 KINDS=['four-cards','columns','ranking','pictorial','grouped','stacked','waterfall','line','area','radar','sankey','scatter','heatmap','target','data-table','comparison-table','timeline','branch','donut','funnel']
@@ -76,19 +76,29 @@ def material_rect(x,y,w,h,fill,rx,kind):
  state=' data-card-state="selected"' if kind=='four-cards' else ''
  return f'<g data-blend-material="{kind}"{state}>'+shadow+face+sheen+rim+'</g>'
 
-def card_mark(x,y,selected=False):
- color='#A45331' if selected else '#8270CA'
- # An open orbit and a small satellite echo the theme's linked, rounded artwork.
- return (f'<g data-card-mark="orbit" aria-hidden="true">'
-         f'<path d="M{n(x+31)} {n(y+24)} A17 17 0 1 1 {n(x+23)} {n(y+3)}" fill="none" stroke="{color}" stroke-width="2.4" stroke-linecap="round" opacity=".78"/>'
-         +circle(x+32,y+7,4.5,color)+ '</g>')
-
-def cards(lang):
- p=[material_defs('four-cards')];w=390;gap=40
+def cards(lang, selected=2):
+ # One connected panel, with explicit emphasis independent of column position.
+ count=len(THEME['cards']);w=1680/count;y=42;h=440;r=26;notch=12
+ if selected is not None and not 0<=selected<count:raise ValueError('Selected card is out of range')
+ defs='<defs><clipPath id="blend-connected-frame">'+rect(0,y,1680,h,'white',r)+'</clipPath><linearGradient id="blend-connected-orange" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#FFC3A0"/><stop offset=".3" stop-color="#FFAD80"/><stop offset="1" stop-color="#F6976D"/></linearGradient></defs>'
+ surfaces=[];dividers=[];content=[]
  for i,c in enumerate(THEME['cards']):
-  x=i*(w+gap);y=20+(0 if THEME['id']=='spark' else i%2*35);fill=THEME['second'] if i==3 else THEME['soft'];fg=THEME['ink']
-  if THEME['id']=='spark':fill=THEME['bright'] if i==3 else THEME['ink'];fg=THEME['ink'] if i==3 else THEME['paper']
-  p.append(group(material_rect(x,y,w,500,fill,THEME['radius'],'four-cards')+card_mark(x+32,y+32,i==3)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,'#A45331' if i==3 else '#8270CA',1,'opacity=".26"')+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
+  x=i*w;edge=x+w;mid=y+122
+  # Connected notches remain inside the shared silhouette.
+  points=[(x,y),(edge,y)]
+  if i<count-1:points += [(edge,mid-notch),(edge+notch,mid),(edge,mid+notch)]
+  points += [(edge,y+h),(x,y+h)]
+  if i>0:points += [(x,mid+notch),(x+notch,mid),(x,mid-notch)]
+  active=i==selected;fill='url(#blend-connected-orange)' if active else '#D8D0FB'
+  surfaces.append(path(points,fill,close=True,extra=f'data-material-face="" data-card-state="{"selected" if active else "default"}"'))
+  if i<count-1:dividers.append(path([(edge,y+1),(edge,mid-notch),(edge+notch,mid),(edge,mid+notch),(edge,y+h-1)],stroke='#FFFFFF',width=1.4,extra='opacity=".48"'))
+  tx=x+46;number_color='#9F4F2B' if active else '#7965B5'
+  body=tr(lang,c[2],c[3])
+  # Natural English line breaks keep each label within its column.
+  columns=max(8,int((w-92)/(26 if lang in ('zh','zh-CN') else 14)))
+  lines=textwrap.wrap(body,width=columns,break_long_words=False,break_on_hyphens=False)
+  content.append(group(text(tx,y+115,f'{i+1:02}',72,number_color,cls='x30-display')+text(tx,y+232,pair(lang,c[:2]),46,THEME['ink'],cls='x30-display')+''.join(text(tx,y+292+j*39,part,26,THEME['ink']) for j,part in enumerate(lines)),'fade',i))
+ p=[defs,group('<g clip-path="url(#blend-connected-frame)">'+''.join(surfaces+dividers)+'</g>'+rect(.7,y+.7,1678.6,h-1.4,'none',r-.7,'stroke="#FFFFFF" stroke-width="1.1" opacity=".5"'),'fade',0),*content]
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
 
 def columns(lang):
