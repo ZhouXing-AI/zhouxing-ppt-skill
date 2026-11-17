@@ -314,10 +314,16 @@ def donut(lang):
   defs.append(f'<radialGradient id="blend-donut-{i}" gradientUnits="userSpaceOnUse" cx="{cx}" cy="{cy}" r="241">'+''.join(f'<stop offset="{v}" stop-color="{c}"/>' for v,c in zip(['.69','.77','.9','1'],cs))+'</radialGradient>')
  defs.append('<linearGradient id="blend-donut-gloss" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".43"/><stop offset=".48" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".06"/></linearGradient>')
  p.append('<defs>'+''.join(defs)+'</defs>')
+ # Filled annular sectors share exact endpoints. Dashed strokes can leave a
+ # wedge at the circle's 0/360-degree seam after scaling or raster export.
  for i,v in enumerate(DATA['donut']):
-  props=f'style="vector-effect:none" stroke-width="{stroke}" stroke-dasharray="{n(length*v/100)} {n(length*(100-v)/100)}" stroke-dashoffset="{n(-offset)}"'
-  arc=circle(cx,cy,r,'none',f'stroke="url(#blend-donut-{i})" '+props)+circle(cx,cy,r,'none','stroke="url(#blend-donut-gloss)" '+props)
-  p.append(group(arc,'fade',i));offset+=length*v/100
+  start=offset/100*2*math.pi;end=(offset+v)/100*2*math.pi;outer=r+stroke/2;inner=r-stroke/2
+  def point(radius,angle):return f'{n(cx+radius*math.cos(angle))} {n(cy+radius*math.sin(angle))}'
+  large=1 if v>50 else 0
+  d=f'M{point(outer,start)} A{outer} {outer} 0 {large} 1 {point(outer,end)} L{point(inner,end)} A{inner} {inner} 0 {large} 0 {point(inner,start)} Z'
+  face=f'<path d="{d}" fill="url(#blend-donut-{i})" data-donut-share="{v}" data-start-deg="{n(offset*3.6)}" data-end-deg="{n((offset+v)*3.6)}"/>'
+  gloss=f'<path d="{d}" fill="url(#blend-donut-gloss)"/>'
+  p.append(group(face+gloss,'fade',i));offset+=v
  p += [text(cx,cy+8,'100%',81,THEME['ink'],'middle',cls='x30-display'),text(cx,cy+65,tr(lang,'shared time','共同时间'),28,anchor='middle')]
  for i,v in enumerate(DATA['donut']):
   y=95+i*175;p += [symbol(920,y,30,colors[i]),text(978,y+26,label(lang,'donutlabels',i),32),motion(text(1660,y+51,f'{v}%',76,THEME['accent'],'end',cls='x30-display'),'fade',i),line(920,y+105,1660,y+105,THEME['soft'])]

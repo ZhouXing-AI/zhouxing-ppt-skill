@@ -71,12 +71,12 @@
       "content_aware_layout": true,
       "layouts_updated_on": "2026-11-07",
       "example_sha256": {
-        "en": "045daad3de229afe5289db0a81e6e8e436eb38f6f43a9430744279e4f7d66f01",
-        "zh": "b773709761d68235ea11b9b3e80b8add03b40d797221862aabee5d9c4cf5f9da"
+        "en": "2327f290250477709d9abe9d8060ae77608a965ef93a3838b749420b3519246c",
+        "zh": "990d03bfd10f49b7953978129fdc811b9dfdcc8dd83793b7b9afec0391e7091e"
       },
       "approved_source_sha256": {
-        "en": "ebc390c82816c39390ed8372353bbc65a833f0a04879e902f8e47f1cc288f643",
-        "zh-CN": "ff176e1e68ed518318fbdada9f63250ac29c953c12a66a0b85be25617e5a43ff"
+        "en": "ce5fccd852fff8a4dca37eef05bf8137c5f50aa1166cc2e6f8968701007a63cf",
+        "zh-CN": "39d2dd7bbb21c37391725388bd1be3eb2316c4e41004e30394c5a90185988d87"
       },
       "layout_expansion_status": "ready-for-review",
       "data_layout_guide": "references/blend-data-layouts.md",
@@ -84,8 +84,8 @@
       "chart_motion": "finite-semantic-v1",
       "motion_updated_on": "2026-11-07",
       "source_sha256": {
-        "en": "ebc390c82816c39390ed8372353bbc65a833f0a04879e902f8e47f1cc288f643",
-        "zh": "ff176e1e68ed518318fbdada9f63250ac29c953c12a66a0b85be25617e5a43ff"
+        "en": "ce5fccd852fff8a4dca37eef05bf8137c5f50aa1166cc2e6f8968701007a63cf",
+        "zh": "39d2dd7bbb21c37391725388bd1be3eb2316c4e41004e30394c5a90185988d87"
       }
     },
     {
