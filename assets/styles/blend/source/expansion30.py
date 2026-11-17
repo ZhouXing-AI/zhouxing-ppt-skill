@@ -86,23 +86,15 @@ def card_icon(x,y,index,color):
  return f'<g data-card-icon="" transform="translate({n(x)} {n(y)})" fill="none" stroke="{color}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">{shapes[index%len(shapes)]}</g>'
 
 def cards(lang, selected=2):
- count=len(THEME['cards']);slot=1680/count;w=slot-90;h=390;y=100
+ count=len(THEME['cards']);gap=40;w=(1680-gap*(count-1))/count
  if selected is not None and not 0<=selected<count:raise ValueError('Selected card is out of range')
- p=['<defs><linearGradient id="blend-card-blue" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#7899EF"/><stop offset=".38" stop-color="#537CE0"/><stop offset="1" stop-color="#3F59C2"/></linearGradient><radialGradient id="blend-card-glow" cx="0" cy="0" r=".85"><stop stop-color="#D7E9FF" stop-opacity=".36"/><stop offset="1" stop-color="#D7E9FF" stop-opacity="0"/></radialGradient><linearGradient id="blend-card-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".6"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".1"/></linearGradient></defs>']
+ p=[material_defs('columns').replace('blend-columns-','blend-card-selected-')]
  for i,c in enumerate(THEME['cards']):
-  x=20+i*slot;active=i==selected;fg='#FFFFFF' if active else THEME['ink']
-  fill='url(#blend-card-blue)' if active else THEME['soft'];wire='#4363C8' if active else '#797588'
-  face=rect(x,y,w,h,fill,THEME['radius'],f'data-material-face="" data-card-state="{"selected" if active else "default"}"')
-  if active:face+=rect(x,y,w,h,'url(#blend-card-glow)',THEME['radius'])+rect(x+.8,y+.8,w-1.6,h-1.6,'none',THEME['radius']-.8,'stroke="url(#blend-card-edge)" stroke-width="1.6"')
-  # Fine open tracks wrap around the card; numbers interrupt the right edge.
-  tracks=f'<g fill="none" stroke="{wire}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M {n(x+108)} {n(y-24)} H {n(x+w+5)} Q {n(x+w+20)} {n(y-24)} {n(x+w+20)} {n(y-9)} V {n(y+148)}"/><path d="M {n(x-12)} {n(y+178)} V {n(y+h-46)} Q {n(x-12)} {n(y+h-32)} {n(x+2)} {n(y+h-32)} H {n(x+w-104)}"/><path d="M {n(x+98)} {n(y-31)} l -7 7 7 7 m -8 -14 l -7 7 7 7 M {n(x+w-96)} {n(y+h-39)} l 7 7 -7 7 m 8 -14 l 7 7 -7 7"/></g>'
-  tracks+=circle(x+108,y-24,3.5,THEME['paper'],f'stroke="{wire}" stroke-width="2"')+circle(x+w+20,y+148,3.5,THEME['paper'],f'stroke="{wire}" stroke-width="2"')+circle(x-12,y+178,3.5,THEME['paper'],f'stroke="{wire}" stroke-width="2"')
-  body=tr(lang,c[2],c[3]);maxchars=max(8,int((w-64)/(25 if lang in ('zh','zh-CN') else 13)))
-  lines=textwrap.wrap(body,width=maxchars,break_long_words=lang in ('zh','zh-CN'),break_on_hyphens=False)
-  content=text(x+w/2,y+106,pair(lang,c[:2]),42,fg,'middle',cls='x30-display')+''.join(text(x+w/2,y+163+j*37,t,25,fg,'middle') for j,t in enumerate(lines))
-  content+=card_icon(x+w/2-18,y+270,i,'#F7FAFF' if active else '#6E6B8B')
-  number=rect(x+w-28,y+240,98,100,THEME['paper'],10)+text(x+w+21,y+320,f'{i+1:02}',76,'#4363C8' if active else THEME['ink'],'middle',cls='x30-display')
-  p.append(group(face+tracks+content+number,'fade',i))
+  x=i*(w+gap);y=20+i%2*35;active=i==selected
+  fg='#FFFFFF' if active else THEME['ink'];fill=THEME['soft']
+  face=rect(x,y,w,500,fill,THEME['radius'],f'data-material-face="" data-card-state="{"selected" if active else "default"}"')
+  if active:face=material_rect(x,y,w,500,THEME['accent'],THEME['radius'],'columns').replace('blend-columns-','blend-card-selected-').replace('data-material-face=""','data-material-face="" data-card-state="selected"')
+  p.append(group(face+card_icon(x+30,y+30,i,'#F7FAFF' if active else '#6E6B8B')+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1,'opacity=".28"')+text(x+30,y+473,f'{i+1:02}',29,fg),'fade',i))
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
 
 def columns(lang):
