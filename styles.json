@@ -71,8 +71,8 @@
       "content_aware_layout": true,
       "layouts_updated_on": "2026-11-07",
       "example_sha256": {
-        "en": "8989a1bd466750ab8f071082278d8eb9ee3d8d31d92adefd797b079acee5534b",
-        "zh": "e1ad7109328476f3433197dd76a1ea092e5e8c811aa67e107c7856e87c97b41b"
+        "en": "e0ec64b14249108a5050ac5c81b12e6ec37132a51f898ffd9ba52c6c81aa4430",
+        "zh": "e42587a8152896935282d3acb35429bb279eea1d7a4622aa4d5e965e3b11ed04"
       },
       "approved_source_sha256": {
         "en": "7ab92f1c143d787dd019e2b2ad76f2f3c047c8f36a3da4cb4df5404bf4159e1d",
@@ -84,8 +84,8 @@
       "chart_motion": "finite-semantic-v1",
       "motion_updated_on": "2026-11-07",
       "source_sha256": {
-        "en": "121d39f504ed7e6d498fd3f021012ace231ad6efd86a017b4f45853546503cf9",
-        "zh": "42776f5f6091f2f7c55222adb878e0a621b3fecbcbed675d18d4c8b7cf646eb4"
+        "en": "1af04365e948efb06c618b75586a3f7cad4423b524d1187d52d2118c8b9f08fe",
+        "zh": "72d56cbbc52750f9ebe6b7ae9e8457e80e4c240f6ebe3977eceb418059079732"
       }
     },
     {

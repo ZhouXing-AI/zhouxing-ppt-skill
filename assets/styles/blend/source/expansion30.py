@@ -76,29 +76,25 @@ def material_rect(x,y,w,h,fill,rx,kind):
  state=' data-card-state="selected"' if kind=='four-cards' else ''
  return f'<g data-blend-material="{kind}"{state}>'+shadow+face+sheen+rim+'</g>'
 
+def card_icon(x,y,index,color):
+ shapes=[
+  '<circle cx="9" cy="9" r="5"/><circle cx="27" cy="9" r="5"/><circle cx="9" cy="27" r="5"/><circle cx="27" cy="27" r="5"/>',
+  '<path d="M20 8 L24 4 A8 8 0 0 1 35 15 L25 25 A8 8 0 0 1 14 25 M16 28 L12 32 A8 8 0 0 1 1 21 L11 11 A8 8 0 0 1 22 11 M12 24 L24 12"/>',
+  '<path d="M18 1 C20 12 24 16 35 18 C24 20 20 24 18 35 C16 24 12 20 1 18 C12 16 16 12 18 1 Z"/>',
+  '<path d="M5 28 L30 3 M12 3 H30 V21 M5 13 V32 H24"/>'
+ ]
+ return f'<g data-card-icon="" transform="translate({n(x)} {n(y)})" fill="none" stroke="{color}" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">{shapes[index%len(shapes)]}</g>'
+
 def cards(lang, selected=2):
- # One connected panel, with explicit emphasis independent of column position.
- count=len(THEME['cards']);w=1680/count;y=42;h=440;r=26;notch=12
+ count=len(THEME['cards']);gap=40;w=(1680-gap*(count-1))/count
  if selected is not None and not 0<=selected<count:raise ValueError('Selected card is out of range')
- defs='<defs><clipPath id="blend-connected-frame">'+rect(0,y,1680,h,'white',r)+'</clipPath><linearGradient id="blend-connected-orange" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#FFC3A0"/><stop offset=".3" stop-color="#FFAD80"/><stop offset="1" stop-color="#F6976D"/></linearGradient></defs>'
- surfaces=[];dividers=[];content=[]
+ p=['<defs><linearGradient id="blend-card-blue" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#7899EF"/><stop offset=".38" stop-color="#537CE0"/><stop offset="1" stop-color="#3F59C2"/></linearGradient><radialGradient id="blend-card-glow" cx="0" cy="0" r=".85"><stop stop-color="#D7E9FF" stop-opacity=".36"/><stop offset="1" stop-color="#D7E9FF" stop-opacity="0"/></radialGradient><linearGradient id="blend-card-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".6"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".1"/></linearGradient></defs>']
  for i,c in enumerate(THEME['cards']):
-  x=i*w;edge=x+w;mid=y+122
-  # Connected notches remain inside the shared silhouette.
-  points=[(x,y),(edge,y)]
-  if i<count-1:points += [(edge,mid-notch),(edge+notch,mid),(edge,mid+notch)]
-  points += [(edge,y+h),(x,y+h)]
-  if i>0:points += [(x,mid+notch),(x+notch,mid),(x,mid-notch)]
-  active=i==selected;fill='url(#blend-connected-orange)' if active else '#D8D0FB'
-  surfaces.append(path(points,fill,close=True,extra=f'data-material-face="" data-card-state="{"selected" if active else "default"}"'))
-  if i<count-1:dividers.append(path([(edge,y+1),(edge,mid-notch),(edge+notch,mid),(edge,mid+notch),(edge,y+h-1)],stroke='#FFFFFF',width=1.4,extra='opacity=".48"'))
-  tx=x+46;number_color='#9F4F2B' if active else '#7965B5'
-  body=tr(lang,c[2],c[3])
-  # Natural English line breaks keep each label within its column.
-  columns=max(8,int((w-92)/(26 if lang in ('zh','zh-CN') else 14)))
-  lines=textwrap.wrap(body,width=columns,break_long_words=False,break_on_hyphens=False)
-  content.append(group(text(tx,y+115,f'{i+1:02}',72,number_color,cls='x30-display')+text(tx,y+232,pair(lang,c[:2]),46,THEME['ink'],cls='x30-display')+''.join(text(tx,y+292+j*39,part,26,THEME['ink']) for j,part in enumerate(lines)),'fade',i))
- p=[defs,group('<g clip-path="url(#blend-connected-frame)">'+''.join(surfaces+dividers)+'</g>'+rect(.7,y+.7,1678.6,h-1.4,'none',r-.7,'stroke="#FFFFFF" stroke-width="1.1" opacity=".5"'),'fade',0),*content]
+  x=i*(w+gap);y=20+i%2*35;active=i==selected
+  fg='#FFFFFF' if active else THEME['ink'];fill='url(#blend-card-blue)' if active else THEME['soft']
+  face=rect(x,y,w,500,fill,THEME['radius'],f'data-material-face="" data-card-state="{"selected" if active else "default"}"')
+  if active:face+=rect(x,y,w,500,'url(#blend-card-glow)',THEME['radius'])+rect(x+.8,y+.8,w-1.6,498.4,'none',THEME['radius']-.8,'stroke="url(#blend-card-edge)" stroke-width="1.6"')
+  p.append(group(face+card_icon(x+30,y+30,i,'#F7FAFF' if active else '#6E6B8B')+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1,'opacity=".28"')+text(x+30,y+473,f'{i+1:02}',29,fg),'fade',i))
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
 
 def columns(lang):
