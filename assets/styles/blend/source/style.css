@@ -108,3 +108,7 @@ html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSa
 .practice-track article:nth-child(2)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFBD,transparent 57%),linear-gradient(145deg,#FFD4B8,#FFAA7E 56%,#DD825F)}
 .practice-track article:nth-child(3)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFCF,transparent 57%),linear-gradient(145deg,#E7FFF5,#B4DECF 56%,#86B4A6)}
 .practice-track article:nth-child(4)>span{background:radial-gradient(ellipse at 22% 12%,#FFFFFFE6,transparent 57%),linear-gradient(145deg,#FFFFFF,#E9E7EE 56%,#BDB9C8)}
+
+/* Embedded live gallery uses the same slides and finite animations. */
+body.gallery-embed .controls,body.gallery-embed #tools-toggle,body.gallery-embed .overview,body.gallery-embed .toast{display:none!important}
+body.gallery-embed{background:transparent!important}

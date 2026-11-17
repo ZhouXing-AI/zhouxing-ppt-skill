@@ -111,7 +111,7 @@
         500
       ],
       "style": "normal",
-      "role": "Chinese headings 500; body and UI 400",
+      "role": "Chinese body, labels and UI 400; complete CJK fallback",
       "sha256": "97a715fad95d3cacf4838b1ffedb123d2f1bf0f6bbd726c73e147dcaf317869f",
       "bytes": 8490924,
       "source_url": "https://raw.githubusercontent.com/google/fonts/24ddc1f324cac5d9f5aedca126d298f56e3f1640/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
@@ -153,6 +153,33 @@
       "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
       "embedded_license": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
       "modifications": "Exact previously audited complete Noto WOFF2 bytes reused. Lossless container compression from the pinned full official TTF; no subsetting, renaming, glyph, metric or variation-axis changes."
+    },
+    {
+      "file": "QingKe-Google.ttf",
+      "family": "ZCOOL QingKe HuangYou",
+      "css_family": "BlendCJKDisplay",
+      "css_weight": "400",
+      "recommended_weights": [
+        400
+      ],
+      "style": "normal",
+      "role": "Chinese slide and card headings",
+      "sha256": "61f2f52909b2f03fe9c69581ff8f21d56974b24e1d258fda182b6b09128bc03a",
+      "bytes": 8311408,
+      "source_url": "https://fonts.gstatic.com/s/zcoolqingkehuangyou/v16/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIiw.ttf",
+      "license": "ZCOOLQingKeHuangYou-OFL.txt",
+      "license_sha256": "f1bce31b817dee01c1e4ef8bc45d8ecb95f01f4abbf0a985007cb3cd0fd8123d",
+      "unicode_codepoints": 9429,
+      "glyph_count": 9431,
+      "coverage_file": "QingKe-coverage.json",
+      "coverage_sha256": "9808fcb3a8efa6eb93be2fee83fe5658bc0fcdbe7af839e3cd271495c794e10b",
+      "os2_weight_class": 400,
+      "embedding_fstype": 0,
+      "full_coverage": true,
+      "subset": false,
+      "copyright": "Copyright 2018 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)",
+      "version": "Version 1.000",
+      "modifications": "None. Complete official TTF bytes retained; CSS alias only."
     }
   ]
 }

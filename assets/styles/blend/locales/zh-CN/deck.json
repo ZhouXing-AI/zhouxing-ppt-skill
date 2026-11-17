@@ -28,6 +28,13 @@
       "weight": "400 500",
       "style": "normal",
       "coverage_file": "fonts/BlendCJK-coverage.json"
+    },
+    {
+      "family": "BlendCJKDisplay",
+      "file": "fonts/QingKe-Google.ttf",
+      "weight": "400",
+      "style": "normal",
+      "coverage_file": "fonts/QingKe-coverage.json"
     }
   ],
   "data_provenance": {

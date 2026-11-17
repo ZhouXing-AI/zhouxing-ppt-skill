@@ -3,7 +3,7 @@
 ## 模式与文件
 
 - 默认 `--lang auto`，通过 `--prompt` 或 `--prompt-file` 识别本次输入：有汉字用 `zh-CN`，纯英文用 `en`；没有输入时回退中文。用户明确指定输出语言时由 Agent 显式传 `--lang`，优先于检测。
-- `--lang en` 复制对应主题的英文视觉样片（每套 30 页），随后按内容调整页数。FOCUS、EDIT、FORM 的中英文模式均内嵌本主题完整中文字体；LENS、INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND 与 GROVE 英文 HTML 只内嵌西文字体。中文版中，INDEX 加入三种完整中文字库，AXIS、BLEND 与 GROVE 各加入一种，SKETCH、GLOW、ECHO 与 SPARK 各加入两种。离线编辑新汉字应使用含相应中文字体的版本。
+- `--lang en` 复制对应主题的英文视觉样片（每套 30 页），随后按内容调整页数。FOCUS、EDIT、FORM 的中英文模式均内嵌本主题完整中文字体；LENS、INDEX、AXIS、SKETCH、GLOW、ECHO、SPARK、BLEND 与 GROVE 英文 HTML 只内嵌西文字体。中文版中，INDEX 加入三种完整中文字库，AXIS 与 GROVE 各加入一种，SKETCH、GLOW、ECHO、SPARK 与 BLEND 各加入两种。离线编辑新汉字应使用含相应中文字体的版本。
 - `source/style.css` 是原始样式，`source/locale-zh.css` 的中文调整以 `html:lang(zh)` 为范围。不要为了适配中文修改已确认的英文大字字距。
 - `deck.json.lang` 控制排版与菜单语言，`ui_lang` 可单独指定菜单语言（`zh-CN` 或 `en`），前提是已包含对应菜单与字体。更改 lang 不会自动翻译已有页面或增加字库，需同时调整文案、布局和字体配置。
 - 中文模板在各主题的 `assets/styles/<id>/locales/zh-CN/`，当前 ID 按顺序为 `blend`、`grove`、`spark`、`echo`、`glow`、`sketch`、`axis`、`index`、`form`、`lens`、`focus`、`edit`。各主题的中英文示例独立保存，不能用中文稿覆盖英文验收基准。
@@ -27,7 +27,7 @@
 | GLOW · 晴光 | Noto Serif SC 900／`GlowCJKDisplay`：标题；Noto Sans SC 400／`GlowCJK`：正文与界面 | DM Serif Display 400／`GlowDisplay`、真 Italic 400／`GlowItalic`；Poppins 400/500／`GlowSans` |
 | ECHO · 回响 | Noto Serif SC 300／`EchoCJKDisplay`：标题；Noto Sans SC 400／`EchoCJK`：正文与界面 | Cormorant Garamond 500／`EchoDisplay`；Instrument Sans 400/500／`EchoSans` |
 | SPARK · 燃点 | 得意黑 Smiley Sans Oblique 400／`SparkCJKDisplay`：原生斜体标题；Noto Sans SC 400／`SparkCJK`：正文与界面 | Barlow Condensed 800／`SparkDisplay`；Manrope 400/500／`SparkSans` |
-| BLEND · 融合 | Noto Sans SC／`BlendCJK`：标题 500，正文与界面 400 | Space Grotesk 400/500/600／`BlendSans`；DM Mono Regular 400／`BlendMono`：小型英文索引与数字 |
+| BLEND · 融合 | 站酷庆科黄油体 Regular 400／`BlendCJKDisplay`：标题与卡片小标题；Noto Sans SC 400／`BlendCJK`：正文、标签与界面 | Space Grotesk 400/500/600／`BlendSans`；DM Mono 400／`BlendMono` |
 | GROVE · 共生 | 寒蝉半圆体 ChillRoundM Regular／`GroveCJK`：标题、正文与界面均为 400 | Onest 400/500／`GroveSans`；DM Mono Regular 400／`GroveMono`：小型英文索引与数字 |
 
 所有字体的 OFL 许可与必要来源、修改说明随字体及成品 HTML 保存。字体详情以对应主题 `fonts/` 中的 notice 与 coverage 文件为准。
@@ -50,7 +50,7 @@
 
 - **SPARK 的紧凑字形**使用完整 Barlow Condensed ExtraBold 800 与 Manrope 400/500。中文标题为[得意黑官方 v2.0.1](https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1) 完整原版 `SmileySans-Oblique.woff2`，真实字重 400、原生倾斜约 8°，保留全部 9,440 个 Unicode cmap 码点。`SparkCJKDisplay` 的字体元数据与标题 CSS 都指定 `style: italic`／`font-style:italic`，使用 `font-synthesis:none`；这会选择字体自身的倾斜字形，不再用 CSS 斜切、压窄或伪加粗。正文与界面为完整 Noto Sans SC 400（30,890 个码点），恢复 normal。得意黑原始 `fsType=8`（Editable Embedding），与其他本套字体的 `fsType=0` 区分记录，未篡改权限位；结合随包 OFL 1.1，可免费商用、嵌入与开源再分发。完整版权、保留字体名称、官方 release 证据、固定提交、SHA 与真实 cmap 见本套 `fonts/`；保留原始字节和声明，不按样稿裁字。
 
-- **BLEND 的几何字形**使用完整 Space Grotesk 变量 TTF（真实范围 300–700，本套使用 400/500/600）与完整 DM Mono Regular TTF（真实 400）。中文使用完整 Noto Sans SC 无损 WOFF2（真实范围 100–900），标题 500、正文和界面 400；三套字体均为正体、`fsType=0`，使用 `font-synthesis:none`。保留 735、381、30,890 个 Unicode cmap 码点，固定 Google Fonts 官方提交、完整 OFL、原始版权、SHA、覆盖与转换记录位于本套 `fonts/`。`BlendSans`、`BlendMono`、`BlendCJK` 只是 CSS 别名，不改变内部字体名称；中文单独断行，不压缩比例。小索引用 DM Mono，汉字转由 `BlendCJK` 显示，不使用原站 DieGrotesk 或 ABCDiatype。
+- **BLEND 的几何字形**使用完整 Space Grotesk 变量 TTF（真实范围 300–700，使用 400/500/600）、DM Mono Regular TTF（400）。中文标题与卡片小标题为站酷庆科黄油体 ZCOOL QingKe HuangYou Regular 400（`BlendCJKDisplay`），保留官方完整 TTF 的 9,429 个 Unicode 码点；正文、标签与界面使用完整 Noto Sans SC WOFF2（`BlendCJK`，400）。四套均为正体、`fsType=0`，禁止合成粗斜体。正文和图表刻度保持可读字族，中文语义标题单独设置行高与断行。字体未按样稿裁剪；Google Fonts 官方来源、完整 OFL 1.1、版权、SHA 和 cmap 覆盖保留在本套 `fonts/`，CSS 别名不改变内部名称。
 
 - **GROVE 的圆润字形**使用完整官方 Onest 变量 TTF（真实范围 100–900，本套使用 400/500）与 DM Mono Regular TTF（400）。中文使用[寒蝉半圆体官方 v1.805](https://github.com/Warren2060/ChillRound/releases/tag/v1.805) 的完整原版 OTF，真实单一字重 400，保留 12,329 个 Unicode cmap 码点和 12,779 个字形，GB2312 的 6,763 汉字全部覆盖；标题、正文与界面均用 400，不伪造 Medium 或 Bold。三字体均为正体、`fsType=0`、OFL 1.1，设置 `font-synthesis:none`；字重轻重由真实字族配置决定，中文层级由字号、间距与位置建立。字体文件保持官方原字节，不裁字、不改内部名称；`GroveSans`、`GroveMono`、`GroveCJK` 仅为 CSS 别名。完整许可、保留字体名、固定官方提交、release/tag 证据、SHA 与覆盖见本套 `fonts/`。英文 HTML 不加载中文字库，中文额外内嵌完整寒蝉半圆体；不用未核实的“源泉 SC”名称代替实际字库。
 

@@ -43,3 +43,39 @@ html:lang(zh) .slide.expansion30 .x30-sub{font-family:BlendCJK,BlendSans,sans-se
 html:lang(zh) .slide.expansion30 .x30-chart text{font-family:BlendSans,BlendCJK,sans-serif;font-weight:400}
 html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSans,BlendCJK,sans-serif;font-weight:500;font-style:normal}
 /* EXPANSION30 END */
+
+/* BLEND Chinese display: ZCOOL QingKe HuangYou Regular 400. */
+html[lang^="zh"] .cover h1{font-family:BlendCJKDisplay,BlendCJK,BlendSans,sans-serif;font-weight:400;font-size:168px;line-height:1.07;letter-spacing:-.015em;top:285px;left:120px;font-synthesis:none}
+html[lang^="zh"] .cover-copy{top:865px;font-size:28px;line-height:1.65}
+
+/* Display lettering sized for each composition. */
+html[lang^="zh"] .slide:not(.cover) :is(h2,h3){font-family:BlendCJKDisplay,BlendCJK,BlendSans,sans-serif;font-weight:400;font-synthesis:none;letter-spacing:0}
+html[lang^="zh"] .manifesto h2{font-size:184px;line-height:1.04;top:268px}
+html[lang^="zh"] .manifesto .color-track{top:713px;height:65px}
+html[lang^="zh"] .ingredients>h2{font-size:145px;line-height:1.07;top:113px}
+html[lang^="zh"] .ingredient-list h3{font-size:54px;line-height:1.15}
+html[lang^="zh"] .ingredient-list p{margin-top:19px}
+html[lang^="zh"] .toolkit>h2{font-size:151px;line-height:1.08;top:111px}
+html[lang^="zh"] .toolkit-grid h3{font-size:58px;line-height:1.12;margin-top:65px}
+html[lang^="zh"] .toolkit-grid p{margin-top:24px}
+html[lang^="zh"] .time h2{font-size:128px;line-height:1.12;top:171px;white-space:nowrap}
+html[lang^="zh"] .forms h2{font-size:166px;line-height:1.08;top:145px}
+
+/* Remaining editorial, card, and data pages. Body copy and numerical measures retain their readable families. */
+html[lang^="zh"] .testing h2{font-size:138px;line-height:1.1;top:162px}
+html[lang^="zh"] .trend-callout h3{font-size:44px;line-height:1.25}
+html[lang^="zh"] .feedback h2{font-size:156px;line-height:1.08;top:102px}
+html[lang^="zh"] .feedback-list h3{font-size:54px;line-height:1.15}
+html[lang^="zh"] .practice h2{font-size:159px;line-height:1.08;top:108px}
+html[lang^="zh"] .practice-track h3{font-size:58px;line-height:1.12}
+html[lang^="zh"] .closing h2{font-size:165px;line-height:1.08;top:242px}
+html[lang^="zh"] .slide.expansion30 .x30-head h2{font-family:BlendCJKDisplay,BlendCJK,BlendSans,sans-serif;font-weight:400;font-size:94px;line-height:1.08;letter-spacing:0;font-synthesis:none}
+html[lang^="zh"] .slide.expansion30 .x30-chart text.x30-cjk-heading{font-family:BlendCJKDisplay,BlendCJK,BlendSans,sans-serif;font-weight:400;letter-spacing:0}
+
+html[lang^="zh"] .slide.x30-four-cards .x30-chart text.x30-cjk-heading,
+html[lang^="zh"] .slide.x30-timeline .x30-chart text.x30-cjk-heading{font-size:52px}
+html[lang^="zh"] .slide.x30-grouped .x30-chart text.x30-cjk-heading{font-size:42px}
+html[lang^="zh"] .slide.x30-radar .x30-chart text.x30-cjk-heading{font-size:43px}
+html[lang^="zh"] .slide.x30-heatmap .x30-chart text.x30-cjk-heading{font-size:36px}
+
+html[lang^="zh"] .slide.x30-branch .x30-chart text.x30-cjk-heading{font-size:35px}

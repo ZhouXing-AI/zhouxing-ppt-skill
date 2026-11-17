@@ -1,0 +1,5 @@
+ZCOOL QingKe HuangYou — designed by Zheng Qingke.
+Official distribution: https://fonts.gstatic.com/s/zcoolqingkehuangyou/v16/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIiw.ttf
+License: SIL Open Font License 1.1; see ZCOOLQingKeHuangYou-OFL.txt.
+Full official font, no subsetting or outline changes. CSS alias BlendCJKDisplay.
+SHA256: 61f2f52909b2f03fe9c69581ff8f21d56974b24e1d258fda182b6b09128bc03a

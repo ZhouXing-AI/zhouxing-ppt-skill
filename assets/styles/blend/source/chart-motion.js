@@ -4,9 +4,10 @@
 window.animateDeckCharts=function(slide,theme){
  const effects=[],focus=theme==='edit';
  const ease=focus?'cubic-bezier(.2,.65,.25,1)':'cubic-bezier(.22,1,.36,1)';
- const duration=focus?1000:850;
+ const blend=theme==='blend';
+ const duration=blend?1450:focus?1000:850;
  const sankey=slide.dataset.chartKind==='sankey',heatmap=slide.dataset.chartKind==='heatmap',scatter=slide.dataset.chartKind==='scatter';
- const trend=['line','area'].includes(slide.dataset.chartKind);
+ const trend=['line','area'].includes(slide.dataset.chartKind),radar=slide.dataset.chartKind==='radar';
  const trendBox=trend?slide.querySelector('path[data-chart-motion=draw]')?.getBBox():null;
  slide.querySelectorAll('[data-chart-motion]').forEach((element,index)=>{
   const mode=element.dataset.chartMotion;
@@ -14,7 +15,8 @@ window.animateDeckCharts=function(slide,theme){
   const step=Number.isFinite(raw)?Math.max(0,Math.min(24,raw)):0;
   let delay=260+step*(heatmap?140:scatter?75:40);
   if(sankey)delay=180+step*220;
-  if(trendBox&&(mode==='pop'||mode==='fade')){const b=element.getBBox(),position=Math.max(0,Math.min(1,(b.x+b.width/2-trendBox.x)/trendBox.width));delay=300+position*duration*.9}
+  if(blend&&radar)delay=mode==='pop'?650+step*135:300+step*100;
+  if(trendBox&&trendBox.width>0&&(mode==='pop'||mode==='fade')){const b=element.getBBox(),position=Math.max(0,Math.min(1,(b.x+b.width/2-trendBox.x)/trendBox.width));delay=350+position*duration*.85}
   const opacity=getComputedStyle(element).opacity;
   let frames,ms=sankey?520:duration;
   if(mode==='draw'&&typeof element.getTotalLength==='function'){
