@@ -66,7 +66,7 @@ def material_defs(kind):
 
 def material_rect(x,y,w,h,fill,rx,kind):
  if kind=='four-cards' and fill==THEME['soft']:
-  return '<g data-blend-material="four-cards" data-card-state="default">'+rect(x,y,w,h,'#E3E8EF',rx,'data-material-face=""')+'</g>'
+  return '<g data-blend-material="four-cards" data-card-state="default">'+rect(x,y,w,h,'#D8D0FB',rx,'data-material-face=""')+'</g>'
  name='purple' if fill==THEME['accent'] else 'peach' if fill==THEME['second'] else 'lavender'
  face=rect(x,y,w,h,f'url(#blend-{kind}-{name})',rx,'data-material-face=""')
  sheen=rect(x,y,w,h,f'url(#blend-{kind}-sheen)',rx)
@@ -76,12 +76,19 @@ def material_rect(x,y,w,h,fill,rx,kind):
  state=' data-card-state="selected"' if kind=='four-cards' else ''
  return f'<g data-blend-material="{kind}"{state}>'+shadow+face+sheen+rim+'</g>'
 
+def card_mark(x,y,selected=False):
+ color='#A45331' if selected else '#8270CA'
+ # An open orbit and a small satellite echo the theme's linked, rounded artwork.
+ return (f'<g data-card-mark="orbit" aria-hidden="true">'
+         f'<path d="M{n(x+31)} {n(y+24)} A17 17 0 1 1 {n(x+23)} {n(y+3)}" fill="none" stroke="{color}" stroke-width="2.4" stroke-linecap="round" opacity=".78"/>'
+         +circle(x+32,y+7,4.5,color)+ '</g>')
+
 def cards(lang):
  p=[material_defs('four-cards')];w=390;gap=40
  for i,c in enumerate(THEME['cards']):
   x=i*(w+gap);y=20+(0 if THEME['id']=='spark' else i%2*35);fill=THEME['second'] if i==3 else THEME['soft'];fg=THEME['ink']
   if THEME['id']=='spark':fill=THEME['bright'] if i==3 else THEME['ink'];fg=THEME['ink'] if i==3 else THEME['paper']
-  p.append(group(material_rect(x,y,w,500,fill,THEME['radius'],'four-cards')+symbol(x+30,y+30,35,fg)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,fg,1)+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
+  p.append(group(material_rect(x,y,w,500,fill,THEME['radius'],'four-cards')+card_mark(x+32,y+32,i==3)+text(x+30,y+210,pair(lang,c[:2]),42,fg,cls='x30-display')+text(x+30,y+306,tr(lang,c[2],c[3]),25,fg)+line(x+30,y+425,x+w-30,y+425,'#A45331' if i==3 else '#8270CA',1,'opacity=".26"')+text(x+30,y+473,f'0{i+1}',29,fg),'fade',i))
  return section(lang,0,p,tr(lang,'Four connected roles, each with one clear responsibility.','四个相互连接的环节，各自承担一件清楚的事。'))
 
 def columns(lang):
