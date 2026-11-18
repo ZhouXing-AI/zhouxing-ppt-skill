@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-THEME={'name': 'BLEND', 'zh': '融合', 'paper': '#F4F3F0', 'ink': '#17171A', 'accent': '#5D57F4', 'bright': '#D7D0FC', 'soft': '#E3E0EB', 'second': '#FF986B', 'third': '#C9E9DD', 'body': 'BlendSans', 'cjk': 'BlendCJK', 'display': 'BlendSans', 'cjkd': 'BlendCJKDisplay', 'en_weight': 500, 'zh_weight': 400, 'zh_style': 'normal', 'radius': 20, 'titles': [('Make room for every ingredient.', '让每一种元素，都有位置。'), ('More ideas become useful.', '让更多想法，变得可用。'), ('Find the missing ingredient.', '先找到，缺少的那一块。'), ('Keep the useful pieces.', '把有用的片段，留下来。'), ('Better together, by design.', '让组合，带来更好的结果。'), ('See what each version contains.', '看清每一版，由什么组成。'), ('Make time for a better mix.', '为更好的组合，留出时间。'), ('Give collaboration a rhythm.', '让协作，有自己的节奏。'), ('Build a growing collection.', '把好素材，一点点积累。'), ('Review the whole composition.', '从整体，检查每一处关系。'), ('Move ideas into shared work.', '让想法，进入共同创作。'), ('Choose a useful combination.', '选出，值得尝试的组合。'), ('Check the pieces before release.', '发布之前，把细节补齐。'), ('Bring the work closer to ready.', '让作品，更接近完成。'), ('Keep a clear studio ledger.', '把工作室的进展，记清楚。'), ('Three ways to bring ideas together.', '三种方式，让想法相遇。'), ('From collection to release.', '从收集，到发布。'), ('Find the right next conversation.', '找到下一次，该发生的对话。'), ('Balance the creative effort.', '给创作的各部分，合理分工。'), ('Turn possibilities into a collection.', '让可能，成为一组好作品。')], 'cards': [('Collect', '收集', 'Notice what has potential.', '发现有潜力的材料。'), ('Combine', '组合', 'Bring unlike pieces together.', '让不同的片段相遇。'), ('Shape', '塑形', 'Give the idea a clear form.', '为想法找到清晰形式。'), ('Release', '发布', 'Share it and keep learning.', '分享出去，继续学习。')], 'counts': [12, 20, 29, 42], 'rank': [32, 24, 18, 10], 'ranklabels': [('Weak connection', '关联偏弱'), ('Uneven detail', '细节不均'), ('Missing context', '缺少语境'), ('Unclear purpose', '目的模糊')], 'units': ('usable concepts', '可用概念 · 个'), 'evidence': [('References', '参考'), ('Experiments', '实验'), ('Drafts', '草稿')], 'groupnames': [('Visual', '视觉'), ('Story', '叙事'), ('Interaction', '交互')], 'radarlabels': [('Coherence', '一致'), ('Clarity', '清晰'), ('Variety', '变化'), ('Usefulness', '实用'), ('Finish', '完成度')], 'source': [('Research', '研究'), ('Studio', '工作室'), ('Partners', '伙伴')], 'middle': [('Combine', '组合'), ('Prototype', '打样')], 'outputs': [('Release', '发布'), ('Refine', '打磨')], 'scatterlabels': [('Palette', '色板'), ('Icon set', '图标组'), ('Poster', '海报'), ('Story kit', '叙事包'), ('Prototype', '原型'), ('Workshop', '共创会'), ('Collection', '作品集'), ('Campaign', '主题活动')], 'heatrows': [('Purpose', '目的'), ('Assets', '素材'), ('Structure', '结构'), ('Finish', '完成度')], 'targets': [('Assets ready', '素材就绪率'), ('Reviews complete', '评审完成率'), ('Credits checked', '署名检查率')], 'stages': [('Gather', '汇集', 'Useful ingredients.', '汇集有效的素材。'), ('Mix', '组合', 'Unexpected connections.', '发现新的联系。'), ('Refine', '打磨', 'Clearer relationships.', '让关系更加清晰。'), ('Share', '分享', 'A coherent collection.', '形成完整的作品。')], 'donutlabels': [('Making', '制作'), ('Research', '研究'), ('Review', '评审')], 'funnellabels': [('Collected', '已收集'), ('Selected', '已筛选'), ('Combined', '已组合'), ('Released', '已发布')], 'id': 'blend'}
+THEME={'name': 'BLEND', 'zh': '融合', 'paper': '#F4F3F0', 'ink': '#17171A', 'accent': '#5D57F4', 'bright': '#D7D0FC', 'soft': '#E3E0EB', 'second': '#FF986B', 'third': '#C9E9DD', 'body': 'BlendSans', 'cjk': 'BlendCJK', 'display': 'BlendSans', 'cjkd': 'BlendCJKDisplay', 'en_weight': 500, 'zh_weight': 400, 'zh_style': 'normal', 'radius': 20, 'titles': [('Make room for every ingredient.', '让每一种元素，都有位置。'), ('More ideas become useful.', '让更多想法，变得可用。'), ('How should we test the idea?', '这个想法，怎么验证？'), ('Keep the useful pieces.', '把有用的片段，留下来。'), ('Better together, by design.', '让组合，带来更好的结果。'), ('See what each version contains.', '看清每一版，由什么组成。'), ('Make time for a better mix.', '为更好的组合，留出时间。'), ('Give collaboration a rhythm.', '让协作，有自己的节奏。'), ('Build a growing collection.', '把好素材，一点点积累。'), ('Review the whole composition.', '从整体，检查每一处关系。'), ('Move ideas into shared work.', '让想法，进入共同创作。'), ('Choose a useful combination.', '选出，值得尝试的组合。'), ('Check the pieces before release.', '发布之前，把细节补齐。'), ('Bring the work closer to ready.', '让作品，更接近完成。'), ('Keep a clear studio ledger.', '把工作室的进展，记清楚。'), ('Three ways to bring ideas together.', '三种方式，让想法相遇。'), ('From collection to release.', '从收集，到发布。'), ('Find the right next conversation.', '找到下一次，该发生的对话。'), ('Balance the creative effort.', '给创作的各部分，合理分工。'), ('Turn possibilities into a collection.', '让可能，成为一组好作品。')], 'cards': [('Collect', '收集', 'Notice what has potential.', '发现有潜力的材料。'), ('Combine', '组合', 'Bring unlike pieces together.', '让不同的片段相遇。'), ('Shape', '塑形', 'Give the idea a clear form.', '为想法找到清晰形式。'), ('Release', '发布', 'Share it and keep learning.', '分享出去，继续学习。')], 'counts': [12, 20, 29, 42], 'rank': [32, 24, 18, 10], 'ranklabels': [('Weak connection', '关联偏弱'), ('Uneven detail', '细节不均'), ('Missing context', '缺少语境'), ('Unclear purpose', '目的模糊')], 'units': ('usable concepts', '可用概念 · 个'), 'evidence': [('References', '参考'), ('Experiments', '实验'), ('Drafts', '草稿')], 'groupnames': [('Visual', '视觉'), ('Story', '叙事'), ('Interaction', '交互')], 'radarlabels': [('Coherence', '一致'), ('Clarity', '清晰'), ('Variety', '变化'), ('Usefulness', '实用'), ('Finish', '完成度')], 'source': [('Research', '研究'), ('Studio', '工作室'), ('Partners', '伙伴')], 'middle': [('Combine', '组合'), ('Prototype', '打样')], 'outputs': [('Release', '发布'), ('Refine', '打磨')], 'scatterlabels': [('Palette', '色板'), ('Icon set', '图标组'), ('Poster', '海报'), ('Story kit', '叙事包'), ('Prototype', '原型'), ('Workshop', '共创会'), ('Collection', '作品集'), ('Campaign', '主题活动')], 'heatrows': [('Purpose', '目的'), ('Assets', '素材'), ('Structure', '结构'), ('Finish', '完成度')], 'targets': [('Assets ready', '素材就绪率'), ('Reviews complete', '评审完成率'), ('Credits checked', '署名检查率')], 'stages': [('Gather', '汇集', 'Useful ingredients.', '汇集有效的素材。'), ('Mix', '组合', 'Unexpected connections.', '发现新的联系。'), ('Refine', '打磨', 'Clearer relationships.', '让关系更加清晰。'), ('Share', '分享', 'A coherent collection.', '形成完整的作品。')], 'donutlabels': [('Making', '制作'), ('Research', '研究'), ('Review', '评审')], 'funnellabels': [('Collected', '已收集'), ('Selected', '已筛选'), ('Combined', '已组合'), ('Released', '已发布')], 'id': 'blend'}
 """Twenty reproducible bilingual layouts. Data are fictional design examples.
 Run get_slides('en'/'zh-CN') and validate_data(); no browser dependencies.
 """
 import json, math, re, textwrap
 from html import escape
 # THEME is injected into each installed, standalone copy.
-KINDS=['four-cards','columns','ranking','pictorial','grouped','stacked','waterfall','line','area','radar','sankey','scatter','heatmap','target','data-table','comparison-table','timeline','branch','donut','funnel']
+KINDS=['four-cards','columns','project-comparison','pictorial','grouped','stacked','waterfall','line','area','radar','sankey','scatter','heatmap','target','data-table','three-formats','timeline','branch','donut','funnel']
 DATA={
  'pictorial':[40,30,20], 'before':[42,54,62], 'after':[66,74,84],
  'stacked':[[35,25,40],[50,30,20],[65,25,10]],
@@ -44,8 +44,8 @@ def symbol(x,y,size,color):
  if THEME['id']=='spark':return path([(x,y),(x+size*.72,y),(x+size,y+size*.28),(x+size,y+size),(x,y+size)],color)
  if THEME['id']=='blend':return rect(x,y,size,size,color,size*.34)
  return f'<path d="M{x} {y+size}Q{x-4} {y-4} {x+size} {y}Q{x+size+4} {y+size+4} {x} {y+size}Z M{x+3} {y+size-3}L{x+size-3} {y+3}" fill="none" stroke="{color}" stroke-width="2.2"/>'
-def section(lang,i,parts,subtitle='',values=None,dark=False):
- title=tag(lang,i);kind=KINDS[i];svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 610" role="img" aria-label="{escape(title,quote=True)}" data-information-visual=""><title>{escape(title)}</title>'+''.join(parts)+'</svg>'
+def section(lang,i,parts,subtitle='',values=None,dark=False,title=None):
+ title=title or tag(lang,i);kind=KINDS[i];svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 610" role="img" aria-label="{escape(title,quote=True)}" data-information-visual=""><title>{escape(title)}</title>'+''.join(parts)+'</svg>'
  return f'<section class="slide expansion30 x30-{kind} {"x30-dark" if dark else ""}" data-tone="{"dark" if dark else "light"}" data-title="{escape(title,quote=True)}" data-chart-kind="{kind}" data-layout-id="{kind}" data-provenance="synthetic-sample" data-chart-values="{escape(json.dumps(values,ensure_ascii=False),quote=True)}"><header class="x30-head"><h2 class="reveal">{escape(title)}</h2><p class="x30-sub reveal">{escape(subtitle)}</p></header><div class="x30-chart" data-chart-container="">{svg}</div></section>'
 def axes_y(parts,ticks,maximum,x0,x1,base,height,fg,grid,unit):
  parts.append(text(x0,25,unit,27,fg))
@@ -108,13 +108,25 @@ def columns(lang):
   p += [motion(material_rect(x-w/2,top,w,base-top,THEME['accent'] if i==3 else THEME['second'],min(THEME['radius'],8),'columns'),'grow-y',i),motion(text(x,top-22,v,39,THEME['ink'],'middle',cls='x30-display'),'fade',i+1),text(x,565,tr(lang,f'Cycle {i+1}',f'第{i+1}轮'),27,anchor='middle')]
  return section(lang,1,p,tr(lang,'Four cycles, measured with the same completion criteria.','四轮实践，采用同一套完成标准。'),{'values':vals,'axis':[0,60],'cumulative':False})
 
-def ranking(lang):
- dark=THEME['id']=='spark';fg=THEME['paper'] if dark else THEME['ink'];col=THEME['bright'] if dark else THEME['accent'];p=[material_defs('ranking')];start=430;scale=28
- for v in (0,10,20,30,40):p += [line(start+v*scale,55,start+v*scale,490,THEME['soft'],1,'opacity=".35"'),text(start+v*scale,562,v,27,fg,'middle')]
- for i,v in enumerate(THEME['rank']):
-  y=66+i*120;p += [text(0,y+38,label(lang,'ranklabels',i),30,fg),motion(material_rect(start,y,v*scale,48,col if i==0 else THEME['second'],THEME['radius'],'ranking'),'grow-x',i),motion(text(start+v*scale+20,y+37,v,34,fg),'fade',i+1)]
- p.append(text(1550,609,tr(lang,'Mentions in review · count','评审中提及次数 · 次'),26,fg,'end'))
- return section(lang,2,p,tr(lang,'Rank the questions by how often they appeared in the review.','按评审中的提及次数，安排下一步的关注顺序。'),{'values':THEME['rank'],'axis':[0,40],'unit':'mentions'},dark)
+def project_comparison(lang):
+ p=[material_defs('project')]
+ panels=[(20,42,'#E7E2F7'),(875,89,'#F4E3D7')]
+ for x,y,tint in panels:
+  outline=[(x+28,y),(x+780,y),(x+720,y+460),(x,y+460)]
+  p.append(path([(a+8,b+10) for a,b in outline],tint,close=True))
+  p.append(path(outline,'#FBFAF8',tint,2,True,'stroke-linejoin="round"'))
+ for x,y,c,title in [(282,9,'purple',tr(lang,'Concept review','概念评审')),(940,509,'peach',tr(lang,'Prototype test','原型测试'))]:
+  points=[(x+16,y),(x+350,y),(x+334,y+66),(x,y+66)]
+  p.append(path(points,f'url(#blend-project-{c})',close=True))
+  p.append(text(x+175,y+45,title,33,'white' if c=='purple' else THEME['ink'],'middle',cls='x30-display'))
+ rows=[(('Question','验证问题'),('Does the idea read clearly?','对方能说清这个想法吗？'),('Can people finish the task?','用户能独立完成任务吗？')),
+       (('Materials','准备材料'),('A sketch and a short pitch','概念草图与一句话提案'),('A working task prototype','可操作的任务原型')),
+       (('Evidence','判断依据'),('How reviewers explain the idea','评审者如何复述核心想法'),('Where users pause or need help','用户在哪里停顿或求助'))]
+ for i,(key,left,right) in enumerate(rows):
+  for x,y,align,color,desc in [(673,151+i*119,'end','#5147AD',left),(999,179+i*119,'start','#A84E29',right)]:
+   p.append(group(text(x,y,pair(lang,key),34,color,align,cls='x30-display')+text(x,y+45,pair(lang,desc),29,anchor=align),'fade',i))
+ p.append(circle(837,290,83,'url(#blend-project-purple)')+text(837,314,'VS',67,'white','middle',cls='x30-display'))
+ return section(lang,2,p,tr(lang,'Choose the review method that answers your question.','先明确想验证的问题，再选评审方式。'),{'methods':['concept review','prototype test']})
 
 def pictorial(lang):
  p=[material_defs('pictorial')];vals=DATA['pictorial']
@@ -126,14 +138,32 @@ def pictorial(lang):
  p += [line(0,560,1680,560,THEME['ink']),text(0,608,tr(lang,'One symbol = 5 records','每个图形 = 5份记录'),27),text(1680,608,tr(lang,'90 records in three collections','三类来源，共90份记录'),28,THEME['accent'],'end')]
  return section(lang,3,p,tr(lang,'Every equal-sized symbol stands for the same number of documented items.','每个等大图形，都代表相同数量的归档记录。'),{'values':vals,'per_symbol':5})
 
-def grouped(lang):
- p=[material_defs('grouped'),legend(425,23,THEME['second'],tr(lang,'Before','调整前'),THEME['ink']),legend(700,23,THEME['accent'],tr(lang,'After','调整后'),THEME['ink'])];start=425;scale=11.4
- for v in (0,25,50,75,100):p += [line(start+v*scale,65,start+v*scale,505,THEME['soft']),text(start+v*scale,570,f'{v}%',27,anchor='middle')]
- for i,(a,b) in enumerate(zip(DATA['before'],DATA['after'])):
-  y=85+i*160;p.append(text(0,y+50,label(lang,'groupnames',i),35,cls='x30-display'))
-  for j,(v,c) in enumerate([(a,THEME['second']),(b,THEME['accent'])]):p += [motion(material_rect(start,y+j*48,v*scale,32,c,10,'grouped'),'grow-x',i*2+j),motion(text(start+v*scale+18,y+j*48+25,f'{v}%',29),'fade',i*2+j+1)]
- p.append(text(1660,608,tr(lang,'Share completing the agreed task · %','完成约定任务的比例 · %'),26,anchor='end'))
- return section(lang,4,p,tr(lang,'Compare the same three task categories before and after the change.','在相同的三类任务中，对比调整前后的完成比例。'),{'before':DATA['before'],'after':DATA['after'],'axis':[0,100]})
+def grouped(lang, categories=None, series=None, maximum=100, unit='%', title=None, subtitle=None):
+ # Each series contains a label and one nonnegative value per category.
+ categories = categories if categories is not None else [label(lang,'groupnames',i) for i in range(3)]
+ series = series if series is not None else [(tr(lang,'Before','调整前'),DATA['before']), (tr(lang,'After','调整后'),DATA['after'])]
+ if not categories or not series or maximum<=0 or any(len(values)!=len(categories) or any(not 0<=v<=maximum for v in values) for _,values in series):
+  raise ValueError('Provide labels, aligned series and a common positive scale.')
+ colors=[THEME['second'],THEME['accent'],THEME['third'],THEME['bright']]
+ if len(series)>len(colors):
+  raise ValueError('Split more than four series into aligned panels.')
+ p=[material_defs('grouped')]
+ for j,(name,_) in enumerate(series):p.append(legend(425+j*1160/len(series),23,colors[j],name,THEME['ink']))
+ start=425
+ for step in range(5):
+  x=start+step*285
+  p.extend([line(x,65,x,505,THEME['soft']),text(x,570,n(maximum*step/4)+unit,27,anchor='middle')])
+ row=480/len(categories)
+ lane=min(48,row*.72/len(series))
+ for i,category in enumerate(categories):
+  y=85+i*row
+  p.append(text(0,y+lane*len(series)/2,category,35,cls='x30-display'))
+  for j,(_,values) in enumerate(series):
+   value=values[i];width=value/maximum*1140;top=y+j*lane
+   if width:p.append(motion(material_rect(start,top,width,lane*2/3,colors[j],min(10,width/2),'grouped'),'grow-x',i*len(series)+j))
+   p.append(motion(text(start+width+18,top+lane*.52,n(value)+unit,29),'fade',i*len(series)+j+1))
+ caption=subtitle if subtitle is not None else tr(lang,'Compare task completion before and after the change.','比较三类任务在调整前后的完成比例。')
+ return section(lang,4,p,caption,{'categories':categories,'series':series,'axis':[0,maximum],'unit':unit},title=title)
 
 def stacked(lang):
  p=[material_defs('stacked')];labels=[tr(lang,'Ready','已就绪'),tr(lang,'In progress','进行中'),tr(lang,'Open','待解决')];colors=[THEME['accent'],THEME['second'],THEME['soft']]
@@ -148,7 +178,9 @@ def stacked(lang):
   for i,vals in enumerate(DATA['stacked']):
    y=100+i*150;x=290;chunk=[];p.append(text(250,y+45,tr(lang,f'Review {i+1}',f'第{i+1}次评审'),28,anchor='end'))
    for j,v in enumerate(vals):w=v*12.8;chunk += [material_rect(x,y,w,75,colors[j],0,'stacked'),text(x+w/2,y+48,f'{v}%',30,THEME['paper'] if j==0 else THEME['ink'],'middle')];x+=w
-   p.append(group(''.join(chunk),'wipe-x',i))
+   clip=f'blend-stack-outline-{i}'
+   p.append(f'<defs><clipPath id="{clip}">{rect(290,y,1280,75,"white",24)}</clipPath></defs>')
+   p.append(group(f'<g clip-path="url(#{clip})">'+''.join(chunk)+'</g>','wipe-x',i))
   for v in (0,25,50,75,100):p.append(text(290+v*12.8,565,f'{v}%',27,anchor='middle'))
  return section(lang,5,p,tr(lang,'Each review accounts for the full set of work; every composition totals 100%.','每次评审，都完整呈现当时的工作集合；各组均为100%。'),{'values':DATA['stacked'],'unit':'percent'})
 
@@ -177,21 +209,25 @@ def trend(lang,area=False):
  return section(lang,idx,p,tr(lang,'Weekly counts, under the same acceptance criteria; these are not cumulative.','每周数量使用同一采用标准，分别计数而非累计。') if area else tr(lang,'Two work streams, measured on the same six-week schedule.','在相同的六周周期内，记录两条工作路径。'),{'values':DATA['area'],'axis':[0,40],'cumulative':False} if area else {'a':DATA['line_a'],'b':DATA['line_b'],'axis':[0,15]},dark)
 
 def radar(lang):
- p=[];cx=430;cy=315;r=188
- def pt(i,v):a=-math.pi/2+i*2*math.pi/5;return cx+r*v/100*math.cos(a),cy+r*v/100*math.sin(a)
- for v in [20,40,60,80,100]:p += [path([pt(i,v) for i in range(5)],stroke=THEME['soft'],width=1,close=True),text(cx+12,cy-r*v/100+9,v,25)]
- p.append(text(cx+12,cy+25,0,25))
- for i in range(5):
-  x,y=pt(i,100);p.append(line(cx,cy,x,y,THEME['soft']));x,y=pt(i,139);p.append(text(x,y+10,label(lang,'radarlabels',i),28,anchor='middle'))
- for j,key in enumerate(['radar_a','radar_b']):
-  c=THEME['second'] if j==0 else THEME['accent'];points=[pt(i,v) for i,v in enumerate(DATA[key])]
-  p.append(motion(path(points,fill=c,close=True,extra='fill-opacity=".09"'),'fade',j))
-  p.append(motion(path(points,stroke=c,width=4,close=True,extra='stroke-dasharray="9 6"' if j==0 else ''),'wipe-x' if j==0 else 'draw',j))
-  for k,(x,y) in enumerate(points):p.append(motion(circle(x,y,6,THEME['paper'],f'stroke="{c}" stroke-width="2.5"'),'pop',k+2))
- p += [text(940,45,tr(lang,'One scale. Five checks.','同一标尺，五项检查。'),36,THEME['accent'],cls='x30-display'),line(940,80,1660,80,THEME['ink']),text(1320,128,tr(lang,'Current','当前'),26,anchor='middle'),text(1575,128,tr(lang,'Next','下一版'),26,anchor='middle')]
- for i in range(5):
-  y=210+i*78;p += [text(940,y,label(lang,'radarlabels',i),28),motion(text(1320,y,DATA['radar_a'][i],42,anchor='middle',cls='x30-display'),'fade',2+i),motion(text(1575,y,DATA['radar_b'][i],42,THEME['accent'],'middle',cls='x30-display'),'fade',2+i),line(940,y+26,1660,y+26,THEME['soft'])]
- return section(lang,9,p,tr(lang,'Five dimensions use the same 0–100 rubric; exact scores stay beside the outlines.','五个维度统一采用0—100分量表，准确分数与轮廓并列。'),{'current':DATA['radar_a'],'next':DATA['radar_b'],'axis':[0,100]})
+ cx,cy,r=840,323,238
+ def pt(i,v):
+  angle=-math.pi/2+i*2*math.pi/5
+  return cx+r*v/100*math.cos(angle),cy+r*v/100*math.sin(angle)
+ def hull(values):return [pt(i,v) for i,v in enumerate(values)]
+ p=['<defs><linearGradient id="blend-radar-fill" x2=".75" y2="1"><stop stop-color="#D8D0FB" stop-opacity=".85"/><stop offset="1" stop-color="#7461F6" stop-opacity=".38"/></linearGradient></defs>']
+ for level in [100,80,60,40,20]:
+  p.append(path(hull([level]*5),'#F6F3FB' if level%40 else '#EFEBF7','#DAD5E6',1,True))
+ for i in range(5):p.append(line(cx,cy,*pt(i,100),'#D2CDDE'))
+ for key,fill,stroke,mode in [('radar_b','url(#blend-radar-fill)',THEME['accent'],'draw'),('radar_a','#FBD6C3','#C56A42','wipe-x')]:
+  pts=hull(DATA[key]);p.append(motion(path(pts,fill,close=True,extra='fill-opacity=".66"'),'fade',0))
+  p.append(motion(path(pts,stroke=stroke,width=3,close=True,extra='stroke-dasharray="8 5"' if key=='radar_a' else ''),mode,1))
+  for i,(x,y) in enumerate(pts):p.append(motion(circle(x,y,6,'white',f'stroke="{stroke}" stroke-width="2.5"'),'pop',i+2))
+ for i,(x,y,anchor) in enumerate([(840,22,'middle'),(1190,233,'start'),(1090,516,'start'),(590,516,'end'),(490,233,'end')]):
+  p.append(text(x,y,label(lang,'radarlabels',i),31,anchor=anchor,cls='x30-display'))
+  p.append(text(x,y+40,f"{DATA['radar_a'][i]}  →  {DATA['radar_b'][i]}",31,'#554ABD',anchor))
+ p.append(legend(65,66,'#EAA982',tr(lang,'Current','当前'),THEME['ink']))
+ p.append(legend(65,112,THEME['accent'],tr(lang,'Next','下一版'),THEME['ink']))
+ return section(lang,9,p,tr(lang,'Both versions use the same five criteria. Each grid step is 20 points out of 100.','两版共用五项标准，每格 20 分，满分 100 分。'),{'current':DATA['radar_a'],'next':DATA['radar_b'],'axis':[0,100]})
 
 def sankey(lang):
  totals=[[40,35,25],[60,40],[65,35]];positions=[]
@@ -199,22 +235,22 @@ def sankey(lang):
   gap=(480-400)/(len(vs)-1);y=65;g=[]
   for v in vs:g.append((y,v*4));y+=v*4+gap
   positions.append(g)
- xs=[25,725,1395];widths=[250,250,260];p=[material_defs('sankey')];labels=[];colors=[THEME['accent'],THEME['second'],THEME['third']]
+ xs=[25,725,1395];widths=[250,250,260];p=[];labels=[];colors=[THEME['accent'],THEME['second'],THEME['third']]
  for stage,matrix in enumerate([DATA['sankey_a'],DATA['sankey_b']]):
   src=[0]*len(matrix);dst=[0]*len(matrix[0])
   for i,row in enumerate(matrix):
    for j,v in enumerate(row):
     sy=positions[stage][i][0]+src[i];ty=positions[stage+1][j][0]+dst[j];h=v*4;x1=xs[stage]+widths[stage];x2=xs[stage+1];dx=(x2-x1)*.45
     d=f'M{x1} {sy}C{x1+dx} {sy} {x2-dx} {ty} {x2} {ty}L{x2} {ty+h}C{x2-dx} {ty+h} {x1+dx} {sy+h} {x1} {sy+h}Z'
-    c=colors[i] if stage==0 else colors[j];name=['purple','peach','mint'][i if stage==0 else j]
-    p.append(motion(f'<path d="{d}" fill="url(#blend-sankey-{name})" fill-opacity=".63" data-flow-stage="{stage+1}" data-flow-value="{v}"/>','wipe-x',stage*2+1))
+    c=colors[i] if stage==0 else colors[j]
+    p.append(motion(f'<path d="{d}" fill="{c}" fill-opacity=".29" data-flow-stage="{stage+1}" data-flow-value="{v}"/>','wipe-x',stage*2+1))
     t=.2;u=1-t;lx=u**3*x1+3*u*u*t*(x1+dx)+3*u*t*t*(x2-dx)+t**3*x2;blend=3*t*t-2*t*t*t;ly=(1-blend)*(sy+h/2)+blend*(ty+h/2)
     labels.append(motion(text(lx,ly+9,v,28,anchor='middle',extra=f'stroke="{THEME["paper"]}" stroke-width="6" paint-order="stroke"'),'fade',stage*2+2));src[i]+=h;dst[j]+=h
  for g,vs in enumerate(totals):
   p.append(text(xs[g],25,tr(lang,['Source','Primary route','Outcome'][g],['来源','主要路径','结果'][g]),27))
   for i,v in enumerate(vs):
    y,h=positions[g][i];fill=THEME['paper'] if g<2 else THEME['accent'] if i==0 else THEME['third'];fg=THEME['paper'] if g==2 and i==0 else THEME['ink']
-   p += [motion(material_rect(xs[g],y,widths[g],h,fill,18,'sankey'),'fade',g*2),motion(text(xs[g]+22,y+h/2-16,label(lang,['source','middle','outputs'][g],i),25,fg),'fade',g*2),motion(text(xs[g]+22,y+h/2+36,v,43,fg,cls='x30-display'),'fade',g*2)]
+   p += [motion(rect(xs[g],y,widths[g],h,fill if g==2 else '#ECE9F1',14),'fade',g*2),motion(text(xs[g]+22,y+h/2-16,label(lang,['source','middle','outputs'][g],i),25,fg),'fade',g*2),motion(text(xs[g]+22,y+h/2+36,v,43,fg,cls='x30-display'),'fade',g*2)]
  p += labels
  return section(lang,10,p,tr(lang,'The same 100 requests; each follows one primary route and all flows are counted.','同一批100项需求，每项归入一条主要路径；所有流量均计数。'),{'inputs':totals[0],'middle':totals[1],'outputs':totals[2],'a':DATA['sankey_a'],'b':DATA['sankey_b'],'scale':4})
 
@@ -272,15 +308,23 @@ def data_table(lang):
  return section(lang,14,p,tr(lang,'A shared ledger gives each workstream a plan, a result and a visible remainder.','用一份共同台账，记录各方向的计划、完成与剩余事项。'),{'planned':DATA['table_plan'],'delivered':DATA['table_done'],'remaining':[2,1,3,2],'unit':'items'})
 
 def compare(lang):
- p=[material_defs('comparison')];xs=[0,450,860,1270];widths=[420,380,380,410];headers=[tr(lang,'Decision criterion','选择条件'),tr(lang,'Quick session','短时交流'),tr(lang,'Working session','共同实践'),tr(lang,'Extended programme','持续计划')]
- for j in range(4):
-  if j:p.append(material_rect(xs[j],0,widths[j],535,THEME['soft'] if j!=2 else THEME['bright'],THEME['radius'],'comparison'))
-  p.append(text(xs[j]+20,55,headers[j],26))
- rows=[(tr(lang,'Time together','共同时间'),['30 min','2 h','4 weeks'],['30分钟','2小时','4周']), (tr(lang,'Primary outcome','主要成果'),['A clear question','A tested draft','A repeatable practice'],['明确问题','验证草案','形成持续实践']), (tr(lang,'Preparation','准备程度'),['Light','Moderate','Substantial'],['较少','适中','较多']), (tr(lang,'Best when','适用情况'),['You need alignment','You need evidence','You need continuity'],['需要达成共识','需要获得证据','需要长期延续'])]
- for i,(label,en,zh) in enumerate(rows):
-  y=140+i*108;p.append(text(20,y,label,29));p.append(line(0,y+34,1680,y+34,THEME['paper'],1))
-  for j in range(3):p.append(motion(text(xs[j+1]+20,y,tr(lang,en[j],zh[j]),26),'fade',i))
- return section(lang,15,p,tr(lang,'Choose the format by the work it needs to support, rather than by size alone.','按需要推进的工作选择形式，而不只比较规模大小。'),{'formats':['30 minutes','2 hours','4 weeks'],'qualitative':True})
+ p=[material_defs('formats')]
+ cx,cy=420,307
+ p.append(circle(cx,cy,135,'url(#blend-formats-purple)'))
+ p.append(text(cx,cy+14,tr(lang,'Collaborate','协作形式'),42,'white','middle',cls='x30-display'))
+ rows=[('mint',('Quick session','短时交流'),('30 minutes to agree on one question.','用 30 分钟，就最想解决的问题达成共识。')),
+       ('peach',('Working session','共同实践'),('Two hours to make a draft and test it together.','用 2 小时一起做出草案，并当场验证。')),
+       ('lavender',('Extended programme','持续计划'),('Four weeks to establish a repeatable practice.','用 4 周反复试验，把有效做法固定下来。'))]
+ def point(radius,angle):
+  rad=math.radians(angle)
+  return f'{n(cx+radius*math.cos(rad))} {n(cy+radius*math.sin(rad))}'
+ for i,(color,name,desc) in enumerate(rows):
+  angle=(i-1)*47;start=angle-22;end=angle+22
+  d=f'M{point(280,start)} A280 280 0 0 1 {point(280,end)} L{point(154,end)} A154 154 0 0 0 {point(154,start)} Z'
+  x,y=map(float,point(215,angle).split());num=f'0{i+1}';top=120+i*170
+  p.append(group(f'<path d="{d}" fill="url(#blend-formats-{color})"/>'+text(x,y+13,num,38,anchor='middle',cls='x30-display'),'fade',i))
+  p.append(group(rect(858,top-32,63,45,f'url(#blend-formats-{color})',14)+text(889,top+1,num,27,anchor='middle')+text(953,top+3,pair(lang,name),40,cls='x30-display')+text(953,top+58,pair(lang,desc),28),'fade',i))
+ return section(lang,15,p,tr(lang,'Choose a format by how much time you have and what you want to produce.','按可用时间和预期成果，选择协作形式。'),{'formats':['30 minutes','2 hours','4 weeks']})
 
 def timeline(lang):
  p=[material_defs('timeline')];ys=[235,235,235,235];xs=[210,630,1050,1470]
@@ -340,7 +384,7 @@ def funnel(lang):
 
 def get_slides(lang='en'):
  if lang not in ('en','zh','zh-CN'):raise ValueError('Unsupported locale')
- return [cards(lang),columns(lang),ranking(lang),pictorial(lang),grouped(lang),stacked(lang),waterfall(lang),trend(lang),trend(lang,True),radar(lang),sankey(lang),scatter(lang),heatmap(lang),target(lang),data_table(lang),compare(lang),timeline(lang),branch(lang),donut(lang),funnel(lang)]
+ return [cards(lang),columns(lang),project_comparison(lang),pictorial(lang),grouped(lang),stacked(lang),waterfall(lang),trend(lang),trend(lang,True),radar(lang),sankey(lang),scatter(lang),heatmap(lang),target(lang),data_table(lang),compare(lang),timeline(lang),branch(lang),donut(lang),funnel(lang)]
 
 def validate_data():
  assert len(THEME['titles'])==20 and len(get_slides('en'))==20

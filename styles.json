@@ -47,7 +47,7 @@
         "practice",
         "four-cards",
         "columns",
-        "ranking",
+        "project-comparison",
         "pictorial",
         "grouped",
         "stacked",
@@ -60,7 +60,7 @@
         "heatmap",
         "target",
         "data-table",
-        "comparison-table",
+        "three-formats",
         "timeline",
         "branch",
         "donut",
@@ -71,12 +71,12 @@
       "content_aware_layout": true,
       "layouts_updated_on": "2026-11-07",
       "example_sha256": {
-        "en": "2327f290250477709d9abe9d8060ae77608a965ef93a3838b749420b3519246c",
-        "zh": "990d03bfd10f49b7953978129fdc811b9dfdcc8dd83793b7b9afec0391e7091e"
+        "en": "2eabe2eee24dea7c58515b55fc03a7ebb7c03e7a92b86f19afed79e03f5fa658",
+        "zh": "b612790f89a3f0ed106882ee201d66aa9a2b365f65f6304f3b1a3d54343f0cb6"
       },
       "approved_source_sha256": {
-        "en": "ce5fccd852fff8a4dca37eef05bf8137c5f50aa1166cc2e6f8968701007a63cf",
-        "zh-CN": "39d2dd7bbb21c37391725388bd1be3eb2316c4e41004e30394c5a90185988d87"
+        "en": "f58bb7baa9371989f6b41ddfb6e126ce9b0dcdd38135bf48ec20e29aa6c6638d",
+        "zh-CN": "2058512672fdcda36988438e4e01997c54d42e6ed9cb8f3a4f997bddc9179420"
       },
       "layout_expansion_status": "ready-for-review",
       "data_layout_guide": "references/blend-data-layouts.md",
@@ -84,8 +84,8 @@
       "chart_motion": "finite-semantic-v1",
       "motion_updated_on": "2026-11-07",
       "source_sha256": {
-        "en": "ce5fccd852fff8a4dca37eef05bf8137c5f50aa1166cc2e6f8968701007a63cf",
-        "zh": "39d2dd7bbb21c37391725388bd1be3eb2316c4e41004e30394c5a90185988d87"
+        "en": "f58bb7baa9371989f6b41ddfb6e126ce9b0dcdd38135bf48ec20e29aa6c6638d",
+        "zh": "2058512672fdcda36988438e4e01997c54d42e6ed9cb8f3a4f997bddc9179420"
       }
     },
     {
