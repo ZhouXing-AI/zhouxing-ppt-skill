@@ -112,12 +112,10 @@ def project_comparison(lang):
  p=[material_defs('project')]
  panels=[(20,42,'#E7E2F7'),(875,89,'#F4E3D7')]
  for x,y,tint in panels:
-  outline=[(x+28,y),(x+780,y),(x+720,y+460),(x,y+460)]
-  p.append(path([(a+8,b+10) for a,b in outline],tint,close=True))
-  p.append(path(outline,'#FBFAF8',tint,2,True,'stroke-linejoin="round"'))
+  p.append(rect(x+7,y+9,780,460,tint,34))
+  p.append(rect(x,y,780,460,'#FBFAF8',34,f'stroke="{tint}" stroke-width="2"'))
  for x,y,c,title in [(282,9,'purple',tr(lang,'Concept review','概念评审')),(940,509,'peach',tr(lang,'Prototype test','原型测试'))]:
-  points=[(x+16,y),(x+350,y),(x+334,y+66),(x,y+66)]
-  p.append(path(points,f'url(#blend-project-{c})',close=True))
+  p.append(rect(x,y,350,66,f'url(#blend-project-{c})',22))
   p.append(text(x+175,y+45,title,33,'white' if c=='purple' else THEME['ink'],'middle',cls='x30-display'))
  rows=[(('Question','验证问题'),('Does the idea read clearly?','对方能说清这个想法吗？'),('Can people finish the task?','用户能独立完成任务吗？')),
        (('Materials','准备材料'),('A sketch and a short pitch','概念草图与一句话提案'),('A working task prototype','可操作的任务原型')),
@@ -125,7 +123,7 @@ def project_comparison(lang):
  for i,(key,left,right) in enumerate(rows):
   for x,y,align,color,desc in [(673,151+i*119,'end','#5147AD',left),(999,179+i*119,'start','#A84E29',right)]:
    p.append(group(text(x,y,pair(lang,key),34,color,align,cls='x30-display')+text(x,y+45,pair(lang,desc),29,anchor=align),'fade',i))
- p.append(circle(837,290,83,'url(#blend-project-purple)')+text(837,314,'VS',67,'white','middle',cls='x30-display'))
+ p.append(rect(770,236,134,108,'url(#blend-project-purple)',32)+text(837,312,'VS',59,'white','middle',cls='x30-display'))
  return section(lang,2,p,tr(lang,'Choose the review method that answers your question.','先明确想验证的问题，再选评审方式。'),{'methods':['concept review','prototype test']})
 
 def pictorial(lang):
