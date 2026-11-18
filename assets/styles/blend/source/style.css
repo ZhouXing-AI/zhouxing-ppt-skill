@@ -112,3 +112,37 @@ html:lang(zh) .slide.expansion30 .x30-chart text.x30-display{font-family:BlendSa
 /* Embedded live gallery uses the same slides and finite animations. */
 body.gallery-embed .controls,body.gallery-embed #tools-toggle,body.gallery-embed .overview,body.gallery-embed .toast{display:none!important}
 body.gallery-embed{background:transparent!important}
+
+/* BLEND creative showcase */
+.slide.creative-showcase { background: #F4F3F0; color: #17171A; }
+.assembly-banner {
+  position: absolute; inset: 0 0 auto; height: 532px; overflow: hidden;
+  background: radial-gradient(ellipse at 78% 25%, #352957 0, #252036 48%, #201B2D 85%);
+}
+.assembly-heading { position: absolute; z-index: 1; top: 111px; left: 120px; width: 920px; color: #F8F5FC; }
+.assembly-heading h2 { margin: 0; font-size: 110px; font-weight: 500; line-height: .99; letter-spacing: -.058em; }
+.assembly-heading h2 span { color: #CFC3FF; }
+.assembly-heading p { margin: 42px 0 0; font-size: 29px; line-height: 1.4; color: #E2D9EF; }
+html[lang^="zh"] .assembly-heading h2 { font-size: 111px; line-height: 1.04; }
+.assembly-hero { position: absolute; top: 12px; right: 70px; width: 868px; height: 516px; }
+.assembly-hero svg, .assembly-object svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.assembly-bands { position: absolute; inset: 532px 0 78px; background: #F9F6F7; }
+.assembly-bands::before, .assembly-bands::after {
+  content: ""; position: absolute; inset: 0;
+}
+.assembly-bands::before {
+  background: #EEEBF5;
+  clip-path: polygon(26.25% 0, 50% 0, 47.4% 100%, 23.65% 100%);
+}
+.assembly-bands::after {
+  background: #F2E9E6;
+  clip-path: polygon(73.75% 0, 100% 0, 100% 100%, 71.15% 100%);
+}
+.assembly-cards {
+  position: absolute; left: 120px; right: 100px; top: 566px;
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 62px;
+}
+.assembly-card { min-width: 0; }
+.assembly-object { width: 254px; height: 190px; margin: 0 0 19px -12px; }
+.assembly-card h3 { margin: 0 0 15px; font-size: 37px; line-height: 1.15; font-weight: 500; letter-spacing: -.03em; }
+.assembly-card p { margin: 0; max-width: 335px; font-size: 25px; line-height: 1.48; color: #514D59; }

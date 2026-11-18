@@ -40,7 +40,7 @@
         "manifesto",
         "ingredients",
         "toolkit",
-        "creative-map",
+        "creative-showcase",
         "forms",
         "testing",
         "feedback",
@@ -71,12 +71,12 @@
       "content_aware_layout": true,
       "layouts_updated_on": "2026-11-07",
       "example_sha256": {
-        "en": "6b69609f8a3adaecad742d84efb3a38a1726690aee96335382cf4b8461246057",
-        "zh": "36d04102fb9b1e89432c3a428ccfc3049c3acd4652cee54ac34b4b44f4b5e3ff"
+        "en": "43979ffdc7720677ac349c27d0f1bb52d99d5276b855b081139a098368d641ba",
+        "zh": "3947edd4710bba3b8792efc0bd21e781cffd0c6c2a284d694bf45d65160e1546"
       },
       "approved_source_sha256": {
-        "en": "1f9e91e86eff8b2678bb1d8d6c2951656d2077587517a2148b73c5ac7513e74e",
-        "zh-CN": "9cc2dfd3c6bd705e6d49d8fc07487fa93f033c0739da65b21a0e8874198847b1"
+        "en": "0a368a0c67abf3cc4ffad53c628db33f67b5d4ce0fc58cb21ef11fdd948beed1",
+        "zh-CN": "173342a87c9b1c5562e0d1aa02ee3f8a23d82500f1ced3cde9c6e6d59b0a15a1"
       },
       "layout_expansion_status": "ready-for-review",
       "data_layout_guide": "references/blend-data-layouts.md",
@@ -84,8 +84,8 @@
       "chart_motion": "finite-semantic-v1",
       "motion_updated_on": "2026-11-07",
       "source_sha256": {
-        "en": "1f9e91e86eff8b2678bb1d8d6c2951656d2077587517a2148b73c5ac7513e74e",
-        "zh": "9cc2dfd3c6bd705e6d49d8fc07487fa93f033c0739da65b21a0e8874198847b1"
+        "en": "0a368a0c67abf3cc4ffad53c628db33f67b5d4ce0fc58cb21ef11fdd948beed1",
+        "zh": "173342a87c9b1c5562e0d1aa02ee3f8a23d82500f1ced3cde9c6e6d59b0a15a1"
       }
     },
     {
